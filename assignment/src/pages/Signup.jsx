@@ -171,7 +171,7 @@ const handleSubmit = async (e) => {
         setIsSubmitting(false);
         return;
       }
-    const response = await fetch('/api/auth/signup', {
+    const response = await fetch(`${process.env.REACT_APP_API_URL}/api/auth/signup`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, password }),

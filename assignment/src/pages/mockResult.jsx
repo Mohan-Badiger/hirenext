@@ -767,7 +767,7 @@ const MockTestResult = () => {
   const addResult = async () => {
     const token = localStorage.getItem('token');
     try {
-     const res= await fetch('/api/data/addresult', {
+     const res= await fetch(`${process.env.REACT_APP_API_URL}/api/data/addresult`, {
         method: 'POST',
         headers: { 
           'Content-Type': 'application/json',

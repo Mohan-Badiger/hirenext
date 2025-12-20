@@ -6,10 +6,9 @@ require('dotenv').config();
 const app = express();
 
 /* ============================
-   CORS – REQUIRED FOR VERCEL
+   CORS
    ============================ */
-app.use(cors());           // allow all origins
-app.options('*', cors());  // allow preflight OPTIONS requests
+app.use(cors());
 
 /* ============================
    BODY PARSER
@@ -38,13 +37,15 @@ app.use('/api/auth', authRouter);
 app.use('/api/data', dataRouter);
 
 /* ============================
-   HEALTH CHECK (DEBUG)
+   HEALTH CHECK
    ============================ */
-app.get('/api/health', (req, res) => {
-  res.status(200).json({ status: 'ok from vercel' });
+app.get('/', (req, res) => {
+  res.status(200).json({ status: 'API Working fine' });
 });
 
-/* ============================
-   EXPORT APP (NO app.listen)
-   ============================ */
-module.exports = app;
+
+const PORT = process.env.PORT || 3001;
+
+app.listen(PORT, () => {
+  console.log(`🚀 Backend running at http://localhost:${PORT}`);
+});

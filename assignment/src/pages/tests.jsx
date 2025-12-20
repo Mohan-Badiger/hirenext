@@ -805,7 +805,7 @@ function App() {
   const email = user ? JSON.parse(user).email : null;
 
   try {
-    const res = await fetch(`/api/data/deleteresult/${id}`, {
+    const res = await fetch(`${process.env.REACT_APP_API_URL}/api/data/deleteresult/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
