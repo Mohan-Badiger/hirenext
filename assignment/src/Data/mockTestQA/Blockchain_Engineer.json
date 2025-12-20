@@ -1,0 +1,1512 @@
+{
+  "novice": [
+    {
+      "id": 1,
+      "question": "What does blockchain primarily represent?",
+      "options": ["A centralized database", "A decentralized ledger", "A cloud storage system", "A social media platform"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is the core principle of blockchain?",
+      "options": ["Centralization", "Decentralization", "Monetization", "Serialization"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "What is a block in blockchain?",
+      "options": ["A single transaction", "A collection of transactions", "A type of cryptocurrency", "A network node"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "question": "What connects blocks in a blockchain?",
+      "options": ["Passwords", "Cryptographic hashes", "User IDs", "Timestamps"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "What is Bitcoin?",
+      "options": ["A blockchain platform", "The first cryptocurrency", "A mining tool", "A wallet app"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "question": "What is a cryptocurrency?",
+      "options": ["Digital fiat money", "Digital or virtual currency using cryptography", "Physical coins", "Bank notes"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "question": "What is a wallet in blockchain?",
+      "options": ["A physical safe", "Software/hardware for storing keys", "A transaction log", "A mining device"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "question": "What is a private key?",
+      "options": ["Public identifier", "Secret code to access funds", "Network address", "Transaction ID"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "question": "What is a public key?",
+      "options": ["Secret access code", "Address for receiving funds", "Mining proof", "Block header"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "What is hashing in blockchain?",
+      "options": ["Data compression", "Converting data to fixed-size string", "Encryption", "Decryption"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "question": "What is SHA-256?",
+      "options": ["A hashing algorithm", "A consensus mechanism", "A smart contract language", "A wallet type"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is a node?",
+      "options": ["A transaction", "A computer in the network", "A block", "A key"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "question": "What is decentralization?",
+      "options": ["Control by one entity", "Distributed control across many", "Central server", "Single user"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 14,
+      "question": "What is consensus?",
+      "options": ["Agreement on ledger state", "Voting system", "Mining reward", "Transaction fee"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is Proof of Work (PoW)?",
+      "options": ["Energy-intensive consensus", "Stake-based consensus", "Vote-based", "Random selection"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is mining?",
+      "options": ["Creating new blocks", "Sending transactions", "Storing data", "Generating keys"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is a transaction?",
+      "options": ["Block creation", "Transfer of value", "Node joining", "Hash computation"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "question": "What is Ethereum?",
+      "options": ["A cryptocurrency", "Blockchain with smart contracts", "A wallet", "A exchange"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "question": "What is a smart contract?",
+      "options": ["Legal document", "Self-executing code on blockchain", "Wallet feature", "Mining algorithm"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "question": "What is Solidity?",
+      "options": ["A blockchain", "Language for Ethereum smart contracts", "A consensus", "A wallet"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "question": "What is EVM?",
+      "options": ["Ethereum Virtual Machine", "Extended Validation Module", "Electronic Vote Mechanism", "Energy Verification Method"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is gas in Ethereum?",
+      "options": ["Fuel for transactions", "Storage unit", "Block size", "Network speed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is a token?",
+      "options": ["Physical coin", "Digital asset on blockchain", "Private key", "Node type"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "question": "What is ERC-20?",
+      "options": ["Token standard", "Consensus protocol", "Wallet protocol", "Mining standard"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is NFT?",
+      "options": ["Non-Fungible Token", "New Financial Tool", "Network File Transfer", "Node Function Type"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is DeFi?",
+      "options": ["Decentralized Finance", "Direct Funding", "Digital Fiat", "Data Federation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is a DAO?",
+      "options": ["Decentralized Autonomous Organization", "Data Access Object", "Direct Action Order", "Digital Asset Owner"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is layer 1?",
+      "options": ["Base blockchain", "Scaling solution", "App layer", "Wallet layer"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is layer 2?",
+      "options": ["Base chain", "Off-chain scaling", "Consensus layer", "Token layer"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 30,
+      "question": "What is a fork?",
+      "options": ["Chain split", "Transaction reversal", "Block addition", "Node update"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is hard fork?",
+      "options": ["Backward compatible", "Incompatible chain split", "Soft update", "Temporary split"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 32,
+      "question": "What is soft fork?",
+      "options": ["Incompatible", "Backward compatible update", "Chain break", "Node removal"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 33,
+      "question": "What is 51% attack?",
+      "options": ["Majority hash power control", "Denial of service", "Private key theft", "Smart contract bug"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is double-spending?",
+      "options": ["Spending twice", "Mining twice", "Forking twice", "Hashing twice"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is immutability?",
+      "options": ["Easy to change", "Cannot alter once written", "Temporary storage", "Editable ledger"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 36,
+      "question": "What is transparency in blockchain?",
+      "options": ["Hidden transactions", "Public verifiable ledger", "Private data", "Central audit"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 37,
+      "question": "What is security in blockchain?",
+      "options": ["No protection", "Cryptographic safeguards", "Password only", "Central guard"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 38,
+      "question": "What is a dApp?",
+      "options": ["Decentralized Application", "Direct App", "Database App", "Digital Asset Platform"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is Web3?",
+      "options": ["Decentralized web", "Web2 upgrade", "Static web", "Central web"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is IPFS?",
+      "options": ["InterPlanetary File System", "Internet Protocol File Storage", "Integrated Peer File System", "Internal Private File Share"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is a oracle?",
+      "options": ["Data feeder to blockchain", "Mining tool", "Wallet type", "Consensus node"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is zero-knowledge proof?",
+      "options": ["Prove without revealing data", "Full disclosure", "No proof", "Simple verification"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is sharding?",
+      "options": ["Scaling by dividing chain", "Merging chains", "Forking", "Pruning"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is sidechain?",
+      "options": ["Parallel chain", "Main chain", "No side", "Test chain"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is plasma?",
+      "options": ["Layer 2 framework", "Consensus", "Token", "Wallet"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is rollup?",
+      "options": ["Batch transactions off-chain", "Single tx", "No batch", "On-chain only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is optimistic rollup?",
+      "options": ["Assume valid, challenge fraud", "ZK proofs", "No assume", "Central verify"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is ZK-rollup?",
+      "options": ["Validity proofs", "Fraud proofs", "No proof", "Simple batch"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is cross-chain?",
+      "options": ["Interoperability between chains", "Single chain", "No cross", "Fork"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is Polkadot?",
+      "options": ["Multi-chain platform", "Single chain", "Ethereum fork", "Bitcoin alt"],
+      "correctAnswer": 0
+    }
+  ],
+  "easy": [
+    {
+      "id": 1,
+      "question": "What is the structure of a block header?",
+      "options": ["Version, prev hash, merkle root, timestamp, bits, nonce", "Transactions only", "Keys and signatures", "Smart code"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is Merkle tree?",
+      "options": ["Efficient transaction verification", "Linear list", "No tree", "Hash chain"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is difficulty adjustment?",
+      "options": ["Changes mining target", "Fixed difficulty", "No adjust", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is halving?",
+      "options": ["Block reward reduction", "Transaction fee increase", "No halving", "Mining speed up"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is UTXO?",
+      "options": ["Unspent Transaction Output", "Used TX", "No UTXO", "Spent input"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is script in Bitcoin?",
+      "options": ["Stack-based execution", "Turing complete", "No script", "Solidity-like"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is P2PKH?",
+      "options": ["Pay to Public Key Hash", "Pay to script", "No P2", "Direct pay"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is SegWit?",
+      "options": ["Segregated Witness", "Block size increase", "No seg", "Soft fork"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is Lightning Network?",
+      "options": ["Layer 2 payment channels", "Layer 1", "No lightning", "Mining net"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is account model in Ethereum?",
+      "options": ["Balance-based", "UTXO", "No account", "Script"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is nonce in Ethereum?",
+      "options": ["Transaction counter", "Random number", "No nonce", "Gas limit"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is ABI?",
+      "options": ["Application Binary Interface", "No ABI", "Source interface", "UI"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is bytecode?",
+      "options": ["Compiled smart contract", "Source code", "No byte", "Assembly"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is Remix?",
+      "options": ["Online Solidity IDE", "No remix", "Compiler only", "Wallet"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is Truffle?",
+      "options": ["Development framework", "No truffle", "Runtime", "Deployer"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is Ganache?",
+      "options": ["Local blockchain", "No ganache", "Testnet", "Mainnet"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is Hardhat?",
+      "options": ["Ethereum dev environment", "No hardhat", "Bitcoin tool", "Wallet"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is Web3.js?",
+      "options": ["JS library for Ethereum", "No web3", "Python lib", "Rust"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is ethers.js?",
+      "options": ["Modern Ethereum JS lib", "No ethers", "Old lib", "Node.js only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is Infura?",
+      "options": ["Node provider", "No infura", "Wallet", "Exchange"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is MetaMask?",
+      "options": ["Browser wallet", "No metamask", "Hardware", "Exchange"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is ERC-721?",
+      "options": ["NFT standard", "Fungible token", "No ERC", "Utility"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is OpenZeppelin?",
+      "options": ["Secure contract library", "No openz", "Compiler", "Test tool"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is reentrancy attack?",
+      "options": ["Recursive call vulnerability", "No reent", "Gas attack", "Overflow"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is checks-effects-interactions?",
+      "options": ["Pattern to prevent reentrancy", "No pattern", "Order random", "Effects first"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is Proof of Stake (PoS)?",
+      "options": ["Stake-based consensus", "Work-based", "No PoS", "Vote"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is slashing?",
+      "options": ["Penalty for validators", "No slash", "Reward", "Stake increase"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is Beacon Chain?",
+      "options": ["Ethereum PoS coordinator", "No beacon", "PoW chain", "Test chain"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is Cardano?",
+      "options": ["PoS blockchain", "PoW", "No cardano", "Ethereum fork"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is Ouroboros?",
+      "options": ["Cardano PoS protocol", "No ouro", "Bitcoin PoS", "Ethereum"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is Solana?",
+      "options": ["High-throughput blockchain", "Low speed", "No solana", "Centralized"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is Proof of History?",
+      "options": ["Solana timestamping", "No PoH", "PoW variant", "PoS"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is Cosmos?",
+      "options": ["Interoperable blockchain ecosystem", "No cosmos", "Single chain", "Ethereum"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is IBC?",
+      "options": ["Inter-Blockchain Communication", "No IBC", "Intra chain", "No comm"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is Tendermint?",
+      "options": ["Byzantine Fault Tolerant consensus", "No tend", "PoW", "PoS simple"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is Hyperledger?",
+      "options": ["Enterprise blockchain framework", "Public chain", "No hyper", "Consumer"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is Fabric?",
+      "options": ["Permissioned blockchain", "Permissionless", "No fabric", "Public"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is chaincode?",
+      "options": ["Smart contracts in Fabric", "No chaincode", "Bitcoin script", "Solidity"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is multisig?",
+      "options": ["Multiple signatures required", "Single sig", "No multi", "Group sig"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is threshold signature?",
+      "options": ["Partial sigs aggregate", "Full sig", "No thresh", "Simple"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is homomorphic encryption?",
+      "options": ["Compute on encrypted data", "No homo", "Decrypt first", "Plaintext"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is zk-SNARK?",
+      "options": ["Zero-knowledge Succinct Non-interactive Argument of Knowledge", "No zk", "Full proof", "Interactive"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is Bulletproofs?",
+      "options": ["Range proofs", "No bullet", "Equality", "No proof"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is Monero?",
+      "options": ["Privacy coin", "No privacy", "Public tx", "Transparent"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is RingCT?",
+      "options": ["Confidential transactions", "No ring", "Public amounts", "Simple CT"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is stealth address?",
+      "options": ["Private receiver address", "No stealth", "Public addr", "Reusable"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is state channel?",
+      "options": ["Off-chain tx settlement", "On-chain only", "No channel", "Layer 1"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is Raiden Network?",
+      "options": ["Ethereum state channels", "No raiden", "Bitcoin", "Solana"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is Conflux?",
+      "options": ["Tree-graph blockchain", "Linear", "No confl", "DAG"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is Avalanche?",
+      "options": ["Subnets for scaling", "No avalan", "Single chain", "PoW"],
+      "correctAnswer": 0
+    }
+  ],
+  "intermediate": [
+    {
+      "id": 1,
+      "question": "What is the elliptic curve used in Bitcoin?",
+      "options": ["secp256k1", "secp256r1", "No curve", "RSA"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is ECDSA?",
+      "options": ["Elliptic Curve Digital Signature Algorithm", "No ECDSA", "RSA variant", "Hash sig"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is address generation?",
+      "options": ["Pubkey -> hash -> base58", "Direct pubkey", "No gen", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is OP_RETURN?",
+      "options": ["Data storage opcode", "No OP", "Payment", "Sig"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is Taproot?",
+      "options": ["Privacy and efficiency upgrade", "No tap", "SegWit v0", "Old"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is Schnorr signature?",
+      "options": ["Aggregate sigs", "ECDSA", "No schnorr", "Multi-sig simple"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is MAST?",
+      "options": ["Merkelized Abstract Syntax Tree", "No MAST", "Full script", "Linear"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is covenant?",
+      "options": ["Constrained spending", "No covenant", "Free spend", "Simple"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is Ark?",
+      "options": ["Stateless layer 2", "Stateful", "No ark", "Channel"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is RGB?",
+      "options": ["Client-side protocol", "Server-side", "No RGB", "On-chain"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is opcode in EVM?",
+      "options": ["Low-level instructions", "High-level", "No op", "Solidity"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is CALL vs DELEGATECALL?",
+      "options": ["Code vs msg.sender context", "Same", "No call", "Static"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is CREATE2?",
+      "options": ["Predictable address", "Random", "No CREATE2", "CREATE"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is self-destruct?",
+      "options": ["Remove contract", "No destruct", "Update", "Clone"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is proxy pattern?",
+      "options": ["Upgradeable contracts", "No proxy", "Immutable", "Simple"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is diamond standard?",
+      "options": ["Multi-proxy facets", "Single proxy", "No diamond", "Old proxy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is Foundry?",
+      "options": ["Rust-based dev tool", "JS", "No foundry", "Python"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is Forge?",
+      "options": ["Testing framework", "No forge", "Deploy", "Compile"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is Anvil?",
+      "options": ["Local node", "No anvil", "Testnet", "Mainnet"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is Cast?",
+      "options": ["CLI interactions", "No cast", "GUI", "Script"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is Vyper?",
+      "options": ["Pythonic contract lang", "No vyper", "Solidity", "Rust"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is Huff?",
+      "options": ["Assembly for EVM", "High-level", "No huff", "Intermediate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is formal verification?",
+      "options": ["Math proofs for code", "No formal", "Testing", "Audit"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is Certora?",
+      "options": ["Verification tool", "No certora", "Fuzzer", "Static"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is Slither?",
+      "options": ["Static analyzer", "No slither", "Dynamic", "Runtime"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is Echidna?",
+      "options": ["Fuzzer", "No echidna", "Verifier", "Profiler"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is Manticore?",
+      "options": ["Symbolic execution", "No mantic", "Concrete", "No exec"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is integer overflow in Solidity?",
+      "options": ["Pre-0.8.0 issue", "Safe always", "No overflow", "String"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is SafeMath?",
+      "options": ["Overflow checks", "No safe", "Built-in 0.8", "External"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is front-running?",
+      "options": ["MEV extraction", "No front", "Back-running", "Sandwich"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is flash loan attack?",
+      "options": ["Uncollateralized borrow exploit", "No flash", "Long loan", "Collateral"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is governance token?",
+      "options": ["Voting power", "No gov", "Utility only", "Security"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is timelock?",
+      "options": ["Delay proposals", "No time", "Instant", "Revocable"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is quadratic voting?",
+      "options": ["Cost increases with votes", "Linear", "No quad", "Fixed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is delegation in PoS?",
+      "options": ["Vote to validators", "Direct stake", "No del", "Burn"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is finality in PoS?",
+      "options": ["Irreversible blocks", "Probabilistic", "No final", "Temporary"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is Casper?",
+      "options": ["Ethereum PoS", "No casper", "Bitcoin", "Solana"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is GHOST protocol?",
+      "options": ["Heavy subtree", "No GHOST", "LMD", "Simple"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is Tower BFT?",
+      "options": ["Solana consensus", "No tower", "Tendermint", "PBFT"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is Gulf Stream?",
+      "options": ["Mempool-less forwarding", "No gulf", "Standard mempool", "Batch"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is Turbine?",
+      "options": ["Block propagation", "No turbine", "Slow prop", "Central"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is Sealevel?",
+      "options": ["Parallel runtime", "No sea", "Sequential", "Single thread"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is Cosmos SDK?",
+      "options": ["App framework", "No SDK", "Chain builder", "Runtime"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is Zone?",
+      "options": ["Cosmos app chain", "No zone", "Hub", "Bridge"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is ABCI?",
+      "options": ["App Blockchain Interface", "No ABCI", "Tendermint app", "Consensus"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is channels in IBC?",
+      "options": ["Portable tx", "No channel", "Packets", "Connections"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is MSP?",
+      "options": ["Membership Service Provider", "No MSP", "Fabric auth", "PKI"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is CA in Fabric?",
+      "options": ["Certificate Authority", "No CA", "Ordering", "Peer"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is OSN?",
+      "options": ["Ordering Service Node", "No OSN", "Endorser", "Committer"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is PBFT?",
+      "options": ["Practical Byzantine Fault Tolerance", "No PBFT", "Crash fault", "No tolerance"],
+      "correctAnswer": 0
+    }
+  ],
+  "master": [
+    {
+      "id": 1,
+      "question": "Derive the ECDSA signature equation.",
+      "options": ["s = k^{-1} (z + r x) mod n", "s = k (z + r x)", "No derive", "RSA"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is the curve order in secp256k1?",
+      "options": ["Prime near 2^256", "2^256", "No order", "Small"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is BIP32?",
+      "options": ["Hierarchical Deterministic wallets", "No BIP", "Random", "Single"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is derivation path m/44'/0'/0'/0?",
+      "options": ["BIP44 standard", "No path", "Custom", "Old"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is BIP39?",
+      "options": ["Mnemonic seeds", "No BIP39", "Hex seeds", "Binary"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is PBKDF2 in BIP39?",
+      "options": ["Seed generation", "No PBKDF", "Hash", "Encrypt"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is Schnorr BIP?",
+      "options": ["BIP340", "No BIP", "ECDSA", "Multi"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is MuSig?",
+      "options": ["Multi-sig Schnorr", "No mu", "ECDSA multi", "Threshold"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is FROST?",
+      "options": ["Threshold Schnorr", "No frost", "Simple thresh", "No sig"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is Tapscript?",
+      "options": ["Taproot scripts", "No tapscript", "Old script", "SegWit"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is annex in Taproot?",
+      "options": ["Extension data", "No annex", "Core", "Sig"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is key tweaking?",
+      "options": ["Pubkey adjustment", "No tweak", "Hash add", "Subtract"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is Merlin proofs?",
+      "options": ["Non-interactive sigs", "No merlin", "Interactive", "Simple"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is covenant in Ark?",
+      "options": ["Spending constraints", "No covenant", "Free", "Simple"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is stateless client?",
+      "options": ["No UTXO set", "Full node", "No state", "SPV"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is RGB commitment?",
+      "options": ["Client-side validation", "No RGB", "Server", "On-chain"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is schema in RGB?",
+      "options": ["Contract spec", "No schema", "Data", "Tx"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is transition in RGB?",
+      "options": ["State change", "No trans", "Initial", "Final"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is issuance in RGB?",
+      "options": ["Asset creation", "No issue", "Burn", "Transfer"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is opcode cost in EVM?",
+      "options": ["Gas units", "No cost", "Fixed", "Zero"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is Istanbul hard fork?",
+      "options": ["Opcode changes", "No istan", "London", "Berlin"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is precompile?",
+      "options": ["Built-in contracts", "No pre", "User deploy", "Library"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is ecrecover?",
+      "options": ["Sig verification precompile", "No ecre", "Hash", "Encrypt"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is sha256 precompile?",
+      "options": ["Address 0x02", "No sha", "Keccak", "Blake"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is CALLDATA vs COLDATA?",
+      "options": ["Input types", "Same", "No call", "Calldata loaded"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is extcodesize?",
+      "options": ["Contract size check", "No ext", "Storage", "Memory"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is CREATE opcode?",
+      "options": ["Deploy contract", "No create", "Call", "Delegate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is selfdestruct gas refund?",
+      "options": ["Partial refund", "Full", "No refund", "Penalty"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is EIP-1559?",
+      "options": ["Fee market reform", "No EIP", "Gas cap", "Block size"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is base fee?",
+      "options": ["Burned auto fee", "No base", "Tip only", "Fixed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is priority fee?",
+      "options": ["Tip to miner", "No pri", "Base", "Total"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is blob in Dencun?",
+      "options": ["Data availability", "No blob", "Calldata", "Tx"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is Verkle tree?",
+      "options": ["Proof-based state", "No verk", "Merkle", "Patricia"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is stateless client?",
+      "options": ["Witness-based execution", "Stateful", "No state", "Full"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is danksharding?",
+      "options": ["Proto-dank + blobs", "No dank", "Full shard", "No shard"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is execution layer?",
+      "options": ["Post-merge EVM", "No exec", "Consensus", "Data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is consensus layer?",
+      "options": ["Beacon chain", "No cons", "EVM", "Node"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is EL-CL communication?",
+      "options": ["Engine API", "No comm", "P2P", "RPC"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is MEV-Boost?",
+      "options": ["Builder market", "No MEV", "Direct", "Pool"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is proposer-builder separation?",
+      "options": ["PBS", "No PBS", "Single", "Merged"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is single slot finality?",
+      "options": ["SSF goal", "No SSF", "Multi slot", "Probabilistic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is history expiry?",
+      "options": ["Prune old state", "No expiry", "Infinite", "Recent"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is fork choice rule?",
+      "options": ["LMD-GHOST", "No fork", "Simple", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is attester?",
+      "options": ["Vote on blocks", "No att", "Proposer", "Validator"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is sync committee?",
+      "options": ["Light client", "No sync", "Full", "Heavy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is RANDAO?",
+      "options": ["Randomness beacon", "No rand", "Fixed", "Hash"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is VDF?",
+      "options": ["Verifiable Delay Function", "No VDF", "Fast", "No delay"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is deposit contract?",
+      "options": ["ETH to validator", "No dep", "Withdraw", "Stake"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is exit queue?",
+      "options": ["Validator churn", "No queue", "Instant", "No exit"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is EIP-4844?",
+      "options": ["Proto-danksharding", "No EIP", "Full dank", "No shard"],
+      "correctAnswer": 0
+    }
+  ],
+  "expert": [
+    {
+      "id": 1,
+      "question": "Derive the secp256k1 parameters.",
+      "options": ["p = 2^256 - 2^32 - 977, n ≈ 2^256", "p = 2^256, n small", "No derive", "RSA params"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is Koblitz curve?",
+      "options": ["secp256k1 type", "No kobl", "NIST", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is point multiplication?",
+      "options": ["k * G = P", "No mult", "Addition", "Inverse"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is Montgomery ladder?",
+      "options": ["Secure scalar mult", "No ladder", "Double and add", "Unsafe"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is BIP340 tweak?",
+      "options": ["P + hash(P||t) * G", "No tweak", "Simple add", "Subtract"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is nonce reuse risk?",
+      "options": ["Key recovery", "No risk", "Sig invalid", "Hash collide"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is RFC6979?",
+      "options": ["Deterministic nonce", "No RFC", "Random", "Fixed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is MuSig2 nonce protocol?",
+      "options": ["Partial nonces aggregate", "No mu2", "Full nonce", "No nonce"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is FROST threshold?",
+      "options": ["t-of-n signing", "No thresh", "1-of-n", "All"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is Taproot output key?",
+      "options": ["Tweaked pubkey or script tree", "No tap", "P2PK", "P2SH"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is sighash in Taproot?",
+      "options": ["SIGHASH_ALL | SINGLE | ANYONECANPAY", "No sighash", "None", "All"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is BIP371?",
+      "options": ["Taproot address", "No BIP", "Old addr", "Bech32"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is Merlin transcript?",
+      "options": ["Domain separation", "No merlin", "Hash only", "No trans"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is Ark covenant?",
+      "options": ["Kernel-based constraints", "No ark", "Simple", "No cov"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is stateless validation?",
+      "options": ["UTXO witness", "No state", "Full history", "SPV"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is RGB contract?",
+      "options": ["Off-chain state machine", "On-chain", "No RGB", "Simple"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is consignment in RGB?",
+      "options": ["Proof bundle", "No consign", "Tx only", "Sig"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is beta in RGB?",
+      "options": ["Fungible asset", "No beta", "NFT", "Data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is alpha in RGB?",
+      "options": ["NFT asset", "No alpha", "Fungible", "Contract"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is SLOAD gas?",
+      "options": ["Warm 100, cold 2100", "Fixed 2100", "No gas", "Free"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is pre-London gas?",
+      "options": ["SLOAD 800", "No pre", "Post", "High"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is EIP-2929?",
+      "options": ["Access list", "No EIP", "Gas list", "No access"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is precompile address range?",
+      "options": ["0x01 to 0x09", "No range", "0x00", "High"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is ripemd160 precompile?",
+      "options": ["0x04", "No rip", "SHA", "Keccak"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is identity precompile?",
+      "options": ["0x04 copy", "No id", "Hash", "Sig"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is calldata gas?",
+      "options": ["16 per non-zero byte", "No cal", "Zero", "Fixed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is extcodehash?",
+      "options": ["0x87 opcode", "No ext", "Size", "Copy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is Berlin fork?",
+      "options": ["Gas cost changes", "No berlin", "London", "Istanbul"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is EIP-3541?",
+      "options": ["Reject leading zeros", "No EIP", "Allow zeros", "No reject"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is transient storage?",
+      "options": ["EIP-1153 temp", "Permanent", "No trans", "Memory"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is Shanghai fork?",
+      "options": ["Withdrawals", "No shang", "Merge", "Dencun"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is blob base fee?",
+      "options": ["Dynamic blob fee", "Fixed", "No blob", "Calldata"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is KZG commitment?",
+      "options": ["Polynomial proofs", "No KZG", "Hash", "Sig"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is blob tx type?",
+      "options": ["0x03", "No type", "0x02", "0x01"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is Verkle trie?",
+      "options": ["Vector commitments", "Merkle", "No verk", "Patricia"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is witness in stateless?",
+      "options": ["State proof", "No wit", "Full state", "Empty"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is dank encoding?",
+      "options": ["Recursive proofs", "No dank", "Flat", "Linear"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is execution payload?",
+      "options": ["Block body", "No pay", "Header", "Attestation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is forkchoiceUpdatedV1?",
+      "options": ["Engine API method", "No fork", "V2", "Old"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is payload attributes?",
+      "options": ["Proposer seal", "No attr", "Random", "Fixed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is builder API?",
+      "options": ["MEV-Boost", "No build", "Direct", "Pool"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is blinded beacon block?",
+      "options": ["Body hidden", "Full", "No blind", "Header only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is signed builder bid?",
+      "options": ["Value and pubkey", "No bid", "Unsigned", "Low"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is SSF delay?",
+      "options": ["Sub-second finality", "No SSF", "Minutes", "Hours"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is inclusion lists?",
+      "options": ["EIP-7514 tx forcing", "No list", "Optional", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is history expiry epoch?",
+      "options": ["8192 epochs", "No expiry", "Infinite", "Short"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is weak subjectivity?",
+      "options": ["Checkpoint trust", "No weak", "Full trustless", "Central"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is RANDAO reveal?",
+      "options": ["Per slot random", "No reveal", "Fixed", "Block"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is VDF time?",
+      "options": ["12-24 hours", "Instant", "No VDF", "Seconds"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is validator registry update?",
+      "options": ["Epoch boundary", "No update", "Daily", "Random"],
+      "correctAnswer": 0
+    }
+  ]
+}

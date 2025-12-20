@@ -1,0 +1,928 @@
+
+{
+  "novice": [
+    {
+      "id": 1,
+      "question": "What does AI stand for?",
+      "options": ["Artificial Intelligence", "Automated Integration", "Advanced Interface", "Applied Innovation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a supervised learning algorithm?",
+      "options": ["K-Means Clustering", "Linear Regression", "DBSCAN", "PCA"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the main goal of machine learning?",
+      "options": ["To memorize data", "To make computers learn from data", "To store large datasets", "To replace human programmers"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "question": "Which of these is an example of a classification task?",
+      "options": ["Predicting house prices", "Grouping customers by behavior", "Detecting spam emails", "Forecasting stock prices"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 5,
+      "question": "What does 'ML' commonly stand for in technology?",
+      "options": ["Machine Learning", "Mobile Link", "Memory Location", "Multi-Language"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "Which company developed the famous AI model 'ChatGPT'?",
+      "options": ["Google", "OpenAI", "Microsoft", "Meta"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "question": "What is a dataset in machine learning?",
+      "options": ["A type of algorithm", "A collection of data used for training", "A programming language", "A visualization tool"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is NOT a type of machine learning?",
+      "options": ["Supervised", "Unsupervised", "Reinforcement", "Manual"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 9,
+      "question": "What is 'training' in the context of AI?",
+      "options": ["Teaching a model using data", "Running the model on new inputs", "Designing the model architecture", "Evaluating model performance"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "Which of these is a common use of AI today?",
+      "options": ["Voice assistants like Siri", "Manual data entry", "Paper-based calculations", "Physical file storage"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What does 'NLP' stand for in AI?",
+      "options": ["Natural Language Processing", "Neural Link Protocol", "Network Learning Path", "Node Layer Programming"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "Which task does computer vision primarily handle?",
+      "options": ["Understanding speech", "Interpreting images and videos", "Predicting numbers", "Playing games"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "question": "What is a 'model' in machine learning?",
+      "options": ["A physical prototype", "A mathematical representation that learns patterns", "A dataset", "A programming framework"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 14,
+      "question": "Which of these is an unsupervised learning task?",
+      "options": ["Image classification", "Customer segmentation", "Sentiment analysis", "Fraud detection"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is 'overfitting' in simple terms?",
+      "options": ["Model performs poorly on all data", "Model memorizes training data but fails on new data", "Model trains too quickly", "Model has too few parameters"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 16,
+      "question": "Which algorithm is commonly used for regression?",
+      "options": ["Decision Tree", "K-Means", "Logistic Regression", "Naive Bayes"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is the purpose of a 'loss function'?",
+      "options": ["To measure how wrong the model's predictions are", "To speed up training", "To store data", "To visualize results"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "Which of these is a famous AI dataset for handwritten digits?",
+      "options": ["ImageNet", "CIFAR-10", "MNIST", "COCO"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 19,
+      "question": "What does 'GPU' stand for and why is it important in AI?",
+      "options": ["General Processing Unit – for general tasks", "Graphics Processing Unit – speeds up parallel computations", "Global Positioning Unit – for location", "General Purpose Utility – for storage"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "question": "Which of the following is a binary classification problem?",
+      "options": ["Predicting temperature", "Classifying emails as spam or not", "Clustering news articles", "Predicting sales volume"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "question": "What is 'data preprocessing'?",
+      "options": ["Building the model", "Cleaning and preparing data before training", "Deploying the model", "Evaluating results"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 22,
+      "question": "Which library is widely used for machine learning in Python?",
+      "options": ["Pandas", "Scikit-learn", "Matplotlib", "NumPy"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "question": "What is 'feature engineering'?",
+      "options": ["Creating new input variables from existing data", "Designing neural network layers", "Choosing the loss function", "Deploying the model"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "Which metric is used for classification accuracy?",
+      "options": ["Mean Squared Error", "F1 Score", "R-squared", "MAE"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "question": "What does 'epoch' mean in training?",
+      "options": ["One full pass through the training data", "One training example", "One layer in a network", "One prediction"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "Which of these is a clustering algorithm?",
+      "options": ["Linear Regression", "K-Means", "Random Forest", "SVM"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "question": "What is 'bias' in machine learning?",
+      "options": ["Error due to overly complex models", "Simplifying assumptions made by the model", "Random noise in data", "Difference between train and test error"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 28,
+      "question": "Which task is reinforcement learning best suited for?",
+      "options": ["Image labeling", "Playing chess or Go", "Predicting prices", "Grouping documents"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 29,
+      "question": "What is the 'test set' used for?",
+      "options": ["Training the model", "Tuning hyperparameters", "Evaluating final model performance", "Feature selection"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 30,
+      "question": "Which of these is NOT a deep learning framework?",
+      "options": ["TensorFlow", "PyTorch", "Keras", "Scikit-learn"],
+      "correctAnswer": 3
+    }
+  ],
+  "easy": [
+    {
+      "id": 1,
+      "question": "What is the purpose of a neural network activation function?",
+      "options": ["To normalize input data", "To introduce non-linearity", "To reduce overfitting", "To increase training speed"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "Which activation function is commonly used in hidden layers?",
+      "options": ["Sigmoid", "Linear", "Step", "Identity"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What does ReLU stand for?",
+      "options": ["Rectified Linear Unit", "Recurrent Layer Unit", "Regression Logic Unit", "Restricted Learning Unit"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "In a neural network, what are 'weights'?",
+      "options": ["Input values", "Learnable parameters that scale inputs", "Output predictions", "Error values"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "What is 'backpropagation'?",
+      "options": ["Forward pass of data", "Method to compute gradients and update weights", "Data preprocessing step", "Model evaluation technique"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "question": "Which optimizer is most commonly used in deep learning?",
+      "options": ["SGD", "Adam", "RMSprop", "All of the above"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 7,
+      "question": "What is 'dropout' used for?",
+      "options": ["Speed up training", "Prevent overfitting by randomly dropping neurons", "Increase model capacity", "Normalize inputs"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "question": "What is the output of a sigmoid function bounded between?",
+      "options": ["-1 and 1", "0 and 1", "0 and infinity", "-infinity and infinity"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "question": "Which layer is typically the last in a classification neural network?",
+      "options": ["Convolutional", "Dense", "Softmax", "Pooling"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 10,
+      "question": "What does CNN stand for?",
+      "options": ["Convolutional Neural Network", "Central Node Network", "Conditional Neural Network", "Clustering Node Network"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is the purpose of a 'convolution' operation in CNNs?",
+      "options": ["Reduce dimensions", "Extract spatial features using filters", "Classify images", "Normalize data"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "Which pooling layer reduces spatial size most aggressively?",
+      "options": ["Max Pooling", "Average Pooling", "Global Pooling", "Min Pooling"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is 'transfer learning'?",
+      "options": ["Moving data between servers", "Using a pre-trained model on a new task", "Translating models to another language", "Converting models to mobile"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 14,
+      "question": "Which metric is used for imbalanced classification?",
+      "options": ["Accuracy", "F1 Score", "MSE", "R2"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is 'batch size' in training?",
+      "options": ["Total number of epochs", "Number of samples processed before weight update", "Number of layers", "Number of features"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 16,
+      "question": "Which loss function is used for binary classification?",
+      "options": ["Mean Squared Error", "Binary Cross-Entropy", "Categorical Cross-Entropy", "Huber Loss"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "question": "What does 'epoch' refer to?",
+      "options": ["One forward and backward pass of all training data", "One training sample", "One layer", "One prediction"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is 'gradient descent'?",
+      "options": ["A type of neural network", "An optimization algorithm to minimize loss", "A data augmentation technique", "A visualization tool"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "question": "Which of these prevents vanishing gradients?",
+      "options": ["Sigmoid", "Tanh", "ReLU", "Softmax"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 20,
+      "question": "What is 'data augmentation'?",
+      "options": ["Increasing dataset size by creating modified versions", "Reducing dataset size", "Cleaning data", "Normalizing data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "Which framework is developed by Google?",
+      "options": ["PyTorch", "TensorFlow", "Keras", "MXNet"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 22,
+      "question": "What is 'one-hot encoding' used for?",
+      "options": ["Numerical features", "Categorical labels", "Image pixels", "Text sequences"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "question": "What is the vanishing gradient problem?",
+      "options": ["Gradients explode", "Gradients become too small to update weights", "Model overfits", "Loss increases"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "question": "Which layer helps CNNs become translation invariant?",
+      "options": ["Dense", "Convolutional", "Pooling", "Dropout"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 25,
+      "question": "What is 'early stopping'?",
+      "options": ["Stopping training when validation performance stops improving", "Stopping after fixed epochs", "Stopping when loss is zero", "Stopping randomly"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "Which is a recurrent neural network (RNN) variant?",
+      "options": ["CNN", "LSTM", "GAN", "VAE"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "question": "What does 'learning rate' control?",
+      "options": ["How fast model learns (step size in gradient descent)", "Number of layers", "Batch size", "Dataset size"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is 'cross-validation'?",
+      "options": ["Validating on a single split", "Splitting data multiple times to evaluate model", "Training on all data", "Testing on training data"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 29,
+      "question": "Which activation is used in the output for multi-class classification?",
+      "options": ["Sigmoid", "ReLU", "Softmax", "Tanh"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 30,
+      "question": "What is 'regularization'?",
+      "options": ["Increasing model complexity", "Techniques to prevent overfitting", "Speeding up inference", "Data cleaning"],
+      "correctAnswer": 1
+    }
+  ],
+  "intermediate": [
+    {
+      "id": 1,
+      "question": "What is the vanishing gradient problem in deep learning?",
+      "options": [
+        "When gradients become too large during backpropagation",
+        "When gradients become very small, making training slow",
+        "When the loss function doesn't converge",
+        "When the model overfits to training data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is the exploding gradient problem?",
+      "options": ["Gradients become too small", "Gradients become extremely large, destabilizing training", "Model underfits", "Loss becomes negative"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "How does batch normalization help training?",
+      "options": ["Reduces internal covariate shift and stabilizes training", "Increases model size", "Removes outliers", "Compresses model"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is the difference between L1 and L2 regularization?",
+      "options": ["L1 uses absolute values, L2 uses squared values", "L1 is for classification, L2 for regression", "L1 reduces learning rate, L2 increases it", "No difference"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is 'attention mechanism' in neural networks?",
+      "options": ["Focuses on important parts of input", "Ignores irrelevant data", "Both A and B", "Speeds up convolution"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 6,
+      "question": "In RNNs, what problem do LSTMs solve?",
+      "options": ["Overfitting", "Vanishing/exploding gradients in long sequences", "Slow training", "High memory usage"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "question": "What is 'sequence-to-sequence' learning used for?",
+      "options": ["Image classification", "Machine translation", "Clustering", "Regression"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "question": "What is the purpose of 'teacher forcing' in RNN training?",
+      "options": ["Use true previous outputs as input during training", "Speed up inference", "Reduce memory", "Prevent overfitting"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is 'beam search' used for?",
+      "options": ["Finding shortest path", "Generating text with multiple candidates", "Clustering", "Dimensionality reduction"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "Which technique helps reduce overfitting in decision trees?",
+      "options": ["Increasing depth", "Pruning", "Adding more features", "Reducing samples"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "question": "What is 'bagging' in ensemble learning?",
+      "options": ["Training models sequentially", "Training models on bootstrap samples and averaging", "Selecting best model", "Stacking outputs"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is 'boosting'?",
+      "options": ["Parallel training", "Sequential training focusing on misclassified samples", "Random sampling", "Feature selection"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "question": "Which is an example of a boosting algorithm?",
+      "options": ["Random Forest", "AdaBoost", "K-Means", "PCA"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 14,
+      "question": "What is 'precision' in classification?",
+      "options": ["TP / (TP + FP)", "TP / (TP + FN)", "TN / (TN + FP)", "Accuracy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is 'recall'?",
+      "options": ["TP / (TP + FN)", "TP / (TP + FP)", "TN / (TN + FN)", "F1 Score"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is the ROC curve used for?",
+      "options": ["Visualizing model accuracy", "Plotting TPR vs FPR at different thresholds", "Showing loss over time", "Feature importance"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "question": "What does AUC stand for?",
+      "options": ["Area Under Curve", "Average Unit Cost", "Automated Update Check", "Accuracy Under Confusion"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is 'k-fold cross-validation'?",
+      "options": ["Split data into k subsets and train k times", "Use k models", "k epochs", "k features"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is 'hyperparameter tuning'?",
+      "options": ["Tuning model weights", "Searching for best configuration settings", "Cleaning data", "Deploying model"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "question": "Which is a common hyperparameter in SVM?",
+      "options": ["C (regularization)", "Learning rate", "Batch size", "Number of layers"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is 'kernel trick' in SVM?",
+      "options": ["Maps data to higher dimensions implicitly", "Speeds up training", "Reduces features", "Handles missing data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is 'curse of dimensionality'?",
+      "options": ["Data becomes sparse in high dimensions", "Model becomes too simple", "Training becomes faster", "Features decrease"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "Which algorithm is affected most by curse of dimensionality?",
+      "options": ["Linear Regression", "K-Nearest Neighbors", "Decision Trees", "Naive Bayes"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "question": "What is 'principal component analysis (PCA)'?",
+      "options": ["Classification algorithm", "Dimensionality reduction using eigen decomposition", "Clustering method", "Regression technique"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "question": "What is 't-SNE' primarily used for?",
+      "options": ["Regression", "Visualization of high-dimensional data", "Time series forecasting", "Anomaly detection"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "question": "What is 'GAN'?",
+      "options": ["Generative Adversarial Network", "Gradient Ascent Network", "Global Attention Network", "Graph Aggregation Node"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "In GANs, what does the discriminator do?",
+      "options": ["Generates fake data", "Distinguishes real from fake", "Encodes input", "Decodes latent space"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 28,
+      "question": "What is 'autoencoder' used for?",
+      "options": ["Classification", "Dimensionality reduction and feature learning", "Sequence generation", "Reinforcement learning"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 29,
+      "question": "What is 'word embedding'?",
+      "options": ["One-hot vector", "Dense vector representation of words in continuous space", "Bag of words", "TF-IDF"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 30,
+      "question": "Which model popularized word embeddings?",
+      "options": ["BERT", "Word2Vec", "GPT", "Transformer"],
+      "correctAnswer": 1
+    }
+  ],
+  "master": [
+    {
+      "id": 1,
+      "question": "In transformer architecture, what is the purpose of multi-head attention?",
+      "options": [
+        "To reduce computational complexity",
+        "To allow the model to attend to information from different representation subspaces",
+        "To prevent overfitting",
+        "To speed up training"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is 'self-attention'?",
+      "options": ["Attention between encoder and decoder", "Attention within the same sequence", "Attention to external memory", "Attention to labels"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the complexity of self-attention per layer?",
+      "options": ["O(n)", "O(n log n)", "O(n²)", "O(1)"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "question": "What is 'positional encoding' in transformers?",
+      "options": ["Encoding word meaning", "Adding position information since attention is permutation-invariant", "Encoding part-of-speech", "Encoding sentiment"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "Which paper introduced the Transformer?",
+      "options": ["'Attention is All You Need'", "'BERT: Pre-training of Deep Bidirectional Transformers'", "'Generative Pre-trained Transformer'", "'Sequence to Sequence Learning'"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is 'masked self-attention' used for?",
+      "options": ["Prevent seeing future tokens in autoregressive generation", "Focus on past only in bidirectional models", "Reduce memory", "Speed up training"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is the key difference between BERT and GPT?",
+      "options": ["BERT is bidirectional, GPT is autoregressive", "BERT uses RNNs, GPT uses CNNs", "BERT is for vision, GPT for text", "No difference"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What pre-training task does BERT use?",
+      "options": ["Next sentence prediction and masked LM", "Language modeling only", "Translation", "Image captioning"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is 'fine-tuning' in large language models?",
+      "options": ["Training from scratch", "Adapting a pre-trained model to a downstream task", "Data collection", "Model compression"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "What is 'prompt engineering'?",
+      "options": ["Building model architecture", "Crafting input text to guide model output", "Training with prompts", "Evaluating prompts"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "question": "What is 'in-context learning'?",
+      "options": ["Learning during inference from examples in prompt", "Fine-tuning on new data", "Pre-training", "Reinforcement learning"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is 'chain-of-thought prompting'?",
+      "options": ["Direct answer", "Encouraging step-by-step reasoning in prompt", "Multiple choice", "Short input"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "question": "What is 'RLHF'?",
+      "options": ["Reinforcement Learning from Human Feedback", "Random Learning with High Frequency", "Recursive Language Hierarchical Fine-tuning", "Regularized Learning with Human Features"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is 'quantization' in model deployment?",
+      "options": ["Increasing model size", "Reducing precision of weights (e.g., float32 to int8)", "Adding more layers", "Data augmentation"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is 'knowledge distillation'?",
+      "options": ["Extracting data from model", "Training a smaller model to mimic a larger one", "Compressing dataset", "Pruning neurons"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 16,
+      "question": "What is 'pruning' in neural networks?",
+      "options": ["Removing less important weights or neurons", "Adding regularization", "Increasing depth", "Data cleaning"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is 'sparsity' in models?",
+      "options": ["Many zeros in weights", "High accuracy", "Fast inference", "Large size"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is 'LoRA' in parameter-efficient fine-tuning?",
+      "options": ["Low-Rank Adaptation", "Long-Range Attention", "Loss Regularization Algorithm", "Layer-wise Optimization"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is 'flash attention'?",
+      "options": ["Faster attention computation using tiling and recomputation", "Visual attention in images", "Attention with lower precision", "Sparse attention"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is 'Mixture of Experts (MoE)'?",
+      "options": ["Ensemble of small models", "Architecture with multiple expert sub-networks and a gating mechanism", "Blend of loss functions", "Data mixture"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "question": "What is 'diffusion model'?",
+      "options": ["Generative model that learns to denoise data", "Discriminative classifier", "Sequence model", "Reinforcement learner"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is 'latent diffusion'?",
+      "options": ["Diffusion in pixel space", "Diffusion in lower-dimensional latent space", "Text-only diffusion", "Audio diffusion"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "question": "What is 'CLIP' by OpenAI?",
+      "options": ["Contrastive Language-Image Pretraining", "Computer Vision model only", "Text generation model", "Speech recognition"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is 'zero-shot learning'?",
+      "options": ["Learning with no training data", "Predicting classes not seen during training", "Training with zero epochs", "No labels"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "question": "What is 'few-shot learning'?",
+      "options": ["Learning from very few examples", "Learning from thousands", "No learning", "Batch size = 1"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is 'hallucination' in LLMs?",
+      "options": ["Generating false but confident information", "Forgetting training data", "Crashing", "Slow response"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is 'alignment' in AI?",
+      "options": ["Making model outputs match human values and intentions", "Geometric alignment of layers", "Data alignment", "Hardware alignment"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is 'constitutional AI'?",
+      "options": ["AI governed by a set of principles", "AI for legal documents", "Hardware-based AI", "Classical AI"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is 'retrieval-augmented generation (RAG)'?",
+      "options": ["Generating from memory only", "Combining retrieval of external knowledge with generation", "Pure retrieval", "Data augmentation"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 30,
+      "question": "What is 'long-context modeling' challenge?",
+      "options": ["Handling very long input sequences efficiently", "Short inputs only", "Memory compression", "Fast inference"],
+      "correctAnswer": 0
+    }
+  ],
+  "expert": [
+    {
+      "id": 1,
+      "question": "What is the key innovation in the GPT architecture compared to traditional transformers?",
+      "options": [
+        "Bidirectional attention mechanism",
+        "Autoregressive unidirectional language modeling",
+        "Convolutional layers before attention",
+        "Recurrent connections between layers"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is the scaling hypothesis in LLMs?",
+      "options": ["Performance improves predictably with more data, compute, and parameters", "Smaller models are better", "Performance plateaus after 1B parameters", "Only data matters"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is 'Chinchilla scaling law'?",
+      "options": ["Optimal performance when data and parameters are balanced", "More parameters always better", "Data doesn't matter", "Compute is irrelevant"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is 'emergent abilities' in large models?",
+      "options": ["Abilities that suddenly appear at scale", "Gradual improvements", "Bug fixes", "Hardware features"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is 'Groking' in the context of xAI models?",
+      "options": ["A new activation function", "Deep understanding through reasoning", "Model compression", "Data filtering"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "question": "What is 'sparse mixture of experts' efficiency gain?",
+      "options": ["Activates only a subset of experts per token", "All experts always active", "Reduces parameters", "Increases latency"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is 'KV caching' in inference?",
+      "options": ["Caching key and value vectors to avoid recomputation in autoregressive decoding", "Caching input tokens", "Caching gradients", "Caching labels"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is 'speculative decoding'?",
+      "options": ["Guessing future tokens and verifying", "Slow exact decoding", "Parallel decoding", "Random sampling"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is 'group query attention'?",
+      "options": ["Multiple queries share the same key/value heads", "One query per head", "No attention", "Sparse attention"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is 'rotary positional embeddings (RoPE)'?",
+      "options": ["Absolute position encoding", "Relative position via rotation matrices", "Sinusoidal only", "Learned positions"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "question": "What is 'ALiBi'?",
+      "options": ["Attention with Linear Biases for extrapolation", "Alignment bias", "Aliasing in attention", "Alternative bidirectional"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is 'sliding window attention'?",
+      "options": ["Attend only to recent tokens", "Full attention", "Random attention", "Future attention"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is 'state space model (Mamba)'?",
+      "options": ["Recurrent model with linear complexity in sequence length", "Transformer variant", "CNN-based", "GAN"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is 'retentive network (RetNet)'?",
+      "options": ["Parallel training, recurrent inference, low cost", "Standard transformer", "RNN only", "MLP only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is 'instruction tuning'?",
+      "options": ["Fine-tuning on instruction-following datasets", "Pre-training", "Data cleaning", "Architecture design"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is 'DPO (Direct Preference Optimization)'?",
+      "options": ["Aligns model without explicit reward modeling", "Uses PPO", "Supervised only", "Unsupervised"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is 'PPO' in RLHF?",
+      "options": ["Proximal Policy Optimization", "Preference Pair Optimization", "Policy Projection Output", "Parallel Processing Operation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is 'reward hacking'?",
+      "options": ["Model exploits reward function flaws", "Hacking into systems", "Reward model failure", "Data poisoning"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is 'jailbreaking' LLMs?",
+      "options": ["Bypassing safety guardrails via adversarial prompts", "Physical attack", "Model collapse", "Training failure"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is 'model collapse'?",
+      "options": ["Performance degrades when training on AI-generated data", "Hardware failure", "Overfitting", "Underfitting"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is 'data contamination'?",
+      "options": ["Test data appears in training set", "Noisy data", "Missing values", "Unbalanced classes"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is 'catastrophic forgetting'?",
+      "options": ["Model forgets previous knowledge when learning new tasks", "Memory overflow", "Gradient explosion", "Attention failure"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is 'continual learning'?",
+      "options": ["Learning sequentially without forgetting", "Batch learning", "One-shot learning", "Transfer learning"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is 'mechanistic interpretability'?",
+      "options": ["Reverse-engineering how models compute outputs", "Black-box testing", "Performance metrics", "Deployment"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is 'induction head' in transformers?",
+      "options": ["Circuit that copies previous tokens", "Classification head", "Regression head", "Attention head for images"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is 'grokking' phenomenon?",
+      "options": ["Overfitting then sudden generalization", "Gradual learning", "Failure to learn", "Fast convergence"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is 'double descent'?",
+      "options": ["Test error decreases, increases, then decreases again with model size", "Monotonic increase", "Constant error", "Random fluctuation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is 'neural scaling law'?",
+      "options": ["Power-law relationship between loss and scale", "Linear relationship", "Exponential decay", "No relationship"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is 'test-time compute'?",
+      "options": ["Using extra computation at inference for better results", "Training compute", "Data loading", "Preprocessing"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is 'AI safety' concern with superalignment?",
+      "options": ["Aligning superintelligent AI with human values", "Hardware safety", "Data privacy", "Energy efficiency"],
+      "correctAnswer": 0
+    }
+  ]
+}

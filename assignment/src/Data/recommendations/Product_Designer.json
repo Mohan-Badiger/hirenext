@@ -1,0 +1,122 @@
+[
+  {
+    "result_id": 1,
+    "condition": "score ≤ 20",
+    "summary": "The candidate shows limited understanding of core product design concepts and requires foundational reinforcement. Basic topics like user research, wireframing, and design principles need review. Advanced areas like prototyping and collaboration tools are minimal.",
+    "strengths": [
+      "Willingness to attempt all questions",
+      "Basic awareness of design terminology"
+    ],
+    "areas_of_improvement": [
+      "Grasp of user-centered design basics (personas, empathy maps)",
+      "Understanding of visual hierarchy and color theory",
+      "Familiarity with sketching and low-fidelity wireframing"
+    ],
+    "recommendations": [
+      {
+        "topic": "User Research Fundamentals",
+        "description": "Master user personas, journey maps, and basic interview techniques to build empathy.",
+        "resources": [
+          "The Design of Everyday Things (Don Norman) - Chapters 1–3",
+          "Just Enough Research (Erika Hall) - Full Book"
+        ]
+      },
+      {
+        "topic": "Design Principles and Sketching",
+        "description": "Learn principles like balance, contrast, and alignment; practice hand-sketching interfaces.",
+        "resources": [
+          "Universal Principles of Design (Lidwell et al.) - Key Entries",
+          "Sketching User Experiences (Bill Buxton) - Chapters 1–4"
+        ]
+      },
+      {
+        "topic": "Introduction to Design Tools",
+        "description": "Get started with Figma or Sketch for basic layouts and vector graphics.",
+        "resources": [
+          "Figma Learn: Design Basics Tutorial",
+          "Adobe XD for Beginners (LinkedIn Learning)"
+        ]
+      }
+    ]
+  },
+  {
+    "result_id": 2,
+    "condition": "20 < score ≤ 40",
+    "summary": "The candidate demonstrates moderate grasp of product design basics and can identify key concepts like wireframes, user flows, and A/B testing. However, interaction design and stakeholder collaboration remain inconsistent.",
+    "strengths": [
+      "Correct identification of UX research methods and visual design elements",
+      "Basic understanding of prototyping and iteration cycles",
+      "Familiarity with tools like Figma for mid-fidelity mocks"
+    ],
+    "areas_of_improvement": [
+      "Deeper insight into interaction design (micro-interactions, animations)",
+      "Practical implementation of user testing and feedback loops",
+      "Structured approach to design handoff and developer collaboration"
+    ],
+    "recommendations": [
+      {
+        "topic": "Prototyping and Interaction Design",
+        "description": "Explore high-fidelity prototypes, transitions, and usability testing in Figma or Adobe XD.",
+        "resources": [
+          "Prototyping with Figma (Figma Community Tutorials)",
+          "Designing Interface Animations (Val Head) - Chapters 2–5"
+        ]
+      },
+      {
+        "topic": "User Testing and Iteration",
+        "description": "Master moderated/unmoderated tests, heuristic evaluation, and incorporating feedback.",
+        "resources": [
+          "Rocket Surgery Made Easy (Steve Krug) - Full Book",
+          "User Testing on a Budget (UserTesting Academy)"
+        ]
+      },
+      {
+        "topic": "Design Systems and Collaboration",
+        "description": "Learn building reusable components, style guides, and handoff tools like Zeplin.",
+        "resources": [
+          "Refactoring UI (Adam Wathan & Steve Schoger) - Volume 1",
+          "Design Systems (Alla Kholmatova) - Chapters 3–6"
+        ]
+      }
+    ]
+  },
+  {
+    "result_id": 3,
+    "condition": "40 < score ≤ 50",
+    "summary": "The candidate exhibits strong command of product design principles, accurately explaining design thinking frameworks, accessibility standards, and metrics-driven design. Knowledge of advanced topics like AI in design and cross-functional leadership is well-articulated.",
+    "strengths": [
+      "Clear conceptual understanding of end-to-end design processes",
+      "Accurate description of inclusive design and performance metrics",
+      "Awareness of production challenges like scaling design ops"
+    ],
+    "areas_of_improvement": [
+      "Expert-level integration of emerging tools and ethical design practices"
+    ],
+    "recommendations": [
+      {
+        "topic": "Advanced UX Research and Metrics",
+        "description": "Dive into quantitative research, NPS/AARRR metrics, and A/B experimentation platforms.",
+        "resources": [
+          "Articulating Design Decisions (Tom Greever) - Case Studies",
+          "Lean UX (Jeff Gothelf) - Chapters 5–8"
+        ]
+      },
+      {
+        "topic": "Accessibility and Inclusive Design",
+        "description": "Study WCAG guidelines, voice user interfaces, and tools for automated accessibility audits.",
+        "resources": [
+          "Inclusive Design Patterns (Heydon Pickering) - Full Book",
+          "A Web for Everyone (Sarah Horton & Whitney Quesenbery) - Chapters 4–7"
+        ]
+      },
+      {
+        "topic": "Design Leadership and Innovation",
+        "description": "Explore AI-assisted design (Figma AI plugins), design sprints, and leading cross-functional teams.",
+        "resources": [
+          "The Making of a Manager (Julie Zhuo) - Design Leadership Sections",
+          "Sprint: How to Solve Big Problems (Jake Knapp) - Team Exercises"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "novice": [],
+  "easy": [],
+  "intermediate": [],
+  "master": [
+    {
+      "id": 1,
+      "question": "hello",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "hello 2",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "expert": []
+}

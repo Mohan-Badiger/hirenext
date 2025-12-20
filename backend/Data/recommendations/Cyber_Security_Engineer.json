@@ -1,0 +1,122 @@
+[
+  {
+    "result_id": 1,
+    "condition": "score ≤ 20",
+    "summary": "The candidate shows limited understanding of core cybersecurity concepts and requires foundational reinforcement. Basic topics like the CIA triad, encryption basics, and common threats need review. Advanced areas like intrusion detection and compliance are minimal.",
+    "strengths": [
+      "Willingness to attempt all questions",
+      "Basic awareness of cybersecurity terminology"
+    ],
+    "areas_of_improvement": [
+      "Grasp of security fundamentals (CIA triad, authentication, access control)",
+      "Understanding of common threats and vulnerabilities (phishing, malware)",
+      "Familiarity with basic defenses (firewalls, antivirus)"
+    ],
+    "recommendations": [
+      {
+        "topic": "Cybersecurity Fundamentals",
+        "description": "Master the basics: CIA triad, types of threats, risk management, and security principles like least privilege.",
+        "resources": [
+          "CISSP All-in-One Exam Guide (Shon Harris) - Chapters 1–3",
+          "CompTIA Security+ Get Certified Get Ahead (Darril Gibson) - Domains 1–2"
+        ]
+      },
+      {
+        "topic": "Cryptography Basics",
+        "description": "Learn symmetric/asymmetric encryption, hashing, digital signatures, and PKI fundamentals.",
+        "resources": [
+          "Cryptography Engineering (Ferguson et al.) - Chapters 1–4",
+          "Coursera: Cryptography I (Stanford) - Weeks 1–3"
+        ]
+      },
+      {
+        "topic": "Network Security Essentials",
+        "description": "Understand firewalls, VPNs, IDS/IPS basics, and secure communication protocols (SSL/TLS).",
+        "resources": [
+          "Computer Networking: A Top-Down Approach (Kurose & Ross) - Chapter 8",
+          "TryHackMe: Network Fundamentals Room"
+        ]
+      }
+    ]
+  },
+  {
+    "result_id": 2,
+    "condition": "20 < score ≤ 40",
+    "summary": "The candidate demonstrates moderate grasp of cybersecurity basics and can identify key concepts like encryption types, common attacks, and access controls. However, application-level understanding and advanced threat modeling remain inconsistent.",
+    "strengths": [
+      "Correct identification of threat types and basic defenses",
+      "Basic understanding of compliance frameworks and incident response",
+      "Familiarity with tools like Wireshark and Nmap"
+    ],
+    "areas_of_improvement": [
+      "Deeper insight into vulnerability management and penetration testing",
+      "Practical implementation of secure coding and forensics",
+      "Structured approach to risk assessment and mitigation strategies"
+    ],
+    "recommendations": [
+      {
+        "topic": "Vulnerability Management and Pentesting",
+        "description": "Explore scanning tools (Nessus, OpenVAS), exploitation frameworks (Metasploit), and OWASP Top 10 vulnerabilities.",
+        "resources": [
+          "The Web Application Hacker's Handbook (Stuttard & Pinto) - Chapters 1–5",
+          "Hack The Box Academy: Beginner Modules"
+        ]
+      },
+      {
+        "topic": "Incident Response and Forensics",
+        "description": "Master IR phases (NIST), log analysis, malware reverse engineering, and evidence handling.",
+        "resources": [
+          "Incident Response & Computer Forensics (Prosise & Mandia) - Chapters 2–4",
+          "SANS FOR508: Advanced Incident Response Course Materials"
+        ]
+      },
+      {
+        "topic": "Secure Development Practices",
+        "description": "Learn secure SDLC, code reviews, input validation, and API security best practices.",
+        "resources": [
+          "OWASP Secure Coding Practices - Quick Reference Guide",
+          "Software Security: Building Security In (Allen) - Chapters 3–6"
+        ]
+      }
+    ]
+  },
+  {
+    "result_id": 3,
+    "condition": "40 < score ≤ 50",
+    "summary": "The candidate exhibits strong command of cybersecurity principles, accurately explaining encryption algorithms, threat hunting, and compliance standards. Knowledge of advanced topics like zero-trust and AI in security is well-articulated.",
+    "strengths": [
+      "Clear conceptual understanding of advanced threat landscapes and defenses",
+      "Accurate description of cryptographic protocols and forensic techniques",
+      "Awareness of emerging challenges like supply chain attacks and quantum threats"
+    ],
+    "areas_of_improvement": [
+      "Expert-level integration of AI/ML in threat detection and zero-trust architectures"
+    ],
+    "recommendations": [
+      {
+        "topic": "Advanced Threat Hunting and Analytics",
+        "description": "Dive into SIEM (Splunk, ELK), behavioral analytics, YARA rules, and machine learning for anomaly detection.",
+        "resources": [
+          "Hunting Cyber Criminals (Bell & De La Rosa) - Full Book",
+          "SANS SEC503: Intrusion Detection In-Depth"
+        ]
+      },
+      {
+        "topic": "Zero-Trust and Cloud Security",
+        "description": "Study zero-trust models, IAM in cloud (AWS IAM, Azure AD), container security, and DevSecOps pipelines.",
+        "resources": [
+          "Zero Trust Networks (Gilman & Barth) - Chapters 4–7",
+          "CCSP Official Study Guide - Cloud Security Domains"
+        ]
+      },
+      {
+        "topic": "Emerging Threats and Cryptography",
+        "description": "Explore post-quantum crypto, blockchain in security, supply chain risk management, and AI-driven attacks.",
+        "resources": [
+          "NIST Post-Quantum Cryptography Standardization Papers",
+          "Black Hat Archives: Advanced Persistent Threats Talks"
+        ]
+      }
+    ]
+  }
+]

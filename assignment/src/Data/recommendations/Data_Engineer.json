@@ -1,0 +1,122 @@
+[
+  {
+    "result_id": 1,
+    "condition": "score ≤ 20",
+    "summary": "The candidate shows limited understanding of core data engineering concepts and requires foundational reinforcement. Basic topics like databases, SQL, and ETL processes need review. Advanced areas like big data frameworks and orchestration are minimal.",
+    "strengths": [
+      "Willingness to attempt all questions",
+      "Basic awareness of data terminology"
+    ],
+    "areas_of_improvement": [
+      "Grasp of data storage fundamentals (SQL vs NoSQL, schemas)",
+      "Understanding of ETL basics (extract, transform, load)",
+      "Familiarity with scripting for data tasks (Python basics)"
+    ],
+    "recommendations": [
+      {
+        "topic": "Database Fundamentals",
+        "description": "Master relational databases, SQL querying (SELECT, JOINs), normalization, and basic NoSQL concepts.",
+        "resources": [
+          "SQL for Data Engineers (DataCamp) - Beginner Course",
+          "Database System Concepts (Silberschatz) - Chapters 1–3"
+        ]
+      },
+      {
+        "topic": "Introduction to ETL",
+        "description": "Learn ETL pipelines, data ingestion methods, and simple transformations using tools like Python.",
+        "resources": [
+          "ETL with Python (Udemy) - Sections 1–4",
+          "Apache Airflow Fundamentals (Astronomer Academy)"
+        ]
+      },
+      {
+        "topic": "Data Engineering Basics with Python",
+        "description": "Understand file handling, pandas for data manipulation, and scripting for batch processing.",
+        "resources": [
+          "Python for Data Engineering (Coursera) - Week 1",
+          "Automate the Boring Stuff with Python - Chapters 8–10"
+        ]
+      }
+    ]
+  },
+  {
+    "result_id": 2,
+    "condition": "20 < score ≤ 40",
+    "summary": "The candidate demonstrates moderate grasp of data engineering basics and can identify key concepts like data warehousing, Spark, and pipeline orchestration. However, distributed systems and cloud integration remain inconsistent.",
+    "strengths": [
+      "Correct identification of ETL tools and basic distributed computing",
+      "Basic understanding of data quality and versioning",
+      "Familiarity with orchestration like Airflow"
+    ],
+    "areas_of_improvement": [
+      "Deeper insight into big data processing (Spark, Hadoop)",
+      "Practical implementation of data pipelines and monitoring",
+      "Structured approach to data modeling and scalability"
+    ],
+    "recommendations": [
+      {
+        "topic": "Big Data Frameworks",
+        "description": "Explore Apache Spark for processing, DataFrames, and integration with Hadoop ecosystem.",
+        "resources": [
+          "Learning Spark (O'Reilly) - Chapters 1–4",
+          "Databricks Spark Tutorial - Core Concepts"
+        ]
+      },
+      {
+        "topic": "Data Pipelines and Orchestration",
+        "description": "Master Airflow DAGs, task dependencies, error handling, and monitoring for reliable workflows.",
+        "resources": [
+          "Data Pipelines with Apache Airflow (Manning) - Chapters 2–5",
+          "Luigi Documentation + Tutorials"
+        ]
+      },
+      {
+        "topic": "Data Warehousing and Modeling",
+        "description": "Learn dimensional modeling (star/snowflake schemas), tools like Snowflake or Redshift, and data quality checks.",
+        "resources": [
+          "The Data Warehouse Toolkit (Kimball) - Chapters 1–3",
+          "dbt Fundamentals (dbt Learn)"
+        ]
+      }
+    ]
+  },
+  {
+    "result_id": 3,
+    "condition": "40 < score ≤ 50",
+    "summary": "The candidate exhibits strong command of data engineering principles, accurately explaining distributed systems, streaming architectures, and cloud-native pipelines. Knowledge of advanced topics like data governance and ML ops is well-articulated.",
+    "strengths": [
+      "Clear conceptual understanding of scalable data architectures",
+      "Accurate description of streaming (Kafka, Flink) and optimization techniques",
+      "Awareness of production challenges like cost management and reliability"
+    ],
+    "areas_of_improvement": [
+      "Expert-level integration of real-time processing and data mesh principles"
+    ],
+    "recommendations": [
+      {
+        "topic": "Streaming and Real-Time Data",
+        "description": "Dive into Kafka for messaging, Flink/Spark Streaming for processing, and lambda/kappa architectures.",
+        "resources": [
+          "Kafka: The Definitive Guide (O'Reilly) - Chapters 5–8",
+          "Stream Processing with Apache Flink (Confluent Developer)"
+        ]
+      },
+      {
+        "topic": "Cloud Data Engineering",
+        "description": "Study AWS/GCP/Azure services (Glue, Dataflow, BigQuery), serverless pipelines, and multi-cloud strategies.",
+        "resources": [
+          "Cloud Native Data Engineering (Udacity Nanodegree) - Projects 1–2",
+          "Google Cloud Professional Data Engineer Certification Guide"
+        ]
+      },
+      {
+        "topic": "Advanced Data Governance and ML Ops",
+        "description": "Explore data catalogs (Amundsen), lineage (Marquez), MLOps pipelines, and federated data systems.",
+        "resources": [
+          "Data Governance: The Definitive Guide (O'Reilly)",
+          "Machine Learning Engineering in Action (Capelle) - Chapters 6–9"
+        ]
+      }
+    ]
+  }
+]

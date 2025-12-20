@@ -1,0 +1,122 @@
+[
+  {
+    "result_id": 1,
+    "condition": "score ≤ 20",
+    "summary": "The candidate shows limited understanding of core iOS development concepts and requires foundational reinforcement. Basic topics like Swift syntax, Xcode interface, and MVC pattern need review. Advanced areas like concurrency and app lifecycle are minimal.",
+    "strengths": [
+      "Willingness to attempt all questions",
+      "Basic awareness of iOS terminology"
+    ],
+    "areas_of_improvement": [
+      "Grasp of Swift fundamentals (variables, control flow, optionals)",
+      "Understanding of Xcode basics (projects, simulators, debugging)",
+      "Familiarity with UI components and Auto Layout"
+    ],
+    "recommendations": [
+      {
+        "topic": "Swift Language Basics",
+        "description": "Master variables, functions, classes/structs, optionals, and error handling in Swift.",
+        "resources": [
+          "The Swift Programming Language (Apple Books) - Chapters 1–4",
+          "Hacking with Swift: 100 Days of SwiftUI - Days 1–10"
+        ]
+      },
+      {
+        "topic": "Xcode and iOS Development Environment",
+        "description": "Learn creating projects, using the simulator, Interface Builder, and basic debugging tools.",
+        "resources": [
+          "Apple Developer: Xcode Essentials (Free Tutorial)",
+          "iOS Apprentice (raywenderlich.com) - Chapter 1"
+        ]
+      },
+      {
+        "topic": "Introduction to UIKit",
+        "description": "Understand views, view controllers, storyboards, and simple Auto Layout constraints.",
+        "resources": [
+          "UIKit Fundamentals (Apple Developer Documentation)",
+          "Build iOS Apps with UIKit (Udemy) - Sections 1–3"
+        ]
+      }
+    ]
+  },
+  {
+    "result_id": 2,
+    "condition": "20 < score ≤ 40",
+    "summary": "The candidate demonstrates moderate grasp of iOS basics and can identify key concepts like SwiftUI views, navigation, and data persistence. However, state management and performance optimization remain inconsistent.",
+    "strengths": [
+      "Correct identification of UI frameworks and basic app architecture",
+      "Basic understanding of networking and Core Data",
+      "Familiarity with testing and deployment processes"
+    ],
+    "areas_of_improvement": [
+      "Deeper insight into SwiftUI declarative syntax and animations",
+      "Practical implementation of concurrency (async/await) and memory management",
+      "Structured approach to app modularization and CI/CD"
+    ],
+    "recommendations": [
+      {
+        "topic": "SwiftUI Fundamentals",
+        "description": "Explore declarative UI, stacks, lists, navigation, and basic animations with SwiftUI.",
+        "resources": [
+          "SwiftUI by Tutorials (raywenderlich.com) - Chapters 1–4",
+          "Apple: SwiftUI Tutorials (Developer Site)"
+        ]
+      },
+      {
+        "topic": "Data Persistence and Networking",
+        "description": "Master Core Data for local storage, URLSession for API calls, and Codable for JSON handling.",
+        "resources": [
+          "iOS Core Data by Tutorials (raywenderlich.com) - Chapters 1–3",
+          "Networking in Swift (Hacking with Swift) - Sections 1–5"
+        ]
+      },
+      {
+        "topic": "Concurrency and Performance",
+        "description": "Learn async/await, actors, GCD, and profiling tools in Instruments for app optimization.",
+        "resources": [
+          "Concurrency in Swift (Apple WWDC Sessions 2021–2023)",
+          "Pro SwiftUI: Heavy Lifting (Paul Hudson) - Chapters 5–7"
+        ]
+      }
+    ]
+  },
+  {
+    "result_id": 3,
+    "condition": "40 < score ≤ 50",
+    "summary": "The candidate exhibits strong command of iOS principles, accurately explaining SwiftUI state management, ARKit integration, and secure coding. Knowledge of advanced topics like Combine and WidgetKit is well-articulated.",
+    "strengths": [
+      "Clear conceptual understanding of modern iOS architectures (MVVM)",
+      "Accurate description of testing frameworks and App Clips",
+      "Awareness of production considerations like accessibility and internationalization"
+    ],
+    "areas_of_improvement": [
+      "Expert-level integration of machine learning (Core ML) and cross-platform strategies"
+    ],
+    "recommendations": [
+      {
+        "topic": "Advanced SwiftUI and Combine",
+        "description": "Dive into reactive programming with Combine, complex state (ObservableObject), and custom modifiers.",
+        "resources": [
+          "Combine: Asynchronous Programming with Swift (Apple Books)",
+          "SwiftUI Cookbook (Giordano) - Advanced Recipes"
+        ]
+      },
+      {
+        "topic": "Testing and CI/CD for iOS",
+        "description": "Explore XCTest, UI testing, Fastlane for automation, and Xcode Cloud for continuous integration.",
+        "resources": [
+          "iOS Test-Driven Development by Tutorials (raywenderlich.com)",
+          "CI/CD for iOS with Fastlane (Udemy Advanced Course)"
+        ]
+      },
+      {
+        "topic": "Emerging iOS Technologies",
+        "description": "Study Core ML for on-device ML, RealityKit for AR, WidgetKit for extensions, and privacy features.",
+        "resources": [
+          "Machine Learning for iOS Developers (Apple Developer Academy)",
+          "WWDC Sessions 2024: Vision Pro and Spatial Computing"
+        ]
+      }
+    ]
+  }
+]

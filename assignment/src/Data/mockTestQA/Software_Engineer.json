@@ -1,0 +1,1512 @@
+{
+  "novice": [
+    {
+      "id": 1,
+      "question": "What is software engineering?",
+      "options": ["Writing code only", "Discipline for developing reliable software", "Hardware design", "Network configuration"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What does SDLC stand for?",
+      "options": ["System Design Life Cycle", "Software Development Life Cycle", "Software Deployment Life Cycle", "System Development Life Cycle"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the first phase of SDLC?",
+      "options": ["Coding", "Testing", "Requirements gathering", "Deployment"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "question": "What is a variable?",
+      "options": ["Constant value", "Named storage for data", "Function", "Class"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "What is a loop?",
+      "options": ["Repeating code", "Single execution", "Conditional", "Return statement"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is an if-statement?",
+      "options": ["Loop", "Conditional execution", "Function call", "Array"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "question": "What is a function?",
+      "options": ["Global variable", "Reusable block of code", "Class method", "Data type"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "question": "What is an array?",
+      "options": ["Single value", "Collection of similar elements", "Object", "String"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "question": "What is a string?",
+      "options": ["Number sequence", "Sequence of characters", "Boolean", "Integer"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "What is debugging?",
+      "options": ["Writing code", "Finding and fixing errors", "Deploying app", "Designing UI"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "question": "What is version control?",
+      "options": ["Tracking changes in code", "No tracking", "Single version", "Manual backup"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is Git?",
+      "options": ["Version control system", "Database", "IDE", "Browser"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is a commit?",
+      "options": ["Snapshot of changes", "No commit", "Delete changes", "Ignore changes"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is a branch?",
+      "options": ["Main code line", "Parallel development line", "No branch", "Merge"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is merge?",
+      "options": ["Combine branches", "No merge", "Delete branch", "Create branch"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is an IDE?",
+      "options": ["Integrated Development Environment", "No IDE", "Internet Dev Env", "Isolated Dev Env"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is Visual Studio Code?",
+      "options": ["Code editor", "Full IDE", "No VSCode", "Database"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is compilation?",
+      "options": ["Convert source to machine code", "No compile", "Run code", "Debug"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is an API?",
+      "options": ["Application Programming Interface", "No API", "App Private Interface", "Advanced Proc Interface"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is HTTP?",
+      "options": ["HyperText Transfer Protocol", "No HTTP", "High-Tech Transfer", "Home Tool Protocol"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is GET request?",
+      "options": ["Retrieve data", "Send data", "Update", "Delete"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is POST request?",
+      "options": ["Retrieve", "Send data", "Update", "Delete"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "question": "What is a database?",
+      "options": ["Code storage", "Organized data collection", "File system", "No DB"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "question": "What is NoSQL?",
+      "options": ["Non-relational database", "No NoSQL", "Relational only", "SQL variant"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is testing?",
+      "options": ["Finding defects", "Writing code", "Deploying", "Designing"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is unit test?",
+      "options": ["Test single component", "Full system", "No unit", "Integration"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is integration test?",
+      "options": ["Components together", "Single unit", "No integration", "UI"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is agile?",
+      "options": ["Iterative development", "Waterfall", "No agile", "Big bang"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is scrum?",
+      "options": ["Agile framework", "No scrum", "Waterfall method", "No framework"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is a sprint?",
+      "options": ["Time-boxed iteration", "No sprint", "Full project", "Planning"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is object-oriented programming?",
+      "options": ["OOP with classes/objects", "No OOP", "Procedural", "Functional"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is inheritance?",
+      "options": ["Child class from parent", "No inheritance", "No relation", "Composition"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is polymorphism?",
+      "options": ["Many forms", "Single form", "No poly", "Static"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is encapsulation?",
+      "options": ["Data hiding", "No encaps", "Public all", "No hide"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is abstraction?",
+      "options": ["Hide complexity", "Show all", "No abstract", "Detail"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is a class?",
+      "options": ["Blueprint for objects", "Instance", "No class", "Function"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is an object?",
+      "options": ["Instance of class", "Blueprint", "No object", "Method"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is a constructor?",
+      "options": ["Initialize object", "No constructor", "Destructor", "No init"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is method overriding?",
+      "options": ["Child redefines parent method", "No override", "No redefine", "New method"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is design pattern?",
+      "options": ["Reusable solution", "No pattern", "Unique code", "No reuse"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is singleton pattern?",
+      "options": ["One instance", "Many instances", "No singleton", "Factory"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is factory pattern?",
+      "options": ["Create objects", "No factory", "Destroy", "No create"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is MVC?",
+      "options": ["Model-View-Controller", "No MVC", "Main View Code", "Model View Class"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is REST?",
+      "options": ["Representational State Transfer", "No REST", "Real-Time State", "Remote Eval Sys Trans"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is JSON?",
+      "options": ["JavaScript Object Notation", "No JSON", "Java Sys Obj Not", "Joint Sys Obj Not"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is XML?",
+      "options": ["eXtensible Markup Language", "No XML", "Extensible Mark Lang", "No mark"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is continuous integration?",
+      "options": ["Auto build/test", "No CI", "Manual build", "No test"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is CI/CD?",
+      "options": ["Continuous Integration/Deployment", "No CI/CD", "Clean Install Clean Deploy", "Code Int Code Dep"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is Docker?",
+      "options": ["Containerization tool", "No Docker", "Virtual machine", "No container"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is Kubernetes?",
+      "options": ["Container orchestration", "No K8s", "Single container", "No orchestrate"],
+      "correctAnswer": 0
+    }
+  ],
+  "easy": [
+    {
+      "id": 1,
+      "question": "What is binary search?",
+      "options": ["O(n) time", "O(log n) on sorted array", "O(1)", "O(n^2)"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is bubble sort?",
+      "options": ["O(n log n)", "O(n^2) comparison", "Stable", "Both 1 and 3"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 3,
+      "question": "What is quicksort?",
+      "options": ["Divide and conquer", "O(n^2) worst", "Average O(n log n)", "All"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 4,
+      "question": "What is merge sort?",
+      "options": ["Stable, O(n log n)", "In-place", "No stable", "O(n^2)"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is a stack?",
+      "options": ["LIFO", "FIFO", "No order", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is a queue?",
+      "options": ["FIFO", "LIFO", "No FIFO", "Priority"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is linked list?",
+      "options": ["Nodes with pointers", "Contiguous memory", "Fixed size", "No linked"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is singly linked list?",
+      "options": ["One direction", "Two way", "Circular", "No single"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is doubly linked list?",
+      "options": ["Two directions", "One way", "No double", "Array"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is a tree?",
+      "options": ["Hierarchical structure", "Linear", "No tree", "Graph cycle"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is binary tree?",
+      "options": ["Max 2 children", "No binary", "Unlimited children", "No tree"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is BST?",
+      "options": ["Binary Search Tree", "No BST", "Balanced", "Heap"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is AVL tree?",
+      "options": ["Self-balancing BST", "No AVL", "Red-black", "No balance"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is heap?",
+      "options": ["Complete binary tree", "No heap", "Search tree", "No complete"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is min-heap?",
+      "options": ["Parent <= children", "Parent >= children", "No min", "Max only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is a graph?",
+      "options": ["Nodes and edges", "Tree only", "No graph", "Linear"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is directed graph?",
+      "options": ["Edges have direction", "No directed", "Undirected", "No edge"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is BFS?",
+      "options": ["Level order traversal", "No BFS", "Depth first", "No traversal"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is DFS?",
+      "options": ["Depth first traversal", "No DFS", "Breadth", "Level"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is Dijkstra's algorithm?",
+      "options": ["Shortest path", "No Dijkstra", "Longest path", "No path"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is Big O?",
+      "options": ["Time/space complexity", "No Big O", "Best case", "Average"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is O(1)?",
+      "options": ["Constant time", "No O(1)", "Linear", "Quadratic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is O(n)?",
+      "options": ["Linear time", "Constant", "Log n", "n log n"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is O(log n)?",
+      "options": ["Logarithmic", "No log", "Linear", "Constant"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is O(n log n)?",
+      "options": ["Efficient sort", "No n log", "n^2", "No sort"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is recursion?",
+      "options": ["Function calls itself", "No recursion", "Iteration", "No call"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is base case?",
+      "options": ["Stops recursion", "No base", "Recursive call", "No stop"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is tail recursion?",
+      "options": ["Last operation recursive call", "No tail", "First call", "Middle"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is memoization?",
+      "options": ["Cache results", "No memo", "No cache", "Recalculate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is dynamic programming?",
+      "options": ["Optimal substructure", "No DP", "Greedy", "No optimal"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is knapsack problem?",
+      "options": ["0/1 or unbounded", "No knapsack", "Traveling sales", "No problem"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is longest common subsequence?",
+      "options": ["DP string problem", "No LCS", "Substring", "No common"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is greedy algorithm?",
+      "options": ["Local optimum choice", "No greedy", "Global optimum", "DP"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is Huffman coding?",
+      "options": ["Greedy compression", "No Huffman", "Fixed length", "No code"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is Dijkstra vs Bellman-Ford?",
+      "options": ["Non-negative vs negative weights", "No diff", "Same", "No algo"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is Floyd-Warshall?",
+      "options": ["All pairs shortest path", "No Floyd", "Single source", "No path"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is topological sort?",
+      "options": ["DAG linear order", "No topo", "Cycle graph", "No order"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is union-find?",
+      "options": ["Disjoint sets", "No union", "Connected components", "Both"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 39,
+      "question": "What is amortized analysis?",
+      "options": ["Average over operations", "Worst case", "No amort", "Best case"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is splay tree?",
+      "options": ["Self-adjusting BST", "No splay", "AVL", "Red-black"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is B-tree?",
+      "options": ["Balanced for disks", "No B-tree", "In-memory only", "No balance"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is trie?",
+      "options": ["Prefix tree", "No trie", "Binary tree", "No prefix"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is segment tree?",
+      "options": ["Range queries", "No segment", "Point query", "No range"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is Fenwick tree?",
+      "options": ["Binary indexed tree", "No Fenwick", "AVL variant", "No index"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is LRU cache?",
+      "options": ["Least Recently Used eviction", "No LRU", "FIFO", "LFU"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is LRU implementation?",
+      "options": ["Hash map + DLL", "Array", "No impl", "Tree"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is two-pointer technique?",
+      "options": ["Array problems", "No two", "Single pointer", "No technique"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is sliding window?",
+      "options": ["Fixed/variable size", "No slide", "Full array", "Single element"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is Kadane's algorithm?",
+      "options": ["Max subarray sum", "No Kadane", "Min sum", "No subarray"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is Floyd's cycle detection?",
+      "options": ["Tortoise and hare", "No Floyd", "Linear scan", "No cycle"],
+      "correctAnswer": 0
+    }
+  ],
+  "intermediate": [
+    {
+      "id": 1,
+      "question": "What is SOLID principles?",
+      "options": ["OOP design principles", "No SOLID", "Testing principles", "No design"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is Single Responsibility?",
+      "options": ["One reason to change", "Multiple reasons", "No single", "Many changes"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is Open-Closed Principle?",
+      "options": ["Open for extension, closed for modification", "No OCP", "Closed extension", "Open modification"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is Liskov Substitution?",
+      "options": ["Subtypes interchangeable", "No LSP", "No substitute", "Base only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is Interface Segregation?",
+      "options": ["Many specific interfaces", "No ISP", "One fat interface", "No segregate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is Dependency Inversion?",
+      "options": ["Depend on abstractions", "No DIP", "Concrete dependencies", "No inversion"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is DRY?",
+      "options": ["Don't Repeat Yourself", "No DRY", "Repeat code", "No don't"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is KISS?",
+      "options": ["Keep It Simple Stupid", "No KISS", "Complex code", "No keep"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is YAGNI?",
+      "options": ["You Ain't Gonna Need It", "No YAGNI", "Need everything", "No ain't"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is ACID?",
+      "options": ["Atomicity, Consistency, Isolation, Durability", "No ACID", "Transactions", "All"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 11,
+      "question": "What is CAP theorem?",
+      "options": ["Consistency, Availability, Partition tolerance", "No CAP", "Pick two", "All three"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 12,
+      "question": "What is RESTful API?",
+      "options": ["Stateless, resource-based", "No RESTful", "Stateful", "No resource"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is HATEOAS?",
+      "options": ["Hypermedia as Engine of Application State", "No HATEOAS", "No hypermedia", "Static links"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is GraphQL?",
+      "options": ["Query language for APIs", "No GraphQL", "REST variant", "No query"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is microservices?",
+      "options": ["Small independent services", "Monolith", "No micro", "Large service"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is service mesh?",
+      "options": ["Infrastructure for microservices", "No mesh", "Single service", "No infra"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is circuit breaker?",
+      "options": ["Fault tolerance pattern", "No circuit", "Always open", "No fault"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is bulkhead?",
+      "options": ["Resource isolation", "No bulkhead", "Shared resources", "No isolation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is saga pattern?",
+      "options": ["Distributed transactions", "No saga", "ACID only", "No distributed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is event sourcing?",
+      "options": ["Store state changes", "No event", "Final state only", "No changes"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is CQRS?",
+      "options": ["Command Query Responsibility Segregation", "No CQRS", "Same model", "No segregate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is domain-driven design?",
+      "options": ["DDD with ubiquitous language", "No DDD", "No domain", "Tech focus"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is bounded context?",
+      "options": ["Model boundaries", "No bounded", "Global model", "No context"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is aggregate?",
+      "options": ["Cluster of entities", "No aggregate", "Single entity", "No cluster"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is repository pattern?",
+      "options": ["Abstraction for data access", "No repo", "Direct DB", "No abstraction"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is unit of work?",
+      "options": ["Transaction boundary", "No UoW", "Single operation", "No transaction"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is TDD?",
+      "options": ["Test-Driven Development", "No TDD", "BDD", "No test"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is BDD?",
+      "options": ["Behavior-Driven Development", "No BDD", "TDD variant", "No behavior"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is mocking?",
+      "options": ["Fake dependencies", "No mock", "Real objects", "No fake"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is stubbing?",
+      "options": ["Return predefined values", "No stub", "Mock action", "No return"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is refactoring?",
+      "options": ["Improve code without changing behavior", "No refactor", "Add features", "Remove code"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is code smell?",
+      "options": ["Indication of deeper problem", "No smell", "Good code", "No indication"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is technical debt?",
+      "options": ["Future cost from shortcuts", "No debt", "No cost", "Permanent"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is SOLID vs GRASP?",
+      "options": ["Design principles", "No GRASP", "GRASP patterns", "Both"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 35,
+      "question": "What is observer pattern?",
+      "options": ["Publish-subscribe", "No observer", "Singleton", "Factory"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is strategy pattern?",
+      "options": ["Interchangeable algorithms", "No strategy", "Fixed algo", "No interchange"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is decorator pattern?",
+      "options": ["Add behavior dynamically", "No decorator", "Static add", "No behavior"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is adapter pattern?",
+      "options": ["Interface compatibility", "No adapter", "No interface", "Direct use"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is proxy pattern?",
+      "options": ["Placeholder for object", "No proxy", "Direct access", "No placeholder"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is command pattern?",
+      "options": ["Encapsulate requests", "No command", "Direct call", "No encapsulate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is template method?",
+      "options": ["Skeleton algorithm", "No template", "Full algo", "No skeleton"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is state pattern?",
+      "options": ["Object behavior change", "No state", "Static behavior", "No change"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is Memento?",
+      "options": ["Save/restore state", "No memento", "No save", "Permanent"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is visitor pattern?",
+      "options": ["Operate on elements", "No visitor", "No operate", "Static op"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is Flyweight?",
+      "options": ["Share immutable state", "No flyweight", "No share", "Unique state"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is interpreter pattern?",
+      "options": ["Language parsing", "No interpreter", "No parse", "Compiled"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is iterator?",
+      "options": ["Traverse collections", "No iterator", "No traverse", "Fixed access"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is mediator?",
+      "options": ["Central communication", "No mediator", "Direct comm", "No central"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is chain of responsibility?",
+      "options": ["Pass request along chain", "No chain", "Single handler", "No pass"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is bridge pattern?",
+      "options": ["Decouple abstraction/impl", "No bridge", "Couple", "No decouple"],
+      "correctAnswer": 0
+    }
+  ],
+  "master": [
+    {
+      "id": 1,
+      "question": "What is formal verification?",
+      "options": ["Mathematical proofs of correctness", "No formal", "Testing", "Simulation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is model checking?",
+      "options": ["Exhaust state exploration", "No model check", "Partial", "No state"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is temporal logic?",
+      "options": ["LTL, CTL for properties", "No temporal", "Static logic", "No properties"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is TLA+?",
+      "options": ["Specification language", "No TLA", "Programming lang", "No spec"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is Alloy?",
+      "options": ["Relational modeling", "No Alloy", "Object modeling", "No relational"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is Coq?",
+      "options": ["Theorem prover", "No Coq", "Proof assistant", "Both"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 7,
+      "question": "What is Isabelle?",
+      "options": ["Interactive theorem", "No Isabelle", "Auto theorem", "No interactive"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is ACL2?",
+      "options": ["Common Lisp theorem", "No ACL2", "Functional", "No theorem"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is SPARK?",
+      "options": ["Ada subset for safety", "No SPARK", "C++", "No safety"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is Frama-C?",
+      "options": ["C verification platform", "No Frama", "Java", "No verification"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is abstract interpretation?",
+      "options": ["Static analysis technique", "No abstract", "Dynamic", "No static"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is data flow analysis?",
+      "options": ["Control flow facts", "No data flow", "No control", "Syntax"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is pointer analysis?",
+      "options": ["Alias determination", "No pointer", "Type analysis", "No alias"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is escape analysis?",
+      "options": ["Heap vs stack", "No escape", "No heap", "GC"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is partial evaluation?",
+      "options": ["Specialize code", "No partial", "Full eval", "No specialize"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is superoptimization?",
+      "options": ["Optimal code gen", "No superopt", "Standard opt", "No optimal"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is LLVM optimization passes?",
+      "options": ["GVN, DCE, etc.", "No passes", "Single pass", "No opt"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is polyhedral optimization?",
+      "options": ["Loop nest analysis", "No poly", "Single loop", "No analysis"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is vectorization?",
+      "options": ["SIMD code gen", "No vector", "Scalar", "No SIMD"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is auto-parallelization?",
+      "options": ["Loop parallel", "No auto", "Manual", "No parallel"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is OpenMP?",
+      "options": ["Shared memory parallel", "No OpenMP", "MPI", "CUDA"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is MPI?",
+      "options": ["Message Passing Interface", "No MPI", "Shared", "No message"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is CUDA?",
+      "options": ["GPU programming", "No CUDA", "CPU", "No GPU"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is OpenCL?",
+      "options": ["Heterogeneous compute", "No OpenCL", "GPU only", "No hetero"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is SYCL?",
+      "options": ["Single Source C++", "No SYCL", "Multiple source", "No single"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is HIP?",
+      "options": ["AMD GPU port of CUDA", "No HIP", "NVIDIA only", "No port"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is oneAPI?",
+      "options": ["Unified programming", "No oneAPI", "Vendor specific", "No unified"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is DPC++?",
+      "options": ["Data Parallel C++", "No DPC", "C++ standard", "No parallel"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is Amdahl's law?",
+      "options": ["Parallel speedup limit", "No Amdahl", "Linear speedup", "No limit"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is Gustafson's law?",
+      "options": ["Scaled speedup", "No Gustafson", "Fixed problem", "No scaled"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is weak scaling?",
+      "options": ["Problem size increases", "No weak", "Strong scaling", "Fixed size"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is strong scaling?",
+      "options": ["Fixed problem, more processors", "No strong", "Problem grow", "No fixed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is load balancing?",
+      "options": ["Even work distribution", "No balance", "Uneven", "No work"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is granularity?",
+      "options": ["Task size", "No gran", "Small task", "Large"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is Amdahl parallel fraction?",
+      "options": ["P in 1/( (1-P) + P/N )", "No fraction", "Serial only", "No P"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is POSIX threads?",
+      "options": ["Pthreads API", "No POSIX", "Windows threads", "No API"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is std::thread?",
+      "options": ["C++11 threads", "No std", "POSIX only", "No C++"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is OpenMP pragma?",
+      "options": ["#pragma omp parallel", "No pragma", "for loop only", "No parallel"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is reduction clause?",
+      "options": ["Sum/product in parallel", "No reduction", "No sum", "Sequential"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is barrier in parallel?",
+      "options": ["Synchronization point", "No barrier", "Async", "No sync"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is false sharing?",
+      "options": ["Cache line contention", "No false", "True sharing", "No contention"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is memory barrier?",
+      "options": ["Order memory ops", "No memory bar", "No order", "Random ops"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is atomics?",
+      "options": ["Lock-free ops", "No atomics", "Locking", "No free"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is compare-and-swap?",
+      "options": ["CAS primitive", "No CAS", "Swap only", "No compare"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is lock-free data structure?",
+      "options": ["Non-blocking", "Blocking", "No lock-free", "No data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is RCU?",
+      "options": ["Read-Copy-Update", "No RCU", "Lock", "Mutex"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is hazard pointer?",
+      "options": ["Safe memory reclamation", "No hazard", "No safe", "GC"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is epoch-based reclamation?",
+      "options": ["Thread epochs", "No epoch", "No reclamation", "Manual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is transactional memory?",
+      "options": ["STM for atomic blocks", "No TM", "Locks", "No atomic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is HTM?",
+      "options": ["Hardware Transactional Memory", "No HTM", "Software TM", "No hardware"],
+      "correctAnswer": 0
+    }
+  ],
+  "expert": [
+    {
+      "id": 1,
+      "question": "What is linearizability?",
+      "options": ["Sequential consistency per operation", "No linear", "Eventual", "Causal"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is serializability?",
+      "options": ["Equivalent serial execution", "No serial", "Linear", "No equiv"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is snapshot isolation?",
+      "options": ["MVCC with pitfalls", "No snapshot", "Strict serial", "No MVCC"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is write skew?",
+      "options": ["SI anomaly", "No write skew", "Read skew", "No anomaly"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is lost update?",
+      "options": ["Concurrent overwrite", "No lost", "Update lost", "No concurrent"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is 2PL?",
+      "options": ["Two-Phase Locking", "No 2PL", "One phase", "No locking"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is strict 2PL?",
+      "options": ["Hold commit locks", "No strict", "Release early", "No hold"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is deadlock?",
+      "options": ["Circular wait", "No deadlock", "No wait", "Linear wait"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is Banker's algorithm?",
+      "options": ["Deadlock avoidance", "No Banker", "Detection", "No avoidance"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is wait-for graph?",
+      "options": ["Deadlock detection", "No wait graph", "No detection", "Resource graph"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is MVCC?",
+      "options": ["Multi-Version Concurrency Control", "No MVCC", "Locking", "No version"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is optimistic concurrency?",
+      "options": ["Check at commit", "Pessimistic", "No optimistic", "Lock early"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is timestamp ordering?",
+      "options": ["Serializability via TS", "No TS", "Locking", "No serial"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is validation in OCC?",
+      "options": ["Phase with conflict check", "No validation", "Read phase", "No conflict"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is 2PL vs OCC?",
+      "options": ["Lock vs optimistic", "Same", "No 2PL", "No OCC"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is phantom read?",
+      "options": ["New tuple in range", "No phantom", "Repeat read", "Dirty"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is non-repeatable read?",
+      "options": ["Same row changes", "No non-repeat", "Phantom", "No change"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is dirty read?",
+      "options": ["Uncommitted data", "No dirty", "Committed", "No uncommit"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is isolation level?",
+      "options": ["Read uncommitted to serializable", "No level", "Single level", "No isolation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is serializable schedule?",
+      "options": ["Equivalent to serial", "No serializable", "Concurrent", "No equiv"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is conflict serializable?",
+      "options": ["Via precedence graph", "No conflict", "View serial", "No graph"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is view serializability?",
+      "options": ["Final writes same", "No view", "Conflict", "No final"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is Thomas write rule?",
+      "options": ["Ignore obsolete writes", "No Thomas", "No ignore", "Always write"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is polygraph?",
+      "options": ["For view serial", "No poly", "Conflict graph", "No serial"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is recoverability?",
+      "options": ["No cascading aborts", "No recover", "Cascade ok", "No abort"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is strict schedule?",
+      "options": ["No dirty reads", "No strict", "Dirty ok", "No no-dirty"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is ARIES recovery?",
+      "options": ["Log-based", "No ARIES", "No log", "Shadow paging"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is WAL?",
+      "options": ["Write-Ahead Logging", "No WAL", "Read-ahead", "No write"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is checkpoint?",
+      "options": ["Sync logs to disk", "No checkpoint", "No sync", "No log"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is fuzzy checkpoint?",
+      "options": ["Ongoing, no quiesce", "No fuzzy", "Hard checkpoint", "No ongoing"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is steal/no-force buffer policy?",
+      "options": ["Write back lazy", "No steal", "Force write", "No lazy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is redo/undo log?",
+      "options": ["ARIES phases", "No redo", "Single phase", "No undo"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is CL/REC, Analysis?",
+      "options": ["ARIES recovery steps", "No CL/REC", "No analysis", "No steps"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is shadow paging?",
+      "options": ["Copy-on-write pages", "No shadow", "Direct write", "No copy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is log-structured merge-tree?",
+      "options": ["LSM-tree for writes", "No LSM", "B-tree", "No write"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is log-structured file system?",
+      "options": ["LFS sequential writes", "No LFS", "Random write", "No sequential"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is write amplification?",
+      "options": ["SSDs multiple writes", "No write amp", "Single write", "No SSD"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is garbage collection in SSD?",
+      "options": ["Erase blocks", "No GC", "No erase", "Write only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is TRIM?",
+      "options": ["Notify deleted data", "No TRIM", "No notify", "No delete"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is NVMe?",
+      "options": ["Non-Volatile Memory Express", "No NVMe", "SATA", "No non-volatile"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is RDMA?",
+      "options": ["Remote Direct Memory Access", "No RDMA", "Local access", "No remote"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is RoCE?",
+      "options": ["RDMA over Converged Ethernet", "No RoCE", "InfiniBand", "No over"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is iWARP?",
+      "options": ["RDMA over TCP", "No iWARP", "Ethernet only", "No TCP"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is GPUDirect?",
+      "options": ["GPU-direct RDMA", "No GPUDirect", "CPU only", "No direct"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is SHMEM?",
+      "options": ["Symmetric Hierarchical MEMory", "No SHMEM", "Asymmetric", "No symmetric"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is UPC?",
+      "options": ["Unified Parallel C", "No UPC", "Unified C", "No parallel"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is Chapel?",
+      "options": ["PGAS language", "No Chapel", "C++", "Fortran"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is Legion?",
+      "options": ["Runtime for tasks", "No Legion", "Static", "No runtime"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is Realm?",
+      "options": ["Legion runtime", "No Realm", "Task only", "No runtime"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is Kokkos?",
+      "options": ["Performance portability", "No Kokkos", "Vendor lock", "No performance"],
+      "correctAnswer": 0
+    }
+  ]
+}

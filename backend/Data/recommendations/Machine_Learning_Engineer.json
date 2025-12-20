@@ -1,0 +1,122 @@
+[
+  {
+    "result_id": 1,
+    "condition": "score ≤ 20",
+    "summary": "The candidate shows limited understanding of core machine learning concepts and requires foundational reinforcement. Basic topics like supervised/unsupervised learning, regression/classification, and evaluation metrics need review. Advanced areas like neural networks and deployment are minimal.",
+    "strengths": [
+      "Willingness to attempt all questions",
+      "Basic awareness of ML terminology"
+    ],
+    "areas_of_improvement": [
+      "Grasp of learning paradigms (supervised, unsupervised, reinforcement)",
+      "Understanding of model evaluation (accuracy, precision, recall)",
+      "Familiarity with basic algorithms (linear regression, decision trees)"
+    ],
+    "recommendations": [
+      {
+        "topic": "Machine Learning Fundamentals",
+        "description": "Master core concepts: types of learning, overfitting/underfitting, and simple algorithms like linear regression and k-NN.",
+        "resources": [
+          "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (Géron) - Chapters 1–2",
+          "Andrew Ng's Machine Learning (Coursera) - Weeks 1–3"
+        ]
+      },
+      {
+        "topic": "Data Preprocessing and Evaluation",
+        "description": "Learn data cleaning, feature scaling, train-test splits, and metrics like accuracy, F1-score, and confusion matrices.",
+        "resources": [
+          "Python for Data Analysis (McKinney) - Chapters 7–8",
+          "Kaggle: Intro to Machine Learning Course"
+        ]
+      },
+      {
+        "topic": "Introduction to Scikit-Learn",
+        "description": "Understand implementing basic models with scikit-learn pipelines for end-to-end workflows.",
+        "resources": [
+          "Scikit-Learn User Guide - Supervised Learning Section",
+          "Applied Machine Learning in Python (Coursera) - Assignment 1"
+        ]
+      }
+    ]
+  },
+  {
+    "result_id": 2,
+    "condition": "20 < score ≤ 40",
+    "summary": "The candidate demonstrates moderate grasp of ML basics and can identify key concepts like ensemble methods, neural networks, and hyperparameter tuning. However, deep learning architectures and production deployment remain inconsistent.",
+    "strengths": [
+      "Correct identification of algorithms and evaluation techniques",
+      "Basic understanding of feature engineering and cross-validation",
+      "Familiarity with libraries like TensorFlow or PyTorch"
+    ],
+    "areas_of_improvement": [
+      "Deeper insight into neural network training and optimization",
+      "Practical implementation of deep learning models and transfer learning",
+      "Structured approach to model deployment and monitoring"
+    ],
+    "recommendations": [
+      {
+        "topic": "Ensemble Learning and Optimization",
+        "description": "Explore random forests, gradient boosting (XGBoost), grid search, and regularization techniques.",
+        "resources": [
+          "Hands-On Machine Learning (Géron) - Chapters 7 & 9",
+          "XGBoost Tutorials on Towards Data Science"
+        ]
+      },
+      {
+        "topic": "Deep Learning Basics",
+        "description": "Master feedforward networks, CNNs for images, RNNs/LSTMs for sequences, and backpropagation.",
+        "resources": [
+          "Deep Learning Specialization (Andrew Ng on Coursera) - Course 1",
+          "Fast.ai Practical Deep Learning - Lessons 1–4"
+        ]
+      },
+      {
+        "topic": "Model Deployment Fundamentals",
+        "description": "Learn Flask/Docker for serving models, MLflow for tracking, and basic CI/CD for ML pipelines.",
+        "resources": [
+          "MLOps Basics (Udacity Nanodegree) - Project 1",
+          "Deploying Machine Learning Models (O'Reilly) - Chapter 2"
+        ]
+      }
+    ]
+  },
+  {
+    "result_id": 3,
+    "condition": "40 < score ≤ 50",
+    "summary": "The candidate exhibits strong command of ML principles, accurately explaining transformers, reinforcement learning, and scalable training. Knowledge of MLOps, federated learning, and ethical AI is well-articulated.",
+    "strengths": [
+      "Clear conceptual understanding of advanced architectures and optimization",
+      "Accurate description of distributed training and bias mitigation",
+      "Awareness of production challenges like model drift and explainability"
+    ],
+    "areas_of_improvement": [
+      "Expert-level integration of generative models and edge deployment"
+    ],
+    "recommendations": [
+      {
+        "topic": "Advanced Deep Learning and Transformers",
+        "description": "Dive into attention mechanisms, BERT/GPT variants, diffusion models, and efficient inference (quantization).",
+        "resources": [
+          "Dive into Deep Learning (d2l.ai) - Chapters 10–12",
+          "Transformers for Natural Language Processing (Rothman) - Chapters 5–7"
+        ]
+      },
+      {
+        "topic": "MLOps and Scalable Systems",
+        "description": "Study Kubeflow for orchestration, Ray for distributed computing, and monitoring with Prometheus.",
+        "resources": [
+          "Machine Learning Engineering (Gulli et al.) - Chapters 8–10",
+          "Full Stack Deep Learning Course - MLOps Modules"
+        ]
+      },
+      {
+        "topic": "Ethical ML and Specialized Topics",
+        "description": "Explore fairness (AIF360), federated learning (TensorFlow Federated), and RL (Stable Baselines3).",
+        "resources": [
+          "Fairness and Machine Learning (Mehrabi et al.) - Limitations and Metrics",
+          "Reinforcement Learning: An Introduction (Sutton & Barto) - Updated Edition"
+        ]
+      }
+    ]
+  }
+]

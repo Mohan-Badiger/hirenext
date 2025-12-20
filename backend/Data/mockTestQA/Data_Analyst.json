@@ -1,0 +1,1512 @@
+{
+  "novice": [
+    {
+      "id": 1,
+      "question": "What is data analysis?",
+      "options": ["Collecting data", "Examining and interpreting data to draw conclusions", "Storing data", "Deleting data"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is the first step in data analysis?",
+      "options": ["Visualization", "Data collection", "Cleaning data", "Reporting"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "What does Excel primarily used for?",
+      "options": ["Web development", "Spreadsheet analysis and visualization", "Database management", "Programming"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "question": "What is a pivot table?",
+      "options": ["A type of graph", "Tool to summarize data", "A database query", "A programming function"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "What is SQL?",
+      "options": ["A programming language", "Structured Query Language for databases", "A spreadsheet tool", "A visualization software"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "question": "What does SELECT * FROM table do?",
+      "options": ["Deletes data", "Retrieves all data from table", "Inserts data", "Updates data"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "question": "What is descriptive statistics?",
+      "options": ["Predicting future", "Summarizing past data", "Testing hypotheses", "Building models"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "question": "What is mean?",
+      "options": ["Middle value", "Average value", "Most frequent value", "Range"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "question": "What is median?",
+      "options": ["Average", "Middle value when sorted", "Most common", "Sum"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "What is mode?",
+      "options": ["Average", "Middle", "Most frequent value", "Difference"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 11,
+      "question": "What is a bar chart used for?",
+      "options": ["Continuous data", "Categorical comparisons", "Trends over time", "Distributions"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is a line chart best for?",
+      "options": ["Categories", "Trends over time", "Proportions", "Parts of whole"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "question": "What is a pie chart?",
+      "options": ["For trends", "For showing proportions", "For distributions", "For comparisons"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 14,
+      "question": "What is data cleaning?",
+      "options": ["Collecting data", "Removing errors and inconsistencies", "Analyzing data", "Visualizing data"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is missing data?",
+      "options": ["Complete records", "Blank values in dataset", "Duplicate entries", "Outliers"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 16,
+      "question": "What is an outlier?",
+      "options": ["Normal value", "Value significantly different from others", "Average value", "Missing value"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "question": "What is CSV?",
+      "options": ["Comma Separated Values file", "Code Snippet Viewer", "Central Storage Volume", "Custom Script Variable"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is a dashboard?",
+      "options": ["Single chart", "Collection of visualizations", "Database", "Report"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "question": "What is Tableau?",
+      "options": ["Database", "Data visualization tool", "Programming language", "Spreadsheet"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "question": "What is Power BI?",
+      "options": ["Microsoft's BI tool", "Programming IDE", "Web browser", "Email client"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is a KPI?",
+      "options": ["Key Performance Indicator", "Knowledge Processing Interface", "Key Program Input", "Knowledge Performance Index"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is data visualization?",
+      "options": ["Storing data", "Representing data graphically", "Cleaning data", "Querying data"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "question": "What is big data?",
+      "options": ["Small datasets", "Large, complex datasets", "Simple data", "Historical data"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "question": "What is the 3 Vs of big data?",
+      "options": ["Volume, Velocity, Variety", "Value, Validity, Veracity", "Volume, Value, Velocity", "Variety, Validity, Volume"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is data mining?",
+      "options": ["Extracting patterns from data", "Storing data", "Deleting data", "Querying data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is a database?",
+      "options": ["File system", "Organized collection of data", "Spreadsheet", "Graph"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "question": "What is RDBMS?",
+      "options": ["Relational Database Management System", "Random Data Base Management", "Remote Database Manager System", "Relational Data Binary Management"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is a primary key?",
+      "options": ["Duplicate values allowed", "Unique identifier for records", "Foreign reference", "Index"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 29,
+      "question": "What is a foreign key?",
+      "options": ["Primary in another table", "Unique in same table", "No relation", "Auto increment"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is JOIN in SQL?",
+      "options": ["Combine tables", "Delete rows", "Update values", "Insert data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is INNER JOIN?",
+      "options": ["All rows", "Matching rows only", "Left table only", "Right table only"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 32,
+      "question": "What is LEFT JOIN?",
+      "options": ["Left table + matches", "Matches only", "Right + matches", "No matches"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is GROUP BY?",
+      "options": ["Aggregate functions", "Sort data", "Filter data", "Limit rows"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is HAVING?",
+      "options": ["Filter groups", "Filter rows", "Sort groups", "Join tables"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is ORDER BY?",
+      "options": ["Sort results", "Group data", "Filter data", "Aggregate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is LIMIT?",
+      "options": ["Restrict number of rows", "Unlimited rows", "Sort limit", "Group limit"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is data wrangling?",
+      "options": ["Cleaning and transforming data", "Visualizing data", "Storing data", "Querying data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is ETL?",
+      "options": ["Extract, Transform, Load", "Edit, Test, Launch", "Enter, Track, Log", "Export, Table, Link"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is a histogram?",
+      "options": ["Categorical chart", "Distribution of continuous data", "Line trend", "Pie proportions"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 40,
+      "question": "What is standard deviation?",
+      "options": ["Average", "Measure of spread", "Middle value", "Most frequent"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 41,
+      "question": "What is variance?",
+      "options": ["Square of std dev", "Std dev squared", "Average deviation", "Range"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 42,
+      "question": "What is correlation?",
+      "options": ["Causation", "Relationship strength between variables", "Independence", "Difference"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 43,
+      "question": "What is positive correlation?",
+      "options": ["One increases, other decreases", "Both increase or decrease", "No relation", "Negative"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 44,
+      "question": "What is negative correlation?",
+      "options": ["Both same direction", "One up, other down", "No change", "Perfect"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 45,
+      "question": "What is data governance?",
+      "options": ["Data management policies", "Data deletion", "Data collection", "Data visualization"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is data quality?",
+      "options": ["Accuracy, completeness, consistency", "Quantity only", "Speed", "Cost"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is a data warehouse?",
+      "options": ["Real-time data", "Central repository for reporting", "Operational database", "Backup storage"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 48,
+      "question": "What is OLAP?",
+      "options": ["Online Analytical Processing", "Online Log Access Protocol", "Operational Link Analysis", "Online Library Access"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is OLTP?",
+      "options": ["Online Transaction Processing", "Online Tool Testing Protocol", "Operational Log Transfer", "Online Library Tool"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is business intelligence?",
+      "options": ["Data analysis for business decisions", "Software development", "Hardware maintenance", "Marketing"],
+      "correctAnswer": 0
+    }
+  ],
+  "easy": [
+    {
+      "id": 1,
+      "question": "What is VLOOKUP in Excel?",
+      "options": ["Vertical lookup function", "Horizontal lookup", "Value load", "Vector lookup"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is INDEX-MATCH?",
+      "options": ["Alternative to VLOOKUP", "Graph function", "Sort tool", "Filter"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is conditional formatting?",
+      "options": ["Highlight based on rules", "No conditional", "Static format", "Auto color"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is SUMIF?",
+      "options": ["Sum with condition", "Simple sum", "Average if", "Count if"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is COUNTIF?",
+      "options": ["Count with condition", "Sum count", "Average count", "No if"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is data validation?",
+      "options": ["Input restrictions", "No validation", "Output check", "Formula check"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is a slicer?",
+      "options": ["Filter for pivot tables", "No slicer", "Chart tool", "Sort"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is Power Query?",
+      "options": ["ETL tool in Excel", "No power", "Query tool", "Pivot power"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is DAX?",
+      "options": ["Data Analysis Expressions", "No DAX", "Data Access XML", "Dynamic Analysis eXtensions"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is WHERE clause?",
+      "options": ["Filter rows", "Group data", "Sort results", "Join tables"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is DISTINCT?",
+      "options": ["Remove duplicates", "Add duplicates", "No distinct", "All rows"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is LIKE operator?",
+      "options": ["Pattern matching", "Exact match", "No like", "Numeric"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is BETWEEN?",
+      "options": ["Range filter", "No between", "Equal only", "Greater than"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is IN operator?",
+      "options": ["List values", "No in", "Single value", "Range"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is subquery?",
+      "options": ["Nested query", "No sub", "Main query", "Join query"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is aggregate function?",
+      "options": ["SUM, AVG, COUNT", "No aggregate", "String function", "Date"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is window function?",
+      "options": ["ROW_NUMBER, RANK", "No window", "Group by", "Join"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is CTE?",
+      "options": ["Common Table Expression", "No CTE", "Create Table", "Common Temp Expr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is scatter plot?",
+      "options": ["Relationship between two variables", "No scatter", "Bar categories", "Line trends"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is box plot?",
+      "options": ["Distribution summary", "No box", "Trend line", "Proportion"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is heat map?",
+      "options": ["Color-coded matrix", "No heat", "Line heat", "Bar heat"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is funnel chart?",
+      "options": ["Process stages", "No funnel", "Cycle process", "Hierarchy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is treemap?",
+      "options": ["Hierarchical proportions", "No tree", "Linear tree", "Scatter tree"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is data blending?",
+      "options": ["Combine different sources", "No blend", "Single source", "Join only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is calculated field?",
+      "options": ["Custom formula", "No calc", "Pre-built", "Filter"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is parameter?",
+      "options": ["User input variable", "No param", "Fixed value", "Constant"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is data model?",
+      "options": ["Relationships between tables", "No model", "Single table", "No relations"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is star schema?",
+      "options": ["Fact and dimension tables", "No star", "Snowflake", "Linear"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is snowflake schema?",
+      "options": ["Normalized dimensions", "No snow", "Denormalized", "Star"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is slowly changing dimension?",
+      "options": ["Type 1,2,3 for historical", "No SCD", "Static dim", "Fast change"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is data mart?",
+      "options": ["Subject-specific warehouse", "No mart", "Full warehouse", "Operational"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is Hadoop?",
+      "options": ["Big data framework", "No Hadoop", "Small data", "Database"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is MapReduce?",
+      "options": ["Distributed processing", "No MapReduce", "Single process", "Local"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is HDFS?",
+      "options": ["Hadoop Distributed File System", "No HDFS", "Local file", "Cloud file"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is Spark?",
+      "options": ["In-memory data processing", "No Spark", "Disk-based", "Slow process"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is PySpark?",
+      "options": ["Python API for Spark", "No PySpark", "R Spark", "Java"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is data lake?",
+      "options": ["Raw data storage", "No lake", "Processed data", "Structured only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is data pipeline?",
+      "options": ["Automated data flow", "No pipeline", "Manual flow", "Static"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is Apache Airflow?",
+      "options": ["Workflow orchestration", "No Airflow", "Data storage", "Visualization"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is Kafka?",
+      "options": ["Streaming platform", "No Kafka", "Batch process", "Database"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is Python used for in analysis?",
+      "options": ["Scripting and libraries like Pandas", "No Python", "Web dev only", "GUI"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is Pandas?",
+      "options": ["Data manipulation library", "No Pandas", "Plotting", "ML"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is NumPy?",
+      "options": ["Array computing", "No NumPy", "Data frames", "SQL"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is Matplotlib?",
+      "options": ["Plotting library", "No Matplotlib", "Data clean", "Query"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is Seaborn?",
+      "options": ["Statistical visualization", "No Seaborn", "Basic plots", "3D"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is R used for?",
+      "options": ["Statistical computing", "No R", "Web", "Mobile"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is ggplot2?",
+      "options": ["R plotting package", "No ggplot", "Base plot", "Lattice"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is dplyr?",
+      "options": ["Data manipulation in R", "No dplyr", "Plotting", "Modeling"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is tidyr?",
+      "options": ["Reshaping data in R", "No tidyr", "Cleaning", "Joining"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is shiny?",
+      "options": ["Interactive web apps in R", "No shiny", "Static apps", "Desktop"],
+      "correctAnswer": 0
+    }
+  ],
+  "intermediate": [
+    {
+      "id": 1,
+      "question": "What is hypothesis testing?",
+      "options": ["Confirming assumptions", "Testing statistical hypotheses", "Data collection", "Visualization"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is null hypothesis?",
+      "options": ["Alternative claim", "No effect/difference", "Effect present", "Reject always"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "What is p-value?",
+      "options": ["Probability of null being true", "Significance level", "Effect size", "Sample size"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is alpha level?",
+      "options": ["0.05 typically", "P-value", "Confidence", "Power"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is Type I error?",
+      "options": ["False positive", "False negative", "Correct reject", "Correct accept"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is Type II error?",
+      "options": ["False negative", "False positive", "Correct", "Power"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is t-test?",
+      "options": ["Compare means", "Correlation", "Variance", "Proportions"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is chi-square test?",
+      "options": ["Categorical data association", "Means", "Correlation", "Regression"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is ANOVA?",
+      "options": ["Multiple group means", "Two groups", "Correlation", "Non-parametric"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is confidence interval?",
+      "options": ["Range for parameter estimate", "Point estimate", "P-value", "Test statistic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is regression analysis?",
+      "options": ["Predictive modeling", "Descriptive", "Clustering", "Classification"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is linear regression?",
+      "options": ["Straight line relationship", "Curved", "Categorical", "Multiple non-linear"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is R-squared?",
+      "options": ["Variance explained", "Correlation", "Slope", "Intercept"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is multicollinearity?",
+      "options": ["Correlated predictors", "No multi", "Independent vars", "No correlation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is heteroscedasticity?",
+      "options": ["Unequal variance", "Equal variance", "No hetero", "Homo only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is autocorrelation?",
+      "options": ["Correlated errors", "Independent errors", "No auto", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is logistic regression?",
+      "options": ["Binary outcomes", "Continuous", "Multiple", "No logistic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is odds ratio?",
+      "options": ["Logistic coefficient exp", "No odds", "Probability", "Risk"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is time series analysis?",
+      "options": ["Sequential data", "No time", "Cross-sectional", "Spatial"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is ARIMA?",
+      "options": ["AutoRegressive Integrated Moving Average", "No ARIMA", "Simple MA", "Trend only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is seasonality?",
+      "options": ["Repeating patterns", "No season", "Random", "Trend"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is stationarity?",
+      "options": ["Constant mean/variance", "No station", "Non-station", "Trending"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is differencing?",
+      "options": ["Make stationary", "No diff", "Smoothing", "Integrate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is A/B testing?",
+      "options": ["Compare two variants", "No A/B", "Single test", "Multi test"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is statistical power?",
+      "options": ["Avoid Type II error", "No power", "Type I", "Alpha"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is sample size calculation?",
+      "options": ["Determine n for power", "No calc", "Fixed n", "Small n"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is clustering?",
+      "options": ["Group similar data", "No cluster", "Classify", "Predict"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is K-means?",
+      "options": ["Partitioning algorithm", "No K-means", "Hierarchical", "Density"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is elbow method?",
+      "options": ["Optimal K selection", "No elbow", "Silhouette", "Gap"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is dimensionality reduction?",
+      "options": ["Reduce features", "No reduce", "Add features", "No dim"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is PCA?",
+      "options": ["Principal Component Analysis", "No PCA", "Factor analysis", "LDA"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is t-SNE?",
+      "options": ["Non-linear visualization", "No t-SNE", "Linear", "PCA variant"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is feature engineering?",
+      "options": ["Create/transform features", "No feature", "Select features", "Scale"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is normalization?",
+      "options": ["Scale to 0-1", "No norm", "Standardize", "Min-max"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is standardization?",
+      "options": ["Mean 0, std 1", "No std", "0-1 scale", "Log"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is encoding categorical data?",
+      "options": ["One-hot, label", "No encode", "Numeric only", "String"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is imputation?",
+      "options": ["Fill missing values", "No impute", "Delete missing", "Ignore"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is mean imputation?",
+      "options": ["Replace with average", "No mean", "Median", "Mode"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is KNN imputation?",
+      "options": ["Nearest neighbors average", "No KNN", "Simple mean", "Delete"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is outlier detection?",
+      "options": ["IQR, Z-score", "No outlier", "All normal", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is Z-score?",
+      "options": ["Standard deviations from mean", "No Z", "Percentile", "Rank"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is IQR?",
+      "options": ["Interquartile range", "No IQR", "Mean range", "Std range"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is data profiling?",
+      "options": ["Summarize data characteristics", "No profile", "Clean data", "Model"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is data dictionary?",
+      "options": ["Metadata description", "No dict", "Code book", "No meta"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is data lineage?",
+      "options": ["Data flow tracking", "No lineage", "Source to use", "No track"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is data stewardship?",
+      "options": ["Data quality responsibility", "No steward", "Owner only", "No quality"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is master data management?",
+      "options": ["Central consistent data", "No MDM", "Local data", "No master"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is reference data?",
+      "options": ["Standardized lists", "No ref", "Raw data", "Transactional"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is metadata management?",
+      "options": ["Data about data", "No meta", "Raw data", "Business data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is data catalog?",
+      "options": ["Inventory of datasets", "No catalog", "Single dataset", "No inventory"],
+      "correctAnswer": 0
+    }
+  ],
+  "master": [
+    {
+      "id": 1,
+      "question": "What is Bayesian inference?",
+      "options": ["Probabilistic updating", "Frequentist", "No Bayesian", "Deterministic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is prior distribution?",
+      "options": ["Initial belief", "No prior", "Posterior", "Likelihood"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is posterior?",
+      "options": ["Updated belief", "No post", "Prior", "Data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is MCMC?",
+      "options": ["Markov Chain Monte Carlo", "No MCMC", "Monte Carlo", "Chain only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is Gibbs sampling?",
+      "options": ["MCMC method", "No Gibbs", "Direct sample", "Rejection"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is hierarchical modeling?",
+      "options": ["Multi-level data", "No hier", "Flat model", "Single level"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is survival analysis?",
+      "options": ["Time-to-event", "No survival", "Cross-section", "Static"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is Kaplan-Meier?",
+      "options": ["Non-parametric estimator", "No KM", "Parametric", "Regression"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is Cox PH model?",
+      "options": ["Proportional hazards", "No Cox", "Log-rank", "Weibull"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is hazard ratio?",
+      "options": ["Risk multiplier", "No hazard", "Survival prob", "Censor"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is propensity score matching?",
+      "options": ["Balance treatment groups", "No PSM", "Random assign", "No match"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is instrumental variable?",
+      "options": ["Endogeneity fix", "No IV", "Confounder", "Mediator"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is difference-in-differences?",
+      "options": ["Quasi-experimental", "No DiD", "RCT", "Pre-post"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is regression discontinuity?",
+      "options": ["Threshold assignment", "No RD", "Continuous", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is synthetic control?",
+      "options": ["Counterfactual construction", "No synth", "Real control", "No counter"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is causal inference?",
+      "options": ["Effect estimation", "No causal", "Correlation", "Descriptive"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is DAG?",
+      "options": ["Directed Acyclic Graph for causality", "No DAG", "Undirected", "Cyclic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is do-calculus?",
+      "options": ["Intervention identification", "No do", "Observational", "No ident"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is front-door criterion?",
+      "options": ["Causal path via mediator", "No front", "Back door", "No criterion"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is back-door criterion?",
+      "options": ["Block confounders", "No back", "Front door", "Mediator"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is structural equation modeling?",
+      "options": ["Latent variables", "No SEM", "Observed only", "Simple regression"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is factor analysis?",
+      "options": ["Unobserved factors", "No factor", "Observed", "PCA exact"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is confirmatory factor analysis?",
+      "options": ["Test model fit", "No CFA", "Exploratory", "No test"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is exploratory factor analysis?",
+      "options": ["Discover factors", "No EFA", "Confirm", "Fit test"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is path analysis?",
+      "options": ["Direct/indirect effects", "No path", "Simple path", "No effect"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is multilevel modeling?",
+      "options": ["Nested data", "No multi", "Flat", "Single level"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is random effects?",
+      "options": ["Vary by group", "Fixed", "No random", "Constant"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is fixed effects?",
+      "options": ["Constant across", "Vary", "No fixed", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is intraclass correlation?",
+      "options": ["Group similarity", "No ICC", "Individual", "No correlation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is spatial autocorrelation?",
+      "options": ["Nearby similarity", "No spatial", "Temporal", "No auto"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is Moran's I?",
+      "options": ["Spatial dependence measure", "No Moran", "Temporal I", "Simple corr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is geographically weighted regression?",
+      "options": ["Local coefficients", "Global", "No GWR", "Spatial fixed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is kriging?",
+      "options": ["Geostatistical interpolation", "No kriging", "Simple average", "Nearest neighbor"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is variogram?",
+      "options": ["Spatial dependence model", "No variogram", "Time vari", "No model"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is text mining?",
+      "options": ["NLP for patterns", "No text", "Numeric only", "Image"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is TF-IDF?",
+      "options": ["Term Frequency-Inverse Document Frequency", "No TF-IDF", "Simple freq", "Binary"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is bag of words?",
+      "options": ["Ignore order", "No bag", "Order matters", "Grammar"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is topic modeling?",
+      "options": ["LDA for themes", "No topic", "Single topic", "No model"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is sentiment analysis?",
+      "options": ["Polarity detection", "No sentiment", "Topic", "Entity"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is named entity recognition?",
+      "options": ["Extract persons/places", "No NER", "Sentiment", "Topic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is cohort analysis?",
+      "options": ["Group by time/characteristic", "No cohort", "Individual", "Total"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is retention rate?",
+      "options": ["Users staying over time", "No retention", "Acquisition", "Churn"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is customer lifetime value?",
+      "options": ["CLV prediction", "No CLV", "Single purchase", "Short term"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is RFM analysis?",
+      "options": ["Recency, Frequency, Monetary", "No RFM", "Random", "Frequency only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is market basket analysis?",
+      "options": ["Association rules", "No basket", "Single item", "No assoc"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is Apriori algorithm?",
+      "options": ["Frequent itemsets", "No Apriori", "Clustering", "Classification"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is support in association?",
+      "options": ["Frequency threshold", "No support", "Confidence", "Lift"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is confidence?",
+      "options": ["Rule strength", "No conf", "Support", "Item freq"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is lift?",
+      "options": ["Rule improvement over random", "No lift", "Support", "Confidence"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is collaborative filtering?",
+      "options": ["Recommendation based on users", "No collab", "Content-based", "Demographic"],
+      "correctAnswer": 0
+    }
+  ],
+  "expert": [
+    {
+      "id": 1,
+      "question": "What is structural break testing?",
+      "options": ["Detect change points", "No structural", "Trend test", "Stationarity"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is Chow test?",
+      "options": ["Regime shift", "No Chow", "Unit root", "Cointegration"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is Bai-Perron test?",
+      "options": ["Multiple breaks", "No Bai", "Single break", "No test"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is cointegration?",
+      "options": ["Long-run equilibrium", "No coin", "Short-run", "Independent"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is Engle-Granger test?",
+      "options": ["Two-step cointegration", "No EG", "Johansen", "VAR"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is Johansen test?",
+      "options": ["Vector error correction", "No Johansen", "Single eq", "Residual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is VECM?",
+      "options": ["Vector Error Correction Model", "No VECM", "VAR", "ARIMA"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is Granger causality?",
+      "options": ["Predictive causality", "No Granger", "True cause", "Correlation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is impulse response function?",
+      "options": ["VAR shock effects", "No IRF", "Static response", "No shock"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is variance decomposition?",
+      "options": ["Forecast error attribution", "No var decomp", "Simple var", "No forecast"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is GARCH?",
+      "options": ["Volatility modeling", "No GARCH", "ARCH", "EWMA"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is ARCH effect?",
+      "options": ["Heteroskedasticity in residuals", "No ARCH", "Homo", "Constant var"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is leverage effect?",
+      "options": ["Negative shocks increase vol", "No leverage", "Positive only", "Symmetric"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is EGARCH?",
+      "options": ["Asymmetric GARCH", "No EGARCH", "Symmetric", "Simple"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is TGARCH?",
+      "options": ["Threshold GARCH", "No TGARCH", "Exponential", "No thresh"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is Value at Risk?",
+      "options": ["Loss threshold", "No VaR", "Gain at risk", "Profit"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is historical simulation VaR?",
+      "options": ["Empirical quantiles", "No hist", "Parametric", "Monte Carlo"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is parametric VaR?",
+      "options": ["Assume normal", "No param", "Historical", "Variance-cov"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is Expected Shortfall?",
+      "options": ["Beyond VaR average loss", "No ES", "VaR only", "Max loss"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is stress testing?",
+      "options": ["Extreme scenarios", "No stress", "Normal scenarios", "Historical only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is backtesting VaR?",
+      "options": ["Validate model", "No back", "Forward test", "No validate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is Kupiec test?",
+      "options": ["Unconditional coverage", "No Kupiec", "Conditional", "No test"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is Christoffersen test?",
+      "options": ["Independence of exceptions", "No Christ", "Coverage", "No indep"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is Extreme Value Theory?",
+      "options": ["Tail events modeling", "No EVT", "Normal dist", "Central"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is Peaks Over Threshold?",
+      "options": ["GPD for excesses", "No POT", "Block max", "No excess"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is Block Maxima?",
+      "options": ["GEV for maxima", "No Block", "Threshold", "Continuous"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is copula?",
+      "options": ["Dependence structure", "No copula", "Marginal only", "Joint dist"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is Gaussian copula?",
+      "options": ["Normal dependence", "No Gaussian", "Clayton", "Gumbel"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is tail dependence?",
+      "options": ["Extreme co-movement", "No tail", "Linear dep", "No extreme"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is Kendall's tau?",
+      "options": ["Rank correlation", "No Kendall", "Pearson", "Spearman"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is Spearman's rho?",
+      "options": ["Monotonic correlation", "No Spearman", "Linear", "No mono"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is portfolio optimization?",
+      "options": ["Markowitz mean-variance", "No opt", "Single asset", "No mean-var"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is efficient frontier?",
+      "options": ["Optimal risk-return", "No frontier", "Inefficient", "Single point"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is Sharpe ratio?",
+      "options": ["Risk-adjusted return", "No Sharpe", "Raw return", "Volatility"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is Sortino ratio?",
+      "options": ["Downside risk", "No Sortino", "Total risk", "Upside"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is Treynor ratio?",
+      "options": ["Systematic risk", "No Treynor", "Total var", "Beta"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is Jensen's alpha?",
+      "options": ["Excess return", "No Jensen", "Beta", "R-squared"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is CAPM?",
+      "options": ["Capital Asset Pricing Model", "No CAPM", "Simple model", "Multi-factor"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is beta?",
+      "options": ["Market sensitivity", "No beta", "Alpha", "Sharpe"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is Fama-French?",
+      "options": ["3-factor model", "No FF", "1-factor", "5-factor"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is SMB?",
+      "options": ["Small Minus Big", "No SMB", "Market", "HML"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is HML?",
+      "options": ["High Minus Low book-to-market", "No HML", "SMB", "RMW"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is momentum factor?",
+      "options": ["WML", "No mom", "Value", "Size"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is Carhart 4-factor?",
+      "options": ["Adds momentum", "No Carhart", "3-factor", "5-factor"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is Fama-French 5-factor?",
+      "options": ["Adds profitability, investment", "No 5", "4-factor", "3-factor"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is RMW?",
+      "options": ["Robust Minus Weak", "No RMW", "HML", "CMA"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is CMA?",
+      "options": ["Conservative Minus Aggressive", "No CMA", "RMW", "SMB"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is q-factor model?",
+      "options": ["Investment-based", "No q", "FF5", "CAPM"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is mispricing factor?",
+      "options": ["Stambaugh et al.", "No mis", "q-factor", "FF"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is baryshnikov model?",
+      "options": ["Machine learning factors", "No bary", "Traditional", "No ML"],
+      "correctAnswer": 0
+    }
+  ]
+}

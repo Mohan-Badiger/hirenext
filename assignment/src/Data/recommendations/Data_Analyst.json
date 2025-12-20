@@ -1,0 +1,122 @@
+[
+  {
+    "result_id": 1,
+    "condition": "score ≤ 20",
+    "summary": "The candidate shows limited understanding of core data analysis concepts and requires foundational reinforcement. Basic topics like data types, SQL queries, and Excel functions need review. Advanced areas like statistical modeling and visualization tools are minimal.",
+    "strengths": [
+      "Willingness to attempt all questions",
+      "Basic awareness of data terminology"
+    ],
+    "areas_of_improvement": [
+      "Grasp of data manipulation basics (cleaning, filtering, aggregating)",
+      "Understanding of querying languages (SQL fundamentals)",
+      "Familiarity with spreadsheet tools and simple visualizations"
+    ],
+    "recommendations": [
+      {
+        "topic": "Data Fundamentals and Excel",
+        "description": "Master data types, cleaning techniques, pivot tables, VLOOKUP, and basic charting in Excel.",
+        "resources": [
+          "Excel for Data Analysis (Microsoft Learn) - Modules 1–3",
+          "Data Analysis with Excel (LinkedIn Learning) - Beginner Course"
+        ]
+      },
+      {
+        "topic": "Introduction to SQL",
+        "description": "Learn SELECT statements, JOINs, GROUP BY, and filtering with WHERE for database querying.",
+        "resources": [
+          "SQL for Data Analysis (Udacity) - Lesson 1–2",
+          "Khan Academy: SQL Course"
+        ]
+      },
+      {
+        "topic": "Basic Statistics for Analysis",
+        "description": "Understand descriptive statistics, measures of central tendency, and data distributions.",
+        "resources": [
+          "Statistics with Python Specialization (Coursera) - Course 1",
+          "Practical Statistics (edX by MIT) - Week 1"
+        ]
+      }
+    ]
+  },
+  {
+    "result_id": 2,
+    "condition": "20 < score ≤ 40",
+    "summary": "The candidate demonstrates moderate grasp of data analysis basics and can identify key concepts like SQL joins, Python pandas, and basic visualizations. However, advanced querying, statistical inference, and dashboarding remain inconsistent.",
+    "strengths": [
+      "Correct identification of data manipulation techniques and simple queries",
+      "Basic understanding of tools like Python for data wrangling",
+      "Familiarity with visualization principles"
+    ],
+    "areas_of_improvement": [
+      "Deeper insight into advanced SQL (window functions, subqueries)",
+      "Practical implementation of data pipelines and exploratory data analysis",
+      "Structured approach to statistical testing and reporting"
+    ],
+    "recommendations": [
+      {
+        "topic": "Advanced SQL and Data Querying",
+        "description": "Explore window functions, CTEs, indexing, and performance optimization for complex datasets.",
+        "resources": [
+          "Advanced SQL for Data Scientists (DataCamp) - Full Course",
+          "SQL Cookbook (O'Reilly) - Chapters 4–6"
+        ]
+      },
+      {
+        "topic": "Python for Data Analysis",
+        "description": "Master pandas for data cleaning, merging, and analysis; introduce NumPy for numerical computing.",
+        "resources": [
+          "Python for Data Analysis (Wes McKinney) - Chapters 5–8",
+          "Pandas Foundations (DataCamp) - Intermediate Track"
+        ]
+      },
+      {
+        "topic": "Data Visualization and EDA",
+        "description": "Learn Matplotlib/Seaborn for plots, exploratory analysis workflows, and storytelling with data.",
+        "resources": [
+          "Data Visualization with Python (Coursera) - Specialization Course 2",
+          "Storytelling with Data (Knaflic) - Chapters 1–4"
+        ]
+      }
+    ]
+  },
+  {
+    "result_id": 3,
+    "condition": "40 < score ≤ 50",
+    "summary": "The candidate exhibits strong command of data analysis principles, accurately explaining SQL optimization, Python/R scripting, and advanced visualizations. Knowledge of machine learning integration and big data tools is well-articulated.",
+    "strengths": [
+      "Clear conceptual understanding of end-to-end analysis pipelines",
+      "Accurate description of statistical methods and BI tools",
+      "Awareness of production considerations like data governance and automation"
+    ],
+    "areas_of_improvement": [
+      "Advanced integration of ML for predictive analytics and scalable data processing"
+    ],
+    "recommendations": [
+      {
+        "topic": "Statistical Modeling and Inference",
+        "description": "Dive into hypothesis testing, regression analysis, A/B testing, and causal inference techniques.",
+        "resources": [
+          "Practical Statistics for Data Scientists (Bruce & Bruce) - Chapters 5–7",
+          "Statistical Inference (Coursera by Johns Hopkins) - Course 2"
+        ]
+      },
+      {
+        "topic": "BI Tools and Dashboarding",
+        "description": "Master Tableau/Power BI for interactive dashboards, DAX/M for calculations, and data storytelling.",
+        "resources": [
+          "Tableau Desktop Specialist Certification Prep (Tableau Learning)",
+          "The Big Book of Dashboards (Yau et al.) - Case Studies"
+        ]
+      },
+      {
+        "topic": "Big Data and ML Integration",
+        "description": "Explore Spark for distributed processing, scikit-learn for modeling, and ETL pipelines with Airflow.",
+        "resources": [
+          "Learning Spark (O'Reilly) - Chapters 3–5",
+          "Introduction to Machine Learning with Python (Mueller & Guido) - Chapters 2–4"
+        ]
+      }
+    ]
+  }
+]

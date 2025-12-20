@@ -1,0 +1,1512 @@
+{
+  "novice": [
+    {
+      "id": 1,
+      "question": "What does ML stand for in the context of technology?",
+      "options": ["Machine Learning", "Mobile Learning", "Manual Logging", "Multi-Language"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is the primary goal of machine learning?",
+      "options": ["To store data efficiently", "To make computers learn from data without explicit programming", "To design hardware", "To create databases"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is an example of supervised learning?",
+      "options": ["K-Means Clustering", "Linear Regression", "Autoencoders", "GANs"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "question": "What is a dataset in machine learning?",
+      "options": ["A type of algorithm", "A collection of data examples", "A programming language", "A visualization tool"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "What does 'training' mean in ML?",
+      "options": ["Testing the model", "Teaching the model using data", "Deploying the model", "Evaluating the model"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "question": "Which is a common use case for machine learning?",
+      "options": ["Manual data entry", "Image recognition", "Paper filing", "Static reporting"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "question": "What is 'overfitting' in machine learning?",
+      "options": ["Model performs poorly on training data", "Model performs well on training but poorly on new data", "Model underperforms everywhere", "Model is too simple"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "question": "Which of these is NOT a type of machine learning?",
+      "options": ["Supervised", "Unsupervised", "Semi-supervised", "Manual"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 9,
+      "question": "What is a 'feature' in ML?",
+      "options": ["A prediction output", "An input variable", "A model architecture", "A loss function"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "What does 'label' refer to in supervised learning?",
+      "options": ["Input data", "Output or target value", "Model parameter", "Hyperparameter"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "question": "Which algorithm is used for classification?",
+      "options": ["Linear Regression", "Logistic Regression", "K-Means", "PCA"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is 'regression' in ML?",
+      "options": ["Predicting categories", "Predicting continuous values", "Grouping data", "Dimensionality reduction"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "question": "What is the purpose of a 'loss function'?",
+      "options": ["To train the model", "To measure how well the model performs", "To split data", "To visualize results"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 14,
+      "question": "Which is an example of unsupervised learning?",
+      "options": ["Decision Trees", "K-Means Clustering", "Support Vector Machines", "Neural Networks"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "What does 'epoch' mean in training?",
+      "options": ["One full pass through the dataset", "One iteration of gradient descent", "One layer in a neural network", "One feature"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is 'bias' in ML models?",
+      "options": ["Systematic error due to assumptions", "Variance in predictions", "Random noise", "Overfitting"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "Which library is popular for ML in Python?",
+      "options": ["NumPy", "Scikit-learn", "Pandas", "Matplotlib"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "question": "What is 'validation set' used for?",
+      "options": ["Training the model", "Tuning hyperparameters", "Final evaluation", "Data cleaning"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "question": "What does 'accuracy' measure?",
+      "options": ["Correct predictions out of total", "Only true positives", "Balance of precision and recall", "Mean squared error"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is a 'neural network'?",
+      "options": ["A type of database", "Interconnected nodes inspired by the brain", "A clustering algorithm", "A visualization tool"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "question": "Which is a hyperparameter?",
+      "options": ["Learning rate", "Weight", "Bias", "Feature"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is 'gradient descent'?",
+      "options": ["Optimization algorithm to minimize loss", "Data splitting method", "Feature selection technique", "Model evaluation metric"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What does 'batch size' refer to?",
+      "options": ["Number of epochs", "Number of samples per update", "Number of layers", "Number of features"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "question": "Which is a common activation function?",
+      "options": ["ReLU", "Sigmoid", "Tanh", "All of the above"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 25,
+      "question": "What is 'cross-validation'?",
+      "options": ["Single train-test split", "Technique to assess model generalization", "Data normalization method", "Feature engineering tool"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "question": "What is 'precision' in classification?",
+      "options": ["True positives / (True positives + False positives)", "True positives / (True positives + False negatives)", "Correct predictions / Total", "All of the above"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is 'recall'?",
+      "options": ["True positives / (True positives + False positives)", "True positives / (True positives + False negatives)", "Correct predictions / Total", "All of the above"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 28,
+      "question": "Which metric is used for imbalanced datasets?",
+      "options": ["Accuracy", "F1-score", "MSE", "MAE"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 29,
+      "question": "What is 'one-hot encoding'?",
+      "options": ["Encoding numerical data", "Encoding categorical data into binary vectors", "Encoding text", "Encoding images"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 30,
+      "question": "What does 'PCA' stand for?",
+      "options": ["Principal Component Analysis", "Partial Class Algorithm", "Primary Clustering Approach", "Predictive Component Adjustment"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is the role of a 'test set'?",
+      "options": ["Train the model", "Tune hyperparameters", "Final unbiased evaluation", "Clean data"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 32,
+      "question": "Which is a decision tree algorithm?",
+      "options": ["Random Forest", "KNN", "SVM", "Naive Bayes"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is 'ensemble learning'?",
+      "options": ["Single model training", "Combining multiple models", "Data preprocessing", "Model deployment"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 34,
+      "question": "What does 'underfitting' mean?",
+      "options": ["Model too complex", "Model too simple, high bias", "Perfect fit", "Overgeneralization"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 35,
+      "question": "What is 'feature scaling'?",
+      "options": ["Removing features", "Normalizing feature values", "Selecting best features", "Encoding features"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 36,
+      "question": "Which is a clustering algorithm?",
+      "options": ["Logistic Regression", "K-Means", "Decision Tree", "Linear Regression"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 37,
+      "question": "What is 'dropout' in neural networks?",
+      "options": ["Regularization technique", "Activation function", "Optimization method", "Loss function"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What does 'confusion matrix' show?",
+      "options": ["Prediction errors", "True vs predicted labels", "Feature importance", "Model parameters"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 39,
+      "question": "What is 'bagging'?",
+      "options": ["Bootstrap aggregating", "Boosting algorithm", "Feature bagging", "Data bagging"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is the Adam optimizer?",
+      "options": ["A loss function", "Adaptive moment estimation", "A metric", "A dataset"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 41,
+      "question": "What is 'transfer learning'?",
+      "options": ["Learning from scratch", "Using pre-trained models", "Data transfer", "Model export"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 42,
+      "question": "Which is a support vector machine use?",
+      "options": ["Clustering", "Classification and regression", "Dimensionality reduction", "Anomaly detection"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 43,
+      "question": "What is 'ROC curve'?",
+      "options": ["Receiver Operating Characteristic", "Rate of Change", "Region of Convergence", "Return on Cost"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What does AUC stand for?",
+      "options": ["Area Under Curve", "Average User Count", "Absolute Uncertainty Coefficient", "All Under Control"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is 'k-fold cross-validation'?",
+      "options": ["k splits for validation", "One split", "Random splitting", "Time-based split"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "Which is a naive Bayes assumption?",
+      "options": ["Features are independent", "Features are dependent", "Data is labeled", "Model is linear"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is 'imbalanced data'?",
+      "options": ["Equal class distribution", "Unequal class distribution", "Noisy data", "Missing data"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 48,
+      "question": "What is 'SMOTE' used for?",
+      "options": ["Scaling data", "Synthetic minority oversampling", "Sorting data", "Selecting models"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 49,
+      "question": "What is a 'GAN'?",
+      "options": ["Generative Adversarial Network", "General Algorithm Network", "Graph Attention Network", "Grouped Activation Node"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is 'reinforcement learning'?",
+      "options": ["Learning from labeled data", "Learning from rewards and punishments", "Unsupervised clustering", "Supervised regression"],
+      "correctAnswer": 1
+    }
+  ],
+  "easy": [
+    {
+      "id": 1,
+      "question": "What is the difference between classification and regression?",
+      "options": ["Classification predicts continuous values", "Regression predicts categories", "Classification predicts categories, regression continuous", "No difference"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "question": "What is 'feature engineering'?",
+      "options": ["Writing code", "Creating or transforming features", "Training models", "Evaluating performance"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "Which metric is for regression tasks?",
+      "options": ["Accuracy", "F1-score", "Mean Squared Error", "Precision"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "question": "What is 'normalization'?",
+      "options": ["Scaling features to 0-1 range", "Removing outliers", "Encoding labels", "Splitting data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is 'standardization'?",
+      "options": ["Scaling to mean 0, std 1", "Min-max scaling", "Log transformation", "One-hot encoding"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is 'random forest'?",
+      "options": ["Single decision tree", "Ensemble of decision trees", "Linear model", "Neural network"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "question": "What is 'boosting'?",
+      "options": ["Sequential ensemble", "Parallel ensemble", "Single model", "Clustering method"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "Which is a boosting algorithm?",
+      "options": ["XGBoost", "K-Means", "PCA", "KNN"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is 'KNN'?",
+      "options": ["K-Nearest Neighbors", "Kernel Neural Network", "Knowledge Navigation Node", "K-Means Nearest"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is 'dimensionality curse'?",
+      "options": ["Too few features", "Too many features leading to sparsity", "Overfitting", "Underfitting"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "question": "What is 'outlier detection'?",
+      "options": ["Finding normal data", "Identifying anomalous points", "Clustering data", "Classifying labels"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is 'logistic regression' used for?",
+      "options": ["Regression", "Binary classification", "Multi-class classification", "Clustering"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "question": "What is 'sigmoid function'?",
+      "options": ["Linear activation", "S-shaped for probabilities", "Step function", "ReLU variant"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 14,
+      "question": "What is 'softmax' used for?",
+      "options": ["Binary classification", "Multi-class probabilities", "Regression", "Clustering"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is 'backpropagation'?",
+      "options": ["Forward pass", "Computing gradients for training", "Data loading", "Model saving"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 16,
+      "question": "What is a 'convolutional neural network' (CNN)?",
+      "options": ["For text", "For images", "For time series", "For graphs"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "question": "What is 'pooling' in CNNs?",
+      "options": ["Increasing dimensions", "Downsampling features", "Adding layers", "Training method"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "question": "What is 'RNN'?",
+      "options": ["Recurrent Neural Network for sequences", "Random Neural Network", "Regression Neural Network", "Relational Neural Network"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is 'LSTM'?",
+      "options": ["Long Short-Term Memory", "Linear Sequential Transition Model", "Layered Short-Term Memory", "Long Sequence Training Module"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is 'NLP'?",
+      "options": ["Natural Language Processing", "Neural Learning Protocol", "Network Layer Processing", "Non-Linear Programming"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is 'tokenization'?",
+      "options": ["Splitting text into words/tokens", "Encoding numbers", "Scaling features", "Clustering sentences"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is 'word embedding'?",
+      "options": ["Word2Vec or GloVe vectors", "One-hot for words", "Binary encoding", "Sequential numbering"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is 'BERT'?",
+      "options": ["Bidirectional Encoder Representations from Transformers", "Basic Encoder Recurrent Transformer", "Binary Embedding Representation Technique", "Bidirectional Error Reduction Transformer"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is 'computer vision'?",
+      "options": ["Text analysis", "Image and video understanding", "Audio processing", "Graph analysis"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "question": "What is 'object detection'?",
+      "options": ["Classifying images", "Locating and classifying objects", "Segmenting pixels", "Generating images"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "question": "What is 'YOLO'?",
+      "options": ["You Only Look Once for detection", "Yet Another Learning Optimizer", "Yield Optimized Layer Output", "Young Object Localization Optimizer"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is 'recommendation system'?",
+      "options": ["Collaborative or content-based filtering", "Clustering users", "Classifying items", "Regressing ratings"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is 'time series forecasting'?",
+      "options": ["Static prediction", "Predicting future values from past sequences", "Clustering times", "Classifying dates"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 29,
+      "question": "What is 'ARIMA'?",
+      "options": ["AutoRegressive Integrated Moving Average", "Adaptive Regression Iterative Model Average", "Auto-Regressive Image Moving Algorithm", "All-Round Integrated Model Analysis"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is 'anomaly detection'?",
+      "options": ["Finding normal patterns", "Identifying unusual data points", "Clustering anomalies", "Predicting normals"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 31,
+      "question": "What is 'A/B testing' in ML?",
+      "options": ["Model comparison", "Data splitting", "Experiment to compare variants", "Feature selection"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 32,
+      "question": "What is 'hyperparameter tuning'?",
+      "options": ["Tuning model weights", "Optimizing hyperparameters like learning rate", "Selecting features", "Evaluating metrics"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 33,
+      "question": "What is 'Grid Search'?",
+      "options": ["Exhaustive hyperparameter search", "Random search", "Bayesian optimization", "Manual tuning"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is 'Random Search'?",
+      "options": ["Grid-like search", "Sampling hyperparameters randomly", "Sequential search", "Automated search"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 35,
+      "question": "What is 'Bayesian Optimization'?",
+      "options": ["Probabilistic hyperparameter tuning", "Grid search variant", "Random sampling", "Manual adjustment"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is 'model deployment'?",
+      "options": ["Training phase", "Putting model into production", "Data collection", "Evaluation"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 37,
+      "question": "What is 'MLOps'?",
+      "options": ["Machine Learning Operations", "Model Learning Optimization", "Multi-Layer Operations", "Managed Learning Output"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is 'Docker' used for in ML?",
+      "options": ["Data storage", "Containerization for deployment", "Model training", "Feature engineering"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 39,
+      "question": "What is 'Kubernetes'?",
+      "options": ["Orchestration tool", "Database", "Visualization library", "ML framework"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is 'bias-variance tradeoff'?",
+      "options": ["Balancing underfitting and overfitting", "Increasing accuracy", "Reducing data", "Selecting models"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is 'regularization'?",
+      "options": ["L1 or L2 to prevent overfitting", "Data augmentation", "Feature selection", "Cross-validation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is 'data augmentation'?",
+      "options": ["Reducing dataset", "Increasing dataset variety", "Cleaning data", "Encoding data"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 43,
+      "question": "What is 'transfer learning' benefit?",
+      "options": ["From scratch training", "Faster training with pre-trained weights", "More data needed", "Complex setup"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 44,
+      "question": "What is 'fine-tuning'?",
+      "options": ["Initial training", "Adjusting pre-trained model", "Data splitting", "Model evaluation"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 45,
+      "question": "What is 'ensemble method' advantage?",
+      "options": ["Slower training", "Improved performance by combining models", "Simpler models", "Less data"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 46,
+      "question": "What is 'feature importance'?",
+      "options": ["Ranking features by contribution", "Scaling features", "Encoding features", "Removing features"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is 'SHAP' used for?",
+      "options": ["Model explanation", "Data visualization", "Hyperparameter tuning", "Data cleaning"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is 'LIME'?",
+      "options": ["Local Interpretable Model-agnostic Explanations", "Linear Interpretable Method Explanation", "Layered Image Model Engine", "Local Image Manipulation Editor"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is 'fairness' in ML?",
+      "options": ["High accuracy", "Avoiding bias in predictions", "Fast training", "Low cost"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 50,
+      "question": "What is 'drift' in ML models?",
+      "options": ["Data or concept changes over time", "Model overfitting", "Feature scaling", "Hyperparameter change"],
+      "correctAnswer": 0
+    }
+  ],
+  "intermediate": [
+    {
+      "id": 1,
+      "question": "Explain the vanishing gradient problem.",
+      "options": ["Gradients become too large", "Gradients approach zero in deep networks", "Gradients explode", "No issue in training"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is Batch Normalization?",
+      "options": ["Normalizing batches during training", "Standardizing entire dataset", "Feature scaling", "Data cleaning"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of Xavier initialization?",
+      "options": ["To prevent vanishing gradients", "To speed up convergence", "To reduce overfitting", "To increase accuracy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is a 'GAN' composed of?",
+      "options": ["Generator and Discriminator", "Encoder and Decoder", "Classifier and Regressor", "Actor and Critic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is 'mode collapse' in GANs?",
+      "options": ["Generator produces diverse outputs", "Generator produces limited variety", "Discriminator fails", "Training converges fast"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "question": "What is 'autoencoder' used for?",
+      "options": ["Classification", "Dimensionality reduction and feature learning", "Regression", "Clustering"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "question": "What is 'variational autoencoder' (VAE)?",
+      "options": ["Probabilistic autoencoder", "Deterministic encoder", "Supervised autoencoder", "Unsupervised regressor"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is 'attention mechanism'?",
+      "options": ["Focusing on relevant parts of input", "Global averaging", "Local convolution", "Full connection"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is 'Transformer' architecture?",
+      "options": ["RNN-based", "Self-attention based for sequences", "CNN for text", "MLP for NLP"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "What is 'multi-head attention'?",
+      "options": ["Single attention layer", "Multiple parallel attention mechanisms", "Hierarchical attention", "Sequential attention"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "question": "What is 'QKV' in transformers?",
+      "options": ["Query, Key, Value", "Queue, Kernel, Vector", "Quality, Knowledge, Vector", "Quick, Key, Value"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is 'positional encoding'?",
+      "options": ["Encoding positions in sequences", "Encoding features", "Encoding labels", "Encoding batches"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is 'GPT' model?",
+      "options": ["Generative Pre-trained Transformer", "General Purpose Transformer", "Graph Processing Tool", "Guided Pre-trained Technique"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is 'fine-tuning' in NLP?",
+      "options": ["Training from scratch", "Adapting pre-trained model to task", "Data augmentation", "Model compression"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is 'named entity recognition' (NER)?",
+      "options": ["Text classification", "Identifying entities like persons/places", "Sentiment analysis", "Translation"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 16,
+      "question": "What is 'BLEU score'?",
+      "options": ["For regression", "For machine translation evaluation", "For classification", "For clustering"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "question": "What is 'ROUGE' used for?",
+      "options": ["Summarization evaluation", "Image segmentation", "Object detection", "Time series"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is 'semantic segmentation'?",
+      "options": ["Pixel-level classification", "Object bounding boxes", "Image classification", "Keypoint detection"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is 'U-Net' architecture?",
+      "options": ["For classification", "For segmentation", "For detection", "For generation"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "question": "What is 'ResNet'?",
+      "options": ["Residual Network with skip connections", "Recursive Network", "Reduced Network", "Regularized Network"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is 'gradient clipping'?",
+      "options": ["Preventing exploding gradients", "Preventing vanishing gradients", "Clipping data", "Clipping features"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is 'early stopping'?",
+      "options": ["Stopping training early to prevent overfitting", "Stopping at max epochs", "Starting late", "Stopping randomly"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is 'learning rate scheduling'?",
+      "options": ["Fixed learning rate", "Adjusting LR during training", "Random LR", "No LR"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "question": "What is 'RMSprop' optimizer?",
+      "options": ["Adaptive learning rate method", "Fixed rate", "Momentum-based", "Nesterov accelerated"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is 'SGD with momentum'?",
+      "options": ["Accelerates gradients", "Slows down training", "No acceleration", "Batch only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is 'Q-learning'?",
+      "options": ["Model-based RL", "Off-policy value-based RL", "On-policy actor-critic", "Policy gradient"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "question": "What is 'policy gradient'?",
+      "options": ["Value-based", "Directly optimizing policy", "Model-based", "Q-value based"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 28,
+      "question": "What is 'PPO' in RL?",
+      "options": ["Proximal Policy Optimization", "Policy Prediction Output", "Preferred Policy Option", "Probabilistic Policy Optimizer"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is 'multi-armed bandit'?",
+      "options": ["RL problem for exploration-exploitation", "Clustering", "Classification", "Regression"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is 'epsilon-greedy'?",
+      "options": ["Exploration strategy", "Exploitation only", "Random policy", "Deterministic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is 'Bayesian optimization' best for?",
+      "options": ["Large datasets", "Hyperparameter tuning with few evaluations", "Real-time prediction", "Big data processing"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 32,
+      "question": "What is 'Gaussian Process'?",
+      "options": ["Probabilistic model for regression", "Clustering method", "Classification tree", "Neural network"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is 'SMAC' for tuning?",
+      "options": ["Sequential Model-based Algorithm Configuration", "Simple Model Adjustment Configuration", "Statistical Model Auto Configuration", "Sequential Multi-Armed Configuration"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is 'feature selection' method?",
+      "options": ["Recursive Feature Elimination", "All features", "Random selection", "No selection"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is 'mutual information'?",
+      "options": ["Dependency measure between variables", "Distance metric", "Similarity score", "Error rate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is 'chi-squared test' for?",
+      "options": ["Categorical feature selection", "Numerical regression", "Image processing", "Time series"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is 'wrapper method'?",
+      "options": ["Filter-based", "Uses ML model to select features", "Embedded", "No method"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 38,
+      "question": "What is 'embedded feature selection'?",
+      "options": ["During model training like Lasso", "Before training", "After training", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is 'handling missing data' technique?",
+      "options": ["Imputation with mean/median", "Deletion", "Prediction", "All of the above"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 40,
+      "question": "What is 'KDE'?",
+      "options": ["Kernel Density Estimation", "K-Nearest Density Estimator", "Kernel Data Encoder", "Knowledge Density Engine"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is 'isolation forest' for?",
+      "options": ["Anomaly detection", "Clustering", "Classification", "Regression"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is 'LOF' algorithm?",
+      "options": ["Local Outlier Factor", "Linear Outlier Finder", "Local Optimization Function", "Layered Outlier Filter"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is 'one-class SVM'?",
+      "options": ["Multi-class", "For anomaly detection", "For regression", "For clustering"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 44,
+      "question": "What is 'survival analysis'?",
+      "options": ["Time-to-event prediction", "Classification", "Clustering", "Dimensionality reduction"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is 'Cox proportional hazards model'?",
+      "options": ["For survival", "For regression", "For classification", "For clustering"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is 'Kaplan-Meier estimator'?",
+      "options": ["Non-parametric survival curve", "Parametric model", "Clustering method", "Feature selector"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is 'graph neural network' (GNN)?",
+      "options": ["For tabular data", "For graph-structured data", "For images", "For text"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 48,
+      "question": "What is 'message passing' in GNNs?",
+      "options": ["Node communication", "Data transfer", "Feature extraction", "Label propagation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is 'federated learning'?",
+      "options": ["Centralized training", "Distributed training without sharing data", "Cloud-based", "Local only"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 50,
+      "question": "What is 'differential privacy'?",
+      "options": ["Adding noise for privacy", "Removing data", "Encrypting models", "Anonymizing features"],
+      "correctAnswer": 0
+    }
+  ],
+  "master": [
+    {
+      "id": 1,
+      "question": "Derive the update rule for gradient descent in linear regression.",
+      "options": ["w = w - alpha * (1/m) * X^T * (Xw - y)", "w = w + alpha * (1/m) * X^T * (Xw - y)", "w = w - alpha * X^T * (Xw - y)", "w = w + alpha * X^T * (Xw - y)"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is the closed-form solution for linear regression?",
+      "options": ["w = (X^T X)^-1 X^T y", "w = X^T (X X^T)^-1 y", "w = X (X^T X)^-1 y^T", "w = (X X^T)^-1 X y"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "Prove that Ridge regression minimizes MSE + lambda * ||w||^2.",
+      "options": ["L2 regularization", "L1 regularization", "Elastic net", "No proof needed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is the dual form of SVM?",
+      "options": ["Maximizing sum alpha_i - 1/2 sum alpha_i alpha_j y_i y_j K(x_i, x_j)", "Minimizing ||w||^2", "Primal form only", "Lagrangian dual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "Explain kernel trick in SVM.",
+      "options": ["Implicit high-dimensional mapping", "Explicit feature expansion", "Dimensionality reduction", "No trick"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is the margin in hard-margin SVM?",
+      "options": ["2 / ||w||", "1 / ||w||", "||w|| / 2", "||w||"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "Derive the softmax cross-entropy loss.",
+      "options": ["- sum y_i log(p_i)", "sum (y_i - p_i)^2", "||y - p||_1", "max(y, p)"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is the Jacobian in backpropagation?",
+      "options": ["Derivative matrix", "Hessian", "Gradient vector", "Loss scalar"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "Explain ReLU activation derivative.",
+      "options": ["max(0, x)' = 1 if x > 0 else 0", "sigmoid derivative", "tanh derivative", "linear"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is the chain rule in deep learning?",
+      "options": ["dL/dw = dL/da * da/dz * dz/dw", "Direct derivative", "Partial sums", "No rule"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "Derive the update for Adam optimizer.",
+      "options": ["m = beta1 m + (1-beta1) g; v = beta2 v + (1-beta2) g^2; w -= lr m / sqrt(v)", "w -= lr g", "w += lr g", "Fixed update"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is the Hessian matrix?",
+      "options": ["Second derivatives", "First derivatives", "Loss function", "Gradient"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "Explain Newton's method for optimization.",
+      "options": ["w -= H^-1 g", "w -= lr g", "w += g", "Stochastic update"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is conjugate gradient method?",
+      "options": ["For quadratic optimization", "For non-convex", "Random direction", "Fixed step"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is the ELBO in VAEs?",
+      "options": ["Evidence Lower Bound", "Expected Loss Bound", "Encoder Latent Bound", "Energy Lower Bound"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "Derive the KL divergence in VAE.",
+      "options": ["KL(q||p) = integral q log(q/p)", "MSE between distributions", "Cross-entropy", "JS divergence"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is reparameterization trick?",
+      "options": ["z = mu + sigma * epsilon", "z = mu / sigma", "z = sigma * mu", "z = epsilon"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "Explain the minimax game in GANs.",
+      "options": ["min_G max_D V(D,G)", "max_G min_D V(D,G)", "min_D min_G", "max both"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is Wasserstein GAN?",
+      "options": ["Uses Earth Mover's distance", "JS divergence", "Cross-entropy", "MSE"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "Derive the attention score.",
+      "options": ["softmax(Q K^T / sqrt(d_k))", "Q + K", "Q * V", "sigmoid(Q K)"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is the complexity of self-attention?",
+      "options": ["O(n^2 d)", "O(n d)", "O(n)", "O(d)"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "Explain layer normalization.",
+      "options": ["Normalize across features per sample", "Across batch", "Across sequence", "No norm"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is BERT pre-training objective?",
+      "options": ["MLM and NSP", "Causal LM", "Seq2Seq", "Classification"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is masked LM?",
+      "options": ["Predict masked tokens", "Next sentence", "Full sequence", "No mask"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "Derive the policy gradient theorem.",
+      "options": ["nabla J = E[ nabla log pi * A ]", "nabla J = E[ Q ]", "nabla J = -log pi", "Fixed policy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is actor-critic method?",
+      "options": ["Policy and value function", "Only policy", "Only value", "Q only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "Explain SARSA vs Q-learning.",
+      "options": ["On-policy vs off-policy", "Both on-policy", "Both off", "No difference"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is Monte Carlo rollouts?",
+      "options": ["Sampling trajectories", "Exact computation", "Dynamic programming", "No sampling"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is TD learning?",
+      "options": ["Temporal Difference", "Time Delay", "Target Distribution", "Total Derivative"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "Derive Bellman equation.",
+      "options": ["V(s) = max_a [ R + gamma V(s') ]", "V(s) = R", "V(s) = gamma V(s)", "V(s) = sum R"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is the Laplace approximation?",
+      "options": ["Gaussian around MAP", "Exact posterior", "MCMC", "Variational"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "Explain MCMC sampling.",
+      "options": ["Markov Chain Monte Carlo", "Direct sampling", "Grid search", "No sampling"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is Hamiltonian Monte Carlo?",
+      "options": ["Physics-inspired MCMC", "Random walk", "Gibbs sampling", "Rejection"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "Derive the evidence in Bayesian inference.",
+      "options": ["p(y) = integral p(y|w) p(w) dw", "p(y|w)", "p(w|y)", "p(w)"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is MAP estimate?",
+      "options": ["argmax_w p(w|y)", "argmax_w p(y|w)", "E[w|y]", "MLE"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "Explain PAC learning.",
+      "options": ["Probably Approximately Correct", "Perfect Accurate Classification", "Probabilistic Approximate Clustering", "No framework"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is VC dimension?",
+      "options": ["Capacity measure of hypothesis class", "Error rate", "Sample size", "No dimension"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "Derive Hoeffding's inequality.",
+      "options": ["Bound on deviation probability", "Exact error", "No bound", "Linear bound"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is Rademacher complexity?",
+      "options": ["Generalization bound", "Training error", "Test error", "No complexity"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "Explain no free lunch theorem.",
+      "options": ["No universal best algorithm", "Best algorithm exists", "All equal", "Free lunch"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is boosting theoretical guarantee?",
+      "options": ["Exponential error reduction", "Linear", "No guarantee", "Quadratic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "Derive AdaBoost update.",
+      "options": ["alpha = 1/2 log((1-e)/e)", "alpha = log(e)", "alpha = e", "fixed alpha"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is margin-based generalization?",
+      "options": ["Larger margin better bound", "Smaller margin", "No margin", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "Explain double descent.",
+      "options": ["Overparameterized models improve", "Underparameterized only", "No descent", "Single peak"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is implicit bias in GD?",
+      "options": ["Converges to min-norm solution", "Max norm", "Random", "No bias"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "Derive NTK for wide networks.",
+      "options": ["Neural Tangent Kernel", "Fixed kernel", "No kernel", "Linear kernel"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is lottery ticket hypothesis?",
+      "options": ["Sparse subnetworks perform well", "Dense only", "No hypothesis", "Random tickets"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "Explain grokking.",
+      "options": ["Sudden generalization after overfitting", "Immediate fit", "No grokking", "Early stop"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is sharpness in loss landscape?",
+      "options": ["Curvature of loss", "Flatness", "No landscape", "Linear"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "Derive PAC-Bayes bound.",
+      "options": ["KL-based generalization", "VC-based", "No bound", "Exact"],
+      "correctAnswer": 0
+    }
+  ],
+  "expert": [
+    {
+      "id": 1,
+      "question": "Derive the Fisher information matrix.",
+      "options": ["E[ nabla log p nabla log p^T ]", "Hessian of log p", "Variance of score", "All equivalent"],
+      "correctAnswer": 3
+    },
+    {
+      "id": 2,
+      "question": "What is natural gradient descent?",
+      "options": ["theta -= F^-1 nabla L", "theta -= nabla L", "theta += nabla L", "Fisher ignored"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "Explain KFAC approximation.",
+      "options": ["Block-diagonal Fisher", "Full Fisher", "No approx", "Hessian"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is the score function in SGMCMC?",
+      "options": ["nabla log p", "nabla L", "Hessian", "No score"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "Derive Langevin dynamics.",
+      "options": ["d theta = nabla log p dt + sqrt(2) dW", "Deterministic", "No dynamics", "Fixed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is SGHMC?",
+      "options": ["Stochastic Gradient Hamiltonian MC", "Simple GHMC", "No H", "Langevin only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "Explain SVGD.",
+      "options": ["Stein Variational Gradient Descent", "Stochastic VG", "No descent", "Variational only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is the kernel in SVGD?",
+      "options": ["RBF for repulsion", "Linear", "No kernel", "Polynomial"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "Derive the ELU activation.",
+      "options": ["x if x>0 else alpha (exp(x)-1)", "max(0,x)", "sigmoid", "ReLU"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is Swish activation?",
+      "options": ["x * sigmoid(beta x)", "ReLU variant", "Leaky ReLU", "No swish"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "Explain GELU.",
+      "options": ["Gaussian Error Linear Unit", "Generalized ELU", "No GELU", "Linear"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is the spectral norm in networks?",
+      "options": ["Largest singular value", "Trace", "Determinant", "Rank"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "Derive orthogonal initialization.",
+      "options": ["W W^T = I", "W^T W = I", "No ortho", "Random"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 14,
+      "question": "What is layer-wise adaptive rate?",
+      "options": ["LARS", "Fixed rate", "No adapt", "Global"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "Explain Lookahead optimizer.",
+      "options": ["Fast weights with slow weights", "Single weight", "No look", "Backward"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is Ranger optimizer?",
+      "options": ["RAdam + Lookahead", "Adam only", "RMSprop", "SGD"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "Derive the Fourier transform in CNNs.",
+      "options": ["Frequency domain convolution", "Spatial only", "No FT", "Time domain"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is FNet?",
+      "options": ["FFT-based transformer", "Full Net", "No F", "Feedforward"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "Explain Performer.",
+      "options": ["Linear attention with FAVOR+", "Quadratic", "No linear", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is Linformer?",
+      "options": ["Low-rank approximation", "Full rank", "No approx", "Sparse"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "Derive the Reformer mechanism.",
+      "options": ["LSH attention + reversible layers", "Standard attention", "No LSH", "Hash only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is BigBird?",
+      "options": ["Sparse + random + global attention", "Dense", "No sparse", "Small"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "Explain Longformer.",
+      "options": ["Sliding window + dilation", "Global only", "No window", "Short"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is T5 model?",
+      "options": ["Text-to-Text Transfer Transformer", "Task-specific", "No transfer", "Encoder only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "Derive the BART objective.",
+      "options": ["Denoising autoencoder", "Causal LM", "MLM only", "Seq2Seq"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is DeBERTa?",
+      "options": ["Disentangled attention", "Standard BERT", "No disentangle", "Decoder"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "Explain ELECTRA.",
+      "options": ["Replaced token detection", "MLM", "No replaced", "Generator only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is ALBERT?",
+      "options": ["Lite BERT with parameter sharing", "Large BERT", "No sharing", "Full params"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "Derive the DQN loss.",
+      "options": ["MSE between Q and target Q", "Cross-entropy", "Policy gradient", "No loss"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is Rainbow DQN?",
+      "options": ["Multi-improvement DQN", "Single", "No rainbow", "Basic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "Explain MuZero.",
+      "options": ["Model-based RL without env", "Model-free", "No model", "Zero-shot"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is Dreamer?",
+      "options": ["World model RL", "Dream only", "No world", "Actor only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "Derive the SAC objective.",
+      "options": ["Max entropy RL", "No entropy", "Min entropy", "Fixed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is TD3?",
+      "options": ["Twin Delayed DDPG", "Single", "No twin", "Basic DDPG"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "Explain IMPALA.",
+      "options": ["Importance Weighted Actor-Learner", "Single agent", "No weight", "Learner only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is APE-X?",
+      "options": ["Asynchronous Prioritized Experience", "Sync", "No async", "Basic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "Derive the V-trace.",
+      "options": ["Off-policy correction", "On-policy only", "No trace", "Value only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is R2D2?",
+      "options": ["Recurrent Replay Distributed DQN", "Non-recurrent", "No replay", "Single"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "Explain Agent57.",
+      "options": ["Beats human on Atari", "Loses", "No agent", "Basic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is Go-Explore?",
+      "options": ["Exploration-focused RL", "Exploitation only", "No explore", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "Derive the Stein operator.",
+      "options": ["For kernelized Stein discrepancy", "No operator", "Gradient only", "Hessian"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is KSD?",
+      "options": ["Kernelized Stein Discrepancy", "Kernel Simple D", "No KSD", "L2 only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "Explain sliced Wasserstein.",
+      "options": ["1D projections average", "Full Wasserstein", "No slice", "Euclidean"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is maximum mean discrepancy?",
+      "options": ["Kernel two-sample test", "Mean only", "No kernel", "Variance"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "Derive the sliced inverse regression.",
+      "options": ["For dimension reduction", "No reduction", "Clustering", "Classification"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is sufficient dimension reduction?",
+      "options": ["Preserve conditional distribution", "Full dim", "No preserve", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "Explain sliced WGAN.",
+      "options": ["Efficient Wasserstein approx", "Exact", "No approx", "L2"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is the Benamou-Brenier formulation?",
+      "options": ["Dynamic Wasserstein", "Static", "No dynamic", "Euclidean"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "Derive the Sinkhorn algorithm.",
+      "options": ["For entropic regularized OT", "Exact OT", "No reg", "Linear"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is Gromov-Wasserstein?",
+      "options": ["For incomparable spaces", "Same space", "No GW", "Basic OT"],
+      "correctAnswer": 0
+    }
+  ]
+}

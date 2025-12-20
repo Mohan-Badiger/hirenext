@@ -1,0 +1,1512 @@
+{
+  "novice": [
+    {
+      "id": 1,
+      "question": "What is product design?",
+      "options": ["Coding software", "Creating user-centered products", "Managing teams", "Marketing products"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What does UX stand for?",
+      "options": ["User eXperience", "Ultimate eXecution", "User eXchange", "Unified eXtension"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is UI?",
+      "options": ["User Interface", "User Integration", "Ultimate Integration", "Unified Interface"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is design thinking?",
+      "options": ["Linear process", "Human-centered problem-solving approach", "Coding methodology", "Budgeting tool"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "What is the first stage of design thinking?",
+      "options": ["Prototype", "Empathize", "Test", "Define"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "question": "What is empathy in design?",
+      "options": ["Ignoring users", "Understanding user needs", "Building prototypes", "Final testing"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "question": "What is a persona?",
+      "options": ["Real user", "Fictional user representative", "Prototype tool", "Wireframe type"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "question": "What is user research?",
+      "options": ["Ignoring feedback", "Gathering insights from users", "Coding features", "Deploying apps"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "question": "What is a survey in research?",
+      "options": ["Interview method", "Questionnaire for data collection", "Prototype test", "Wireframe sketch"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "What is an interview?",
+      "options": ["Written questions", "One-on-one conversations", "Group discussion", "Observation only"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "question": "What is user journey map?",
+      "options": ["Code flowchart", "Visual story of user experience", "Budget plan", "Team org chart"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is a wireframe?",
+      "options": ["High-fidelity mockup", "Low-fidelity layout sketch", "Final design", "Code structure"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "question": "What is prototyping?",
+      "options": ["Final product", "Early model for testing", "User survey", "Market analysis"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 14,
+      "question": "What is low-fidelity prototype?",
+      "options": ["Detailed visuals", "Basic sketches or wireframes", "Interactive app", "Full code"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is high-fidelity prototype?",
+      "options": ["Rough sketch", "Detailed, interactive mockup", "No visuals", "Text only"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 16,
+      "question": "What is usability testing?",
+      "options": ["Code review", "Observing users with prototype", "Budget check", "Team meeting"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "question": "What is accessibility in design?",
+      "options": ["Ignoring diverse users", "Designing for all abilities", "Speed only", "Cost reduction"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "question": "What is Figma?",
+      "options": ["Coding tool", "Collaborative design tool", "Database", "Email client"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "question": "What is Sketch?",
+      "options": ["Vector design tool", "No Sketch", "Raster tool", "3D modeler"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is Adobe XD?",
+      "options": ["UI/UX prototyping tool", "No XD", "Photo editor", "Video tool"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is color theory?",
+      "options": ["Random colors", "Principles of color use in design", "No theory", "Black/white only"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 22,
+      "question": "What is typography?",
+      "options": ["Image selection", "Art of arranging text", "Layout only", "No text"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "question": "What is grid system?",
+      "options": ["Random layout", "Structure for alignment", "No grid", "Freeform"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "question": "What is responsive design?",
+      "options": ["Fixed size", "Adapts to screen sizes", "Desktop only", "No adapt"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "question": "What is mobile-first design?",
+      "options": ["Desktop first", "Design for mobile then scale up", "No mobile", "Tablet only"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "question": "What is A/B testing in design?",
+      "options": ["Compare two versions", "No A/B", "Single version", "No compare"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is heuristic evaluation?",
+      "options": ["User testing", "Expert review against principles", "No heuristic", "Random review"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 28,
+      "question": "What is Nielsen's heuristics?",
+      "options": ["10 usability principles", "No Nielsen", "5 principles", "No usability"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is user story?",
+      "options": ["Technical spec", "As a user, I want... so that...", "Code snippet", "No story"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 30,
+      "question": "What is MVP?",
+      "options": ["Minimum Viable Product", "No MVP", "Maximum Value", "Most Valuable Product"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is iterative design?",
+      "options": ["One-shot", "Repeat and refine", "No iterative", "Linear"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 32,
+      "question": "What is feedback loop?",
+      "options": ["Ignore input", "Gather and act on feedback", "No loop", "One-way"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 33,
+      "question": "What is inclusive design?",
+      "options": ["Exclude groups", "Design for diversity", "No inclusive", "Standard only"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 34,
+      "question": "What is WCAG?",
+      "options": ["Web Content Accessibility Guidelines", "No WCAG", "Web Clean Access", "World Content"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is alt text?",
+      "options": ["Image description for screen readers", "No alt", "Image title", "No description"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is color contrast?",
+      "options": ["Text vs background difference", "No contrast", "Same color", "No text"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is hierarchy in design?",
+      "options": ["Random placement", "Visual importance order", "No hierarchy", "Flat"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 38,
+      "question": "What is whitespace?",
+      "options": ["Empty space for breathing room", "No white", "Filled space", "No empty"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is alignment?",
+      "options": ["Random positioning", "Consistent line-up of elements", "No align", "Center only"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 40,
+      "question": "What is proximity?",
+      "options": ["Space between related items", "No proximity", "Distant items", "No space"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is Gestalt principles?",
+      "options": ["Perception laws", "No Gestalt", "No laws", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is proximity principle?",
+      "options": ["Close items grouped", "No proximity", "Distant grouped", "No group"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is similarity principle?",
+      "options": ["Similar items grouped", "No similarity", "Different grouped", "No similar"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is closure principle?",
+      "options": ["Complete incomplete shapes", "No closure", "Open shapes", "No complete"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is continuity principle?",
+      "options": ["Smooth continuation", "No continuity", "Broken lines", "No smooth"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is figure-ground?",
+      "options": ["Separate object from background", "No figure", "No separate", "Blended"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is common region?",
+      "options": ["Enclosed areas grouped", "No common", "Open areas", "No enclosed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is design system?",
+      "options": ["Consistent components and guidelines", "No design system", "Random components", "No consistent"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is atomic design?",
+      "options": ["Atoms, molecules, organisms, templates, pages", "No atomic", "Single level", "No hierarchy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is a style guide?",
+      "options": ["Visual and voice standards", "No style", "Code guide", "No standards"],
+      "correctAnswer": 0
+    }
+  ],
+  "easy": [
+    {
+      "id": 1,
+      "question": "What is user-centered design?",
+      "options": ["Tech-focused", "Prioritizes user needs", "Budget-first", "Speed-only"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is affinity diagramming?",
+      "options": ["Group similar ideas", "No affinity", "Random group", "No ideas"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is a mood board?",
+      "options": ["Visual inspiration collection", "No mood", "Text only", "No inspiration"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is competitive analysis?",
+      "options": ["Study competitors", "No competitive", "Ignore others", "No study"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is SWOT analysis?",
+      "options": ["Strengths, Weaknesses, Opportunities, Threats", "No SWOT", "Single factor", "No analysis"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is empathy map?",
+      "options": ["User thoughts/feelings", "No empathy", "No thoughts", "Tech map"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is problem statement?",
+      "options": ["Clear user need", "No problem", "Vague", "Tech spec"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is ideation?",
+      "options": ["Brainstorm ideas", "No ideation", "Single idea", "No brain"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is SCAMPER?",
+      "options": ["Idea generation technique", "No SCAMPER", "No technique", "Random ideas"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is crazy 8s?",
+      "options": ["8 ideas in 8 minutes", "No crazy", "One idea", "No minutes"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is storyboarding?",
+      "options": ["Visual narrative", "No storyboard", "Text story", "No visual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is task flow?",
+      "options": ["User steps to goal", "No task", "Random flow", "No steps"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is information architecture?",
+      "options": ["Organize content", "No IA", "Random org", "No content"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is card sorting?",
+      "options": ["User org of content", "No card", "Designer only", "No org"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is tree testing?",
+      "options": ["Validate IA", "No tree", "No validate", "Full prototype"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is content strategy?",
+      "options": ["Plan for content", "No content", "Random text", "No plan"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is microcopy?",
+      "options": ["Small text like buttons", "No micro", "Long text", "No small"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is macro copy?",
+      "options": ["Headlines, body text", "No macro", "Button text", "No headlines"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is interaction design?",
+      "options": ["How users interact", "No interaction", "Visual only", "No how"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is micro-interaction?",
+      "options": ["Small feedback like animations", "No micro-inter", "Large animation", "No feedback"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is gesture design?",
+      "options": ["Touch interactions", "No gesture", "Click only", "No touch"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is motion design?",
+      "options": ["Animations for delight", "No motion", "Static", "No delight"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is haptics?",
+      "options": ["Vibration feedback", "No haptics", "Sound", "Visual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is skeuomorphism?",
+      "options": ["Real-world mimicry", "No skeu", "Flat design", "No mimic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is flat design?",
+      "options": ["Minimalist, no shadows", "No flat", "Skeuomorphic", "3D"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is neumorphism?",
+      "options": ["Soft shadows, extruded", "No neumorph", "Flat", "Skeuo"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is glassmorphism?",
+      "options": ["Frosted glass effect", "No glass", "Solid", "No effect"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is dark mode?",
+      "options": ["Dark background", "No dark", "Light only", "Auto"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is brand consistency?",
+      "options": ["Uniform across touchpoints", "No brand", "Random", "No uniform"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is brand guidelines?",
+      "options": ["Rules for logo/color", "No guidelines", "No rules", "Free use"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is design token?",
+      "options": ["Reusable style values", "No token", "One-time", "No reuse"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is component library?",
+      "options": ["Reusable UI elements", "No library", "Single use", "No UI"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is pattern library?",
+      "options": ["Collection of patterns", "No pattern", "Single pattern", "No collection"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is usability?",
+      "options": ["Ease of use", "No usability", "Hard to use", "No ease"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is 5-second test?",
+      "options": ["Quick comprehension check", "No 5-sec", "Long test", "No check"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is first-click test?",
+      "options": ["Entry point validation", "No first", "Last click", "No validation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is treejack?",
+      "options": ["IA testing tool", "No treejack", "No IA", "Full prototype"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is optimal sort?",
+      "options": ["Benchmark against ideal", "No optimal", "Random sort", "No benchmark"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is SUS?",
+      "options": ["System Usability Scale", "No SUS", "Single User Score", "No scale"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is NPS?",
+      "options": ["Net Promoter Score", "No NPS", "User satisfaction", "Both 0 and 2"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 41,
+      "question": "What is CSAT?",
+      "options": ["Customer Satisfaction", "No CSAT", "Net score", "Promoter"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is design sprint?",
+      "options": ["5-day process", "No sprint", "1-day", "Month long"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is Monday map?",
+      "options": ["Long-term plan", "No Monday", "Short-term", "No plan"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is sketch day?",
+      "options": ["Individual ideas", "No sketch", "Group sketch", "No ideas"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is decide day?",
+      "options": ["Choose solution", "No decide", "Prototype", "Test"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is prototype day?",
+      "options": ["Build fake door", "No prototype", "Sketch", "Interview"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is test day?",
+      "options": ["User interviews", "No test", "Build", "Decide"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is fake door test?",
+      "options": ["Measure interest", "No fake", "Real build", "No measure"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is wizard of oz?",
+      "options": ["Manual behind automation", "No wizard", "Full auto", "No manual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is dogfooding?",
+      "options": ["Team uses own product", "No dogfood", "External test", "No use"],
+      "correctAnswer": 0
+    }
+  ],
+  "intermediate": [
+    {
+      "id": 1,
+      "question": "What is double diamond?",
+      "options": ["Discover, Define, Develop, Deliver", "No double", "Single diamond", "No process"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is divergent thinking?",
+      "options": ["Many ideas", "No divergent", "Convergent", "Few ideas"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is convergent thinking?",
+      "options": ["Narrow to best", "No convergent", "Expand", "No narrow"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is Jobs to be Done?",
+      "options": ["User goals framework", "No JTBD", "No goals", "Tech jobs"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is value proposition canvas?",
+      "options": ["Customer profile + value map", "No value prop", "No customer", "Single canvas"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is opportunity solution tree?",
+      "options": ["Map assumptions", "No opportunity", "No map", "Single solution"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is assumption mapping?",
+      "options": ["Risk assessment", "No assumption", "No risk", "Certain only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is desirability, viability, feasibility?",
+      "options": ["Desir, Viab, Feas filter", "No DVF", "Single criterion", "No filter"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is RICE scoring?",
+      "options": ["Reach, Impact, Confidence, Effort", "No RICE", "Single score", "No effort"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is Kano model?",
+      "options": ["Feature satisfaction", "No Kano", "Linear satisfaction", "No feature"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is basic need in Kano?",
+      "options": ["Expected, no delight", "No basic", "Delighter", "Performance"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is performance need?",
+      "options": ["Linear satisfaction", "No performance", "Basic", "Excitement"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is delighter?",
+      "options": ["Unexpected wow", "No delighter", "Basic expect", "Linear"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is experience map?",
+      "options": ["Holistic user journey", "No experience", "Single touch", "No holistic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is service blueprint?",
+      "options": ["Front/backstage actions", "No blueprint", "User only", "No actions"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is customer journey analytics?",
+      "options": ["Data-driven insights", "No analytics", "No data", "Single journey"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is heatmap in analytics?",
+      "options": ["Click density", "No heatmap", "No click", "Line chart"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is session replay?",
+      "options": ["Record user sessions", "No replay", "No record", "Aggregate only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is funnel analysis?",
+      "options": ["Drop-off points", "No funnel", "No drop", "Full flow"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is cohort analysis?",
+      "options": ["Group behavior over time", "No cohort", "Individual", "No behavior"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is participatory design?",
+      "options": ["Users co-create", "No participatory", "Designer only", "No co"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is contextual inquiry?",
+      "options": ["Observe in environment", "No contextual", "Lab setting", "No observe"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is diary study?",
+      "options": ["Longitudinal self-report", "No diary", "One-time", "No self"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is ethnographic research?",
+      "options": ["Immerse in culture", "No ethno", "Survey only", "No immerse"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is quantitative research?",
+      "options": ["Numbers, stats", "No quantitative", "Qualitative", "No numbers"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is qualitative research?",
+      "options": ["Insights, why/how", "No qualitative", "Quantitative", "No insights"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is triangulation?",
+      "options": ["Multiple methods", "No triangulation", "Single method", "No multiple"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is bias in research?",
+      "options": ["Systematic error", "No bias", "Random error", "No error"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is confirmation bias?",
+      "options": ["Seek confirming evidence", "No confirmation", "No seek", "Disconfirm"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is selection bias?",
+      "options": ["Non-representative sample", "No selection", "Random sample", "No non-rep"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is survivorship bias?",
+      "options": ["Ignore failures", "No survivorship", "Include all", "No ignore"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is anchoring bias?",
+      "options": ["First info influence", "No anchoring", "No first", "Last influence"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is design jam?",
+      "options": ["Collaborative workshop", "No jam", "Solo", "No collab"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is lightning decision jam?",
+      "options": ["Fast group decisions", "No lightning", "Slow", "No group"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is dot voting?",
+      "options": ["Prioritize with stickers", "No dot", "No prioritize", "Random vote"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is impact/effort matrix?",
+      "options": ["Quadrant prioritization", "No matrix", "No quadrant", "No effort"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is MoSCoW method?",
+      "options": ["Must, Should, Could, Won't", "No MoSCoW", "Single priority", "No must"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is Kano analysis?",
+      "options": ["Feature prioritization", "No Kano", "Random", "No feature"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is story mapping?",
+      "options": ["Visual backlog", "No story map", "Linear backlog", "No visual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is impact mapping?",
+      "options": ["Why, who, how, what", "No impact", "What only", "No why"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is hypothesis-driven design?",
+      "options": ["Test assumptions", "No hypothesis", "Assumption-free", "No test"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is growth hacking?",
+      "options": ["Creative experiments", "No growth", "Traditional marketing", "No creative"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is pirate metrics?",
+      "options": ["AARRR: Acquisition, Activation, Retention, Referral, Revenue", "No pirate", "Single metric", "No AARRR"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is HEART framework?",
+      "options": ["Happiness, Engagement, Adoption, Retention, Task success", "No HEART", "Single", "No framework"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is Google HEART?",
+      "options": ["UX metrics", "No Google", "Business metrics", "No UX"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is OKR?",
+      "options": ["Objectives and Key Results", "No OKR", "Single objective", "No results"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is KPI?",
+      "options": ["Key Performance Indicator", "No KPI", "Random indicator", "No key"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is North Star metric?",
+      "options": ["Single leading indicator", "No north", "Many metrics", "No leading"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is vanity metric?",
+      "options": ["Looks good, no action", "No vanity", "Actionable", "No looks"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is actionable metric?",
+      "options": ["Drives decisions", "No actionable", "Vanity", "No drives"],
+      "correctAnswer": 0
+    }
+  ],
+  "master": [
+    {
+      "id": 1,
+      "question": "What is speculative design?",
+      "options": ["Future scenarios", "No speculative", "Current only", "No future"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is critical design?",
+      "options": ["Question norms", "No critical", "Accept norms", "No question"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is design fiction?",
+      "options": ["Narrative prototypes", "No fiction", "Real prototypes", "No narrative"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is diegetic prototypes?",
+      "options": ["In-world believable", "No diegetic", "Out-world", "No believable"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is adversarial design?",
+      "options": ["Resist surveillance", "No adversarial", "Accept", "No resist"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is reflective design?",
+      "options": ["Personal values", "No reflective", "No values", "Standard"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is transition design?",
+      "options": ["Long-term systemic change", "No transition", "Short-term", "No systemic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is regenerative design?",
+      "options": ["Restore ecosystems", "No regenerative", "Extract", "No restore"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is circular design?",
+      "options": ["Close loops", "No circular", "Linear", "No close"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is biomimicry?",
+      "options": ["Nature-inspired", "No biomimicry", "Tech only", "No nature"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is universal design?",
+      "options": ["Accessible to all", "No universal", "No access", "Specific"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is equitable design?",
+      "options": ["Fair outcomes", "No equitable", "Unequal", "No fair"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is participatory action research?",
+      "options": ["Co-research with stakeholders", "No PAR", "Solo research", "No co"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is autoethnography?",
+      "options": ["Personal cultural experience", "No auto", "Group", "No personal"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is netnography?",
+      "options": ["Online ethnography", "No netno", "Offline", "No online"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is longitudinal study?",
+      "options": ["Over time", "No longitudinal", "Cross-section", "No over"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is experimental design?",
+      "options": ["Controlled variables", "No experimental", "Observational", "No control"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is quasi-experimental?",
+      "options": ["No random assignment", "No quasi", "Full random", "No no-random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is mixed methods?",
+      "options": ["Qual + Quant", "No mixed", "Qual only", "Quant only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is grounded theory?",
+      "options": ["Inductive from data", "No grounded", "Deductive", "No inductive"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is thematic analysis?",
+      "options": ["Identify patterns", "No thematic", "No patterns", "Quantitative"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is discourse analysis?",
+      "options": ["Language in context", "No discourse", "No language", "Syntax only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is narrative analysis?",
+      "options": ["Stories and experiences", "No narrative", "No stories", "Numbers"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is content analysis?",
+      "options": ["Systematic text coding", "No content", "No systematic", "Random coding"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is semiotics?",
+      "options": ["Signs and meanings", "No semiotics", "No signs", "No meanings"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is affordance?",
+      "options": ["Perceived action possibilities", "No affordance", "No action", "No perceived"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is signifier?",
+      "options": ["Hint for affordance", "No signifier", "No hint", "Hidden"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is Don Norman's gulf of execution?",
+      "options": ["Gap between intention and action", "No gulf", "No gap", "Seamless"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is gulf of evaluation?",
+      "options": ["Gap between state and expectation", "No evaluation", "No gap", "Clear state"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is mental model?",
+      "options": ["User's understanding", "No mental", "Designer's", "No understanding"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is conceptual model?",
+      "options": ["Designer's system representation", "No conceptual", "User's", "No representation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is external cognition?",
+      "options": ["Offload to environment", "No external", "Internal only", "No offload"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is distributed cognition?",
+      "options": ["System-level thinking", "No distributed", "Individual", "No system"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is activity theory?",
+      "options": ["Mediating artifacts", "No activity", "No mediating", "Direct action"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is situated action?",
+      "options": ["Context shapes behavior", "No situated", "No context", "Fixed behavior"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is ethnomethodology?",
+      "options": ["Everyday methods", "No ethno", "Formal methods", "No everyday"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is conversation analysis?",
+      "options": ["Talk-in-interaction", "No conversation", "No talk", "Written only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is multimodal analysis?",
+      "options": ["Multiple modes", "No multimodal", "Single mode", "No multiple"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is visual methodology?",
+      "options": ["Image-based research", "No visual", "Text only", "No image"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is photo-elicitation?",
+      "options": ["Photos prompt discussion", "No photo", "No prompt", "No discussion"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is design ethnography?",
+      "options": ["Cultural immersion", "No design ethno", "No cultural", "No immersion"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is cultural probe?",
+      "options": ["Creative data collection", "No probe", "Standard survey", "No creative"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is shadow study?",
+      "options": ["Follow user day", "No shadow", "No follow", "Short observe"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is apprentice method?",
+      "options": ["Learn by doing with user", "No apprentice", "No learn", "No doing"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is generative research?",
+      "options": ["Explore possibilities", "No generative", "Validate", "No explore"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is evaluative research?",
+      "options": ["Test solutions", "No evaluative", "Explore", "No test"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is discovery research?",
+      "options": ["Uncover opportunities", "No discovery", "No uncover", "Test"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is validation research?",
+      "options": ["Confirm assumptions", "No validation", "No confirm", "Explore"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is design council framework?",
+      "options": ["Double diamond", "No council", "Single", "No framework"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is alpha, beta testing?",
+      "options": ["Internal, external prototypes", "No alpha beta", "No internal", "Final test"],
+      "correctAnswer": 0
+    }
+  ],
+  "expert": [
+    {
+      "id": 1,
+      "question": "What is post-phenomenology?",
+      "options": ["Tech mediates experience", "No post-pheno", "Pre-pheno", "No mediate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is Ihde's instrumental transparency?",
+      "options": ["Device becomes ready-to-hand", "No transparency", "No device", "Opaque"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is hermeneutic mediation?",
+      "options": ["Shapes interpretation", "No hermeneutic", "No shape", "Direct"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is Verbeek's moralizing technology?",
+      "options": ["Shapes ethics", "No moralizing", "Neutral tech", "No ethics"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is Latour's actor-network theory?",
+      "options": ["Humans and non-humans as actors", "No ANT", "Humans only", "No actors"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is boundary object?",
+      "options": ["Flexible across views", "No boundary", "Rigid", "No flexible"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is script theory?",
+      "options": ["Tech prescribes behavior", "No script", "No prescribe", "Free behavior"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is domestication theory?",
+      "options": ["Users appropriate tech", "No domestication", "No appropriate", "Fixed use"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is social construction of technology?",
+      "options": ["SCOT interpretive flexibility", "No SCOT", "No interpretive", "Fixed meaning"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is large technical systems?",
+      "options": ["LTS socio-technical", "No LTS", "Small systems", "No socio"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is Hughes' reverse salients?",
+      "options": ["Bottlenecks in system", "No reverse", "No bottlenecks", "Smooth"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is momentum in STS?",
+      "options": ["Path dependence", "No momentum", "No path", "Flexible"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is co-configuration?",
+      "options": ["Mutual shaping", "No co-config", "One-way", "No mutual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is Bijker's relevant social groups?",
+      "options": ["Interpretive flexibility", "No Bijker", "No groups", "Fixed interpretation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is closure in SCOT?",
+      "options": ["Stabilization of meaning", "No closure", "No stabilization", "Open always"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is rhetorical closure?",
+      "options": ["Redefine problem", "No rhetorical", "No redefine", "Technical only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is pinch point?",
+      "options": ["Strategic research sites", "No pinch", "No strategic", "Broad site"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is laboratory life?",
+      "options": ["Latour/Woolgar ethnography", "No lab life", "No ethno", "Theory only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is fact construction?",
+      "options": ["Micro processes", "No fact", "Macro", "No construction"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is black box?",
+      "options": ["Accepted artifact", "No black box", "Open box", "No accepted"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is translation in ANT?",
+      "options": [" interessement, enrollment", "No translation", "No interessement", "Fixed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is obligatory passage point?",
+      "options": ["OPP in network", "No OPP", "No passage", "Optional"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is quasi-objects?",
+      "options": ["Social/technical hybrids", "No quasi", "Pure social", "Pure tech"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is delegation?",
+      "options": ["Non-human actors perform", "No delegation", "Human only", "No perform"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is inscription?",
+      "options": ["Impose behavior", "No inscription", "No impose", "Free"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is script analysis?",
+      "options": ["Akrich scripts", "No script analysis", "No Akrich", "No analysis"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is domestication of technology?",
+      "options": ["Haddon phases", "No domestication", "No Haddon", "No phases"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is appropriation?",
+      "options": ["Users modify use", "No appropriation", "Fixed use", "No modify"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is incorporation?",
+      "options": ["Into daily routines", "No incorporation", "No daily", "Separate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is conversion?",
+      "options": ["Symbolic meaning change", "No conversion", "No symbolic", "Fixed meaning"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is social shaping of technology?",
+      "options": ["SST interpretive frames", "No SST", "No interpretive", "Technical determinism"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is technological frame?",
+      "options": ["Shared understanding", "No frame", "No shared", "Individual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is stabilization?",
+      "options": ["Interpretive closure", "No stabilization", "No closure", "Open"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is large technical system approach?",
+      "options": ["Hughes system building", "No LTS", "No building", "Small system"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is technological momentum?",
+      "options": ["Inertia of systems", "No momentum", "No inertia", "Flexible"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is reverse salient?",
+      "options": ["Innovation driver", "No reverse", "No driver", "Smooth"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is system builder?",
+      "options": ["Coordinates development", "No builder", "No coordinates", "Solo"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is co-evolution?",
+      "options": ["Tech and society mutual", "No co-evo", "One-way", "No mutual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is pinch point research?",
+      "options": ["Hughes bottlenecks", "No pinch", "No bottlenecks", "Broad"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is laboratory studies approach?",
+      "options": ["Knorr-Cetina constructivism", "No lab studies", "No constructivism", "Field only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is epistemic machinery?",
+      "options": ["Knowledge production tools", "No epistemic", "No production", "No tools"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is trading zone?",
+      "options": ["Interdisciplinary communication", "No trading", "No interdisciplinary", "No communication"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is creole language?",
+      "options": ["Hybrid pidgin", "No creole", "Pure language", "No hybrid"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is boundary negotiating artifact?",
+      "options": ["Flexible representations", "No BNA", "Rigid", "No flexible"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is collaborative work practice?",
+      "options": ["Suchman situated action", "No collab", "No situated", "Abstract"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is plans and situated actions?",
+      "options": ["Suchman book", "No plans", "No book", "Abstract plans"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is articulation work?",
+      "options": ["Coordinate cooperative", "No articulation", "No coordinate", "Solo"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is mutual awareness?",
+      "options": ["Team knowledge of each other", "No mutual", "No knowledge", "Individual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is CSCW?",
+      "options": ["Computer-Supported Cooperative Work", "No CSCW", "No cooperative", "Solo work"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is time-space matrix?",
+      "options": ["CSCW classification", "No matrix", "No classification", "Single quadrant"],
+      "correctAnswer": 0
+    }
+  ]
+}

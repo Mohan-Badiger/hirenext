@@ -1,0 +1,1512 @@
+{
+  "novice": [
+    {
+      "id": 1,
+      "question": "What does ETL stand for in data engineering?",
+      "options": ["Extract, Transform, Load", "Edit, Transfer, Log", "Enter, Table, Link", "Export, Temp, Load"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is the primary role of a data engineer?",
+      "options": ["Designing UI", "Building and maintaining data pipelines", "Writing marketing copy", "Managing sales teams"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "What is a data pipeline?",
+      "options": ["Physical pipes for data", "Automated flow of data processing", "Manual data entry", "Static storage"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "question": "What is Apache Hadoop?",
+      "options": ["A web browser", "Distributed storage and processing framework", "A database", "A visualization tool"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "What is HDFS?",
+      "options": ["Hadoop Distributed File System", "High Definition File Storage", "Hyper Distributed File Service", "No HDFS"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is MapReduce?",
+      "options": ["Programming paradigm for big data", "Mapping software", "Reduce file size", "No MapReduce"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is Apache Spark?",
+      "options": ["In-memory data processing engine", "A database", "A web framework", "A visualization library"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is a data lake?",
+      "options": ["Centralized repository for raw data", "Processed data only", "No storage", "Small datasets"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is data warehousing?",
+      "options": ["Storing raw data", "Organized storage for analysis", "Real-time processing", "No storage"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "What is OLAP?",
+      "options": ["Online Analytical Processing", "Online Log Access Protocol", "Operational Layout Analysis", "No OLAP"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is a schema in databases?",
+      "options": ["No structure", "Database organization blueprint", "Random layout", "No blueprint"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is star schema?",
+      "options": ["Fact table with dimensions", "No star", "Snowflake", "No fact"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is snowflake schema?",
+      "options": ["Normalized dimensions", "Denormalized", "No snowflake", "Star variant"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is Apache Kafka?",
+      "options": ["Message broker", "Database", "No Kafka", "Web server"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is a topic in Kafka?",
+      "options": ["Message category", "No topic", "Single message", "No category"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is a producer in Kafka?",
+      "options": ["Sends messages", "Receives messages", "Stores", "Processes"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is a consumer in Kafka?",
+      "options": ["Reads messages", "Writes", "No consumer", "No read"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is Apache Airflow?",
+      "options": ["Workflow orchestration", "No Airflow", "Database", "No workflow"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is a DAG in Airflow?",
+      "options": ["Directed Acyclic Graph", "No DAG", "Cyclic", "No directed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is cloud data engineering?",
+      "options": ["Using AWS/GCP/Azure", "On-prem only", "No cloud", "No using"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is AWS S3?",
+      "options": ["Object storage", "No S3", "Relational DB", "Compute"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is BigQuery?",
+      "options": ["Serverless data warehouse", "No BigQuery", "No serverless", "No warehouse"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is Snowflake?",
+      "options": ["Cloud data platform", "No Snowflake", "On-prem", "No cloud"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is data streaming?",
+      "options": ["Real-time processing", "Batch only", "No streaming", "No real-time"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is Apache Flink?",
+      "options": ["Stream processing", "Batch", "No Flink", "No stream"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is data versioning?",
+      "options": ["Track changes", "No version", "Static data", "No track"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is Delta Lake?",
+      "options": ["ACID on data lakes", "No Delta", "No ACID", "No lake"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is Apache Iceberg?",
+      "options": ["Table format", "No Iceberg", "No table", "No format"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is data governance?",
+      "options": ["Data management policies", "No governance", "No policies", "No management"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is data lineage?",
+      "options": ["Data flow tracking", "No lineage", "No tracking", "No flow"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is data catalog?",
+      "options": ["Metadata inventory", "No catalog", "No metadata", "No inventory"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is Apache Atlas?",
+      "options": ["Governance tool", "No Atlas", "No governance", "No tool"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is data quality?",
+      "options": ["Accuracy, completeness", "No quality", "No accuracy", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is Great Expectations?",
+      "options": ["Data validation", "No Great Exp", "No validation", "No data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is dbt?",
+      "options": ["Data build tool", "No dbt", "No build", "No tool"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is ELT?",
+      "options": ["Extract, Load, Transform", "No ELT", "ETL", "No extract"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is change data capture?",
+      "options": ["CDC for updates", "No CDC", "No change", "Full load"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is Apache NiFi?",
+      "options": ["Data flow tool", "No NiFi", "No flow", "No tool"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is schema evolution?",
+      "options": ["Handle structure changes", "No evolution", "Fixed schema", "No handle"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is Avro?",
+      "options": ["Schema-based serialization", "No Avro", "No schema", "No serialization"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is Parquet?",
+      "options": ["Columnar storage", "No Parquet", "Row-based", "No storage"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is ORC?",
+      "options": ["Optimized Row Columnar", "No ORC", "No optimized", "No columnar"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is Apache Arrow?",
+      "options": ["In-memory columnar", "No Arrow", "No in-memory", "No columnar"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is data partitioning?",
+      "options": ["Divide large datasets", "No partitioning", "No divide", "Small data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is bucketing?",
+      "options": ["Hash-based partitioning", "No bucketing", "No hash", "No partitioning"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is indexing?",
+      "options": ["Speed queries", "No indexing", "Slow queries", "No speed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is materialized view?",
+      "options": ["Pre-computed query", "No materialized", "Dynamic view", "No pre-compute"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is data federation?",
+      "options": ["Query across sources", "No federation", "Single source", "No query"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is data virtualization?",
+      "options": ["Abstract data access", "No virtualization", "Physical only", "No abstract"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is real-time analytics?",
+      "options": ["Immediate insights", "Batch only", "No real-time", "No insights"],
+      "correctAnswer": 0
+    }
+  ],
+  "easy": [
+    {
+      "id": 1,
+      "question": "What is Apache Beam?",
+      "options": ["Unified batch/stream processing", "No Beam", "Batch only", "Stream only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is Spark Streaming?",
+      "options": ["Micro-batch stream", "No Spark Stream", "True stream", "No micro-batch"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is Structured Streaming?",
+      "options": ["DataFrame API for streams", "No Structured", "RDD", "No API"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is Kafka Streams?",
+      "options": ["Kafka-native processing", "No Kafka Streams", "External", "No native"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is schema-on-read?",
+      "options": ["Impose at query", "Schema-on-write", "No schema", "No impose"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is schema-on-write?",
+      "options": ["Validate at write", "No schema-on-write", "Read time", "No validate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is columnar vs row storage?",
+      "options": ["Query columns vs scan rows", "No columnar", "Same", "No query"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is data compression in Parquet?",
+      "options": ["Column-wise", "No compression", "Row-wise", "No column"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is predicate pushdown?",
+      "options": ["Filter early", "No predicate", "Late filter", "No early"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is partition pruning?",
+      "options": ["Skip partitions", "No pruning", "Scan all", "No skip"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is broadcast join?",
+      "options": ["Small table to all nodes", "No broadcast", "Shuffle join", "No small"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is bucketing join?",
+      "options": ["Pre-partitioned tables", "No bucketing join", "No pre-part", "Random join"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is sort-merge join?",
+      "options": ["Sorted tables", "No sort-merge", "Hash join", "No sorted"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is data skew?",
+      "options": ["Uneven distribution", "No skew", "Even", "No distribution"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is salting to fix skew?",
+      "options": ["Add random prefix", "No salting", "No fix", "No random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is dynamic partitioning?",
+      "options": ["Runtime decisions", "Static", "No dynamic", "No runtime"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is bucketing in Hive?",
+      "options": ["Hash partitions", "No bucketing Hive", "No hash", "No partitions"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is Hive?",
+      "options": ["SQL on Hadoop", "No Hive", "No SQL", "No Hadoop"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is Presto?",
+      "options": ["Distributed SQL query engine", "No Presto", "No distributed", "No SQL"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is Trino?",
+      "options": ["Presto fork", "No Trino", "No fork", "No Presto"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is Apache Drill?",
+      "options": ["Schema-free SQL", "No Drill", "Schema required", "No SQL"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is Apache Calcite?",
+      "options": ["SQL parser/planner", "No Calcite", "No parser", "No planner"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is data mesh?",
+      "options": ["Decentralized data ownership", "No mesh", "Centralized", "No ownership"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is data fabric?",
+      "options": ["Unified data management", "No fabric", "No unified", "No management"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is domain-driven data?",
+      "options": ["DDD for data", "No domain", "No DDD", "Generic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is self-service data platform?",
+      "options": ["Users access independently", "No self-service", "Admin only", "No access"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is federated governance?",
+      "options": ["Central + local rules", "No federated", "Central only", "No rules"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is data contract?",
+      "options": ["Schema agreement", "No contract", "No schema", "Verbal"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is schema registry?",
+      "options": ["Central schema management", "No registry", "No central", "No management"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is Confluent Schema Registry?",
+      "options": ["Kafka schema tool", "No Confluent", "No Kafka", "No tool"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is Apache Avro Schema?",
+      "options": ["Evolving schemas", "No Avro schema", "Fixed", "No evolving"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is backward compatibility?",
+      "options": ["New readers old writers", "No backward", "Forward only", "No readers"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is forward compatibility?",
+      "options": ["Old readers new writers", "No forward", "Backward only", "No old"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is full compatibility?",
+      "options": ["Both backward/forward", "No full", "No both", "No compatibility"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is data mesh domain?",
+      "options": ["Autonomous data product", "No domain", "Central product", "No autonomous"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is data product?",
+      "options": ["Consumable data asset", "No product", "Raw data", "No consumable"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is data platform team?",
+      "options": ["Enables domains", "No platform team", "Owns data", "No enables"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is global data ownership?",
+      "options": ["Cross-cutting governance", "No global", "Local only", "No ownership"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is self-serve infrastructure?",
+      "options": ["Platform for domains", "No self-serve", "Centralized service", "No platform"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is federated computational governance?",
+      "options": ["Distributed standards", "No federated comp", "Central compute", "No standards"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is data fabric architecture?",
+      "options": ["Metadata-driven integration", "No fabric arch", "No metadata", "No integration"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is knowledge graph in fabric?",
+      "options": ["Entity relationships", "No knowledge graph", "No entity", "No relationships"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is data virtualization layer?",
+      "options": ["Abstract sources", "No virtualization layer", "Physical layer", "No abstract"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is hybrid/multi-cloud data?",
+      "options": ["Cross-provider", "No hybrid", "Single cloud", "No cross"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is data mesh vs fabric?",
+      "options": ["Decentralized vs integrated", "No vs", "Same", "No decentralized"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is data contract in mesh?",
+      "options": ["Interface between products", "No contract mesh", "No interface", "Internal"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is schema inference?",
+      "options": ["Auto-detect structure", "No inference", "Manual", "No auto"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is schema validation?",
+      "options": ["Check conformity", "No validation", "No check", "Ignore"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is backward compatibility test?",
+      "options": ["Reader/writer test", "No backward test", "No reader", "No test"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is Avro union type?",
+      "options": ["Multiple possible types", "Single type", "No union", "No multiple"],
+      "correctAnswer": 0
+    }
+  ],
+  "intermediate": [
+    {
+      "id": 1,
+      "question": "What is exactly-once semantics?",
+      "options": ["No duplicates or loss", "At-least-once", "At-most-once", "No semantics"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is idempotency?",
+      "options": ["Repeat same result", "No idempotent", "Different result", "No repeat"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is transactional outbox?",
+      "options": ["Reliable event publishing", "No outbox", "No reliable", "No event"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is CDC with Debezium?",
+      "options": ["Log-based change capture", "No Debezium", "Trigger-based", "No log"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is snapshot in CDC?",
+      "options": ["Initial full load", "No snapshot", "Incremental only", "No initial"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is binlog in MySQL?",
+      "options": ["Replication log", "No binlog", "No replication", "Query log"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is WAL in Postgres?",
+      "options": ["Write-Ahead Log", "No WAL", "No write-ahead", "Transaction log"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is Kafka Connect?",
+      "options": ["Connectors for sources/sinks", "No Connect", "No connectors", "Manual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is source connector?",
+      "options": ["Ingestion from external", "No source", "Sink", "No ingestion"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is sink connector?",
+      "options": ["Load to external", "No sink", "Source", "No load"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is single message transforms?",
+      "options": ["SMT in Connect", "No SMT", "Batch transform", "No single"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is exactly-once in Kafka?",
+      "options": ["Transactions", "No exactly-once", "At-least", "No transactions"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is idempotent producer?",
+      "options": ["No duplicates", "No idempotent", "Duplicates ok", "No no-dup"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is transactional producer?",
+      "options": ["Atomic multi-topic", "No transactional", "Single topic", "No atomic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is fence in transactions?",
+      "options": ["Isolation guarantee", "No fence", "No isolation", "No guarantee"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is Spark Structured Streaming?",
+      "options": ["DataFrame streams", "No structured", "RDD streams", "No DataFrame"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is watermarking?",
+      "options": ["Handle late data", "No watermark", "No late", "Early only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is output mode?",
+      "options": ["Append, Complete, Update", "No output mode", "Single mode", "No append"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is foreachBatch?",
+      "options": ["Process micro-batch", "No foreachBatch", "No process", "Stream batch"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is Flink state backend?",
+      "options": ["RocksDB, Heap", "No state backend", "No RocksDB", "No heap"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is checkpointing in Flink?",
+      "options": ["Fault tolerance", "No checkpoint", "No fault", "No tolerance"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is savepoint?",
+      "options": ["Manual snapshot", "Auto only", "No savepoint", "No manual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is exactly-once in Flink?",
+      "options": ["Two-phase commit", "No exactly-once Flink", "At-least", "No commit"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is event time vs processing time?",
+      "options": ["Log time vs arrival", "No event time", "Same", "No log"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is watermarks in Flink?",
+      "options": ["Bound lateness", "No watermarks Flink", "No bound", "No lateness"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is side outputs?",
+      "options": ["Late events", "No side", "Main only", "No late"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is broadcast state?",
+      "options": ["Shared config", "No broadcast state", "No shared", "Local only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is queryable state?",
+      "options": ["External access", "No queryable", "Internal only", "No access"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is Flink Table API?",
+      "options": ["SQL-like", "No Table API", "No SQL-like", "RDD"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is Flink SQL?",
+      "options": ["ANSI SQL on streams", "No Flink SQL", "No ANSI", "Batch only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is temporal table join?",
+      "options": ["Stream-table join", "No temporal", "No stream-table", "Static join"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is interval join?",
+      "options": ["Time window join", "No interval", "No time", "No window"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is dynamic table?",
+      "options": ["Continuous query", "Static table", "No dynamic", "No continuous"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is changelog producer?",
+      "options": ["Dynamic table changes", "No changelog", "Static", "No changes"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is upsert in streams?",
+      "options": ["Update or insert", "No upsert", "Delete only", "No update"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is changelog mode?",
+      "options": ["Append, Upsert, Complete", "No changelog mode", "Single mode", "No append"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is table function UDF?",
+      "options": ["Row-generating", "Scalar UDF", "No table func", "No row"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is temporal function?",
+      "options": ["AS OF time", "No temporal func", "No AS OF", "Static"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is MATCH_RECOGNIZE?",
+      "options": ["Pattern matching", "No MATCH_RECOG", "No pattern", "Simple match"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is Flink CDC?",
+      "options": ["Change data capture", "No Flink CDC", "No change", "Full load"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is Debezium embedded?",
+      "options": ["In-app CDC", "No embedded", "Separate process", "No in-app"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is schema change handling?",
+      "options": ["Evolve with compatibility", "No schema change", "Fixed schema", "No evolve"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is Avro evolution rules?",
+      "options": ["Add fields optional", "No rules", "No add", "Delete optional"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is backward compatibility rule?",
+      "options": ["Readers > writers", "No backward rule", "Writers > readers", "No readers"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is resolver strategy?",
+      "options": ["Default value for missing", "No resolver", "No default", "Error"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is data contract testing?",
+      "options": ["Validate schemas", "No contract test", "No validate", "Runtime only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is Pact for contracts?",
+      "options": ["Consumer-driven", "No Pact", "Provider-driven", "No consumer"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is schema registry compatibility check?",
+      "options": ["POST /compatibility", "No check", "No POST", "Manual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is subject versioning?",
+      "options": ["Schema versions", "No subject", "No versions", "Single"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is global subject strategy?",
+      "options": ["Topic-specific schemas", "No global subject", "No topic-specific", "No schemas"],
+      "correctAnswer": 0
+    }
+  ],
+  "master": [
+    {
+      "id": 1,
+      "question": "What is Linpack benchmark?",
+      "options": ["HPL for TOP500", "No Linpack", "No HPL", "No TOP500"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is HPL?",
+      "options": ["High-Performance Linpack", "No HPL", "Low performance", "No high"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is flop rate?",
+      "options": ["Floating point operations per second", "No flop", "Integer ops", "No floating"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is peak flop?",
+      "options": ["Theoretical max", "Achieved", "No peak", "Minimum"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is efficiency %?",
+      "options": ["Rpeak / Rmax * 100", "No efficiency", "Rmax / Rpeak", "No %"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is sustained performance?",
+      "options": ["Rmax", "No sustained", "Peak", "Theoretical"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is TOP500 list?",
+      "options": ["Supercomputer ranking", "No TOP500", "No ranking", "No super"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is Green500?",
+      "options": ["Energy efficiency", "No Green500", "No energy", "Power only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is flops/watt?",
+      "options": ["Performance per power", "No flops/watt", "Watt per flop", "No performance"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is HPC?",
+      "options": ["High-Performance Computing", "No HPC", "Low performance", "No high"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is MPI benchmark?",
+      "options": ["HPL-AI", "No MPI", "No benchmark", "No HPL-AI"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is DGEMM?",
+      "options": ["Matrix multiply", "No DGEMM", "Vector", "No matrix"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is BLAS?",
+      "options": ["Basic Linear Algebra Subprograms", "No BLAS", "Advanced", "No basic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is LAPACK?",
+      "options": ["Linear Algebra Package", "No LAPACK", "No linear", "No package"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is ScaLAPACK?",
+      "options": ["Distributed LAPACK", "No ScaLAPACK", "No distributed", "No LAPACK"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is PETSc?",
+      "options": ["Parallel solvers", "No PETSc", "No parallel", "No solvers"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is Trilinos?",
+      "options": ["Sandia ML package", "No Trilinos", "No Sandia", "No ML"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is Graph500?",
+      "options": ["Irregular access benchmark", "No Graph500", "Regular", "No irregular"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is BFS benchmark?",
+      "options": ["Breadth-first search", "No BFS", "Depth-first", "No search"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is TEPS?",
+      "options": ["Traversed Edges Per Second", "No TEPS", "No traversed", "No edges"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is HPCG?",
+      "options": ["Sparse matrix benchmark", "No HPCG", "Dense", "No sparse"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is conjugate gradient?",
+      "options": ["HPCG kernel", "No conjugate", "No kernel", "Direct solver"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is sparse matrix-vector multiply?",
+      "options": ["SpMV", "No sparse MV", "Dense MV", "No multiply"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is triangular solve?",
+      "options": ["SpTRSV", "No triangular", "No solve", "Dense"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is symmetric Gauss-Seidel?",
+      "options": ["SGS preconditioner", "No SGS", "No preconditioner", "No symmetric"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is vector triple alpha?",
+      "options": ["WAXPY", "No triple", "No vector", "Scalar"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is HPCG efficiency?",
+      "options": ["Gflop/s vs theoretical", "No efficiency", "No Gflop", "No theoretical"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is proxy app?",
+      "options": ["Mini-app for code", "No proxy", "Full app", "No mini"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is miniFE?",
+      "options": ["Finite element proxy", "No miniFE", "No finite", "No element"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is miniGhost?",
+      "options": ["Stencil proxy", "No miniGhost", "No stencil", "No proxy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is proxy 1?",
+      "options": ["Combustion proxy", "No proxy1", "No combustion", "No proxy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is proxy 2?",
+      "options": ["Climate proxy", "No proxy2", "No climate", "No proxy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is proxy 3?",
+      "options": ["Material science proxy", "No proxy3", "No material", "No science"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is proxy 4?",
+      "options": ["Nuclear reactor proxy", "No proxy4", "No nuclear", "No reactor"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is proxy 5?",
+      "options": ["Fusion proxy", "No proxy5", "No fusion", "No proxy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is multi-proxy?",
+      "options": ["Multiple disciplines", "No multi-proxy", "Single", "No multiple"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is AMREX?",
+      "options": ["Adaptive mesh", "No AMREX", "Uniform mesh", "No adaptive"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is Chombo?",
+      "options": ["AMR toolkit", "No Chombo", "No AMR", "No toolkit"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is Enzo?",
+      "options": ["Cosmology code", "No Enzo", "No cosmology", "No code"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is FLASH?",
+      "options": ["Multiphysics AMR", "No FLASH", "No multi", "No AMR"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is Castro?",
+      "options": ["Combustion AMR", "No Castro", "No combustion", "No AMR"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is MAESTRO?",
+      "options": ["Low Mach hydro", "No MAESTRO", "High Mach", "No hydro"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is Nyx?",
+      "options": ["Cosmology hydro", "No Nyx", "No cosmology", "No hydro"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is WARPX?",
+      "options": ["PIC code", "No WARPX", "No PIC", "No code"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is OSIRIS?",
+      "options": ["Particle-in-cell", "No OSIRIS", "No particle", "No cell"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is VPIC?",
+      "options": ["Vector PIC", "No VPIC", "Scalar", "No vector"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is PICLas?",
+      "options": ["Hybrid PIC", "No PICLas", "No hybrid", "No PIC"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is Gkeyll?",
+      "options": ["Continuum gyrokinetic", "No Gkeyll", "Particle", "No continuum"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is XGC?",
+      "options": ["Neoclassical transport", "No XGC", "No neo", "No transport"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is GENE?",
+      "options": ["Gyrokinetic turbulence", "No GENE", "No gyro", "No turbulence"],
+      "correctAnswer": 0
+    }
+  ],
+  "expert": [
+    {
+      "id": 1,
+      "question": "What is Exascale computing?",
+      "options": ["10^18 flops", "No exascale", "Peta", "Tera"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is Frontier supercomputer?",
+      "options": ["First exascale", "No Frontier", "No first", "No exascale"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is AMD MI250X?",
+      "options": ["Frontier accelerator", "No MI250X", "No accelerator", "No Frontier"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is Slingshot-11?",
+      "options": ["HPE Cray network", "No Slingshot", "Ethernet", "InfiniBand"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is Aurora?",
+      "options": ["Intel exascale", "No Aurora", "AMD", "No Intel"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is Falcon GPU?",
+      "options": ["Intel Ponte Vecchio", "No Falcon", "No Ponte", "No GPU"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is El Capitan?",
+      "options": ["LLNL exascale", "No El Capitan", "No LLNL", "No exascale"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is HPE Cray EX?",
+      "options": ["El Capitan system", "No HPE Cray", "No system", "No El Capitan"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is Fugaku?",
+      "options": ["ARM exaflop", "No Fugaku", "x86", "No ARM"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is A64FX?",
+      "options": ["Fugaku processor", "No A64FX", "No processor", "No Fugaku"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is Summit?",
+      "options": ["IBM Power9 + V100", "No Summit", "No IBM", "No Power9"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is Sierra?",
+      "options": ["LLNL pre-exascale", "No Sierra", "No LLNL", "No pre-exa"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is perlmutter?",
+      "options": ["NERSC AMD system", "No Perlmutter", "No NERSC", "No AMD"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is Frontier HPL score?",
+      "options": ["1.1 Exaflop", "No score", "No 1.1", "No Exaflop"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is Rmax vs Rpeak?",
+      "options": ["Achieved vs theoretical", "No Rmax", "Same", "No achieved"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is mixed precision in HPL?",
+      "options": ["FP16 for speed", "No mixed", "FP64 only", "No FP16"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is HPL-AI?",
+      "options": ["AI matrix multiply", "No HPL-AI", "Standard HPL", "No AI"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is DGEMM FP64?",
+      "options": ["Double precision", "No DGEMM", "Single", "No double"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is HPL-AI GEMM?",
+      "options": ["FP16/FP32", "No GEMM", "FP64", "No FP16"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is sparse matrix benchmark?",
+      "options": ["Graph500, HPCG", "No sparse", "Dense only", "No matrix"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is irregular access?",
+      "options": ["Graph traversal", "No irregular", "Regular", "Sequential"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is Scale 30?",
+      "options": ["2^30 edges", "No scale 30", "Small scale", "No edges"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is synthetic graph?",
+      "options": ["R-MAT generated", "No synthetic", "Real graph", "No generated"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is kronecker product in R-MAT?",
+      "options": ["Graph generation", "No kronecker", "No generation", "No product"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is HPCG problem size?",
+      "options": ["NxNxN grid", "No HPCG size", "2D", "1D"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is 27-point stencil?",
+      "options": ["3D Laplace", "No stencil", "1D", "2D"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is unstructured grid?",
+      "options": ["Irregular connectivity", "Regular", "No unstructured", "No irregular"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is preconditioned CG?",
+      "options": ["PCG iterations", "No PCG", "Direct", "No iterations"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is SpMV performance?",
+      "options": ["Gflop/s", "No SpMV", "Bytes/s", "No Gflop"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is unstructured memory access?",
+      "options": ["HPCG hallmark", "No unstructured", "Sequential", "No hallmark"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is proxy app purpose?",
+      "options": ["Co-design tool", "No proxy purpose", "Production code", "No co-design"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is DOE Exascale?",
+      "options": ["US DOE program", "No DOE", "No US", "No program"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is CORAL?",
+      "options": ["DOE pre-exascale", "No CORAL", "No pre-exa", "No DOE"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is Summit CORAL?",
+      "options": ["ORNL machine", "No Summit", "No ORNL", "No machine"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is Sierra CORAL?",
+      "options": ["LLNL", "No Sierra", "No LLNL", "No CORAL"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is AMREX design?",
+      "options": ["Block-structured AMR", "No AMREX design", "Unstructured", "No block"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is adaptive mesh refinement?",
+      "options": ["Local resolution increase", "Uniform", "No adaptive", "No local"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is Castro equation set?",
+      "options": ["Compressible hydro", "Incompressible", "No Castro", "No hydro"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is MAESTRO for?",
+      "options": ["Low Mach number", "High Mach", "No MAESTRO", "No low"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is Nyx cosmology?",
+      "options": ["Cosmic structure", "No Nyx", "No cosmic", "No structure"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is WARPX PIC?",
+      "options": ["Electromagnetic", "Electrostatic", "No WARPX", "No PIC"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is OSIRIS full PIC?",
+      "options": ["3D EM", "2D", "No OSIRIS", "No 3D"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is VPIC vectorized?",
+      "options": ["SIMD optimized", "Scalar", "No VPIC", "No SIMD"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is PICLas hybrid?",
+      "options": ["Fluid-kinetic", "Pure kinetic", "No PICLas", "No hybrid"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is Gkeyll Vlasov?",
+      "options": ["Continuum plasma", "Particle", "No Gkeyll", "No Vlasov"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is XGC neoclassical?",
+      "options": ["Edge plasma", "Core", "No XGC", "No neo"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is GENE gyrokinetic?",
+      "options": ["Turbulence simulation", "No GENE", "No gyro", "No turbulence"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is CASTRO hydro?",
+      "options": ["Reactive flow", "No CASTRO", "No reactive", "No flow"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is Enzo initial conditions?",
+      "options": ["Cosmological", "No Enzo", "No initial", "No conditions"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is FLASH multiphysics?",
+      "options": ["Hydro + MHD + radiation", "Single physics", "No FLASH", "No multi"],
+      "correctAnswer": 0
+    }
+  ]
+}

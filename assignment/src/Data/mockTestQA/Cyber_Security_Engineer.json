@@ -1,0 +1,1512 @@
+{
+  "novice": [
+    {
+      "id": 1,
+      "question": "What does CIA stand for in cybersecurity?",
+      "options": ["Confidentiality, Integrity, Availability", "Central Intelligence Agency", "Cyber Incident Alert", "Confidential Information Access"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is the primary goal of cybersecurity?",
+      "options": ["To increase data storage", "To protect systems and data from threats", "To speed up networks", "To design software"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "What is a virus?",
+      "options": ["A type of firewall", "Malicious software that replicates", "A network protocol", "A hardware component"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "question": "What is phishing?",
+      "options": ["A fishing technique", "Fraudulent attempt to obtain sensitive information", "A type of encryption", "A backup method"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "What is a firewall?",
+      "options": ["A physical barrier", "Network security system that monitors traffic", "A virus scanner", "A password manager"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "question": "What is encryption?",
+      "options": ["Scrambled data to protect confidentiality", "Data deletion", "File compression", "Network routing"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is a strong password?",
+      "options": ["123456", "A combination of letters, numbers, and symbols", "password", "abc"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "question": "What is malware?",
+      "options": ["Helpful software", "Malicious software", "Mobile application", "Management tool"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "question": "What is a DDoS attack?",
+      "options": ["Distributed Denial of Service", "Data Destruction Operation", "Direct Data Overload", "Digital Defense System"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is two-factor authentication?",
+      "options": ["Two passwords", "Something you know and something you have", "Two emails", "Two devices"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "question": "What is a Trojan horse?",
+      "options": ["A virus that spreads via email", "Malware disguised as legitimate software", "A network scanner", "A backup tool"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is ransomware?",
+      "options": ["Software that encrypts files for ransom", "A type of firewall", "A password generator", "A data analyzer"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is a vulnerability?",
+      "options": ["A strength in security", "A weakness that can be exploited", "A type of encryption", "A monitoring tool"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 14,
+      "question": "What is patch management?",
+      "options": ["Applying updates to fix vulnerabilities", "Creating new software", "Deleting old files", "Monitoring traffic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is social engineering?",
+      "options": ["Building social networks", "Manipulating people to divulge information", "Coding social apps", "Engineering hardware"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 16,
+      "question": "What is an antivirus?",
+      "options": ["Software to detect and remove malware", "A type of hardware", "A network protocol", "A cloud service"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is confidentiality?",
+      "options": ["Ensuring data is accurate", "Protecting data from unauthorized access", "Making data available", "Verifying data source"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "question": "What is integrity?",
+      "options": ["Data availability", "Ensuring data is not altered unauthorizedly", "Data encryption", "Data backup"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "question": "What is availability?",
+      "options": ["Data protection", "Ensuring systems are accessible when needed", "Data alteration", "Data deletion"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "question": "What is a hacker?",
+      "options": ["A software developer", "Someone who gains unauthorized access", "A network administrator", "A data analyst"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "question": "What is ethical hacking?",
+      "options": ["Illegal access", "Authorized testing of security", "Virus creation", "Data theft"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 22,
+      "question": "What is a botnet?",
+      "options": ["Network of infected devices", "Single computer", "Software update", "Backup system"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is spyware?",
+      "options": ["Monitors user activity secretly", "Speeds up internet", "Saves files", "Scans viruses"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is adware?",
+      "options": ["Displays unwanted ads", "Blocks ads", "Analyzes data", "Edits files"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is a rootkit?",
+      "options": ["Hides malware", "Installs software", "Updates system", "Monitors network"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is biometric authentication?",
+      "options": ["Password-based", "Uses physical characteristics like fingerprints", "Token-based", "Email-based"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "question": "What is a VPN?",
+      "options": ["Virtual Private Network for secure connection", "Video Player Network", "Very Public Node", "Virtual Password Node"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is SSL/TLS?",
+      "options": ["Encryption protocols for secure communication", "File formats", "Programming languages", "Hardware standards"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is a man-in-the-middle attack?",
+      "options": ["Intercepts communication secretly", "Direct attack", "Denial of service", "Password guessing"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is brute force attack?",
+      "options": ["Trying all possible combinations", "Social manipulation", "Software bug", "Hardware failure"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is a dictionary attack?",
+      "options": ["Using word lists for passwords", "Random guessing", "Network scanning", "File encryption"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is IDS?",
+      "options": ["Intrusion Detection System", "Internal Data Storage", "Internet Download Service", "Integrated Development System"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is IPS?",
+      "options": ["Intrusion Prevention System", "Internet Protocol Security", "Internal Processing System", "Integrated Protection Service"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is a honeypot?",
+      "options": ["Decoy system to attract attackers", "Real server", "Backup device", "Monitoring tool"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is penetration testing?",
+      "options": ["Simulated cyberattack", "Real attack", "Data analysis", "Software development"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is risk assessment?",
+      "options": ["Identifying threats and vulnerabilities", "Installing software", "Creating backups", "Monitoring logs"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is compliance?",
+      "options": ["Adhering to regulations", "Ignoring rules", "Creating policies", "Deleting data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is GDPR?",
+      "options": ["EU data protection regulation", "Global Defense Protocol", "General Data Download Regulation", "Government Data Privacy Rule"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is HIPAA?",
+      "options": ["Health Insurance Portability and Accountability Act", "High-Impact Protection and Audit", "Health Information Privacy Act", "Hospital Internet Protocol Access"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is a security audit?",
+      "options": ["Review of security controls", "Software update", "Network scan", "Password change"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is incident response?",
+      "options": ["Handling security breaches", "Preventing attacks", "Installing firewalls", "Creating policies"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is a security policy?",
+      "options": ["Document outlining security procedures", "Software tool", "Hardware device", "Network configuration"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is least privilege?",
+      "options": ["Giving minimal access needed", "Full access to all", "Random access", "No access"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is defense in depth?",
+      "options": ["Multiple layers of security", "Single layer", "No defense", "Attack strategy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is a backdoor?",
+      "options": ["Hidden access point", "Front door", "No door", "Public entry"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is a zero-day exploit?",
+      "options": ["Unknown vulnerability", "Known issue", "Day-old patch", "Zero cost"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is SQL injection?",
+      "options": ["Code injection via input fields", "No SQL", "File injection", "Network injection"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is XSS?",
+      "options": ["Cross-Site Scripting", "Extra Security System", "XML Syntax Standard", "External System Scan"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is buffer overflow?",
+      "options": ["Writing beyond memory bounds", "No overflow", "Data underflow", "Memory leak"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is a worm?",
+      "options": ["Self-replicating malware", "Single file virus", "No worm", "Email only"],
+      "correctAnswer": 0
+    }
+  ],
+  "easy": [
+    {
+      "id": 1,
+      "question": "What is symmetric encryption?",
+      "options": ["Uses same key for encrypt/decrypt", "Different keys", "No key", "Public only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is asymmetric encryption?",
+      "options": ["Public/private key pair", "Single key", "No asymmetric", "Hashing"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is AES?",
+      "options": ["Advanced Encryption Standard", "All Encryption System", "Advanced Email Security", "Automated Encryption Service"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is RSA?",
+      "options": ["Public-key algorithm", "Symmetric", "No RSA", "Hash"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is a digital certificate?",
+      "options": ["Verifies identity", "Encrypts data", "Stores passwords", "Monitors traffic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is PKI?",
+      "options": ["Public Key Infrastructure", "Private Key Info", "Public Knowledge Index", "Password Key Identifier"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is hashing?",
+      "options": ["One-way function for integrity", "Encryption", "Decryption", "Compression"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is MD5?",
+      "options": ["Hash function (insecure)", "Encryption", "No MD5", "Secure hash"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is SHA-256?",
+      "options": ["Secure Hash Algorithm", "Simple Hash", "No SHA", "Weak hash"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is a salt in hashing?",
+      "options": ["Random value to prevent rainbow tables", "No salt", "Pepper only", "Hash input"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is network segmentation?",
+      "options": ["Dividing network to limit breach spread", "Full access", "No segment", "Single LAN"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is VLAN?",
+      "options": ["Virtual LAN", "Very Large Area Network", "No VLAN", "Virtual Link Access"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is port scanning?",
+      "options": ["Probing open ports", "No scan", "File scan", "Data scan"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is Nmap?",
+      "options": ["Network mapper tool", "No Nmap", "File mapper", "Web mapper"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is Wireshark?",
+      "options": ["Packet analyzer", "No Wireshark", "Wire scanner", "Wireless shark"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is TCP/IP?",
+      "options": ["Transmission Control Protocol/Internet Protocol", "No TCP", "Transfer Control Protocol", "Total Communication Protocol"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is ARP spoofing?",
+      "options": ["MAC address manipulation", "No ARP", "IP spoof", "DNS spoof"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is DNS spoofing?",
+      "options": ["Redirecting domain queries", "No DNS", "IP spoof", "Email spoof"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is IP spoofing?",
+      "options": ["Forging source IP", "No IP", "MAC spoof", "Port spoof"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is a WAF?",
+      "options": ["Web Application Firewall", "No WAF", "Windows Admin Firewall", "Wireless Access Firewall"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is OWASP?",
+      "options": ["Open Web Application Security Project", "No OWASP", "Online Web Admin Security", "Open Windows App Security"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is CSRF?",
+      "options": ["Cross-Site Request Forgery", "No CSRF", "Client-Side Request Failure", "Cross-Server Resource File"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is session hijacking?",
+      "options": ["Stealing session ID", "No session", "New session", "End session"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is cookie poisoning?",
+      "options": ["Modifying cookies", "No cookie", "Baking cookies", "Deleting cookies"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is input validation?",
+      "options": ["Checking user input", "No validation", "Auto accept", "Ignore input"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is output encoding?",
+      "options": ["Preventing XSS", "No encoding", "Input only", "Data storage"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is a SIEM?",
+      "options": ["Security Information and Event Management", "No SIEM", "System Info Event Monitor", "Secure Internet Email Manager"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is log analysis?",
+      "options": ["Reviewing logs for incidents", "No log", "Delete logs", "Create logs"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is anomaly detection?",
+      "options": ["Identifying unusual behavior", "No anomaly", "Normal only", "Predict normal"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is baseline?",
+      "options": ["Normal system state", "No baseline", "Alert state", "Attack state"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is a false positive?",
+      "options": ["Legitimate activity flagged as threat", "No false", "True threat missed", "Correct detection"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is a false negative?",
+      "options": ["Threat missed", "No false", "Flagged correctly", "Legitimate flagged"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is forensics?",
+      "options": ["Investigating incidents", "No forensics", "Prevention", "Policy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is chain of custody?",
+      "options": ["Evidence handling protocol", "No chain", "Break chain", "Ignore evidence"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is volatility in forensics?",
+      "options": ["RAM data loss on power off", "No vol", "Disk data", "Network"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is live forensics?",
+      "options": ["Analyzing running system", "No live", "Dead system", "Offline"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is dead forensics?",
+      "options": ["Offline analysis", "No dead", "Live only", "Real-time"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is a sandbox?",
+      "options": ["Isolated environment for malware", "No sandbox", "Production env", "Network"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is reverse engineering?",
+      "options": ["Disassembling malware", "No reverse", "Building code", "Compiling"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is IDA Pro?",
+      "options": ["Disassembler tool", "No IDA", "Compiler", "Debugger"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is Metasploit?",
+      "options": ["Exploitation framework", "No meta", "Scanner", "Firewall"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is Burp Suite?",
+      "options": ["Web vuln scanner", "No burp", "Network scanner", "File scanner"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is Nessus?",
+      "options": ["Vulnerability scanner", "No nessus", "Pen test", "SIEM"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is OpenVAS?",
+      "options": ["Open vulnerability scanner", "No open", "Closed", "Paid only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is a blue team?",
+      "options": ["Defensive security", "Offensive", "No team", "Red team"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is a red team?",
+      "options": ["Offensive security", "Defensive", "No red", "Blue"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is purple team?",
+      "options": ["Collaborative red/blue", "No purple", "Single team", "No collab"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is SOC?",
+      "options": ["Security Operations Center", "No SOC", "System Op Center", "Software Op"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is CSIRT?",
+      "options": ["Computer Security Incident Response Team", "No CSIRT", "Client Support", "Code Security"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is NIST?",
+      "options": ["National Institute of Standards and Technology", "No NIST", "Network Info Standard Tech", "National Internet Security Team"],
+      "correctAnswer": 0
+    }
+  ],
+  "intermediate": [
+    {
+      "id": 1,
+      "question": "What is Kerberos?",
+      "options": ["Ticket-based authentication", "No Kerberos", "Password auth", "Token"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is OAuth?",
+      "options": ["Authorization framework", "No OAuth", "Authentication", "Encryption"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is SAML?",
+      "options": ["Security Assertion Markup Language", "No SAML", "Simple Auth ML", "Secure Access ML"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is RADIUS?",
+      "options": ["Remote Authentication Dial-In User Service", "No RADIUS", "Remote Access Dial", "Radius Auth User"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is TACACS+?",
+      "options": ["Terminal Access Controller Access-Control System Plus", "No TACACS", "Terminal Auth Control", "TCP Access Control"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is AAA?",
+      "options": ["Authentication, Authorization, Accounting", "No AAA", "Access Admin Audit", "Auth Access Account"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is SSO?",
+      "options": ["Single Sign-On", "No SSO", "Secure Sign-Off", "Single System Only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is federated identity?",
+      "options": ["Cross-domain auth", "No fed", "Single domain", "Local only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is LDAP?",
+      "options": ["Lightweight Directory Access Protocol", "No LDAP", "Local Dir Access", "Light Data Auth"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is Active Directory?",
+      "options": ["Microsoft directory service", "No AD", "Active Data", "Admin Directory"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is role-based access control?",
+      "options": ["RBAC based on roles", "No RBAC", "User-based", "Attribute-based"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is ABAC?",
+      "options": ["Attribute-Based Access Control", "No ABAC", "Auth-Based", "Access-Based"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is mandatory access control?",
+      "options": ["MAC system-enforced", "No MAC", "Discretionary", "Role"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is discretionary access control?",
+      "options": ["DAC owner-decided", "No DAC", "Mandatory", "Attribute"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is SELinux?",
+      "options": ["Security-Enhanced Linux", "No SEL", "Simple Enhanced", "Secure Email Linux"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is AppArmor?",
+      "options": ["Linux MAC system", "No App", "App Armor", "Application Monitor"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is iptables?",
+      "options": ["Linux firewall", "No iptables", "IP tables", "Internet Protocol Tables"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is ufw?",
+      "options": ["Uncomplicated Firewall", "No ufw", "User Firewall", "Unified Firewall"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is nftables?",
+      "options": ["Modern Linux firewall", "No nft", "Old tables", "Netfilter"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is Windows Defender?",
+      "options": ["Built-in AV", "No Defender", "Firewall only", "No AV"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is BitLocker?",
+      "options": ["Full disk encryption", "No BitLocker", "File encrypt", "Network"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is EFS?",
+      "options": ["Encrypting File System", "No EFS", "External File System", "Encrypted Folder Service"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is Group Policy?",
+      "options": ["Centralized management", "No Group", "Local policy", "User policy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is SCCM?",
+      "options": ["System Center Configuration Manager", "No SCCM", "Secure Config Manager", "System Control Center"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is WSUS?",
+      "options": ["Windows Server Update Services", "No WSUS", "Web Server Update", "Windows Security Update"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is a DMZ?",
+      "options": ["Demilitarized Zone", "No DMZ", "Direct Military Zone", "Data Management Zone"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is NAT?",
+      "options": ["Network Address Translation", "No NAT", "Network Access Tech", "New Address Type"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is VPN tunneling?",
+      "options": ["Secure data tunnel", "No tunnel", "Open tunnel", "Wireless"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is IPSec?",
+      "options": ["IP Security protocol", "No IPSec", "Internet Protocol Secure", "Internal Private Sec"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is SSL VPN?",
+      "options": ["Browser-based VPN", "No SSL", "Site-to-site", "Remote access"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is site-to-site VPN?",
+      "options": ["Connects networks", "No site", "User to site", "Single site"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is remote access VPN?",
+      "options": ["User to network", "No remote", "Site to site", "Network to network"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is BGP?",
+      "options": ["Border Gateway Protocol", "No BGP", "Basic Gateway Protocol", "Border Guard Protocol"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is OSPF?",
+      "options": ["Open Shortest Path First", "No OSPF", "Open Secure Path", "Operating System Protocol"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is BGP hijacking?",
+      "options": ["Route manipulation", "No hijack", "Legit route", "Short path"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is RPKI?",
+      "options": ["Resource Public Key Infrastructure", "No RPKI", "Route Public Key", "Resource Protocol Key"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is BGPsec?",
+      "options": ["Secure BGP", "No BGPsec", "Basic BGP", "Border Guard Sec"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is SDN?",
+      "options": ["Software-Defined Networking", "No SDN", "Secure Data Network", "System Defined Net"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is NFV?",
+      "options": ["Network Function Virtualization", "No NFV", "Network File Virtual", "New Function Virtual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is zero trust?",
+      "options": ["Never trust, always verify", "No zero", "Full trust", "Trust by default"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is micro-segmentation?",
+      "options": ["Granular network isolation", "No micro", "Macro segment", "Full network"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is SASE?",
+      "options": ["Secure Access Service Edge", "No SASE", "Secure App Service Edge", "System Access Secure"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is CASB?",
+      "options": ["Cloud Access Security Broker", "No CASB", "Cloud App Sec Broker", "Central Access Sec"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is CWPP?",
+      "options": ["Cloud Workload Protection Platform", "No CWPP", "Cloud Web Protection", "Central Workload Plat"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is CSPM?",
+      "options": ["Cloud Security Posture Management", "No CSPM", "Cloud Sec Policy Mgmt", "Central Sec Posture"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is CNAPP?",
+      "options": ["Cloud-Native Application Protection Platform", "No CNAPP", "Cloud Net App Protection", "Central Native App"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is DLP?",
+      "options": ["Data Loss Prevention", "No DLP", "Data Leak Protection", "Digital Loss Prev"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is UEBA?",
+      "options": ["User and Entity Behavior Analytics", "No UEBA", "User Entity Basic Analysis", "Unified Entity Behavior"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is SOAR?",
+      "options": ["Security Orchestration, Automation and Response", "No SOAR", "Secure Op Automation Response", "System Orchestration Auto"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is XDR?",
+      "options": ["Extended Detection and Response", "No XDR", "Extra Defense Response", "Extended Data Recovery"],
+      "correctAnswer": 0
+    }
+  ],
+  "master": [
+    {
+      "id": 1,
+      "question": "What is elliptic curve cryptography in security?",
+      "options": ["Public-key crypto based on curves", "No ECC", "Symmetric", "Hash"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is Diffie-Hellman?",
+      "options": ["Key exchange protocol", "No DH", "Encryption", "Signature"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is ECDH?",
+      "options": ["Elliptic Curve Diffie-Hellman", "No ECDH", "ECDSA", "ECIES"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is ECDSA?",
+      "options": ["Elliptic Curve Digital Signature", "No ECDSA", "ECDH", "ECC encrypt"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is quantum-resistant crypto?",
+      "options": ["Post-quantum algorithms", "No quantum", "Current ECC", "RSA only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is lattice-based crypto?",
+      "options": ["Post-quantum candidate", "No lattice", "Hash lattice", "Symmetric"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is hash-based signatures?",
+      "options": ["Lamport, XMSS", "No hash sig", "ECC hash", "RSA"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is multivariate crypto?",
+      "options": ["Polynomial equations", "No multi", "Lattice multi", "Hash multi"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is code-based crypto?",
+      "options": ["McEliece", "No code", "Source code", "Binary code"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is isogeny-based?",
+      "options": ["SIDH/SIKE", "No isogeny", "Lattice iso", "Hash iso"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is Shor's algorithm threat?",
+      "options": ["Breaks ECC/RSA", "No threat", "Symmetric break", "Hash break"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is Grover's algorithm?",
+      "options": ["Quadratic speedup for search", "No Grover", "Full break", "ECC only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is NIST PQC standardization?",
+      "options": ["Kyber, Dilithium etc.", "No PQC", "RSA update", "ECC new"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is hybrid crypto?",
+      "options": ["Classical + post-quantum", "No hybrid", "Single algo", "Quantum only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is side-channel attack?",
+      "options": ["Timing/power analysis", "No side", "Direct attack", "Software only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is differential power analysis?",
+      "options": ["DPA on crypto", "No DPA", "Simple power", "Voltage"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is fault injection?",
+      "options": ["Induce errors to leak info", "No fault", "No inject", "Clean run"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is constant-time implementation?",
+      "options": ["Avoid timing leaks", "No const", "Variable time", "Slow"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is masking in crypto?",
+      "options": ["Randomize intermediates", "No mask", "Direct compute", "Clear"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is threshold implementation?",
+      "options": ["Share computations", "No thresh impl", "Single share", "No share"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is APT?",
+      "options": ["Advanced Persistent Threat", "No APT", "Auto Persistent", "Advanced Protocol Threat"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is spear phishing?",
+      "options": ["Targeted phishing", "No spear", "Mass phishing", "General"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is watering hole attack?",
+      "options": ["Compromised legit sites", "No water", "Direct email", "USB"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is supply chain attack?",
+      "options": ["Compromise vendor", "No supply", "Direct target", "Insider"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is SolarWinds attack?",
+      "options": ["Supply chain example", "No Solar", "Phishing", "DDoS"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is living off the land?",
+      "options": ["Use legit tools maliciously", "No living", "New tools", "Custom malware"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is fileless malware?",
+      "options": ["In-memory execution", "No fileless", "Disk-based", "Persistent file"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is Cobalt Strike?",
+      "options": ["Pen testing tool (abused)", "No Cobalt", "AV tool", "Firewall"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is Empire?",
+      "options": ["Post-exploitation framework", "No Empire", "Kingdom", "PowerShell"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is Mimikatz?",
+      "options": ["Credential dumper", "No Mimikatz", "Password cracker", "Keylogger"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is pass-the-hash?",
+      "options": ["Use NTLM hash as password", "No pass", "Clear text", "Ticket"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is Kerberoasting?",
+      "options": ["Attack service tickets", "No Kerb", "Hash roasting", "Pass roast"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is Golden Ticket?",
+      "options": ["Forged Kerberos ticket", "No Golden", "Silver ticket", "No ticket"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is Silver Ticket?",
+      "options": ["Forged TGS ticket", "No Silver", "AS ticket", "User ticket"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is LSASS dumping?",
+      "options": ["Extract hashes from memory", "No LSASS", "File dump", "Registry"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is BloodHound?",
+      "options": ["AD attack path mapping", "No Blood", "Path finder", "Graph tool"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is PowerView?",
+      "options": ["AD reconnaissance PowerShell", "No PowerView", "View power", "Shell view"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is AD CS attack?",
+      "options": ["Certificate Services abuse", "No AD CS", "Domain controller", "Group policy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is ESC1-8?",
+      "options": ["AD CS vulns", "No ESC", "Escalation", "Certificate errors"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is constrained delegation?",
+      "options": ["Limited delegation", "No constrained", "Unconstrained", "No delegation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is resource-based constrained delegation?",
+      "options": ["RBCD attack", "No RBCD", "User-based", "Service"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is MS14-025?",
+      "options": ["MS-RPRN priv esc", "No MS14", "Patch", "No vuln"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is PrintNightmare?",
+      "options": ["Spooler priv esc", "No Print", "Nightmare patch", "Printer vuln"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is PetitPotam?",
+      "options": ["EoP via MS-EFSRPC", "No Petit", "Potam attack", "Small potam"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is Zerologon?",
+      "options": ["CVE-2020-1472 Netlogon", "No Zero", "Logon zero", "Netlog zero"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is NoPac?",
+      "options": ["NTLM relay bypass", "No NoPac", "Pac none", "NTLM pac"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is DFSCoerce?",
+      "options": ["MS-DFSNM coerce auth", "No DFSC", "Coerce DFS", "File share"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is PrivExchange?",
+      "options": ["MS-ECP priv esc", "No Priv", "Exchange priv", "Mail priv"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is WebClient NTLMRelay?",
+      "options": ["UNC path relay", "No WebClient", "Relay NTLM", "Client web"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is CVE-2022-26923?",
+      "options": ["LSA priv esc", "No CVE", "2022 vuln", "LSA 2022"],
+      "correctAnswer": 0
+    }
+  ],
+  "expert": [
+    {
+      "id": 1,
+      "question": "What is rowhammer attack?",
+      "options": ["DRAM bit flipping", "No rowhammer", "CPU hammer", "Cache"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is meltdown?",
+      "options": ["Speculative execution kernel leak", "No meltdown", "Spectre", "Both"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is spectre?",
+      "options": ["Branch prediction leak", "No spectre", "Meltdown", "Rowhammer"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is retbleed?",
+      "options": ["Return predictor leak", "No ret", "Bleed ret", "Predict return"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is zombie load?",
+      "options": ["Hypervisor leak", "No zombie", "Load zombie", "Hyper load"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is load value injection?",
+      "options": ["LVI speculative gadget", "No LVI", "Value load", "Inject value"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is cache side-channel?",
+      "options": ["Timing via cache state", "No cache", "Direct timing", "No side"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is prime+probe?",
+      "options": ["Cache attack technique", "No prime", "Probe prime", "Evict+time"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is flush+reload?",
+      "options": ["Inclusive cache attack", "No flush", "Reload flush", "Prime probe"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is evict+time?",
+      "options": ["Exclusive cache", "No evict", "Time evict", "Flush reload"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is SGX leak?",
+      "options": ["Enclave side-channel", "No SGX", "Secure guard", "Extension"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is cachezoom?",
+      "options": ["Cross-VM cache attack", "No cachezoom", "VM cache", "Zoom cache"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is taa?",
+      "options": ["Transient Execution Attack", "No TAA", "Attack Transient", "Exec transient"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is MDS?",
+      "options": ["Microarchitectural Data Sampling", "No MDS", "Data Micro", "Sample Data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is fallout?",
+      "options": ["BTB leak", "No fallout", "Fall out", "BTB fall"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is riddle?",
+      "options": ["Store buffer leak", "No riddle", "Riddle store", "Buffer riddle"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is zombie apocalypse?",
+      "options": ["MDS variant", "No zombie", "Apoc zombie", "MDS apoc"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is mitigations impact?",
+      "options": ["Performance overhead", "No impact", "Speed up", "No mit"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is retpoline?",
+      "options": ["Spectre v2 mit", "No retpoline", "Poline ret", "Indirect branch"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is LFENCE?",
+      "options": ["Speculation barrier", "No LFENCE", "Fence LF", "Barrier fence"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is IBRS?",
+      "options": ["Indirect Branch Restricted Speculation", "No IBRS", "Branch Indirect", "Spec IB"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is STIBP?",
+      "options": ["Speculative Store Bypass Protection", "No STIBP", "Bypass Store", "Protect bypass"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is KPTI?",
+      "options": ["Kernel Page Table Isolation", "No KPTI", "Table Kernel", "Isolate page"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is SMEP?",
+      "options": ["Supervisor Mode Execution Prevention", "No SMEP", "Exec Supervisor", "Prevent mode"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is SMAP?",
+      "options": ["Supervisor Mode Access Prevention", "No SMAP", "Access Supervisor", "Prevent access"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is Intel CET?",
+      "options": ["Control-flow Enforcement Technology", "No CET", "Enforce Control", "Tech flow"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is ARM PAC?",
+      "options": ["Pointer Authentication Codes", "No PAC", "Auth Pointer", "Code auth"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is shadow stack?",
+      "options": ["Control-flow integrity", "No shadow", "Stack shadow", "Integrity stack"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is CFG?",
+      "options": ["Control Flow Guard", "No CFG", "Flow Control", "Guard flow"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is CET IBT?",
+      "options": ["Indirect Branch Tracking", "No IBT", "Branch Indirect", "Track branch"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is hardware mitigations?",
+      "options": ["CPU features like PCONFIG", "No hardware", "Software only", "OS only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is microcode update?",
+      "options": ["Firmware patch for spec", "No microcode", "OS update", "BIOS"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is hypervisor mit?",
+      "options": ["VM isolation for spec", "No hyper", "Guest only", "Host"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is cache partitioning?",
+      "options": ["Isolate cache lines", "No partition", "Shared cache", "Flush all"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is cache coloring?",
+      "options": ["Map addresses to avoid collision", "No coloring", "Random color", "No map"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is DAWG?",
+      "options": ["Dynamic Attack Wing Guards", "No DAWG", "Attack dynamic", "Guard wing"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is speculative store bypass?",
+      "options": ["SSB spec issue", "No SSB", "Store spec", "Bypass store"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is rogue data cache load?",
+      "options": ["RDCL spec", "No RDCL", "Cache rogue", "Load data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is store buffer data sampling?",
+      "options": ["SBDS spec", "No SBDS", "Buffer store", "Sample data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is lazy FP state restore?",
+      "options": ["L1TF spec", "No L1TF", "FP lazy", "Restore state"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is page table isolation?",
+      "options": ["PTI for Meltdown", "No PTI", "Table page", "Isolate table"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is speculative buffer overflows?",
+      "options": ["SBO spec", "No SBO", "Buffer spec", "Overflow buffer"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is cacheout?",
+      "options": ["Fill buffer leak", "No cacheout", "Out cache", "Leak fill"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is netSpectre?",
+      "options": ["Network spec leak", "No net", "Spectre net", "Leak network"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is prefetch spec?",
+      "options": ["Hardware prefetch leak", "No prefetch", "Spec prefetch", "Leak hardware"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is branch scope?",
+      "options": ["Hyperthread spec", "No branch", "Scope branch", "Spec hyper"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is CVE-2018-3665?",
+      "options": ["Lazy FP restore", "No CVE", "2018 vuln", "FP lazy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is CVE-2020-0543?",
+      "options": ["INTEL CSA", "No CVE", "2020 vuln", "CSA Intel"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is CVE-2020-0551?",
+      "options": ["Special Register Buffer Data Sampling", "No CVE", "2020 vuln", "Buffer special"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is CVE-2021-34527?",
+      "options": ["PrintNightmare", "No CVE", "2021 vuln", "Print night"],
+      "correctAnswer": 0
+    }
+  ]
+}

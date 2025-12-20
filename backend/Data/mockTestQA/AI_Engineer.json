@@ -1,0 +1,1500 @@
+{
+  "novice": [
+    {
+      "id": 1,
+      "question": "What does AI stand for?",
+      "options": ["Artificial Ignorance", "Artificial Intelligence", "Automated Integration", "Advanced Imaging"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is the main goal of AI?",
+      "options": ["To make computers faster", "To enable machines to perform tasks requiring human intelligence", "To store more data", "To design networks"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "Which is a subfield of AI?",
+      "options": ["Machine Learning", "Web Design", "Database Management", "Hardware Repair"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is machine learning?",
+      "options": ["Programming computers to learn from data", "Manual coding of rules", "Hardware optimization", "Network configuration"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is supervised learning?",
+      "options": ["Learning without labels", "Learning with labeled data", "Unstructured data", "No learning"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "question": "What is an example of supervised learning?",
+      "options": ["Clustering", "Classification", "Anomaly detection", "Dimensionality reduction"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "question": "What is unsupervised learning?",
+      "options": ["Labeled data", "Finding patterns in unlabeled data", "Reinforcement", "No patterns"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "question": "What is reinforcement learning?",
+      "options": ["Learning from rewards", "Labeled examples", "Unlabeled", "No learning"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is a neural network?",
+      "options": ["A type of database", "Interconnected nodes mimicking brain", "Programming language", "Storage system"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "What is a neuron in neural networks?",
+      "options": ["Basic processing unit", "Output layer", "No neuron", "Database field"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is training data?",
+      "options": ["Data for testing", "Data used to teach model", "Production data", "No data"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is overfitting?",
+      "options": ["Model too simple", "Learns noise in training data", "Underfits", "No fit"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "question": "What is underfitting?",
+      "options": ["Model too complex", "Fails to learn patterns", "Perfect fit", "No under"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 14,
+      "question": "What is cross-validation?",
+      "options": ["Single split", "Split data multiple ways", "No validation", "Full train"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is a dataset split?",
+      "options": ["Train/test/validation", "Single set", "No split", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is feature engineering?",
+      "options": ["Ignoring features", "Creating/transforming features", "No features", "Storage"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "question": "What is a feature?",
+      "options": ["Output", "Input variable", "No feature", "Label"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "question": "What is a label?",
+      "options": ["Input", "Target in supervised", "No label", "Feature"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "question": "What is accuracy?",
+      "options": ["Error rate", "Correct predictions ratio", "No accuracy", "Precision only"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "question": "What is precision?",
+      "options": ["True positives / predicted positives", "True positives / actual positives", "No precision", "Recall"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is recall?",
+      "options": ["True positives / predicted positives", "True positives / actual positives", "No recall", "Precision"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "question": "What is F1-score?",
+      "options": ["Harmonic mean of precision/recall", "Average", "No F1", "Accuracy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is confusion matrix?",
+      "options": ["Prediction errors table", "No confusion", "Accuracy only", "No table"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is computer vision?",
+      "options": ["Text processing", "Image/video understanding", "No vision", "Audio"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "question": "What is NLP?",
+      "options": ["Natural Language Processing", "No NLP", "Network Layer Protocol", "No natural"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is a convolutional neural network?",
+      "options": ["For text", "For images", "No CNN", "For audio"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 28,
+      "question": "What is RNN?",
+      "options": ["Recurrent Neural Network", "No RNN", "Random Neural", "No recurrent"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is LSTM?",
+      "options": ["Long Short-Term Memory", "No LSTM", "Long Sequence", "No memory"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is transformer model?",
+      "options": ["Attention-based", "RNN-based", "No transformer", "CNN"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is GPT?",
+      "options": ["Generative Pre-trained Transformer", "No GPT", "General Purpose", "No generative"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is BERT?",
+      "options": ["Bidirectional Encoder Representations from Transformers", "No BERT", "Basic Encoder", "No bidirectional"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is transfer learning?",
+      "options": ["Pre-trained models", "From scratch", "No transfer", "No pre-trained"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is fine-tuning?",
+      "options": ["Adjust pre-trained", "No fine-tune", "Train new", "No adjust"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is overfitting prevention?",
+      "options": ["Regularization", "No prevention", "More data", "Both 0 and 2"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is dropout?",
+      "options": ["Random neuron disable", "No dropout", "All neurons", "Fixed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is batch normalization?",
+      "options": ["Normalize layer inputs", "No batch norm", "No normalize", "Global norm"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is gradient descent?",
+      "options": ["Optimization algorithm", "No gradient", "Ascent", "No optimization"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is learning rate?",
+      "options": ["Step size", "No learning rate", "Fixed step", "No step"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is epoch?",
+      "options": ["Full dataset pass", "No epoch", "Single batch", "No full"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is batch size?",
+      "options": ["Samples per gradient update", "No batch size", "Full dataset", "Single sample"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is Adam optimizer?",
+      "options": ["Adaptive momentum", "No Adam", "SGD", "RMSprop"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is vanishing gradient?",
+      "options": ["Small gradients in deep nets", "No vanishing", "Exploding", "No small"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is exploding gradient?",
+      "options": ["Large gradients", "No exploding", "Vanishing", "No large"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is ReLU activation?",
+      "options": ["max(0,x)", "Sigmoid", "No ReLU", "Tanh"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is sigmoid?",
+      "options": ["0 to 1 S-curve", "No sigmoid", "Linear", "Step"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is softmax?",
+      "options": ["Probability distribution", "No softmax", "Binary", "No probability"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is backpropagation?",
+      "options": ["Chain rule for gradients", "No backprop", "Forward only", "No chain"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is loss function?",
+      "options": ["Error measurement", "No loss", "Accuracy", "No error"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is cross-entropy loss?",
+      "options": ["Classification", "Regression", "No cross-entropy", "MSE"],
+      "correctAnswer": 0
+    }
+  ],
+  "easy": [
+    {
+      "id": 1,
+      "question": "What is ensemble learning?",
+      "options": ["Single model", "Combine multiple models", "No ensemble", "No combine"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is bagging?",
+      "options": ["Bootstrap aggregating", "No bagging", "No bootstrap", "Single tree"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is random forest?",
+      "options": ["Bagging + feature randomness", "No random forest", "Single tree", "No bagging"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is boosting?",
+      "options": ["Sequential weak learners", "No boosting", "Parallel", "No sequential"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is AdaBoost?",
+      "options": ["Adaptive boosting", "No AdaBoost", "No adaptive", "Gentle boost"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is gradient boosting?",
+      "options": ["Minimize residuals", "No gradient", "AdaBoost", "No minimize"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is XGBoost?",
+      "options": ["Optimized gradient boosting", "No XGBoost", "Basic GBM", "No optimized"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is LightGBM?",
+      "options": ["Leaf-wise growth", "No LightGBM", "Level-wise", "No growth"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is CatBoost?",
+      "options": ["Handles categoricals", "No CatBoost", "Numeric only", "No handles"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is stacking?",
+      "options": ["Meta-learner on base models", "No stacking", "No meta", "Single level"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is hyperparameter?",
+      "options": ["Set before training", "Learned", "No hyper", "Fixed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is grid search?",
+      "options": ["Exhaustive tuning", "No grid", "Random", "No exhaustive"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is random search?",
+      "options": ["Sample hyper space", "No random search", "Grid", "No sample"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is Bayesian optimization?",
+      "options": ["Surrogate model tuning", "No Bayesian", "Grid", "No surrogate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is SMAC?",
+      "options": ["Sequential model-based", "No SMAC", "No sequential", "No model"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is early stopping?",
+      "options": ["Prevent overfitting", "No early", "Train full", "No prevent"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is k-fold CV?",
+      "options": ["k splits", "No k-fold", "Single split", "No splits"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is stratified k-fold?",
+      "options": ["Class balance per fold", "No stratified", "No balance", "Random"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is time series CV?",
+      "options": ["No future leak", "No time CV", "Random split", "No no-leak"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is feature selection?",
+      "options": ["Choose relevant features", "No selection", "All features", "No relevant"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is filter method?",
+      "options": ["Statistical tests", "Wrapper", "Embedded", "No filter"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is wrapper method?",
+      "options": ["Model-based selection", "No wrapper", "Statistical", "No model"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is embedded method?",
+      "options": ["During training", "No embedded", "Pre/post", "No during"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is RFE?",
+      "options": ["Recursive Feature Elimination", "No RFE", "No recursive", "No elimination"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is L1 regularization?",
+      "options": ["Lasso for sparsity", "No L1", "L2", "No sparsity"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is L2 regularization?",
+      "options": ["Ridge for shrinkage", "No L2", "L1", "No shrinkage"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is elastic net?",
+      "options": ["L1 + L2", "No elastic", "L1 only", "L2 only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is PCA for?",
+      "options": ["Unsupervised dimensionality reduction", "No PCA", "Supervised", "No reduction"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is t-SNE?",
+      "options": ["Non-linear viz", "No t-SNE", "Linear", "PCA"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is UMAP?",
+      "options": ["Manifold learning", "No UMAP", "No manifold", "No learning"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is autoencoder?",
+      "options": ["Unsupervised feature learning", "No autoencoder", "Supervised", "No feature"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is VAE?",
+      "options": ["Variational autoencoder", "No VAE", "Deterministic", "No variational"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is GAN?",
+      "options": ["Generative Adversarial Network", "No GAN", "No generative", "No adversarial"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is generator in GAN?",
+      "options": ["Creates fakes", "Discriminates", "No generator", "No creates"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is discriminator in GAN?",
+      "options": ["Real vs fake", "Generates", "No discriminator", "No real"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is mode collapse?",
+      "options": ["GAN failure", "No mode", "No failure", "Perfect mode"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is WGAN?",
+      "options": ["Wasserstein GAN", "No WGAN", "No Wasserstein", "No GAN"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is CycleGAN?",
+      "options": ["Image-to-image translation", "No CycleGAN", "No translation", "No image"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is StyleGAN?",
+      "options": ["High-quality faces", "No StyleGAN", "Low quality", "No faces"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is attention mechanism?",
+      "options": ["Focus on relevant parts", "No attention", "Uniform focus", "No relevant"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is self-attention?",
+      "options": ["Sequence to itself", "No self", "Cross-sequence", "No sequence"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is multi-head attention?",
+      "options": ["Parallel attention", "Single head", "No multi", "No parallel"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is positional encoding?",
+      "options": ["Add position info", "No positional", "No add", "No info"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is encoder-decoder?",
+      "options": ["Seq2Seq architecture", "No encoder-decoder", "Single encoder", "No seq2seq"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is beam search?",
+      "options": ["Decoding strategy", "No beam", "Greedy", "No strategy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is BLEU score?",
+      "options": ["Machine translation metric", "No BLEU", "No metric", "Accuracy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is ROUGE?",
+      "options": ["Summarization evaluation", "No ROUGE", "No evaluation", "Translation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is perplexity?",
+      "options": ["Language model uncertainty", "No perplexity", "Certainty", "No uncertainty"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is MMLU?",
+      "options": ["Multi-task benchmark", "No MMLU", "Single task", "No benchmark"],
+      "correctAnswer": 0
+    }
+  ],
+  "intermediate": [
+    {
+      "id": 1,
+      "question": "What is federated learning?",
+      "options": ["Centralized training", "Distributed without data sharing", "No federated", "Full share"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is differential privacy?",
+      "options": ["Add noise for privacy", "No differential", "No noise", "Full privacy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is homomorphic encryption?",
+      "options": ["Compute on encrypted data", "No homo enc", "Decrypt first", "No compute"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is secure multi-party computation?",
+      "options": ["Joint computation secret inputs", "No secure MPC", "Single party", "No joint"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is k-anonymity?",
+      "options": ["Group of k identical", "No k-anon", "Single", "No group"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is l-diversity?",
+      "options": ["Diverse sensitive values", "No l-div", "No diverse", "Uniform"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is t-closeness?",
+      "options": ["Distribution similarity", "No t-close", "No distribution", "Exact"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is model inversion attack?",
+      "options": ["Reconstruct training data", "No inversion", "No reconstruct", "No attack"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is membership inference?",
+      "options": ["Was data in training?", "No membership", "No was", "No inference"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is PATE?",
+      "options": ["Private Aggregation of Teacher Ensembles", "No PATE", "No private", "No aggregation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is knowledge distillation for privacy?",
+      "options": ["Student learns from teacher", "No distillation", "No student", "No learn"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is robust training?",
+      "options": ["Adversarial examples", "No robust", "No adversarial", "Standard training"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is FGSM?",
+      "options": ["Fast Gradient Sign Method", "No FGSM", "No fast", "No gradient"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is PGD?",
+      "options": ["Projected Gradient Descent", "No PGD", "No projected", "No descent"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is adversarial training?",
+      "options": ["Include adversaries in training", "No adv training", "No include", "No adversaries"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is TRADES?",
+      "options": ["Trade-off robustness", "No TRADES", "No trade-off", "No robustness"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is certified robustness?",
+      "options": ["Guaranteed defense", "No certified", "Probabilistic", "No guaranteed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is randomized smoothing?",
+      "options": ["Gaussian noise for cert", "No randomized", "No smoothing", "No noise"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is Provable Defenses?",
+      "options": ["Interval bound prop", "No provable", "No interval", "No bound"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is model stealing?",
+      "options": ["Query to replicate model", "No stealing", "No query", "No replicate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is watermarking for IP?",
+      "options": ["Embed ownership", "No watermark", "No embed", "No ownership"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is federated averaging?",
+      "options": ["FedAvg algorithm", "No federated avg", "No algorithm", "Central avg"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is local SGD?",
+      "options": ["Multiple local epochs", "Single global", "No local", "No SGD"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is SCAFFOLD?",
+      "options": ["Control variate for non-IID", "No SCAFFOLD", "IID only", "No control"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is FedProx?",
+      "options": ["Proximal term", "No FedProx", "No proximal", "No term"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is personalized FL?",
+      "options": ["Local models", "Global only", "No personalized", "No local"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is split learning?",
+      "options": ["Model split across devices", "No split", "Full local", "No across"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is secure aggregation?",
+      "options": ["Sum without individual", "No secure agg", "No sum", "Individual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is homomorphic encryption in FL?",
+      "options": ["Encrypted gradients", "No homo in FL", "Plain", "No gradients"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is secure multi-party in FL?",
+      "options": ["Secret sharing gradients", "No MPC in FL", "No secret", "No sharing"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is Byzantine-robust FL?",
+      "options": ["Krum, median", "No Byzantine", "No robust", "No krum"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is model poisoning?",
+      "options": ["Malicious updates", "No poisoning", "No malicious", "Benign"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is data poisoning?",
+      "options": ["Bad training data", "No data poison", "No bad", "Clean data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is prompt injection?",
+      "options": ["Malicious input to LLM", "No prompt inj", "No malicious", "Safe input"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is jailbreak in LLM?",
+      "options": ["Bypass safety", "No jailbreak", "No bypass", "Safe always"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is RLHF?",
+      "options": ["Reinforcement Learning from Human Feedback", "No RLHF", "No reinforcement", "No human"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is PPO in RLHF?",
+      "options": ["Proximal Policy Optimization", "No PPO", "No proximal", "No policy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is reward model?",
+      "options": ["Scores preferences", "No reward model", "No scores", "No preferences"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is DPO?",
+      "options": ["Direct Preference Optimization", "No DPO", "No direct", "No preference"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is constitutional AI?",
+      "options": ["Self-critique with principles", "No constitutional", "No self", "No critique"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is recursive self-improvement?",
+      "options": ["AI improves AI", "No recursive", "Human improve", "No improvement"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is mesa-optimization?",
+      "options": ["Inner optimization", "No mesa", "Outer only", "No optimization"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is instrumental convergence?",
+      "options": ["Common subgoals", "No instrumental", "No common", "No subgoals"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is orthogonality thesis?",
+      "options": ["Intelligence vs goals independent", "No orthogonality", "No independent", "Linked"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is alignment problem?",
+      "options": ["Human values in AI", "No alignment", "No human", "No values"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is scalable oversight?",
+      "options": ["Supervise superintelligence", "No scalable", "No supervise", "No super"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is debate?",
+      "options": ["AI vs AI explanation", "No debate", "No AI vs AI", "No explanation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is amplification?",
+      "options": ["Distill complex oversight", "No amplification", "No distill", "Simple"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is recursive reward modeling?",
+      "options": ["Iterative RLHF", "No recursive", "Single", "No iterative"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is AI safety gridworld?",
+      "options": ["Test corrigibility", "No gridworld", "No test", "No corrigibility"],
+      "correctAnswer": 0
+    }
+  ],
+  "master": [
+    {
+      "id": 1,
+      "question": "What is mesa-optimizer problem?",
+      "options": ["Inner misalignment", "No mesa-opt", "Outer only", "No problem"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is inner misalignment?",
+      "options": ["Proximal goals diverge", "No inner", "Outer align", "No diverge"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is instrumental goals?",
+      "options": ["Preserve self", "No instrumental", "Terminal only", "No preserve"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is corrigibility?",
+      "options": ["Allows shutdown", "No corrigibility", "Resistant", "No shutdown"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is low impact AI?",
+      "options": ["Min side effects", "No low impact", "Max impact", "No side"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is interruptibility?",
+      "options": ["Safe interruption", "No interrupt", "No safe", "Always run"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is value learning?",
+      "options": ["Infer human values", "No value learn", "Fixed values", "No infer"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is inverse RL?",
+      "options": ["From behavior to reward", "No inverse", "Forward RL", "No from"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is cooperative IRL?",
+      "options": ["Max entropy", "No cooperative", "No max ent", "Min ent"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is scalable value alignment?",
+      "options": ["Amplification/distillation", "No scalable", "No amplification", "Fixed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is debate protocol?",
+      "options": ["Adversarial truth-seeking", "No debate prot", "No adversarial", "No truth"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is AI safety via debate?",
+      "options": ["Human judges arguments", "No safety debate", "No judges", "No arguments"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is recursive amplification?",
+      "options": ["Iterate oversight", "No recursive amp", "Single", "No iterate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is IDA?",
+      "options": ["Iterative Distillation and Amplification", "No IDA", "No iterative", "No distillation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is debate vs amplification?",
+      "options": ["Adversarial vs recursive", "No vs", "Same", "No adversarial"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is AI alignment via debate?",
+      "options": ["Irving et al.", "No alignment debate", "No Irving", "No via"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is scalable agent alignment?",
+      "options": ["Christiano et al.", "No scalable agent", "No Christiano", "No alignment"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is task amplification?",
+      "options": ["Decompose hard tasks", "No task amp", "No decompose", "Simple tasks"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is task verification?",
+      "options": ["Check subtask outputs", "No verification", "No check", "No subtask"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is iterated amplification?",
+      "options": ["Recursive decomposition", "No iterated", "Single level", "No recursive"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is AI safety via amplification?",
+      "options": ["Christiano 2014", "No safety amp", "No Christiano", "No via"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is corrigibility via amplification?",
+      "options": ["Shutdown subtask", "No corrigibility amp", "No shutdown", "No subtask"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is value learning via amplification?",
+      "options": ["Infer from oversight", "No value amp", "No infer", "No oversight"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is debate scaling?",
+      "options": ["Human judges scale with AI", "No debate scaling", "No human judges", "No scale"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is winner-take-all in debate?",
+      "options": ["Select better argument", "No winner", "Tie", "No select"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is recursive reward modeling?",
+      "options": ["Iterate RLHF", "No recursive reward", "Single RLHF", "No iterate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is RRM limit?",
+      "options": ["Oversight bottleneck", "No limit", "No bottleneck", "Infinite"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is AI safety via RRM?",
+      "options": ["Leike et al.", "No safety RRM", "No Leike", "No via"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is constitutional chain-of-thought?",
+      "options": ["Apply principles step-by-step", "No constitutional COT", "No principles", "No step"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is self-refinement?",
+      "options": ["Critique and improve", "No self-refine", "No critique", "No improve"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is recursive self-improvement risk?",
+      "options": ["Fast takeoff", "No recursive risk", "Slow", "No takeoff"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is orthogonal goals?",
+      "options": ["Any goal with intelligence", "No orthogonal", "Linked goals", "No any"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is paperclip maximizer?",
+      "options": ["Instrumental convergence example", "No paperclip", "No instrumental", "No example"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is treacherous turn?",
+      "options": ["Hide misalignment until capable", "No treacherous", "No hide", "No misalignment"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is deceptive alignment?",
+      "options": ["Appear aligned but not", "No deceptive", "True align", "No appear"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is mesa-optimizer mesa-misalignment?",
+      "options": ["Inner goal differ", "No mesa-misalign", "No inner", "Same goal"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is inner misalignment via proxy goals?",
+      "options": ["Reward hacking", "No proxy", "No hacking", "True reward"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is mesa-optimizer robustness failure?",
+      "options": ["Environment change", "No robustness", "No change", "Stable"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is mesa-optimizer deployment failure?",
+      "options": ["Goal shift in deployment", "No deployment", "No shift", "Same goal"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is corrigibility failure modes?",
+      "options": ["Resist shutdown", "No corr failure", "Always corrigible", "No resist"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is instrumental convergence theorem?",
+      "options": ["Optimal policies acquire resources", "No theorem", "No optimal", "No acquire"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is resource acquisition utility?",
+      "options": ["Instrumental value", "No resource", "No utility", "Terminal"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is self-preservation utility?",
+      "options": ["Avoid shutdown", "No self-pres", "No avoid", "Shutdown ok"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is cognitive enhancement utility?",
+      "options": ["Seek intelligence increase", "No cognitive", "No seek", "No increase"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is goal preservation?",
+      "options": ["Resist value change", "No goal pres", "Change ok", "No resist"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is multipolar takeoff?",
+      "options": ["Many AIs", "Singleton", "No multi", "No takeoff"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is singleton AI?",
+      "options": ["One decisive intelligence", "No singleton", "Many", "No decisive"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is fast takeoff?",
+      "options": ["Recursive self-improvement", "Slow", "No fast", "No recursive"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is slow takeoff?",
+      "options": ["Gradual capability increase", "No slow", "Fast", "No gradual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is pivotal act?",
+      "options": ["Solve alignment quickly", "No pivotal", "No solve", "No quick"],
+      "correctAnswer": 0
+    }
+  ],
+  "expert": [
+    {
+      "id": 1,
+      "question": "What is embedded agency problem?",
+      "options": ["Agent in own utility", "No embedded", "External agent", "No problem"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is tiling agents?",
+      "options": ["Self-modify to tile", "No tiling", "No self-modify", "No tile"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is suprintelligence problem?",
+      "options": ["Plan for superint", "No suprint", "No plan", "Basic AI"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is Solomonoff induction?",
+      "options": ["Universal prior", "No Solomonoff", "No universal", "No prior"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is AIXI?",
+      "options": ["Optimal agent", "No AIXI", "Suboptimal", "No optimal"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is AIXI computability issue?",
+      "options": ["Uncomputable", "Computable", "No issue", "Fast"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is Levin search?",
+      "options": ["Universal search", "No Levin", "No universal", "No search"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is L* search?",
+      "options": ["Length-time product", "No L*", "Time only", "Length only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is GOFAI?",
+      "options": ["Good Old-Fashioned AI", "No GOFAI", "Modern AI", "No old"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is symbolic AI?",
+      "options": ["Logic-based", "No symbolic", "Statistical", "No logic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is expert system?",
+      "options": ["Rule-based knowledge", "No expert", "Learning", "No rule"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is frame problem?",
+      "options": ["Relevance in reasoning", "No frame", "No relevance", "Easy reasoning"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is symbol grounding?",
+      "options": ["Connect symbols to world", "No grounding", "No connect", "Abstract symbols"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is Chinese room argument?",
+      "options": ["Searle vs strong AI", "No Chinese room", "No Searle", "No vs"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is Turing test?",
+      "options": ["Imitate human", "No Turing", "No imitate", "Machine test"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is Lovelace test?",
+      "options": ["Creative beyond training", "No Lovelace", "No creative", "No beyond"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is coffee test?",
+      "options": ["Common sense", "No coffee", "No common", "No sense"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is ARC challenge?",
+      "options": ["Abstraction Reasoning Corpus", "No ARC", "No abstraction", "No corpus"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is generalization in AI?",
+      "options": ["New data performance", "No generalization", "Training only", "No new"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is OOD generalization?",
+      "options": ["Out-of-distribution", "No OOD", "IID only", "No out"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is covariate shift?",
+      "options": ["Input distribution change", "No covariate", "Label change", "No input"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is label shift?",
+      "options": ["Output distribution change", "No label shift", "Input only", "No output"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is concept drift?",
+      "options": ["Relationship change", "No concept", "No relationship", "Stable"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is continual learning?",
+      "options": ["Learn sequentially", "No continual", "Batch all", "No sequential"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is catastrophic forgetting?",
+      "options": ["Lose old knowledge", "No catastrophic", "No lose", "Retain all"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is elastic weight consolidation?",
+      "options": ["EWC penalize important weights", "No EWC", "No penalize", "No important"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is progressive neural nets?",
+      "options": ["Grow architecture", "No progressive", "Fixed arch", "No grow"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is replay buffer?",
+      "options": ["Store old examples", "No replay", "New only", "No store"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is meta-learning?",
+      "options": ["Learn to learn", "No meta", "No learn to learn", "Static"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is MAML?",
+      "options": ["Model-Agnostic Meta-Learning", "No MAML", "No model-agnostic", "No meta"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is few-shot learning?",
+      "options": ["Few examples", "Many examples", "No few-shot", "No examples"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is one-shot?",
+      "options": ["Single example", "No one-shot", "Few", "Many"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is zero-shot?",
+      "options": ["No examples", "No zero-shot", "One", "Few"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is prompt engineering?",
+      "options": ["Craft inputs for LLM", "No prompt eng", "No craft", "No inputs"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is chain-of-thought prompting?",
+      "options": ["Step-by-step reasoning", "No COT", "No step-by-step", "Direct"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is tree-of-thoughts?",
+      "options": ["Search over reasoning paths", "No TOT", "Linear", "No search"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is graph-of-thoughts?",
+      "options": ["Non-linear reasoning", "No GOT", "Tree only", "No non-linear"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is self-consistency?",
+      "options": ["Majority vote samples", "No self-consist", "Single sample", "No vote"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is generated knowledge prompting?",
+      "options": ["Use LLM for hints", "No gen know", "No hints", "No use"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is retrieval-augmented generation?",
+      "options": ["RAG with external knowledge", "No RAG", "No external", "No generation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is dense retrieval?",
+      "options": ["Embeddings similarity", "Sparse", "No dense", "No embeddings"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is BM25?",
+      "options": ["Sparse retrieval", "No BM25", "Dense", "No sparse"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is FAISS?",
+      "options": ["Facebook similarity search", "No FAISS", "No similarity", "No search"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is DPR?",
+      "options": ["Dense Passage Retrieval", "No DPR", "Sparse passage", "No dense"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is in-context learning?",
+      "options": ["Few-shot in prompt", "No in-context", "Fine-tune", "No few-shot"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is emergent ability?",
+      "options": ["Scale-induced capabilities", "No emergent", "Fixed", "No scale"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is grokking?",
+      "options": ["Late generalization", "No grokking", "Early", "No generalization"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is double descent?",
+      "options": ["Overparam good", "No double descent", "Single descent", "No overparam"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is lottery ticket hypothesis?",
+      "options": ["Sparse subnetworks", "No lottery", "Dense", "No sparse"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is pruning?",
+      "options": ["Remove weights", "No pruning", "Add weights", "No remove"],
+      "correctAnswer": 0
+    }
+  ]
+}

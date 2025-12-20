@@ -1,0 +1,123 @@
+[
+  {
+    "result_id": 1,
+    "condition": "score ≤ 20",
+    "summary": "The candidate shows limited understanding of core blockchain concepts and requires foundational reinforcement. Basic topics like decentralization, blocks, hashing, and wallets need review. Advanced knowledge in smart contracts and consensus is minimal.",
+    "strengths": [
+      "Willingness to attempt all questions",
+      "Basic awareness of blockchain terminology"
+    ],
+    "areas_of_improvement": [
+      "Grasp of blockchain fundamentals (blocks, hashes, decentralization)",
+      "Understanding of cryptography basics (keys, signatures)",
+      "Familiarity with cryptocurrencies and wallets"
+    ],
+    "recommendations": [
+      {
+        "topic": "Blockchain Fundamentals",
+        "description": "Master the basics: decentralization, blocks, transactions, hashing, and the structure of a blockchain ledger.",
+        "resources": [
+          "Mastering Blockchain (Imran Bashir) - Chapters 1–3",
+          "Blockchain Basics (Coursera) by University at Buffalo"
+        ]
+      },
+      {
+        "topic": "Cryptography for Blockchain",
+        "description": "Learn public/private keys, hashing (SHA-256), digital signatures, and address generation.",
+        "resources": [
+          "Cryptography I (Stanford on Coursera) - Weeks 1–4",
+          "Bitcoin and Cryptocurrency Technologies (Princeton on Coursera) - Module 1"
+        ]
+      },
+      {
+        "topic": "Wallets and Transactions",
+        "description": "Understand wallets, transaction flows, UTXOs, and basic network interactions.",
+        "resources": [
+          "Programming Bitcoin (Jimmy Song) - Chapters 1–4",
+          "MetaMask Documentation + Beginner Tutorials"
+        ]
+      }
+    ]
+  },
+  {
+    "result_id": 2,
+    "condition": "20 < score ≤ 40",
+    "summary": "The candidate demonstrates moderate grasp of blockchain basics and can identify key concepts like PoW, smart contracts, and tokens. However, development tools, consensus variants, and security practices remain inconsistent.",
+    "strengths": [
+      "Correct identification of core principles and Ethereum features",
+      "Basic understanding of consensus mechanisms and token standards",
+      "Familiarity with development environments like Remix and Truffle"
+    ],
+    "areas_of_improvement": [
+      "Deeper insight into smart contract development and auditing",
+      "Practical implementation of Ethereum tools and Layer 2 solutions",
+      "Structured approach to security vulnerabilities and scaling"
+    ],
+    "recommendations": [
+      {
+        "topic": "Smart Contracts and Ethereum",
+        "description": "Explore Solidity, EVM, gas mechanics, ERC standards, and deploying contracts with tools like Hardhat.",
+        "resources": [
+          "Mastering Ethereum (Andreas Antonopoulos) - Chapters 5–8",
+          "CryptoZombies.io - Solidity Tutorial"
+        ]
+      },
+      {
+        "topic": "Consensus and Scaling",
+        "description": "Master PoW/PoS, Layer 2 (rollups, state channels), and interoperability (IBC, bridges).",
+        "resources": [
+          "Ethereum.org - Developer Docs on Scaling",
+          "Cosmos SDK Tutorials - Building a Chain"
+        ]
+      },
+      {
+        "topic": "Blockchain Security Basics",
+        "description": "Learn common attacks (reentrancy, front-running), mitigation patterns, and auditing tools like Slither.",
+        "resources": [
+          "SWC Registry (Smart Contract Weakness Classification)",
+          "Damn Vulnerable DeFi (Challenge-based Learning)"
+        ]
+      }
+    ]
+  },
+  {
+    "result_id": 3,
+    "condition": "40 < score ≤ 50",
+    "summary": "The candidate exhibits strong command of blockchain principles, accurately explaining elliptic curves, EVM opcodes, scaling protocols, and advanced cryptography. Knowledge of enterprise frameworks and post-merge Ethereum is well-articulated.",
+    "strengths": [
+      "Clear conceptual understanding of cryptographic primitives and EVM internals",
+      "Accurate description of advanced consensus, privacy tech, and dev tools",
+      "Awareness of production challenges like MEV, stateless clients, and formal verification"
+    ],
+    "areas_of_improvement": [
+      "Expert-level integration of threshold schemes and zero-knowledge systems",
+      "Handling of cross-chain protocols and future Ethereum upgrades"
+    ],
+    "recommendations": [
+      {
+        "topic": "Advanced Cryptography and Signatures",
+        "description": "Dive into ECDSA/Schnorr derivations, threshold signatures (FROST, MuSig), and BIP standards for wallets.",
+        "resources": [
+          "Elliptic Curve Cryptography for Beginners (Video Series by Nadia Heninger)",
+          "BIP GitHub Repository + Implementation Guides"
+        ]
+      },
+      {
+        "topic": "EVM Deep Dive and Verification",
+        "description": "Explore opcodes, precompiles, formal verification (Certora), and upgrades like Verkle trees and danksharding.",
+        "resources": [
+          "Ethereum Yellow Paper (Formal Spec)",
+          "EVM Opcodes Tutorial (evm.codes)"
+        ]
+      },
+      {
+        "topic": "Advanced Scaling and Interoperability",
+        "description": "Study PBS (MEV-Boost), stateless execution, Cosmos IBC, and privacy (zk-SNARKs, Bulletproofs).",
+        "resources": [
+          "Ethereum Research Forum - Scaling Discussions",
+          "Zero-Knowledge Proofs Course (ZK Whiteboard)"
+        ]
+      }
+    ]
+  }
+]

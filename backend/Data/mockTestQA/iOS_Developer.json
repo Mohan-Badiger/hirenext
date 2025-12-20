@@ -1,0 +1,1512 @@
+{
+  "novice": [
+    {
+      "id": 1,
+      "question": "What does iOS stand for?",
+      "options": ["Internet Operating System", "iPhone Operating System", "Integrated Operating System", "Intelligent Operating System"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is the primary programming language for iOS development?",
+      "options": ["Java", "Swift", "Python", "C++"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "What is Xcode?",
+      "options": ["A text editor", "Apple's IDE for iOS development", "A version control system", "A testing framework"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "question": "What is Swift?",
+      "options": ["A scripting language", "Apple's open-source programming language", "A database query language", "A markup language"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "What is the file extension for Swift files?",
+      "options": [".java", ".swift", ".py", ".cpp"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "question": "What is UIKit?",
+      "options": ["A graphics framework", "Apple's framework for building user interfaces", "A networking library", "A data persistence tool"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "question": "What is a View Controller?",
+      "options": ["A data model", "Manages a view and its interactions", "A navigation tool", "A storage component"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "question": "What is Interface Builder?",
+      "options": ["A code editor", "Tool in Xcode for designing UI", "A simulator", "A profiler"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "question": "What is Storyboard?",
+      "options": ["A visual representation of UI flow", "A code file", "A database schema", "A test script"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is Auto Layout?",
+      "options": ["Manual positioning", "System for adaptive UI layouts", "A animation tool", "A gesture recognizer"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "question": "What is the iOS Simulator?",
+      "options": ["A physical device", "Tool to test apps on virtual devices", "A debugging console", "A deployment server"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is ARC?",
+      "options": ["Automatic Reference Counting", "Apple Runtime Compiler", "Advanced Resource Controller", "App Runtime Cache"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is an IBOutlet?",
+      "options": ["Input/Output Binding", "Connection from code to UI elements", "Internal Object Buffer", "Interface Outlet Box"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 14,
+      "question": "What is an IBAction?",
+      "options": ["Interface Builder Action", "Method connected to UI events", "Internal Buffer Action", "Input Binding Action"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is UIView?",
+      "options": ["A data class", "Base class for all visual elements", "A controller class", "A model class"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 16,
+      "question": "What is the AppDelegate?",
+      "options": ["Manages app lifecycle", "Handles UI", "Stores data", "Processes network requests"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What does MVC stand for?",
+      "options": ["Model View Controller", "Main View Component", "Mobile Version Control", "Managed View Cache"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is Core Data?",
+      "options": ["Graphics framework", "Apple's persistence framework", "Networking tool", "Animation library"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "question": "What is a Bundle ID?",
+      "options": ["App identifier", "File extension", "UI component", "Test suite"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is provisioning profile?",
+      "options": ["Build configuration", "Certificate for app distribution", "UI layout file", "Code snippet"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "question": "What is the main function in an iOS app?",
+      "options": ["applicationDidFinishLaunching", "main()", "startApp()", "init()"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 22,
+      "question": "What is optional in Swift?",
+      "options": ["Required value", "Value that may be nil", "Array type", "Function parameter"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "question": "What is force unwrapping?",
+      "options": ["Safe access", "Using ! to access optional", "Automatic handling", "Error checking"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "question": "What is guard statement?",
+      "options": ["Loop control", "Early exit for optionals", "Error handler", "Data validator"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "question": "What is let vs var?",
+      "options": ["Constant vs variable", "Local vs global", "Loop vs function", "Class vs struct"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is a closure?",
+      "options": ["Class method", "Self-contained block of code", "UI view", "Data model"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "question": "What is URLSession?",
+      "options": ["File manager", "Networking API", "Database connector", "Image loader"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 28,
+      "question": "What is plist file?",
+      "options": ["Property list for configuration", "UI layout", "Code file", "Test file"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is the sandbox?",
+      "options": ["App isolation environment", "Testing tool", "Build system", "UI framework"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is Info.plist?",
+      "options": ["App metadata file", "Code source", "UI storyboard", "Test configuration"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is a nib file?",
+      "options": ["Archive of UI objects", "Code file", "Database", "Image"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is NSUserDefaults?",
+      "options": ["Key-value storage", "Database", "File manager", "Network cache"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is the responder chain?",
+      "options": ["Event handling hierarchy", "Data flow", "UI layout", "Memory management"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is a gesture recognizer?",
+      "options": ["Touch event handler", "Animation tool", "Layout constraint", "Data binder"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is UITableView?",
+      "options": ["List view", "Image view", "Button", "Label"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is a cell in UITableView?",
+      "options": ["Reusable row view", "Header", "Footer", "Section"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is delegate pattern?",
+      "options": ["Communication between objects", "Data storage", "UI rendering", "Error handling"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is datasource?",
+      "options": ["Provides data to UI", "Handles events", "Manages layout", "Processes input"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is UINavigationController?",
+      "options": ["Stack-based navigation", "Tab bar", "Modal presenter", "Split view"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is push and pop?",
+      "options": ["Navigation actions", "Data operations", "Animation types", "Layout changes"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is UITabBarController?",
+      "options": ["Tab-based navigation", "Stack navigation", "Modal", "Drawer"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is present modal?",
+      "options": ["Overlay view", "Push navigation", "Tab switch", "Alert"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is UIAlertController?",
+      "options": ["Dialog box", "Table view", "Image picker", "Date picker"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is UIImagePickerController?",
+      "options": ["Camera/gallery access", "File browser", "Color picker", "Font selector"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is Core Location?",
+      "options": ["GPS framework", "Graphics", "Audio", "Animation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is permission request?",
+      "options": ["User consent for features", "Build setting", "Code compilation", "UI constraint"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is App Store Connect?",
+      "options": ["App submission portal", "IDE", "Simulator", "Profiler"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is TestFlight?",
+      "options": ["Beta testing", "Unit testing", "UI testing", "Performance testing"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is the device orientation?",
+      "options": ["Portrait/landscape support", "File rotation", "Animation direction", "Layout flip"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is safe area?",
+      "options": ["Notch/edge inset", "Data safety", "Code boundary", "UI margin"],
+      "correctAnswer": 0
+    }
+  ],
+  "easy": [
+    {
+      "id": 1,
+      "question": "What is SwiftUI?",
+      "options": ["Declarative UI framework", "Imperative UI", "Web framework", "Database tool"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is a View in SwiftUI?",
+      "options": ["Struct conforming to View protocol", "Class", "Function", "Protocol"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is @State in SwiftUI?",
+      "options": ["Local mutable state", "Global state", "Immutable", "Computed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is @Binding?",
+      "options": ["Two-way data binding", "One-way", "No binding", "Event binding"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is ObservableObject?",
+      "options": ["For state management", "UI view", "Data model", "Animation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is Combine framework?",
+      "options": ["Reactive programming", "Networking", "Graphics", "Persistence"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is Publisher in Combine?",
+      "options": ["Emits values over time", "Subscriber", "Operator", "Sink"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is async/await?",
+      "options": ["Modern concurrency", "Old threading", "Blocking call", "No concurrency"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is DispatchQueue?",
+      "options": ["Thread management", "UI update", "Data queue", "Event queue"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is GCD?",
+      "options": ["Grand Central Dispatch", "Global Code Distribution", "General Concurrency Design", "Graph Computation Driver"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is OperationQueue?",
+      "options": ["For concurrent operations", "Serial only", "UI queue", "Main queue"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is Codable?",
+      "options": ["JSON encoding/decoding", "UI coding", "Error coding", "Animation code"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is UserDefaults?",
+      "options": ["Simple key-value storage", "Complex database", "File system", "Cloud sync"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is Core Data stack?",
+      "options": ["Managed object context, model, store", "UI stack", "View stack", "Code stack"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is NSFetchedResultsController?",
+      "options": ["For table view data management", "Image fetcher", "Network fetch", "File fetch"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is Alamofire?",
+      "options": ["HTTP networking library", "UI library", "Database lib", "Animation lib"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is URLSessionDataTask?",
+      "options": ["For GET/POST requests", "Upload only", "Download only", "WebSocket"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is JSONDecoder?",
+      "options": ["Parses JSON to objects", "Encodes only", "XML parser", "Binary decoder"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is AVFoundation?",
+      "options": ["Media framework", "Audio only", "Video only", "Graphics"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is AVPlayer?",
+      "options": ["Plays media", "Records media", "Edits media", "Compresses media"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is MapKit?",
+      "options": ["Maps and location", "Core Location only", "AR maps", "Offline maps"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is MKMapView?",
+      "options": ["Displays maps", "Geocoding", "Routing", "Annotation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is Core Animation?",
+      "options": ["Implicit animations", "Explicit only", "No animation", "UI animation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is CABasicAnimation?",
+      "options": ["Simple keyframe animation", "Group animation", "Transition", "Timing function"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is Auto Layout constraint?",
+      "options": ["Relation between views", "Code constraint", "Visual constraint", "Dynamic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is stack view?",
+      "options": ["Arranges subviews linearly", "Grid view", "Custom layout", "Scroll view"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is UICollectionView?",
+      "options": ["Grid/list views", "Table only", "Simple list", "Custom cells"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is flow layout?",
+      "options": ["For collection view", "Table layout", "Stack layout", "Grid layout"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is diffable data source?",
+      "options": ["iOS 13+ for animated updates", "Static source", "Manual update", "No animation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is scene delegate?",
+      "options": ["iOS 13+ for multi-window", "App delegate only", "UI delegate", "Data delegate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is widget?",
+      "options": ["Home screen extension", "App extension", "Today view", "Notification"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is App Clip?",
+      "options": ["Lightweight app experience", "Full app", "Game", "Web app"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is Sign in with Apple?",
+      "options": ["Auth method", "Payment", "Social login", "Biometric"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is Keychain?",
+      "options": ["Secure storage", "User defaults", "Core data", "File manager"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is biometric auth?",
+      "options": ["Touch ID/Face ID", "Password", "PIN", "OAuth"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is LocalAuthentication framework?",
+      "options": ["For biometrics", "Networking", "Graphics", "Audio"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is push notification?",
+      "options": ["Remote alerts", "Local only", "Email", "SMS"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is APNs?",
+      "options": ["Apple Push Notification service", "Local push", "Firebase", "Custom server"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is background fetch?",
+      "options": ["App refresh in background", "Foreground only", "No fetch", "Sync"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is background app refresh?",
+      "options": ["System-controlled updates", "Manual", "Real-time", "No background"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is Handoff?",
+      "options": ["Continuity across devices", "Data transfer", "Backup", "Sync"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is iCloud?",
+      "options": ["Cloud storage/sync", "Local only", "Server", "Database"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is CloudKit?",
+      "options": ["iCloud backend", "AWS", "Firebase", "Core data cloud"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is ARKit?",
+      "options": ["Augmented reality", "VR", "MR", "Graphics"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is RealityKit?",
+      "options": ["3D rendering for AR", "2D graphics", "Animation", "Physics"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is Machine Learning in iOS?",
+      "options": ["Core ML", "TensorFlow", "PyTorch", "Custom"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is Create ML?",
+      "options": ["Model training tool", "Inference only", "Data labeling", "Deployment"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is Vision framework?",
+      "options": ["Computer vision tasks", "Audio vision", "Text vision", "No vision"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is Natural Language framework?",
+      "options": ["NLP tasks", "Graphics", "Networking", "Persistence"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is Speech framework?",
+      "options": ["Speech recognition/synthesis", "Text to speech only", "Audio recording", "Music"],
+      "correctAnswer": 0
+    }
+  ],
+  "intermediate": [
+    {
+      "id": 1,
+      "question": "What is protocol-oriented programming?",
+      "options": ["Swift paradigm using protocols", "Class-only", "Struct-only", "No protocols"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is extension in Swift?",
+      "options": ["Add functionality to types", "New class", "Subclass", "Interface"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is associated type?",
+      "options": ["Placeholder in protocol", "Concrete type", "Generic", "No type"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is opaque type?",
+      "options": ["Some protocol", "Any", "Concrete", "Void"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is actor in Swift?",
+      "options": ["Concurrency isolation", "Class actor", "UI actor", "No actor"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is async let?",
+      "options": ["Concurrent task binding", "Sequential", "Sync let", "No binding"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is TaskGroup?",
+      "options": ["Structured concurrency", "Single task", "No group", "Queue"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is error handling with Result?",
+      "options": ["Type-safe errors", "Exceptions", "No handling", "Try-catch"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is do-try-catch?",
+      "options": ["Swift error handling", "No errors", "Optional", "Guard"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is memory layout in Swift?",
+      "options": ["Stack/heap management", "No layout", "ARC only", "Garbage"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is copy-on-write?",
+      "options": ["Value semantics optimization", "Reference copy", "No copy", "Deep copy"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is generics in Swift?",
+      "options": ["Type-safe reusable code", "Templates", "No generics", "Dynamic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is where clause?",
+      "options": ["Generic constraints", "Loop where", "If where", "No clause"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is property wrapper?",
+      "options": ["@Published, @State", "Getter/setter", "No wrapper", "Delegate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is dynamic member lookup?",
+      "options": ["Runtime resolution", "Compile-time", "No dynamic", "Static"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is KeyPath?",
+      "options": ["Type-safe path to properties", "String path", "No path", "URL path"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is Realm?",
+      "options": ["Mobile database", "Core Data alt", "SQLite wrapper", "Cloud DB"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is migration in Core Data?",
+      "options": ["Schema changes", "Data import", "No migration", "Backup"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is fetch request?",
+      "options": ["Query for entities", "Insert", "Update", "Delete"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is predicate?",
+      "options": ["Filtering condition", "Sort", "Group", "Join"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is REST API call?",
+      "options": ["HTTP methods", "Socket", "WebSocket", "gRPC"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is Codable conformance?",
+      "options": ["JSON serialization", "Binary", "XML", "Protobuf"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is authentication header?",
+      "options": ["Bearer token", "Basic auth", "No header", "Cookie"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is caching with URLCache?",
+      "options": ["Response storage", "No cache", "Memory only", "Disk only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is AVAudioEngine?",
+      "options": ["Audio processing", "Simple player", "Recorder", "Mixer"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is Metal?",
+      "options": ["GPU framework", "CPU", "OpenGL", "DirectX"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is SceneKit?",
+      "options": ["3D rendering", "2D", "AR", "VR"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is SpriteKit?",
+      "options": ["2D games", "3D", "Physics", "Animation"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is constraint priority?",
+      "options": ["Relative importance", "Absolute", "No priority", "Dynamic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is intrinsic content size?",
+      "options": ["View's natural size", "Fixed size", "No size", "External"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is compositional layout?",
+      "options": ["iOS 13+ collection views", "Static", "Manual", "Auto"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is snapshot for diffable?",
+      "options": ["Data representation", "Image", "No snapshot", "View"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is UIScene?",
+      "options": ["Window scene", "App scene", "No scene", "View scene"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is widget timeline?",
+      "options": ["Entry schedule", "Static", "No timeline", "Dynamic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is AppIntent?",
+      "options": ["Siri shortcuts", "UI intent", "No intent", "Background"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is ASAuthorization?",
+      "options": ["Apple sign-in", "Google", "Facebook", "Custom"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is SecItemAdd?",
+      "options": ["Keychain insert", "Query", "Delete", "Update"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is LAContext?",
+      "options": ["Biometric context", "UI context", "No context", "Data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is UNUserNotificationCenter?",
+      "options": ["Notification management", "Push only", "Local only", "No center"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is content extension?",
+      "options": ["Notification UI", "App extension", "No extension", "Keyboard"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is beginBackgroundTask?",
+      "options": ["Extend background time", "No extension", "Foreground", "Terminate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is CKDatabase?",
+      "options": ["CloudKit database", "Local", "No DB", "Core Data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is ARSession?",
+      "options": ["AR run loop", "Single frame", "No session", "Config only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is MLModel?",
+      "options": ["Core ML model", "Training", "Inference", "Data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is VNRecognizeTextRequest?",
+      "options": ["OCR request", "Face detection", "Object", "No request"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is NLTagger?",
+      "options": ["NLP tagging", "No tagger", "Syntax", "Semantics"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is SFSpeechRecognizer?",
+      "options": ["Speech to text", "Text to speech", "No recognizer", "Audio"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is AVSpeechSynthesizer?",
+      "options": ["Text to speech", "Recognition", "No synth", "Music"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is dependency injection?",
+      "options": ["Passing dependencies", "Global", "Singleton", "No injection"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is coordinator pattern?",
+      "options": ["Navigation coordination", "Data flow", "No coordinator", "UI"],
+      "correctAnswer": 0
+    }
+  ],
+  "master": [
+    {
+      "id": 1,
+      "question": "What is the role of retain cycle in ARC?",
+      "options": ["Prevents deallocation", "Forces allocation", "No cycle", "Weak reference"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is unowned vs weak?",
+      "options": ["Unowned assumes non-nil", "Weak always nil", "Same", "No difference"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is value vs reference semantics?",
+      "options": ["Struct copy, class share", "Both copy", "Both share", "No semantics"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is final class?",
+      "options": ["Non-subclassable", "Sub only", "No final", "Abstract"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is lazy var?",
+      "options": ["On-demand init", "Eager", "No lazy", "Computed"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is didSet vs willSet?",
+      "options": ["Post/pre change", "Same", "No set", "Init only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is throwing function?",
+      "options": ["Can throw error", "Never throws", "Always throws", "No throw"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is rethrows?",
+      "options": ["Throws if inner throws", "Always throw", "No rethrow", "Catch all"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is failable initializer?",
+      "options": ["Returns nil on failure", "Always succeeds", "No init", "Force unwrap"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is enum with associated values?",
+      "options": ["Cases with data", "Raw only", "No assoc", "Flags"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is recursive enum?",
+      "options": ["Indirect case", "No recursive", "Simple", "No enum"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is protocol composition?",
+      "options": ["Multiple conformance", "Single", "No comp", "Inheritance"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is Self requirement?",
+      "options": ["Type of instance", "Instance type", "No self", "Static"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is existential type?",
+      "options": ["Protocol box", "Concrete", "No exist", "Generic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is type erasure?",
+      "options": ["Hide concrete type", "Expose type", "No erase", "Cast"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is custom string convertible?",
+      "options": ["Custom description", "Default", "No convert", "Debug"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is hashable conformance?",
+      "options": ["For sets/dicts", "No hash", "Equatable only", "Comparable"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is custom reflectable?",
+      "options": ["Mirror access", "No reflect", "Debug only", "No mirror"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is performance of Array vs Set?",
+      "options": ["Set O(1) lookup", "Array faster", "Same", "No perf"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is Dictionary literal?",
+      "options": ["[key: value]", "Array of tuples", "No literal", "JSON"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is persistent container?",
+      "options": ["Core Data setup", "No persistent", "Transient", "In-memory"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is faulting in Core Data?",
+      "options": ["Lazy loading", "Eager", "No fault", "Delete"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is merge policy?",
+      "options": ["Conflict resolution", "No merge", "Overwrite", "Ignore"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is batch update?",
+      "options": ["Efficient mass updates", "Single update", "No batch", "Query only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is compound predicate?",
+      "options": ["AND/OR/NOT", "Simple", "No compound", "Regex"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is URLSessionConfiguration?",
+      "options": ["Custom session settings", "Default only", "No config", "Shared"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is authentication challenge?",
+      "options": ["Handle auth in delegate", "Auto handle", "No challenge", "Ignore"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is multipart form data?",
+      "options": ["File upload", "JSON only", "No multipart", "XML"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is background transfer service?",
+      "options": ["URLSession for background", "Foreground only", "No transfer", "Download only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is AVAsset?",
+      "options": ["Media representation", "Player", "Recorder", "No asset"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is MTLCommandBuffer?",
+      "options": ["GPU command execution", "CPU buffer", "No command", "Queue"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is SCNNode?",
+      "options": ["3D object in scene", "2D", "Light", "Camera"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is SKPhysicsBody?",
+      "options": ["Collision detection", "No physics", "Animation", "Sprite"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is ambiguous layout?",
+      "options": ["Conflicting constraints", "No ambiguity", "Auto resolve", "Ignore"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is content hugging/compression?",
+      "options": ["Size resistance", "No hugging", "Fixed size", "Flexible"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is supplementary view?",
+      "options": ["Headers/footers in collection", "Cells only", "No supp", "Decoration"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is prefetching data source?",
+      "options": ["Preload cells", "No prefetch", "Lazy", "Eager"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is scene phase?",
+      "options": ["Active/background", "No phase", "UI phase", "Data"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is widget kind?",
+      "options": ["Identifier for widget", "No kind", "Type", "Size"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is intent handler?",
+      "options": ["For shortcuts", "No handler", "UI", "Background"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is credential state?",
+      "options": ["Apple sign-in status", "No state", "Auth", "Token"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is query item?",
+      "options": ["URL parameters", "No query", "Header", "Body"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is policy object?",
+      "options": ["Evaluation in LAContext", "No policy", "Biometric", "Fallback"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is notification category?",
+      "options": ["Action grouping", "No category", "Type", "Priority"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is service identifier?",
+      "options": ["Background task ID", "No ID", "App ID", "Task"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is subscription?",
+      "options": ["CloudKit change tracking", "No sub", "Query", "Record"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is ARWorldTrackingConfiguration?",
+      "options": ["Motion tracking", "No config", "Image", "Face"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is compiled model?",
+      "options": ["Optimized for device", "Source", "No compile", "Train"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is request handler?",
+      "options": ["VNImageRequestHandler", "No handler", "Async", "Sync"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is linguistic tagger options?",
+      "options": ["Scheme/language", "No options", "Basic", "Advanced"],
+      "correctAnswer": 0
+    }
+  ],
+  "expert": [
+    {
+      "id": 1,
+      "question": "What is the impact of @objc on performance?",
+      "options": ["Enables bridging, slower", "No impact", "Faster", "Dynamic only"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "question": "What is inline assembly in Swift?",
+      "options": ["Low-level code", "No inline", "High-level", "No asm"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "question": "What is unsafe pointer usage?",
+      "options": ["Raw memory access", "Safe only", "No unsafe", "ARC bypass"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is buffer overflow prevention?",
+      "options": ["Bounds checking", "No check", "Manual", "Ignore"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "question": "What is SIMD in Swift?",
+      "options": ["Vector operations", "Scalar", "No SIMD", "GPU"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is custom subscript?",
+      "options": ["Indexed access", "No sub", "Array only", "Dict"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is dynamic dispatch overhead?",
+      "options": ["Runtime lookup", "Compile-time", "No overhead", "Virtual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is witness table?",
+      "options": ["Protocol conformance dispatch", "No table", "Class table", "Struct"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is SIL optimization?",
+      "options": ["Swift Intermediate Language", "No opt", "LLVM", "Source"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is module stability?",
+      "options": ["ABI stability", "No stable", "Version", "Build"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is private import?",
+      "options": ["Module access control", "Public", "No import", "Framework"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "What is @_semantics?",
+      "options": ["Custom attribute", "No sem", "Standard", "No attr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is concurrency checked actor?",
+      "options": ["Isolated by default", "No check", "Global", "Local"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is nonisolated?",
+      "options": ["Bypass isolation", "Isolated", "No non", "Sync"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "question": "What is await in actor context?",
+      "options": ["Cross-actor call", "Same actor", "No await", "Sync"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is structured concurrency hierarchy?",
+      "options": ["Task tree", "Flat", "No struct", "Async serial"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "question": "What is cancellation propagation?",
+      "options": ["Child tasks cancel", "No prop", "Parent only", "Manual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "question": "What is detached task?",
+      "options": ["Unstructured", "Structured", "No detach", "Main"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "question": "What is priority for tasks?",
+      "options": ["UserInitiated etc.", "No prio", "Equal", "Background"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "question": "What is Instruments tool for concurrency?",
+      "options": ["Thread sanitizer", "No inst", "Profiler", "Debugger"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "question": "What is persistent history tracking?",
+      "options": ["Core Data changes", "No hist", "Transient", "In-mem"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is lightweight migration?",
+      "options": ["Inferred changes", "Heavy", "No mig", "Manual"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "question": "What is mapping model?",
+      "options": ["Version mapping", "No map", "Entity", "Attr"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "question": "What is NSIncrementalStore?",
+      "options": ["Custom store", "SQLite", "No inc", "Binary"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "question": "What is fetch batch size?",
+      "options": ["Limit results", "All", "No batch", "Infinite"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "question": "What is HTTP/2 in URLSession?",
+      "options": ["Multiplexing", "HTTP/1.1", "No HTTP2", "QUIC"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "question": "What is bidirectional streaming?",
+      "options": ["gRPC support", "No stream", "Uni", "Request"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is certificate pinning?",
+      "options": ["Security validation", "No pin", "Auto", "Ignore"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is opportunistic caching?",
+      "options": ["Heuristic storage", "No cache", "Strict", "Offline"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is AVComposition?",
+      "options": ["Video editing", "Play only", "No comp", "Audio"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is MTLTexture?",
+      "options": ["GPU image", "CPU", "No tex", "Buffer"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is SCNPhysicsWorld?",
+      "options": ["Simulation environment", "No world", "2D", "Static"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is SKAction timing?",
+      "options": ["Curve control", "Linear", "No timing", "Ease"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is constraint animation?",
+      "options": ["Update in animation block", "No anim", "Static", "Dynamic"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "question": "What is layout pass priority?",
+      "options": ["First/second responder", "No pass", "Single", "Async"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "question": "What is orthogonal scrolling?",
+      "options": ["Collection layout behavior", "No ortho", "Diagonal", "Free"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "What is scene storage?",
+      "options": ["State preservation", "No store", "App state", "User"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 38,
+      "question": "What is widget reloading?",
+      "options": ["Timeline refresh", "No reload", "Static", "Push"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is donation for intents?",
+      "options": ["Shortcut learning", "No donation", "Manual", "Auto"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "question": "What is nonce in Apple sign-in?",
+      "options": ["CSRF protection", "No nonce", "Token", "ID"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 41,
+      "question": "What is SecAccessControl?",
+      "options": ["Protection settings", "No control", "Basic", "Advanced"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "question": "What is biometric type?",
+      "options": [".touchID", "faceID", "Both", "opticID"],
+      "correctAnswer": 2
+    },
+    {
+      "id": 43,
+      "question": "What is critical alert?",
+      "options": ["Bypass DND", "No critical", "Silent", "Vibrate"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is provisional authorization?",
+      "options": ["Silent delivery", "No prov", "Full", "Temporary"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "question": "What is expiration handler?",
+      "options": ["Background time limit", "No handler", "Extend", "Ignore"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is zone in CloudKit?",
+      "options": ["Scoped records", "Global", "No zone", "Private"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is ARAnchor?",
+      "options": ["Position in world", "No anchor", "Image", "Plane"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is neural network accelerator?",
+      "options": ["ANE for Core ML", "CPU", "GPU", "No accel"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is confidence threshold?",
+      "options": ["VN request filter", "No thresh", "100%", "0%"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is tokenization in NL?",
+      "options": ["Word splitting", "No token", "Sentence", "POS"],
+      "correctAnswer": 0
+    }
+  ]
+}

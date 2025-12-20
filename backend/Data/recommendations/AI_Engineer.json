@@ -1,0 +1,123 @@
+[
+  {
+    "result_id": 1,
+    "condition": "score ≤ 20",
+    "summary": "The candidate shows limited understanding of foundational AI and machine learning concepts and requires reinforcement in basics. Core topics like AI definitions, supervised/unsupervised learning, and simple metrics need review. Advanced areas like privacy and alignment are minimal.",
+    "strengths": [
+      "Willingness to attempt all questions",
+      "Basic awareness of AI terminology"
+    ],
+    "areas_of_improvement": [
+      "Grasp of learning paradigms (supervised, unsupervised, reinforcement)",
+      "Understanding of model evaluation basics (accuracy, precision, recall)",
+      "Familiarity with neural network components and common architectures"
+    ],
+    "recommendations": [
+      {
+        "topic": "AI and Machine Learning Fundamentals",
+        "description": "Build core knowledge: definitions of AI/ML, types of learning, datasets, features, labels, and basic overfitting/underfitting.",
+        "resources": [
+          "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (Géron) - Chapters 1–2",
+          "Andrew Ng's Machine Learning (Coursera) - Weeks 1–3"
+        ]
+      },
+      {
+        "topic": "Model Evaluation Basics",
+        "description": "Learn key metrics like accuracy, precision, recall, F1-score, and confusion matrices for assessing model performance.",
+        "resources": [
+          "Introduction to Machine Learning with Python (Mueller & Guido) - Chapter 5",
+          "Kaggle Learn: Intro to Machine Learning"
+        ]
+      },
+      {
+        "topic": "Introduction to Neural Networks",
+        "description": "Understand neurons, layers, activation functions (ReLU, sigmoid), and simple architectures like feedforward nets.",
+        "resources": [
+          "Neural Networks and Deep Learning (Nielsen) - Chapters 1–2",
+          "fast.ai Practical Deep Learning for Coders - Lesson 1"
+        ]
+      }
+    ]
+  },
+  {
+    "result_id": 2,
+    "condition": "20 < score ≤ 40",
+    "summary": "The candidate demonstrates moderate grasp of AI/ML basics, including learning types, basic metrics, and introductory neural nets. However, ensemble methods, optimization, and privacy concepts remain inconsistent.",
+    "strengths": [
+      "Solid identification of supervised/unsupervised learning and basic metrics",
+      "Basic understanding of neural network components and overfitting prevention",
+      "Familiarity with common architectures like CNNs and RNNs"
+    ],
+    "areas_of_improvement": [
+      "Deeper insight into ensemble techniques and hyperparameter tuning",
+      "Practical knowledge of optimization and regularization methods",
+      "Introduction to advanced topics like transfer learning and feature engineering"
+    ],
+    "recommendations": [
+      {
+        "topic": "Ensemble Learning and Boosting",
+        "description": "Explore bagging, boosting (AdaBoost, XGBoost), random forests, and stacking for improved model robustness.",
+        "resources": [
+          "Hands-On Machine Learning (Géron) - Chapter 7",
+          "XGBoost Documentation + Tutorials on Kaggle"
+        ]
+      },
+      {
+        "topic": "Optimization and Regularization",
+        "description": "Master gradient descent variants, learning rates, dropout, L1/L2 regularization, and early stopping.",
+        "resources": [
+          "Deep Learning (Goodfellow et al.) - Chapter 8",
+          "PyTorch Tutorials: Optimizers and Regularization"
+        ]
+      },
+      {
+        "topic": "Advanced ML Techniques",
+        "description": "Learn feature engineering, transfer learning, dimensionality reduction (PCA, t-SNE), and hyperparameter search (grid/random).",
+        "resources": [
+          "Feature Engineering for Machine Learning (Kuhn & Johnson) - Chapters 1–4",
+          "Scikit-Learn User Guide: Pipeline and Tuning"
+        ]
+      }
+    ]
+  },
+  {
+    "result_id": 3,
+    "condition": "40 < score ≤ 50",
+    "summary": "The candidate exhibits strong command of AI/ML principles, accurately explaining learning paradigms, evaluation metrics, ensembles, and neural architectures. Knowledge of privacy, robustness, and alignment is well-articulated.",
+    "strengths": [
+      "Clear conceptual understanding of advanced ML workflows and architectures",
+      "Accurate description of optimization, privacy mechanisms, and safety concepts",
+      "Awareness of production challenges like federated learning and adversarial robustness"
+    ],
+    "areas_of_improvement": [
+      "Expert-level integration of alignment techniques and scalable oversight",
+      "Handling of emergent behaviors in large models and meta-learning"
+    ],
+    "recommendations": [
+      {
+        "topic": "Privacy and Federated Learning",
+        "description": "Dive into differential privacy, federated averaging, secure aggregation, and defenses against model inversion.",
+        "resources": [
+          "Federated Learning (Kairouz et al.) - Google Research Papers",
+          "TensorFlow Federated Tutorials"
+        ]
+      },
+      {
+        "topic": "AI Safety and Alignment",
+        "description": "Study RLHF, constitutional AI, mesa-optimization, corrigibility, and scalable oversight methods like debate and amplification.",
+        "resources": [
+          "Alignment Newsletter (OpenAI) - Key Entries on RLHF and Debate",
+          "Concrete Problems in AI Safety (Amodei et al.)"
+        ]
+      },
+      {
+        "topic": "Advanced Generalization and Meta-Learning",
+        "description": "Explore continual learning, few-shot learning (MAML), emergent abilities, grokking, and prompt engineering for LLMs.",
+        "resources": [
+          "On the Opportunities and Risks of Foundation Models (Bommasani et al.)",
+          "Meta-Learning in Neural Networks (Finn et al.) - MAML Paper"
+        ]
+      }
+    ]
+  }
+]
