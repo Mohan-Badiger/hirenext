@@ -767,7 +767,7 @@ const MockTestResult = () => {
   const addResult = async () => {
     const token = localStorage.getItem('token');
     try {
-     const res= await fetch('https://hirenext-backend-pied.vercel.app/api/data/addresult', {
+     const res= await fetch('/api/data/addresult', {
         method: 'POST',
         headers: { 
           'Content-Type': 'application/json',
