@@ -28,5 +28,11 @@ const dataRouter = require('./router/dataRouter');
 app.use('/api/auth', authRouter);
 app.use('/api/data', dataRouter);
 
+
+app.get('/api/health', (req, res) => {
+  res.json({ status: 'ok from vercel' });
+});
+
+
 // ✅ EXPORT APP (MANDATORY FOR VERCEL)
 module.exports = app;
