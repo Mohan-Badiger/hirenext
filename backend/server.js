@@ -5,34 +5,46 @@ require('dotenv').config();
 
 const app = express();
 
-// ✅ CORS (simplified for Vercel)
-app.use(cors());
+/* ============================
+   CORS – REQUIRED FOR VERCEL
+   ============================ */
+app.use(cors());           // allow all origins
+app.options('*', cors());  // allow preflight OPTIONS requests
 
-// ✅ Parsers
+/* ============================
+   BODY PARSER
+   ============================ */
 app.use(express.json());
 
-// ✅ Database connection
+/* ============================
+   DATABASE CONNECTION
+   ============================ */
 pool.connect()
   .then(client => {
     console.log('✅ Database connected successfully!');
     client.release();
   })
   .catch(err => {
-    console.error('❌ Database connection error:', err.stack);
+    console.error('❌ Database connection error:', err.message);
   });
 
-// ✅ Routers
+/* ============================
+   ROUTERS
+   ============================ */
 const authRouter = require('./router/authRouter');
 const dataRouter = require('./router/dataRouter');
 
 app.use('/api/auth', authRouter);
 app.use('/api/data', dataRouter);
 
-
+/* ============================
+   HEALTH CHECK (DEBUG)
+   ============================ */
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok from vercel' });
+  res.status(200).json({ status: 'ok from vercel' });
 });
 
-
-// ✅ EXPORT APP (MANDATORY FOR VERCEL)
+/* ============================
+   EXPORT APP (NO app.listen)
+   ============================ */
 module.exports = app;
