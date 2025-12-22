@@ -1,11 +1,128 @@
 [
-  { "id": 1, "title": "AI Engineer", "company": "Google", "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" },
-  { "id": 2, "title": "Machine Learning Engineer", "company": "OpenAI", "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" },
-  { "id": 3, "title": "iOS Developer", "company": "Uber", "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png" },
-  { "id": 4, "title": "Blockchain Engineer", "company": "StarkWare", "logo": "/starware_logo.jpeg" },
-  { "id": 5, "title": "Cyber Security Engineer", "company": "Microsoft", "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" },
-  { "id": 6, "title": "Data Analyst", "company": "Boston Consulting Group", "logo": "/BCG_logo.png" },
-  { "id": 7, "title": "Software Engineer", "company": "Airbnb", "logo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_Bélo.svg" },
-  { "id": 8, "title": "Product Designer", "company": "Netflix", "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" },
-  { "id": 9, "title": "Data Engineer", "company": "LinkedIn", "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" }
+  {
+    "id": 1,
+    "title": "AI Engineer",
+    "company": "Google",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+  },
+  {
+    "id": 2,
+    "title": "Machine Learning Engineer",
+    "company": "OpenAI",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg"
+  },
+  {
+    "id": 3,
+    "title": "iOS Developer",
+    "company": "Uber",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png"
+  },
+  {
+    "id": 4,
+    "title": "Blockchain Engineer",
+    "company": "StarkWare",
+    "logo": "/starware_logo.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "Cyber Security Engineer",
+    "company": "Microsoft",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+  },
+  {
+    "id": 6,
+    "title": "Data Analyst",
+    "company": "Boston Consulting Group",
+    "logo": "/BCG_logo.png"
+  },
+  {
+    "id": 7,
+    "title": "Software Engineer",
+    "company": "Airbnb",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_Bélo.svg"
+  },
+  {
+    "id": 8,
+    "title": "Product Designer",
+    "company": "Netflix",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+  },
+  {
+    "id": 9,
+    "title": "Data Engineer",
+    "company": "LinkedIn",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+  },
+  {
+    "id": 10,
+    "title": "Test Engineer",
+    "company": "FreeCharge",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-1.webp"
+  },
+  {
+    "id": 11,
+    "title": "Data Engineer",
+    "company": "Myntra",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-2.webp"
+  },
+  {
+    "id": 12,
+    "title": "Frontend Developer",
+    "company": "Yatra",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-4.webp"
+  },
+  {
+    "id": 13,
+    "title": "Backend Developer",
+    "company": "HubSpot",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-5.webp"
+  },
+  {
+    "id": 14,
+    "title": "Full Stack Developer",
+    "company": "Samsung",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-6.webp"
+  },
+  {
+    "id": 15,
+    "title": "DevOps Engineer",
+    "company": "Amazon",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-7.webp"
+  },
+  {
+    "id": 16,
+    "title": "Cloud Engineer",
+    "company": "Boat",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-8.webp"
+  },
+  {
+    "id": 17,
+    "title": "QA Engineer",
+    "company": "Decathlon",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-9.webp"
+  },
+  {
+    "id": 18,
+    "title": "UI/UX Designer",
+    "company": "Delhivery",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-10.webp"
+  },
+  {
+    "id": 19,
+    "title": "Mobile App Developer",
+    "company": "DoorDash",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-11.webp"
+  },
+  {
+    "id": 20,
+    "title": "System Engineer",
+    "company": "DropBox",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-12.webp"
+  },
+  {
+    "id": 21,
+    "title": "AI Research Intern",
+    "company": "FedEx",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-13.webp"
+  }
 ]

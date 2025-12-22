@@ -833,7 +833,7 @@ function App() {
       if (!email) return;
 
       try {
-        const res = await fetch(`https://hirenext-backend-pied.vercel.app/api/data/getresults/${email}`, {
+        const res = await fetch(`${process.env.REACT_APP_API_URL}/api/data/getresults/${email}`, {
           headers: {
             'Authorization': `Bearer ${token}`
           }

@@ -56,7 +56,13 @@
   {
     "id": 10,
     "title": "hello",
+    "company": "NEW COMPANY",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+  },
+  {
+    "id": 11,
+    "title": "hello",
     "company": "qbcda",
-    "logo": "bajdhc.com"
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
   }
 ]

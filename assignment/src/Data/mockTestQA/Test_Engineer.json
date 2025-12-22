@@ -1,0 +1,2497 @@
+{
+  "novice": [
+    {
+      "id": 1,
+      "question": "What is software testing?",
+      "options": [
+        "Writing code",
+        "Finding defects",
+        "Deploying software",
+        "Designing UI"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is the main goal of testing?",
+      "options": [
+        "Increase cost",
+        "Ensure quality",
+        "Delay release",
+        "Remove developers"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "What is a bug?",
+      "options": ["Feature", "Error in software", "Requirement", "Test plan"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "question": "What is a test case?",
+      "options": [
+        "Bug report",
+        "Set of steps to test",
+        "Code file",
+        "Design doc"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "Who performs testing?",
+      "options": ["Designer", "Tester", "Client", "Manager"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "question": "What is manual testing?",
+      "options": [
+        "Using tools",
+        "Testing without automation",
+        "Unit testing",
+        "Performance testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "question": "What is automation testing?",
+      "options": [
+        "Manual execution",
+        "Using scripts/tools",
+        "Design testing",
+        "UI sketching"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "question": "What is black box testing?",
+      "options": [
+        "Code-based",
+        "Without code knowledge",
+        "White screen",
+        "Database testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "question": "What is white box testing?",
+      "options": [
+        "UI testing",
+        "Testing with code knowledge",
+        "Design review",
+        "User testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "What is regression testing?",
+      "options": [
+        "Initial testing",
+        "Re-testing after changes",
+        "Security testing",
+        "UI testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "question": "What is smoke testing?",
+      "options": [
+        "Detailed testing",
+        "Basic build verification",
+        "Load testing",
+        "Security testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is sanity testing?",
+      "options": [
+        "Quick fix validation",
+        "Full testing",
+        "Security testing",
+        "Load testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is functional testing?",
+      "options": [
+        "Feature testing",
+        "Speed testing",
+        "Security testing",
+        "Stress testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is non-functional testing?",
+      "options": [
+        "UI only",
+        "Performance & usability",
+        "Unit testing",
+        "Bug fixing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is UAT?",
+      "options": [
+        "User Acceptance Testing",
+        "Unit testing",
+        "Upgrade testing",
+        "Utility testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is a test plan?",
+      "options": [
+        "Bug list",
+        "Testing strategy document",
+        "Code file",
+        "Release plan"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "question": "What is test data?",
+      "options": [
+        "Live data",
+        "Input data for testing",
+        "Design data",
+        "Code data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "question": "What is severity?",
+      "options": ["Bug urgency", "Bug impact", "Bug status", "Bug type"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "question": "What is priority?",
+      "options": ["Bug impact", "Fix urgency", "Bug type", "Bug status"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "question": "What is a bug report?",
+      "options": [
+        "Test case",
+        "Defect documentation",
+        "Code file",
+        "Requirement doc"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "question": "What is alpha testing?",
+      "options": [
+        "Internal testing",
+        "External testing",
+        "Load testing",
+        "Security testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is beta testing?",
+      "options": [
+        "Internal testing",
+        "External user testing",
+        "Automation testing",
+        "Unit testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "question": "What is exploratory testing?",
+      "options": [
+        "Scripted testing",
+        "Ad-hoc testing",
+        "Automation testing",
+        "Regression testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "question": "What is ad-hoc testing?",
+      "options": [
+        "Planned testing",
+        "Random testing",
+        "Automation",
+        "Load testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "question": "What is load testing?",
+      "options": [
+        "Single user test",
+        "Multiple user load test",
+        "Security test",
+        "UI test"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "question": "What is stress testing?",
+      "options": ["Normal load", "Extreme load", "UI testing", "Unit testing"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "question": "What is compatibility testing?",
+      "options": [
+        "Browser/device testing",
+        "Security testing",
+        "Unit testing",
+        "Code review"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is defect leakage?",
+      "options": ["Missed bug", "Fixed bug", "Duplicate bug", "Closed bug"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is defect density?",
+      "options": [
+        "Bugs per size",
+        "Bug severity",
+        "Bug priority",
+        "Bug status"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is RTM?",
+      "options": [
+        "Requirement Traceability Matrix",
+        "Regression Test Model",
+        "Release Test Matrix",
+        "Run Test Mode"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is SDLC?",
+      "options": [
+        "Software Development Life Cycle",
+        "System Design Loop",
+        "Software Debug Logic",
+        "None"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is STLC?",
+      "options": [
+        "Software Testing Life Cycle",
+        "System Test Loop",
+        "Security Testing Logic",
+        "None"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is retesting?",
+      "options": [
+        "Testing fixed bug",
+        "Testing new feature",
+        "Regression testing",
+        "Load testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is test execution?",
+      "options": [
+        "Writing tests",
+        "Running tests",
+        "Fixing bugs",
+        "Deploying code"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 35,
+      "question": "What is QA?",
+      "options": [
+        "Testing only",
+        "Process quality assurance",
+        "Bug fixing",
+        "Coding"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 36,
+      "question": "What is QC?",
+      "options": [
+        "Quality control via testing",
+        "Coding",
+        "Deployment",
+        "Design"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "Which tool is for bug tracking?",
+      "options": ["Git", "JIRA", "VS Code", "Postman"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 38,
+      "question": "What is acceptance criteria?",
+      "options": ["Test conditions", "Bug rules", "Code style", "UI rules"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is build?",
+      "options": [
+        "Source code",
+        "Compiled software",
+        "Test plan",
+        "Design doc"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 40,
+      "question": "What is release?",
+      "options": [
+        "Bug fixing",
+        "Software delivery",
+        "Testing phase",
+        "Development"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 41,
+      "question": "What is test environment?",
+      "options": [
+        "Production server",
+        "Testing setup",
+        "Client system",
+        "Developer laptop"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 42,
+      "question": "What is defect triage?",
+      "options": [
+        "Bug discussion & prioritization",
+        "Bug fixing",
+        "Testing phase",
+        "Deployment"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is test estimation?",
+      "options": [
+        "Effort estimation",
+        "Bug count",
+        "Cost estimation",
+        "Time tracking"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is quality?",
+      "options": [
+        "No bugs",
+        "Meeting requirements",
+        "Fast delivery",
+        "Low cost"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 45,
+      "question": "What is checklist testing?",
+      "options": [
+        "List-based testing",
+        "Automation testing",
+        "Load testing",
+        "Security testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is positive testing?",
+      "options": [
+        "Valid input testing",
+        "Invalid input testing",
+        "Security testing",
+        "Stress testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is negative testing?",
+      "options": [
+        "Invalid input testing",
+        "Valid input testing",
+        "UI testing",
+        "Regression testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is boundary testing?",
+      "options": [
+        "Edge value testing",
+        "Random testing",
+        "Security testing",
+        "Unit testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is equivalence partitioning?",
+      "options": [
+        "Input grouping",
+        "Bug grouping",
+        "Test grouping",
+        "Code grouping"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is defect status?",
+      "options": ["Bug state", "Bug type", "Bug severity", "Bug priority"],
+      "correctAnswer": 0
+    }
+  ],
+  "easy": [
+    {
+      "id": 1,
+      "question": "What is integration testing?",
+      "options": [
+        "Testing individual units",
+        "Testing combined modules",
+        "UI testing",
+        "Security testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is system testing?",
+      "options": [
+        "Module testing",
+        "End-to-end testing",
+        "Unit testing",
+        "Code review"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "What is unit testing?",
+      "options": [
+        "Testing full system",
+        "Testing individual components",
+        "UI testing",
+        "Load testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "question": "What is test coverage?",
+      "options": ["Bug count", "Extent of testing", "Test speed", "Test cost"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "What is requirement analysis in testing?",
+      "options": [
+        "Understanding requirements",
+        "Writing code",
+        "Deploying app",
+        "Designing UI"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is defect aging?",
+      "options": ["Bug lifetime", "Bug severity", "Bug priority", "Bug type"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is test closure report?",
+      "options": ["Test summary", "Bug list", "Code report", "Design doc"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is risk-based testing?",
+      "options": [
+        "Testing risky areas first",
+        "Random testing",
+        "UI testing",
+        "Security testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is checklist?",
+      "options": ["Testing guide", "Bug report", "Code review", "Release plan"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is traceability?",
+      "options": [
+        "Linking tests to requirements",
+        "Bug fixing",
+        "Code tracing",
+        "Deployment mapping"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is smoke testing?",
+      "options": [
+        "Detailed testing",
+        "Basic build verification",
+        "Load testing",
+        "Security testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is sanity testing?",
+      "options": [
+        "Quick fix validation",
+        "Full testing",
+        "Security testing",
+        "Load testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is functional testing?",
+      "options": [
+        "Feature testing",
+        "Speed testing",
+        "Security testing",
+        "Stress testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is non-functional testing?",
+      "options": [
+        "UI only",
+        "Performance & usability",
+        "Unit testing",
+        "Bug fixing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is UAT?",
+      "options": [
+        "User Acceptance Testing",
+        "Unit testing",
+        "Upgrade testing",
+        "Utility testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is a test plan?",
+      "options": [
+        "Bug list",
+        "Testing strategy document",
+        "Code file",
+        "Release plan"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "question": "What is test data?",
+      "options": [
+        "Live data",
+        "Input data for testing",
+        "Design data",
+        "Code data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "question": "What is severity?",
+      "options": ["Bug urgency", "Bug impact", "Bug status", "Bug type"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "question": "What is priority?",
+      "options": ["Bug impact", "Fix urgency", "Bug type", "Bug status"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "question": "What is a bug report?",
+      "options": [
+        "Test case",
+        "Defect documentation",
+        "Code file",
+        "Requirement doc"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "question": "What is alpha testing?",
+      "options": [
+        "Internal testing",
+        "External testing",
+        "Load testing",
+        "Security testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is beta testing?",
+      "options": [
+        "Internal testing",
+        "External user testing",
+        "Automation testing",
+        "Unit testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "question": "What is exploratory testing?",
+      "options": [
+        "Scripted testing",
+        "Ad-hoc testing",
+        "Automation testing",
+        "Regression testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "question": "What is ad-hoc testing?",
+      "options": [
+        "Planned testing",
+        "Random testing",
+        "Automation",
+        "Load testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "question": "What is load testing?",
+      "options": [
+        "Single user test",
+        "Multiple user load test",
+        "Security test",
+        "UI test"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "question": "What is stress testing?",
+      "options": ["Normal load", "Extreme load", "UI testing", "Unit testing"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "question": "What is compatibility testing?",
+      "options": [
+        "Browser/device testing",
+        "Security testing",
+        "Unit testing",
+        "Code review"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is defect leakage?",
+      "options": ["Missed bug", "Fixed bug", "Duplicate bug", "Closed bug"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is defect density?",
+      "options": [
+        "Bugs per size",
+        "Bug severity",
+        "Bug priority",
+        "Bug status"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is RTM?",
+      "options": [
+        "Requirement Traceability Matrix",
+        "Regression Test Model",
+        "Release Test Matrix",
+        "Run Test Mode"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is SDLC?",
+      "options": [
+        "Software Development Life Cycle",
+        "System Design Loop",
+        "Software Debug Logic",
+        "None"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is STLC?",
+      "options": [
+        "Software Testing Life Cycle",
+        "System Test Loop",
+        "Security Testing Logic",
+        "None"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is retesting?",
+      "options": [
+        "Testing fixed bug",
+        "Testing new feature",
+        "Regression testing",
+        "Load testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is test execution?",
+      "options": [
+        "Writing tests",
+        "Running tests",
+        "Fixing bugs",
+        "Deploying code"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 35,
+      "question": "What is QA?",
+      "options": [
+        "Testing only",
+        "Process quality assurance",
+        "Bug fixing",
+        "Coding"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 36,
+      "question": "What is QC?",
+      "options": [
+        "Quality control via testing",
+        "Coding",
+        "Deployment",
+        "Design"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "Which tool is for bug tracking?",
+      "options": ["Git", "JIRA", "VS Code", "Postman"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 38,
+      "question": "What is acceptance criteria?",
+      "options": ["Test conditions", "Bug rules", "Code style", "UI rules"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is build?",
+      "options": [
+        "Source code",
+        "Compiled software",
+        "Test plan",
+        "Design doc"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 40,
+      "question": "What is release?",
+      "options": [
+        "Bug fixing",
+        "Software delivery",
+        "Testing phase",
+        "Development"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 41,
+      "question": "What is test environment?",
+      "options": [
+        "Production server",
+        "Testing setup",
+        "Client system",
+        "Developer laptop"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 42,
+      "question": "What is defect triage?",
+      "options": [
+        "Bug discussion & prioritization",
+        "Bug fixing",
+        "Testing phase",
+        "Deployment"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is test estimation?",
+      "options": [
+        "Effort estimation",
+        "Bug count",
+        "Cost estimation",
+        "Time tracking"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is quality?",
+      "options": [
+        "No bugs",
+        "Meeting requirements",
+        "Fast delivery",
+        "Low cost"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 45,
+      "question": "What is checklist testing?",
+      "options": [
+        "List-based testing",
+        "Automation testing",
+        "Load testing",
+        "Security testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is positive testing?",
+      "options": [
+        "Valid input testing",
+        "Invalid input testing",
+        "Security testing",
+        "Stress testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is negative testing?",
+      "options": [
+        "Invalid input testing",
+        "Valid input testing",
+        "UI testing",
+        "Regression testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is boundary testing?",
+      "options": [
+        "Edge value testing",
+        "Random testing",
+        "Security testing",
+        "Unit testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is equivalence partitioning?",
+      "options": [
+        "Input grouping",
+        "Bug grouping",
+        "Test grouping",
+        "Code grouping"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is defect status?",
+      "options": ["Bug state", "Bug type", "Bug severity", "Bug priority"],
+      "correctAnswer": 0
+    }
+  ],
+  "intermediate": [
+    {
+      "id": 1,
+      "question": "What is API testing?",
+      "options": [
+        "UI testing",
+        "Testing backend services",
+        "Database testing",
+        "Design testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is Postman used for?",
+      "options": [
+        "UI testing",
+        "API testing",
+        "Load testing",
+        "Security testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "What is unit testing?",
+      "options": [
+        "Testing full system",
+        "Testing individual components",
+        "UI testing",
+        "Load testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "question": "What is test coverage?",
+      "options": ["Bug count", "Extent of testing", "Test speed", "Test cost"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "What is requirement analysis in testing?",
+      "options": [
+        "Understanding requirements",
+        "Writing code",
+        "Deploying app",
+        "Designing UI"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is defect aging?",
+      "options": ["Bug lifetime", "Bug severity", "Bug priority", "Bug type"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is test closure report?",
+      "options": ["Test summary", "Bug list", "Code report", "Design doc"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is risk-based testing?",
+      "options": [
+        "Testing risky areas first",
+        "Random testing",
+        "UI testing",
+        "Security testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is checklist?",
+      "options": ["Testing guide", "Bug report", "Code review", "Release plan"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is traceability?",
+      "options": [
+        "Linking tests to requirements",
+        "Bug fixing",
+        "Code tracing",
+        "Deployment mapping"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is smoke testing?",
+      "options": [
+        "Detailed testing",
+        "Basic build verification",
+        "Load testing",
+        "Security testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is sanity testing?",
+      "options": [
+        "Quick fix validation",
+        "Full testing",
+        "Security testing",
+        "Load testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is functional testing?",
+      "options": [
+        "Feature testing",
+        "Speed testing",
+        "Security testing",
+        "Stress testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is non-functional testing?",
+      "options": [
+        "UI only",
+        "Performance & usability",
+        "Unit testing",
+        "Bug fixing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is UAT?",
+      "options": [
+        "User Acceptance Testing",
+        "Unit testing",
+        "Upgrade testing",
+        "Utility testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is a test plan?",
+      "options": [
+        "Bug list",
+        "Testing strategy document",
+        "Code file",
+        "Release plan"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "question": "What is test data?",
+      "options": [
+        "Live data",
+        "Input data for testing",
+        "Design data",
+        "Code data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "question": "What is severity?",
+      "options": ["Bug urgency", "Bug impact", "Bug status", "Bug type"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "question": "What is priority?",
+      "options": ["Bug impact", "Fix urgency", "Bug type", "Bug status"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "question": "What is a bug report?",
+      "options": [
+        "Test case",
+        "Defect documentation",
+        "Code file",
+        "Requirement doc"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "question": "What is alpha testing?",
+      "options": [
+        "Internal testing",
+        "External testing",
+        "Load testing",
+        "Security testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is beta testing?",
+      "options": [
+        "Internal testing",
+        "External user testing",
+        "Automation testing",
+        "Unit testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "question": "What is exploratory testing?",
+      "options": [
+        "Scripted testing",
+        "Ad-hoc testing",
+        "Automation testing",
+        "Regression testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "question": "What is ad-hoc testing?",
+      "options": [
+        "Planned testing",
+        "Random testing",
+        "Automation",
+        "Load testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "question": "What is load testing?",
+      "options": [
+        "Single user test",
+        "Multiple user load test",
+        "Security test",
+        "UI test"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "question": "What is stress testing?",
+      "options": ["Normal load", "Extreme load", "UI testing", "Unit testing"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "question": "What is compatibility testing?",
+      "options": [
+        "Browser/device testing",
+        "Security testing",
+        "Unit testing",
+        "Code review"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is defect leakage?",
+      "options": ["Missed bug", "Fixed bug", "Duplicate bug", "Closed bug"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is defect density?",
+      "options": [
+        "Bugs per size",
+        "Bug severity",
+        "Bug priority",
+        "Bug status"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is RTM?",
+      "options": [
+        "Requirement Traceability Matrix",
+        "Regression Test Model",
+        "Release Test Matrix",
+        "Run Test Mode"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is SDLC?",
+      "options": [
+        "Software Development Life Cycle",
+        "System Design Loop",
+        "Software Debug Logic",
+        "None"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is STLC?",
+      "options": [
+        "Software Testing Life Cycle",
+        "System Test Loop",
+        "Security Testing Logic",
+        "None"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is retesting?",
+      "options": [
+        "Testing fixed bug",
+        "Testing new feature",
+        "Regression testing",
+        "Load testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is test execution?",
+      "options": [
+        "Writing tests",
+        "Running tests",
+        "Fixing bugs",
+        "Deploying code"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 35,
+      "question": "What is QA?",
+      "options": [
+        "Testing only",
+        "Process quality assurance",
+        "Bug fixing",
+        "Coding"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 36,
+      "question": "What is QC?",
+      "options": [
+        "Quality control via testing",
+        "Coding",
+        "Deployment",
+        "Design"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "Which tool is for bug tracking?",
+      "options": ["Git", "JIRA", "VS Code", "Postman"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 38,
+      "question": "What is acceptance criteria?",
+      "options": ["Test conditions", "Bug rules", "Code style", "UI rules"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is build?",
+      "options": [
+        "Source code",
+        "Compiled software",
+        "Test plan",
+        "Design doc"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 40,
+      "question": "What is release?",
+      "options": [
+        "Bug fixing",
+        "Software delivery",
+        "Testing phase",
+        "Development"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 41,
+      "question": "What is test environment?",
+      "options": [
+        "Production server",
+        "Testing setup",
+        "Client system",
+        "Developer laptop"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 42,
+      "question": "What is defect triage?",
+      "options": [
+        "Bug discussion & prioritization",
+        "Bug fixing",
+        "Testing phase",
+        "Deployment"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is test estimation?",
+      "options": [
+        "Effort estimation",
+        "Bug count",
+        "Cost estimation",
+        "Time tracking"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is quality?",
+      "options": [
+        "No bugs",
+        "Meeting requirements",
+        "Fast delivery",
+        "Low cost"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 45,
+      "question": "What is checklist testing?",
+      "options": [
+        "List-based testing",
+        "Automation testing",
+        "Load testing",
+        "Security testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is positive testing?",
+      "options": [
+        "Valid input testing",
+        "Invalid input testing",
+        "Security testing",
+        "Stress testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is negative testing?",
+      "options": [
+        "Invalid input testing",
+        "Valid input testing",
+        "UI testing",
+        "Regression testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is boundary testing?",
+      "options": [
+        "Edge value testing",
+        "Random testing",
+        "Security testing",
+        "Unit testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is equivalence partitioning?",
+      "options": [
+        "Input grouping",
+        "Bug grouping",
+        "Test grouping",
+        "Code grouping"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is defect status?",
+      "options": ["Bug state", "Bug type", "Bug severity", "Bug priority"],
+      "correctAnswer": 0
+    }
+  ],
+  "master": [
+    {
+      "id": 1,
+      "question": "What is test automation framework?",
+      "options": [
+        "Tool",
+        "Reusable test structure",
+        "Bug tracker",
+        "CI pipeline"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is test automation?",
+      "options": [
+        "Tool",
+        "Bug tracker",
+        "Reusable test structure",
+        "CI pipeline"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 3,
+      "question": "What is unit testing?",
+      "options": [
+        "Testing full system",
+        "Testing individual components",
+        "UI testing",
+        "Load testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "question": "What is test coverage?",
+      "options": ["Bug count", "Extent of testing", "Test speed", "Test cost"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "What is requirement analysis in testing?",
+      "options": [
+        "Understanding requirements",
+        "Writing code",
+        "Deploying app",
+        "Designing UI"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is defect aging?",
+      "options": ["Bug lifetime", "Bug severity", "Bug priority", "Bug type"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is test closure report?",
+      "options": ["Test summary", "Bug list", "Code report", "Design doc"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is risk-based testing?",
+      "options": [
+        "Testing risky areas first",
+        "Random testing",
+        "UI testing",
+        "Security testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is checklist?",
+      "options": ["Testing guide", "Bug report", "Code review", "Release plan"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is traceability?",
+      "options": [
+        "Linking tests to requirements",
+        "Bug fixing",
+        "Code tracing",
+        "Deployment mapping"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is smoke testing?",
+      "options": [
+        "Detailed testing",
+        "Basic build verification",
+        "Load testing",
+        "Security testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is sanity testing?",
+      "options": [
+        "Quick fix validation",
+        "Full testing",
+        "Security testing",
+        "Load testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is functional testing?",
+      "options": [
+        "Feature testing",
+        "Speed testing",
+        "Security testing",
+        "Stress testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is non-functional testing?",
+      "options": [
+        "UI only",
+        "Performance & usability",
+        "Unit testing",
+        "Bug fixing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is UAT?",
+      "options": [
+        "User Acceptance Testing",
+        "Unit testing",
+        "Upgrade testing",
+        "Utility testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is a test plan?",
+      "options": [
+        "Bug list",
+        "Testing strategy document",
+        "Code file",
+        "Release plan"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "question": "What is test data?",
+      "options": [
+        "Live data",
+        "Input data for testing",
+        "Design data",
+        "Code data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "question": "What is severity?",
+      "options": ["Bug urgency", "Bug impact", "Bug status", "Bug type"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "question": "What is priority?",
+      "options": ["Bug impact", "Fix urgency", "Bug type", "Bug status"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "question": "What is a bug report?",
+      "options": [
+        "Test case",
+        "Defect documentation",
+        "Code file",
+        "Requirement doc"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "question": "What is alpha testing?",
+      "options": [
+        "Internal testing",
+        "External testing",
+        "Load testing",
+        "Security testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is beta testing?",
+      "options": [
+        "Internal testing",
+        "External user testing",
+        "Automation testing",
+        "Unit testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "question": "What is exploratory testing?",
+      "options": [
+        "Scripted testing",
+        "Ad-hoc testing",
+        "Automation testing",
+        "Regression testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "question": "What is ad-hoc testing?",
+      "options": [
+        "Planned testing",
+        "Random testing",
+        "Automation",
+        "Load testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "question": "What is load testing?",
+      "options": [
+        "Single user test",
+        "Multiple user load test",
+        "Security test",
+        "UI test"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "question": "What is stress testing?",
+      "options": ["Normal load", "Extreme load", "UI testing", "Unit testing"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "question": "What is compatibility testing?",
+      "options": [
+        "Browser/device testing",
+        "Security testing",
+        "Unit testing",
+        "Code review"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is defect leakage?",
+      "options": ["Missed bug", "Fixed bug", "Duplicate bug", "Closed bug"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is defect density?",
+      "options": [
+        "Bugs per size",
+        "Bug severity",
+        "Bug priority",
+        "Bug status"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is RTM?",
+      "options": [
+        "Requirement Traceability Matrix",
+        "Regression Test Model",
+        "Release Test Matrix",
+        "Run Test Mode"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is SDLC?",
+      "options": [
+        "Software Development Life Cycle",
+        "System Design Loop",
+        "Software Debug Logic",
+        "None"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is STLC?",
+      "options": [
+        "Software Testing Life Cycle",
+        "System Test Loop",
+        "Security Testing Logic",
+        "None"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is retesting?",
+      "options": [
+        "Testing fixed bug",
+        "Testing new feature",
+        "Regression testing",
+        "Load testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is test execution?",
+      "options": [
+        "Writing tests",
+        "Running tests",
+        "Fixing bugs",
+        "Deploying code"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 35,
+      "question": "What is QA?",
+      "options": [
+        "Testing only",
+        "Process quality assurance",
+        "Bug fixing",
+        "Coding"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 36,
+      "question": "What is QC?",
+      "options": [
+        "Quality control via testing",
+        "Coding",
+        "Deployment",
+        "Design"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "Which tool is for bug tracking?",
+      "options": ["Git", "JIRA", "VS Code", "Postman"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 38,
+      "question": "What is acceptance criteria?",
+      "options": ["Test conditions", "Bug rules", "Code style", "UI rules"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is build?",
+      "options": [
+        "Source code",
+        "Compiled software",
+        "Test plan",
+        "Design doc"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 40,
+      "question": "What is release?",
+      "options": [
+        "Bug fixing",
+        "Software delivery",
+        "Testing phase",
+        "Development"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 41,
+      "question": "What is test environment?",
+      "options": [
+        "Production server",
+        "Testing setup",
+        "Client system",
+        "Developer laptop"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 42,
+      "question": "What is defect triage?",
+      "options": [
+        "Bug discussion & prioritization",
+        "Bug fixing",
+        "Testing phase",
+        "Deployment"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is test estimation?",
+      "options": [
+        "Effort estimation",
+        "Bug count",
+        "Cost estimation",
+        "Time tracking"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is quality?",
+      "options": [
+        "No bugs",
+        "Meeting requirements",
+        "Fast delivery",
+        "Low cost"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 45,
+      "question": "What is checklist testing?",
+      "options": [
+        "List-based testing",
+        "Automation testing",
+        "Load testing",
+        "Security testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is positive testing?",
+      "options": [
+        "Valid input testing",
+        "Invalid input testing",
+        "Security testing",
+        "Stress testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is negative testing?",
+      "options": [
+        "Invalid input testing",
+        "Valid input testing",
+        "UI testing",
+        "Regression testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is boundary testing?",
+      "options": [
+        "Edge value testing",
+        "Random testing",
+        "Security testing",
+        "Unit testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is equivalence partitioning?",
+      "options": [
+        "Input grouping",
+        "Bug grouping",
+        "Test grouping",
+        "Code grouping"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is defect status?",
+      "options": ["Bug state", "Bug type", "Bug severity", "Bug priority"],
+      "correctAnswer": 0
+    }
+  ],
+  "expert": [
+    {
+      "id": 1,
+      "question": "What is shift-left testing?",
+      "options": [
+        "Late testing",
+        "Early testing in SDLC",
+        "UI testing",
+        "Load testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is shift-left testing?",
+      "options": [
+        "Late testing",
+        "Early testing in SDLC",
+        "UI testing",
+        "Load testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "question": "What is unit testing?",
+      "options": [
+        "Testing full system",
+        "Testing individual components",
+        "UI testing",
+        "Load testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "question": "What is test coverage?",
+      "options": ["Bug count", "Extent of testing", "Test speed", "Test cost"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "What is requirement analysis in testing?",
+      "options": [
+        "Understanding requirements",
+        "Writing code",
+        "Deploying app",
+        "Designing UI"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "question": "What is defect aging?",
+      "options": ["Bug lifetime", "Bug severity", "Bug priority", "Bug type"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "question": "What is test closure report?",
+      "options": ["Test summary", "Bug list", "Code report", "Design doc"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "question": "What is risk-based testing?",
+      "options": [
+        "Testing risky areas first",
+        "Random testing",
+        "UI testing",
+        "Security testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "question": "What is checklist?",
+      "options": ["Testing guide", "Bug report", "Code review", "Release plan"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "question": "What is traceability?",
+      "options": [
+        "Linking tests to requirements",
+        "Bug fixing",
+        "Code tracing",
+        "Deployment mapping"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "question": "What is smoke testing?",
+      "options": [
+        "Detailed testing",
+        "Basic build verification",
+        "Load testing",
+        "Security testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 12,
+      "question": "What is sanity testing?",
+      "options": [
+        "Quick fix validation",
+        "Full testing",
+        "Security testing",
+        "Load testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "question": "What is functional testing?",
+      "options": [
+        "Feature testing",
+        "Speed testing",
+        "Security testing",
+        "Stress testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "What is non-functional testing?",
+      "options": [
+        "UI only",
+        "Performance & usability",
+        "Unit testing",
+        "Bug fixing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "question": "What is UAT?",
+      "options": [
+        "User Acceptance Testing",
+        "Unit testing",
+        "Upgrade testing",
+        "Utility testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "What is a test plan?",
+      "options": [
+        "Bug list",
+        "Testing strategy document",
+        "Code file",
+        "Release plan"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "question": "What is test data?",
+      "options": [
+        "Live data",
+        "Input data for testing",
+        "Design data",
+        "Code data"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 18,
+      "question": "What is severity?",
+      "options": ["Bug urgency", "Bug impact", "Bug status", "Bug type"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 19,
+      "question": "What is priority?",
+      "options": ["Bug impact", "Fix urgency", "Bug type", "Bug status"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 20,
+      "question": "What is a bug report?",
+      "options": [
+        "Test case",
+        "Defect documentation",
+        "Code file",
+        "Requirement doc"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 21,
+      "question": "What is alpha testing?",
+      "options": [
+        "Internal testing",
+        "External testing",
+        "Load testing",
+        "Security testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "question": "What is beta testing?",
+      "options": [
+        "Internal testing",
+        "External user testing",
+        "Automation testing",
+        "Unit testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 23,
+      "question": "What is exploratory testing?",
+      "options": [
+        "Scripted testing",
+        "Ad-hoc testing",
+        "Automation testing",
+        "Regression testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 24,
+      "question": "What is ad-hoc testing?",
+      "options": [
+        "Planned testing",
+        "Random testing",
+        "Automation",
+        "Load testing"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 25,
+      "question": "What is load testing?",
+      "options": [
+        "Single user test",
+        "Multiple user load test",
+        "Security test",
+        "UI test"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 26,
+      "question": "What is stress testing?",
+      "options": ["Normal load", "Extreme load", "UI testing", "Unit testing"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 27,
+      "question": "What is compatibility testing?",
+      "options": [
+        "Browser/device testing",
+        "Security testing",
+        "Unit testing",
+        "Code review"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "question": "What is defect leakage?",
+      "options": ["Missed bug", "Fixed bug", "Duplicate bug", "Closed bug"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "question": "What is defect density?",
+      "options": [
+        "Bugs per size",
+        "Bug severity",
+        "Bug priority",
+        "Bug status"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "question": "What is RTM?",
+      "options": [
+        "Requirement Traceability Matrix",
+        "Regression Test Model",
+        "Release Test Matrix",
+        "Run Test Mode"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "question": "What is SDLC?",
+      "options": [
+        "Software Development Life Cycle",
+        "System Design Loop",
+        "Software Debug Logic",
+        "None"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "question": "What is STLC?",
+      "options": [
+        "Software Testing Life Cycle",
+        "System Test Loop",
+        "Security Testing Logic",
+        "None"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "question": "What is retesting?",
+      "options": [
+        "Testing fixed bug",
+        "Testing new feature",
+        "Regression testing",
+        "Load testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 34,
+      "question": "What is test execution?",
+      "options": [
+        "Writing tests",
+        "Running tests",
+        "Fixing bugs",
+        "Deploying code"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 35,
+      "question": "What is QA?",
+      "options": [
+        "Testing only",
+        "Process quality assurance",
+        "Bug fixing",
+        "Coding"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 36,
+      "question": "What is QC?",
+      "options": [
+        "Quality control via testing",
+        "Coding",
+        "Deployment",
+        "Design"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 37,
+      "question": "Which tool is for bug tracking?",
+      "options": ["Git", "JIRA", "VS Code", "Postman"],
+      "correctAnswer": 1
+    },
+    {
+      "id": 38,
+      "question": "What is acceptance criteria?",
+      "options": ["Test conditions", "Bug rules", "Code style", "UI rules"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "question": "What is build?",
+      "options": [
+        "Source code",
+        "Compiled software",
+        "Test plan",
+        "Design doc"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 40,
+      "question": "What is release?",
+      "options": [
+        "Bug fixing",
+        "Software delivery",
+        "Testing phase",
+        "Development"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 41,
+      "question": "What is test environment?",
+      "options": [
+        "Production server",
+        "Testing setup",
+        "Client system",
+        "Developer laptop"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 42,
+      "question": "What is defect triage?",
+      "options": [
+        "Bug discussion & prioritization",
+        "Bug fixing",
+        "Testing phase",
+        "Deployment"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "question": "What is test estimation?",
+      "options": [
+        "Effort estimation",
+        "Bug count",
+        "Cost estimation",
+        "Time tracking"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "question": "What is quality?",
+      "options": [
+        "No bugs",
+        "Meeting requirements",
+        "Fast delivery",
+        "Low cost"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 45,
+      "question": "What is checklist testing?",
+      "options": [
+        "List-based testing",
+        "Automation testing",
+        "Load testing",
+        "Security testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "question": "What is positive testing?",
+      "options": [
+        "Valid input testing",
+        "Invalid input testing",
+        "Security testing",
+        "Stress testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "question": "What is negative testing?",
+      "options": [
+        "Invalid input testing",
+        "Valid input testing",
+        "UI testing",
+        "Regression testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "question": "What is boundary testing?",
+      "options": [
+        "Edge value testing",
+        "Random testing",
+        "Security testing",
+        "Unit testing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "question": "What is equivalence partitioning?",
+      "options": [
+        "Input grouping",
+        "Bug grouping",
+        "Test grouping",
+        "Code grouping"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "question": "What is defect status?",
+      "options": ["Bug state", "Bug type", "Bug severity", "Bug priority"],
+      "correctAnswer": 0
+    }
+  ]
+}
