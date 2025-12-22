@@ -39,13 +39,14 @@ app.use('/api/data', dataRouter);
 /* ============================
    HEALTH CHECK
    ============================ */
-app.get('/', (req, res) => {
-  res.status(200).json({ status: 'API Working fine' });
+app.get('/api/health', (req, res) => {
+  res.json({ status: 'ok from render backend' });
 });
 
-
+/* ============================
+   START SERVER (RENDER)
+   ============================ */
 const PORT = process.env.PORT || 3001;
-
 app.listen(PORT, () => {
-  console.log(`🚀 Backend running at http://localhost:${PORT}`);
+  console.log(`🚀 Backend running on port ${PORT}`);
 });

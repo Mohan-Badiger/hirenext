@@ -54,9 +54,6 @@ export default function Home() {
     <div style={containerStyle}>
       <h1>Welcome to the App</h1>
       <p>Please choose your path:</p>
-      <StyledLinkButton href="/employer">
-        Go to Employer Page
-      </StyledLinkButton>
       <StyledLinkButton href="/test">
         Go to Mock Test
       </StyledLinkButton>
