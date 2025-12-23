@@ -124,5 +124,131 @@
     "title": "AI Research Intern",
     "company": "FedEx",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-13.webp"
+  },
+  {
+    "id": 22,
+    "title": "Test Engineer",
+    "company": "FirstCry",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-14.webp"
+  },
+  {
+    "id": 23,
+    "title": "Data Engineer",
+    "company": "GitHub",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-15.webp"
+  },
+  {
+    "id": 24,
+    "title": "Frontend Developer",
+    "company": "Godrej",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-16.webp"
+  },
+  {
+    "id": 25,
+    "title": "Backend Developer",
+    "company": "Google",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-17.webp"
+  },
+  {
+    "id": 26,
+    "title": "Full Stack Developer",
+    "company": "HCL",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-18.webp"
+  },
+  {
+    "id": 27,
+    "title": "DevOps Engineer",
+    "company": "JusPay",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-19.webp"
+  },
+  {
+    "id": 28,
+    "title": "Cloud Engineer",
+    "company": "JustDial",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-20.webp"
+  },
+  {
+    "id": 29,
+    "title": "QA Engineer",
+    "company": "Deloitte",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-21.webp"
+  },
+  {
+    "id": 30,
+    "title": "UI_UX Designer",
+    "company": "Make My Trip",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-22.webp"
+  },
+  {
+    "id": 31,
+    "title": "Mobile App Developer",
+    "company": "Mondelez",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-23.webp"
+  },
+  {
+    "id": 32,
+    "title": "System Engineer",
+    "company": "Nvidia",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-24.webp"
+  },
+  {
+    "id": 33,
+    "title": "AI Research Intern",
+    "company": "OLA",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-25.webp"
+  },
+  {
+    "id": 34,
+    "title": "Frontend Developer",
+    "company": "OYO",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-26.webp"
+  },
+  {
+    "id": 35,
+    "title": "Backend Developer",
+    "company": "Pepsico",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-27.webp"
+  },
+  {
+    "id": 36,
+    "title": "Full Stack Developer",
+    "company": "Reddit",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-28.webp"
+  },
+  {
+    "id": 37,
+    "title": "DevOps Engineer",
+    "company": "SnapDeal",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-29.webp"
+  },
+  {
+    "id": 38,
+    "title": "Cloud Engineer",
+    "company": "Spotify",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-30.webp"
+  },
+  {
+    "id": 39,
+    "title": "QA Engineer",
+    "company": "TrueCaller",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-31.webp"
+  },
+  {
+    "id": 40,
+    "title": "UI_UX Designer",
+    "company": "Xiaomi",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-32.webp"
+  },
+  {
+    "id": 41,
+    "title": "Mobile App Developer",
+    "company": "Zomato",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-33.webp"
+  },
+  {
+    "id": 42,
+    "title": "System Engineer",
+    "company": "Bosch",
+    "logo": "https://boldanalytics.in/static/assets/row-company-logo-34.webp"
   }
 ]
