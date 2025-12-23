@@ -801,33 +801,51 @@ function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const user = localStorage.getItem('user');
 
-  const handleDelete = async (id) => {
-  const email = user ? JSON.parse(user).email : null;
+  const [selectedCategory, setSelectedCategory] = useState("");
+  const [selectedCompany, setSelectedCompany] = useState("");
+  const [selectedRoleType, setSelectedRoleType] = useState("");
 
-  try {
-    const res = await fetch(`${process.env.REACT_APP_API_URL}/api/data/deleteresult/${id}`, {
-      method: "DELETE",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ email }),  
+  const filteredRoles = React.useMemo(() => {
+    return allRoles.filter((role) => {
+      const matchesCategory = !selectedCategory || role.category === selectedCategory;
+      const matchesCompany = !selectedCompany || role.company === selectedCompany;
+      const matchesRoleType = !selectedRoleType || role.title.toLowerCase().includes(selectedRoleType.toLowerCase());
+
+      return matchesCategory && matchesCompany && matchesRoleType;
     });
-    console.log("Delete response:", res);
+  }, [selectedCategory, selectedCompany, selectedRoleType]);
 
-    if (!res.ok) {
-      throw new Error("Failed to delete attempt");
+  const uniqueCompanies = React.useMemo(() => {
+    return [...new Set(allRoles.map(r => r.company))].sort();
+  }, []);
+
+  const handleDelete = async (id) => {
+    const email = user ? JSON.parse(user).email : null;
+
+    try {
+      const res = await fetch(`${process.env.REACT_APP_API_URL}/api/data/deleteresult/${id}`, {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
+      console.log("Delete response:", res);
+
+      if (!res.ok) {
+        throw new Error("Failed to delete attempt");
+      }
+
+      setAttempts((prev) => prev.filter((a) => a.id !== id));
+
+    } catch (error) {
+      console.error(error);
     }
-
-    setAttempts((prev) => prev.filter((a) => a.id !== id));
-
-  } catch (error) {
-    console.error(error);
-  }
-};
+  };
 
   useEffect(() => {
     const fetchResults = async () => {
-      
+
       const email = user ? JSON.parse(user).email : null;
       const token = localStorage.getItem('token');
       if (!email) return;
@@ -845,7 +863,7 @@ function App() {
 
         const data = await res.json();
         const apiResults = data.results || [];
-         console.log("attempts results:", apiResults);
+        console.log("attempts results:", apiResults);
         const mappedAttempts = apiResults.map((r) => {
           const role = rolesData.find((role) => role.id === r.test_id);
 
@@ -889,7 +907,7 @@ function App() {
               <LaptopImage src={logo} alt="Laptop" />
             </LaptopContainer>
           </MobileTopRow>
-          
+
           <HeroLeft>
             <Badge2>AI-Powered</Badge2>
             <HeroTitle>Company Mock Tests</HeroTitle>
@@ -925,44 +943,53 @@ function App() {
           <SectionTitle>Top Roles</SectionTitle>
 
           <FilterContainer>
-            <Select defaultValue="">
-              <option value="">All</option>
-              <option value="engineering">Engineering</option>
-              <option value="design">Design</option>
-              <option value="product">Product</option>
+            <Select value={selectedCategory} onChange={(e) => setSelectedCategory(e.target.value)}>
+              <option value="">All Categories</option>
+              <option value="Engineering">Engineering</option>
+              <option value="Design">Design</option>
+              <option value="Product">Product</option>
+              <option value="Management">Management</option>
             </Select>
-            <Select defaultValue="">
-              <option value="">Company</option>
-              <option value="google">Google</option>
-              <option value="microsoft">Microsoft</option>
-              <option value="uber">Uber</option>
+
+            <Select value={selectedCompany} onChange={(e) => setSelectedCompany(e.target.value)}>
+              <option value="">All Companies</option>
+              {uniqueCompanies.map(company => (
+                <option key={company} value={company}>{company}</option>
+              ))}
             </Select>
-            <Select defaultValue="">
-              <option value="">Role</option>
-              <option value="engineer">Engineer</option>
-              <option value="designer">Designer</option>
-              <option value="analyst">Analyst</option>
+
+            <Select value={selectedRoleType} onChange={(e) => setSelectedRoleType(e.target.value)}>
+              <option value="">All Roles</option>
+              <option value="Engineer">Engineer</option>
+              <option value="Developer">Developer</option>
+              <option value="Designer">Designer</option>
+              <option value="Analyst">Analyst</option>
+              <option value="Intern">Intern</option>
             </Select>
           </FilterContainer>
 
           <CardsGrid>
-            {roles.map((role) => (
-              <RoleCard key={role.id}>
-                <LogoContainer>
-                  <CompanyLogo src={role.logo} alt={role.company} />
-                </LogoContainer>
-                <div>
-                  <RoleTitle>{role.title}</RoleTitle>
-                  <CompanyName>{role.company}</CompanyName>
-                </div>
-                <StartLink
-                  to={`/mocktest/${role.id}/${role.company}/${role.title}`}
-                >
-                  <span>Start Test</span>
-                  <ArrowUpRight size={18} />
-                </StartLink>
-              </RoleCard>
-            ))}
+            {filteredRoles.length > 0 ? (
+              filteredRoles.map((role) => (
+                <RoleCard key={role.id}>
+                  <LogoContainer>
+                    <CompanyLogo src={role.logo} alt={role.company} />
+                  </LogoContainer>
+                  <div>
+                    <RoleTitle>{role.title}</RoleTitle>
+                    <CompanyName>{role.company}</CompanyName>
+                  </div>
+                  <StartLink to={`/mocktest/${role.id}/${role.company}/${role.title}`}>
+                    <span>Start Test</span>
+                    <ArrowUpRight size={18} />
+                  </StartLink>
+                </RoleCard>
+              ))
+            ) : (
+              <div style={{ gridColumn: "1/-1", textAlign: "center", padding: "40px", color: "#666" }}>
+                No matching roles found.
+              </div>
+            )}
           </CardsGrid>
         </LeftSection>
 
@@ -993,9 +1020,9 @@ function App() {
                     </AttemptInfo>
                     <Score>{attempt.score}</Score>
                     <ActionButtons>
-                       <IconButtonCross onClick={() => handleDelete(attempt.id)}>
-                            <X color="black" />
-                     </IconButtonCross>
+                      <IconButtonCross onClick={() => handleDelete(attempt.id)}>
+                        <X color="black" />
+                      </IconButtonCross>
                       <IconButton>
                         <Play />
                       </IconButton>
@@ -1044,9 +1071,9 @@ function App() {
                 </AttemptInfo>
                 <Score>{attempt.score}</Score>
                 <ActionButtons>
-                     <IconButtonCross onClick={() => handleDelete(attempt.id)}>
-                      <X color="black" />
-                    </IconButtonCross>
+                  <IconButtonCross onClick={() => handleDelete(attempt.id)}>
+                    <X color="black" />
+                  </IconButtonCross>
                   <IconButton>
                     <Play />
                   </IconButton>

@@ -3,252 +3,294 @@
     "id": 1,
     "title": "AI Engineer",
     "company": "Google",
+    "category": "Engineering",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
   },
   {
     "id": 2,
     "title": "Machine Learning Engineer",
     "company": "OpenAI",
+    "category": "Engineering",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg"
   },
   {
     "id": 3,
     "title": "iOS Developer",
     "company": "Uber",
+    "category": "Engineering",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png"
   },
   {
     "id": 4,
     "title": "Blockchain Engineer",
     "company": "StarkWare",
+    "category": "Engineering",
     "logo": "/starware_logo.jpeg"
   },
   {
     "id": 5,
     "title": "Cyber Security Engineer",
     "company": "Microsoft",
+    "category": "Engineering",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
   },
   {
     "id": 6,
     "title": "Data Analyst",
-    "company": "Boston Consulting Group",
+    "company": "BCG",
+    "category": "Product",
     "logo": "/BCG_logo.png"
   },
   {
     "id": 7,
     "title": "Software Engineer",
     "company": "Airbnb",
+    "category": "Engineering",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_Bélo.svg"
   },
   {
     "id": 8,
     "title": "Product Designer",
     "company": "Netflix",
+    "category": "Design",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
   },
   {
     "id": 9,
     "title": "Data Engineer",
     "company": "LinkedIn",
+    "category": "Engineering",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
   },
   {
     "id": 10,
     "title": "Test Engineer",
     "company": "FreeCharge",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-1.webp"
   },
   {
     "id": 11,
     "title": "Data Engineer",
     "company": "Myntra",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-2.webp"
   },
   {
     "id": 12,
     "title": "Frontend Developer",
     "company": "Yatra",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-4.webp"
   },
   {
     "id": 13,
     "title": "Backend Developer",
     "company": "HubSpot",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-5.webp"
   },
   {
     "id": 14,
     "title": "Full Stack Developer",
     "company": "Samsung",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-6.webp"
   },
   {
     "id": 15,
     "title": "DevOps Engineer",
     "company": "Amazon",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-7.webp"
   },
   {
     "id": 16,
     "title": "Cloud Engineer",
     "company": "Boat",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-8.webp"
   },
   {
     "id": 17,
     "title": "QA Engineer",
     "company": "Decathlon",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-9.webp"
   },
   {
     "id": 18,
     "title": "UI_UX Designer",
     "company": "Delhivery",
+    "category": "Design",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-10.webp"
   },
   {
     "id": 19,
     "title": "Mobile App Developer",
     "company": "DoorDash",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-11.webp"
   },
   {
     "id": 20,
     "title": "System Engineer",
     "company": "DropBox",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-12.webp"
   },
   {
     "id": 21,
     "title": "AI Research Intern",
     "company": "FedEx",
+    "category": "Product",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-13.webp"
   },
   {
     "id": 22,
     "title": "Test Engineer",
     "company": "FirstCry",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-14.webp"
   },
   {
     "id": 23,
     "title": "Data Engineer",
     "company": "GitHub",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-15.webp"
   },
   {
     "id": 24,
     "title": "Frontend Developer",
     "company": "Godrej",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-16.webp"
   },
   {
     "id": 25,
-    "title": "Backend Developer",
+    "title": "Engineering Manager",
     "company": "Google",
+    "category": "Management",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-17.webp"
   },
   {
     "id": 26,
     "title": "Full Stack Developer",
     "company": "HCL",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-18.webp"
   },
   {
     "id": 27,
     "title": "DevOps Engineer",
     "company": "JusPay",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-19.webp"
   },
   {
     "id": 28,
     "title": "Cloud Engineer",
     "company": "JustDial",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-20.webp"
   },
   {
     "id": 29,
     "title": "QA Engineer",
     "company": "Deloitte",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-21.webp"
   },
   {
     "id": 30,
     "title": "UI_UX Designer",
     "company": "Make My Trip",
+    "category": "Design",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-22.webp"
   },
   {
     "id": 31,
     "title": "Mobile App Developer",
     "company": "Mondelez",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-23.webp"
   },
   {
     "id": 32,
     "title": "System Engineer",
     "company": "Nvidia",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-24.webp"
   },
   {
     "id": 33,
-    "title": "AI Research Intern",
+    "title": "Product Manager",
     "company": "OLA",
+    "category": "Management",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-25.webp"
   },
   {
     "id": 34,
     "title": "Frontend Developer",
     "company": "OYO",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-26.webp"
   },
   {
     "id": 35,
     "title": "Backend Developer",
     "company": "Pepsico",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-27.webp"
   },
   {
     "id": 36,
     "title": "Full Stack Developer",
     "company": "Reddit",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-28.webp"
   },
   {
     "id": 37,
     "title": "DevOps Engineer",
     "company": "SnapDeal",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-29.webp"
   },
   {
     "id": 38,
     "title": "Cloud Engineer",
     "company": "Spotify",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-30.webp"
   },
   {
     "id": 39,
     "title": "QA Engineer",
     "company": "TrueCaller",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-31.webp"
   },
   {
     "id": 40,
     "title": "UI_UX Designer",
     "company": "Xiaomi",
+    "category": "Design",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-32.webp"
   },
   {
     "id": 41,
     "title": "Mobile App Developer",
     "company": "Zomato",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-33.webp"
   },
   {
     "id": 42,
     "title": "System Engineer",
     "company": "Bosch",
+    "category": "Engineering",
     "logo": "https://boldanalytics.in/static/assets/row-company-logo-34.webp"
   }
 ]
