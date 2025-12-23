@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { ArrowUpRight, Play, FileText, Info } from "lucide-react";
+import { ArrowUpRight, Play, Info } from "lucide-react";
 import logo from "../utils/logo.jpg";
 import { Link } from "react-router-dom";
 import allRoles from "../Data/tests/tests.json";
@@ -793,10 +793,11 @@ const CloseButton = styled.button`
 
 
 function App() {
-  const roles = allRoles;
-  const [results, setResults] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const rolesData = allRoles;
+  // const roles = allRoles;
+  // const [results, setResults] = useState([]);
+  // const [loading, setLoading] = useState(true);
+  const rolesData = React.useMemo(() => allRoles, []);
+
   const [attempts, setAttempts] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const user = localStorage.getItem('user');
@@ -820,6 +821,7 @@ function App() {
   }, []);
 
   const handleDelete = async (id) => {
+    
     const email = user ? JSON.parse(user).email : null;
 
     try {
@@ -883,12 +885,12 @@ function App() {
       } catch (err) {
         console.error('Error fetching results:', err);
       } finally {
-        setLoading(false);
+        // setLoading(false);
       }
     };
 
     fetchResults();
-  }, []);
+  }, [rolesData, user]);
 
   localStorage.removeItem("mockTestState");
   Object.keys(localStorage).forEach((key) => {
@@ -1040,7 +1042,7 @@ function App() {
               <ReferImage>🎁 💰</ReferImage>
               <ReferButtons>
                 <ReferButton>Refer now</ReferButton>
-                <ReferButton primary>Know more</ReferButton>
+                <ReferButton $primary>Know more</ReferButton>
               </ReferButtons>
             </ReferSection>
           </Sidebar>
@@ -1048,7 +1050,7 @@ function App() {
       </MainContent>
 
       {/* Mobile Modal for Attempts */}
-      <ModalOverlay isOpen={isModalOpen} onClick={() => setIsModalOpen(false)} />
+      <ModalOverlay $isOpen={isModalOpen} onClick={() => setIsModalOpen(false)} />
       {isModalOpen && (
         <ModalContent>
           <ModalHeader>
