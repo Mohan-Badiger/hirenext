@@ -202,7 +202,7 @@ export default function Home() {
                 style={{
                   height: "120px",
                   background: "#f8f9fa",
-                  borderRadius: "12px",
+                  borderRadius: "5px",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
