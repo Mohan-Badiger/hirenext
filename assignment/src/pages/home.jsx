@@ -1,251 +1,292 @@
-import React, { useState, useMemo } from "react";
-import { useNavigate, Link } from "react-router-dom";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import allRoles from "../Data/tests/tests.json";
 import { ArrowUpRight } from "lucide-react";
 
-export default function Home() {
+/* ---------------- MOCK TESTS SECTION ---------------- */
+
+function MockTests() {
   const navigate = useNavigate();
+  const tabs = ["Tech", "Management", "General"];
+  const [active, setActive] = useState("Tech");
 
-  /* ---------------- Random 4 roles ---------------- */
-  const randomRoles = useMemo(() => {
-    const shuffled = [...allRoles].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, 4);
-  }, []);
-  /* ------------------------------------------------ */
-
-  const StyledLinkButton = ({ href, children, variant = "primary" }) => {
-    const [hover, setHover] = useState(false);
-    const isPrimary = variant === "primary";
-
-    return (
-      <a
-        href={href}
-        onMouseEnter={() => setHover(true)}
-        onMouseLeave={() => setHover(false)}
-        style={{
-          padding: "16px 32px",
-          fontSize: "16px",
-          fontWeight: "600",
-          color: isPrimary ? "#fff" : "#0ea5e9",
-          backgroundColor: isPrimary ? "#0ea5e9" : "transparent",
-          border: isPrimary ? "none" : "2px solid #0ea5e9",
-          borderRadius: "12px",
-          textDecoration: "none",
-          width: "260px",
-          textAlign: "center",
-          transition: "all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
-          transform: hover ? "translateY(-5px)" : "none",
-          boxShadow: hover
-            ? "0 15px 30px rgba(14,165,233,0.25)"
-            : "0 4px 6px rgba(0,0,0,0.05)",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: "10px",
-        }}
-      >
-        {children}
-        {isPrimary && (
-          <span
-            style={{
-              transition: "0.3s",
-              transform: hover ? "translateX(4px)" : "none",
-            }}
-          >
-            →
-          </span>
-        )}
-      </a>
-    );
-  };
+  const tests = [
+    { id: 1, role: "Software Developer", desc: "Designs, codes, and maintains software solutions.", color: "#7c3aed" },
+    { id: 2, role: "Data Analyst", desc: "Analyzes and interprets complex data for insights.", color: "#ec4899" },
+    { id: 3, role: "Backend Developer", desc: "Develops and maintains server-side applications.", color: "#2563eb" },
+    { id: 4, role: "Frontend Developer", desc: "Creates engaging, responsive web interfaces.", color: "#8b5cf6" },
+    { id: 5, role: "Software Developer", desc: "Designs, codes, and maintains software solutions.", color: "#7c3aed" },
+    { id: 6, role: "Data Analyst", desc: "Analyzes and interprets complex data for insights.", color: "#ec4899" },
+  ];
 
   return (
-    <div style={{ backgroundColor: "#fff", minHeight: "100vh" }}>
-      <Navbar />
-
-      <main
-        style={{
-          minHeight: "100vh",
-          background:
-            "radial-gradient(circle at top right, #f0f9ff 0%, #ffffff 40%, #f8fafc 100%)",
-          color: "#0f172a",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          padding: "0 20px",
-          textAlign: "center",
-        }}
-      >
-        {/* Badge */}
-        <div
-          style={{
-            backgroundColor: "#e0f2fe",
-            color: "#0369a1",
-            padding: "8px 16px",
-            borderRadius: "100px",
-            fontSize: "14px",
-            fontWeight: "700",
-            marginBottom: "84px",
-            textTransform: "uppercase",
-            letterSpacing: "1px",
-          }}
-        >
-          🚀 Level Up Your Career
+    <section style={styles.section}>
+      {/* Header */}
+      <div style={styles.headerRow}>
+        <div>
+          <h2 style={styles.sectionTitle}>AI-Powered Mock Tests</h2>
+          <p style={styles.sectionSub}>
+            Master your concepts with AI-powered full-length mock tests.
+          </p>
         </div>
 
-        <h1
-          style={{
-            fontSize: "clamp(40px, 8vw, 72px)",
-            fontWeight: "800",
-            lineHeight: "1.1",
-            margin: "0 0 20px 0",
-            background: "linear-gradient(to bottom right, #0f172a, #334155)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            maxWidth: "900px",
-          }}
+        <span
+          onClick={() => navigate("/test")}
+          style={styles.viewAll}
         >
-          Learn. Practice.{" "}
-          <span style={{ color: "#0ea5e9", WebkitTextFillColor: "initial" }}>
-            Succeed.
-          </span>
+          View all →
+        </span>
+      </div>
+
+      {/* Tabs */}
+      <div style={styles.tabs}>
+        {tabs.map((t) => (
+          <button
+            key={t}
+            onClick={() => setActive(t)}
+            style={{
+              ...styles.tabBtn,
+              ...(active === t ? styles.tabActive : {}),
+            }}
+          >
+            {t}
+          </button>
+        ))}
+      </div>
+
+      {/* Cards */}
+      <div style={styles.scrollRail}>
+        {tests.map((t) => (
+          <div key={t.id} style={styles.card}>
+            <div
+              style={{
+                ...styles.cardTop,
+                background: `linear-gradient(135deg, ${t.color}, #1e293b)`,
+              }}
+            >
+              <h3 style={styles.cardTitle}>{t.role}</h3>
+            </div>
+
+            <div style={styles.cardBody}>
+              <p style={styles.cardDesc}>{t.desc}</p>
+              <div style={styles.cardFooter}>
+                <button
+                  onClick={() => navigate("/test")}
+                  style={styles.startBtn}
+                >
+                  Start Test
+                </button>
+                <button style={styles.arrowBtn}>
+                  <ArrowUpRight size={16} />
+                </button>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+/* ---------------- HOME ---------------- */
+
+export default function Home() {
+  return (
+    <div style={styles.page}>
+      <Navbar />
+
+      <main style={styles.main}>
+        {/* Badge */}
+        <div style={styles.badge}>🚀 Level Up Your Career</div>
+
+        <h1 style={styles.heroTitle}>
+          Learn. Practice. <span style={styles.heroHighlight}>Succeed.</span>
         </h1>
 
-        <p
-          style={{
-            fontSize: "clamp(18px, 4vw, 22px)",
-            color: "#64748b",
-            maxWidth: "650px",
-            lineHeight: "1.6",
-            marginBottom: "40px",
-          }}
-        >
+        <p style={styles.heroDesc}>
           Master the technical interview with AI-powered mock tests and curated
           preparation paths for modern developers.
         </p>
 
-        {/* Buttons */}
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            justifyContent: "center",
-            gap: "20px",
-            marginBottom: "60px",
-          }}
-        >
-          <StyledLinkButton href="/test" variant="primary">
-            Browse Mock Tests
-          </StyledLinkButton>
-
-          <StyledLinkButton href="/interview" variant="secondary">
-            Interview Prep
-          </StyledLinkButton>
+        <div style={styles.heroButtons}>
+          <a href="/test" style={styles.primaryBtn}>Browse Mock Tests</a>
+          <a href="/interview" style={styles.secondaryBtn}>Interview Prep</a>
         </div>
 
-        {/* Section Header */}
-        <div
-          style={{
-            width: "100%",
-            maxWidth: "1100px",
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            marginBottom: "24px",
-          }}
-        >
-          <h2 style={{ fontSize: "24px", fontWeight: "700" }}>
-            AI-Powered Mock Tests
-          </h2>
-
-          <span
-            onClick={() => navigate("/test")}
-            style={{
-              cursor: "pointer",
-              fontSize: "14px",
-              fontWeight: "600",
-              color: "#2563eb",
-            }}
-          >
-            View all →
-          </span>
-        </div>
-
-        {/* ------------------ 4 RANDOM CARDS ------------------ */}
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
-            gap: "20px",
-            width: "100%",
-            maxWidth: "1100px",
-            marginBottom: "80px",
-          }}
-        >
-          {randomRoles.map((role) => (
-            <div
-              key={role.id}
-              style={{
-                background: "#fff",
-                borderRadius: "6px",
-                padding: "20px",
-                boxShadow: "0 2px 10px rgba(0,0,0,0.08)",
-                display: "flex",
-                flexDirection: "column",
-                gap: "14px",
-                border: "1px solid rgba(0,0,0,0.1)",
-              }}
-            >
-              <div
-                style={{
-                  height: "120px",
-                  background: "#f8f9fa",
-                  borderRadius: "5px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
-              >
-                <img
-                  src={role.logo}
-                  alt={role.company}
-                  style={{
-                    width: "100px",
-                    height: "80px",
-                    objectFit: "contain",
-                  }}
-                />
-              </div>
-
-              <div style={{ textAlign: "left" }}>
-                <h3 style={{ fontSize: "18px", margin: 0 }}>{role.title}</h3>
-                <p style={{ fontSize: "14px", color: "#64748b", margin: 0 }}>
-                  {role.company}
-                </p>
-              </div>
-
-              <Link
-                to={`/mocktest/${role.id}/${role.company}/${role.title}`}
-                style={{
-                  marginTop: "auto",
-                  textDecoration: "none",
-                  fontWeight: 600,
-                  color: "#2563eb",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "space-between",
-                }}
-              >
-                <span>Start Test</span>
-                <ArrowUpRight size={18} />
-              </Link>
-            </div>
-          ))}
-        </div>
-        {/* ---------------------------------------------------- */}
+        {/* Mock Tests Section */}
+        <MockTests />
       </main>
     </div>
   );
 }
+
+/* ---------------- STYLES ---------------- */
+
+const styles = {
+  page: {
+    backgroundColor: "#fff",
+    minHeight: "100vh",
+  },
+  main: {
+    minHeight: "100vh",
+    background:
+      "radial-gradient(circle at top right, #f0f9ff 0%, #ffffff 40%, #f8fafc 100%)",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    textAlign: "center",
+    padding: "0 20px",
+  },
+
+  /* Hero */
+  badge: {
+    marginTop: "80px",
+    backgroundColor: "#e0f2fe",
+    color: "#0369a1",
+    padding: "8px 16px",
+    borderRadius: "100px",
+    fontSize: "14px",
+    fontWeight: "700",
+    letterSpacing: "1px",
+  },
+  heroTitle: {
+    fontSize: "clamp(36px, 8vw, 72px)",
+    fontWeight: "800",
+    margin: "20px 0",
+  },
+  heroHighlight: {
+    color: "#0ea5e9",
+  },
+  heroDesc: {
+    maxWidth: "650px",
+    fontSize: "18px",
+    color: "#64748b",
+  },
+  heroButtons: {
+    marginTop: "30px",
+    display: "flex",
+    gap: "20px",
+    flexWrap: "wrap",
+    justifyContent: "center",
+  },
+  primaryBtn: {
+    padding: "14px 30px",
+    background: "#0ea5e9",
+    color: "#fff",
+    borderRadius: "12px",
+    fontWeight: "600",
+    textDecoration: "none",
+  },
+  secondaryBtn: {
+    padding: "14px 30px",
+    border: "2px solid #0ea5e9",
+    color: "#0ea5e9",
+    borderRadius: "12px",
+    fontWeight: "600",
+    textDecoration: "none",
+  },
+
+  /* Section */
+  section: {
+    width: "100%",
+    maxWidth: "1200px",
+    marginTop: "80px",
+    textAlign: "left",
+  },
+  headerRow: {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "flex-start",
+    gap: "20px",
+  },
+  sectionTitle: {
+    fontSize: "26px",
+    fontWeight: "700",
+  },
+  sectionSub: {
+    fontSize: "14px",
+    color: "#64748b",
+  },
+  viewAll: {
+    fontSize: "14px",
+    fontWeight: "600",
+    color: "#2563eb",
+    cursor: "pointer",
+  },
+
+  /* Tabs */
+  tabs: {
+    display: "flex",
+    gap: "10px",
+    margin: "20px 0",
+    flexWrap: "wrap",
+  },
+  tabBtn: {
+    padding: "8px 16px",
+    borderRadius: "20px",
+    border: "1px solid #cbd5f5",
+    background: "#fff",
+    cursor: "pointer",
+    fontSize: "14px",
+  },
+  tabActive: {
+    background: "#e0f2fe",
+    borderColor: "#0ea5e9",
+    color: "#0369a1",
+  },
+
+  /* Cards */
+  scrollRail: {
+    display: "flex",
+    gap: "20px",
+    overflowX: "auto",
+    paddingBottom: "20px",
+  },
+  card: {
+    minWidth: "260px",
+    background: "#fff",
+    borderRadius: "16px",
+    border: "1px solid #e5e7eb",
+    boxShadow: "0 4px 10px rgba(0,0,0,0.06)",
+    overflow: "hidden",
+    flexShrink: 0,
+  },
+  cardTop: {
+    height: "120px",
+    padding: "16px",
+    color: "#fff",
+    display: "flex",
+    alignItems: "flex-end",
+  },
+  cardTitle: {
+    fontSize: "18px",
+    fontWeight: "700",
+  },
+  cardBody: {
+    padding: "16px",
+  },
+  cardDesc: {
+    fontSize: "14px",
+    color: "#64748b",
+  },
+  cardFooter: {
+    marginTop: "14px",
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  startBtn: {
+    background: "none",
+    border: "none",
+    color: "#2563eb",
+    fontWeight: "600",
+    cursor: "pointer",
+  },
+  arrowBtn: {
+    background: "#eff6ff",
+    border: "none",
+    borderRadius: "50%",
+    padding: "6px",
+    cursor: "pointer",
+  },
+};
