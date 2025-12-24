@@ -1,19 +1,22 @@
-import React, { useState, useMemo } from "react";
+import React, { useRef } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import allRoles from "../Data/tests/tests.json";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, ChevronLeft, ChevronRight } from "lucide-react";
 
 /* ---------------- MOCK TESTS SECTION ---------------- */
 
 function MockTests() {
   const navigate = useNavigate();
+  const scrollRef = useRef(null);
 
-  /* Pick 4 random roles from existing data */
-  const randomRoles = useMemo(() => {
-    const shuffled = [...allRoles].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, 4);
-  }, []);
+  const scrollLeft = () => {
+    scrollRef.current.scrollBy({ left: -300, behavior: "smooth" });
+  };
+
+  const scrollRight = () => {
+    scrollRef.current.scrollBy({ left: 300, behavior: "smooth" });
+  };
 
   return (
     <section style={styles.section}>
@@ -22,7 +25,7 @@ function MockTests() {
         <div>
           <h2 style={styles.sectionTitle}>AI-Powered Mock Tests</h2>
           <p style={styles.sectionSub}>
-            Master your concepts with AI-powered full-length mock tests.
+            Practice real interview questions from top companies.
           </p>
         </div>
 
@@ -31,20 +34,31 @@ function MockTests() {
         </span>
       </div>
 
+      {/* Scroll Buttons (Desktop only) */}
+      <button
+        onClick={scrollLeft}
+        className="desktop-only"
+        style={{ ...styles.scrollBtn, left: "-20px" }}
+      >
+        <ChevronLeft size={18} />
+      </button>
+
+      <button
+        onClick={scrollRight}
+        className="desktop-only"
+        style={{ ...styles.scrollBtn, right: "-20px" }}
+      >
+        <ChevronRight size={18} />
+      </button>
+
       {/* Cards */}
-      <div style={styles.scrollRail}>
-        {randomRoles.map((role) => (
+      <div ref={scrollRef} style={styles.scrollRail}>
+        {allRoles.map((role) => (
           <div key={role.id} style={styles.card}>
-            {/* Card Top */}
             <div style={styles.cardTop}>
-              <img
-                src={role.logo}
-                alt={role.company}
-                style={styles.logo}
-              />
+              <img src={role.logo} alt={role.company} style={styles.logo} />
             </div>
 
-            {/* Card Body */}
             <div style={styles.cardBody}>
               <h3 style={styles.cardTitle}>{role.title}</h3>
               <p style={styles.cardCompany}>{role.company}</p>
@@ -60,6 +74,17 @@ function MockTests() {
           </div>
         ))}
       </div>
+
+      {/* Desktop-only CSS */}
+      <style>
+        {`
+          @media (max-width: 768px) {
+            .desktop-only {
+              display: none !important;
+            }
+          }
+        `}
+      </style>
     </section>
   );
 }
@@ -72,7 +97,6 @@ export default function Home() {
       <Navbar />
 
       <main style={styles.main}>
-        {/* Hero */}
         <div style={styles.badge}>🚀 Level Up Your Career</div>
 
         <h1 style={styles.heroTitle}>
@@ -80,16 +104,19 @@ export default function Home() {
         </h1>
 
         <p style={styles.heroDesc}>
-          Master the technical interview with AI-powered mock tests and curated
-          preparation paths for modern developers.
+          Crack technical interviews with AI-powered mock tests from top tech
+          companies.
         </p>
 
         <div style={styles.heroButtons}>
-          <a href="/test" style={styles.primaryBtn}>Browse Mock Tests</a>
-          <a href="/interview" style={styles.secondaryBtn}>Interview Prep</a>
+          <Link to="/test" style={styles.primaryBtn}>
+            Browse Mock Tests
+          </Link>
+          <Link to="/interview" style={styles.secondaryBtn}>
+            Interview Prep
+          </Link>
         </div>
 
-        {/* Functional Mock Tests */}
         <MockTests />
       </main>
     </div>
@@ -115,7 +142,6 @@ const styles = {
     textAlign: "center",
   },
 
-  /* Hero */
   badge: {
     marginTop: "80px",
     backgroundColor: "#e0f2fe",
@@ -124,7 +150,6 @@ const styles = {
     borderRadius: "100px",
     fontSize: "14px",
     fontWeight: "700",
-    letterSpacing: "1px",
   },
 
   heroTitle: {
@@ -169,11 +194,11 @@ const styles = {
     textDecoration: "none",
   },
 
-  /* Section */
   section: {
     width: "100%",
     maxWidth: "1200px",
     marginTop: "80px",
+    position: "relative",
     textAlign: "left",
   },
 
@@ -181,7 +206,6 @@ const styles = {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "flex-start",
-    gap: "20px",
     marginBottom: "20px",
   },
 
@@ -202,18 +226,35 @@ const styles = {
     cursor: "pointer",
   },
 
-  /* Cards */
   scrollRail: {
     display: "flex",
     gap: "20px",
     overflowX: "auto",
     paddingBottom: "20px",
+    scrollBehavior: "smooth",
+  },
+
+  scrollBtn: {
+    position: "absolute",
+    top: "55%",
+    transform: "translateY(-50%)",
+    width: "36px",
+    height: "36px",
+    borderRadius: "50%",
+    background: "#fff",
+    border: "1px solid #e5e7eb",
+    boxShadow: "0 4px 10px rgba(0,0,0,0.15)",
+    cursor: "pointer",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    zIndex: 10,
   },
 
   card: {
     minWidth: "280px",
     background: "#fff",
-    borderRadius: "8px",
+    borderRadius: "12px",
     border: "1px solid #e5e7eb",
     boxShadow: "0 4px 10px rgba(0,0,0,0.06)",
     flexShrink: 0,
@@ -221,8 +262,7 @@ const styles = {
 
   cardTop: {
     height: "120px",
-    background: "#f8f9fa",
-    borderRadius: "16px 16px 0 0",
+    background: "#f8fafc",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
@@ -241,7 +281,6 @@ const styles = {
   cardTitle: {
     fontSize: "16px",
     fontWeight: "600",
-    marginBottom: "4px",
   },
 
   cardCompany: {
