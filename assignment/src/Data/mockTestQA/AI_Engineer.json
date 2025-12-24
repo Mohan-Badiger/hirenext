@@ -97,6 +97,12 @@
       "correctAnswer": 1
     },
     {
+      "id": 17,
+      "question": "What is feature engineering?",
+      "options": ["Ignoring features", "Creating/transforming features", "No features", "Storage"],
+      "correctAnswer": 1
+    },
+    {
       "id": 18,
       "question": "What is a feature?",
       "options": ["Output", "Input variable", "No feature", "Label"],
@@ -388,6 +394,12 @@
     },
     {
       "id": 16,
+      "question": "What is early stopping?",
+      "options": ["Prevent overfitting", "No early", "Train full", "No prevent"],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
       "question": "What is early stopping?",
       "options": ["Prevent overfitting", "No early", "Train full", "No prevent"],
       "correctAnswer": 0

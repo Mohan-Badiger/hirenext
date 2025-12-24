@@ -8,28 +8,30 @@ const createResultTable = async () => {
       user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
       test_id INTEGER NOT NULL,
       test_score INTEGER NOT NULL,
+      total_questions INTEGER NOT NULL,
       created_at TIMESTAMP DEFAULT NOW()
     );
   `;
   await pool.query(query);
-  console.log('✅ Result table ready');
+  console.log("✅ Result table ready");
 };
 
 // ✅ Add a new test result
-const addResult = async (userId, testId, testScore) => {
+const addResult = async (userId, testId, testScore, totalQuestions) => {
   const query = `
-    INSERT INTO result (user_id, test_id, test_score)
-    VALUES ($1, $2, $3)
-    RETURNING id, user_id, test_id, test_score, created_at;
+    INSERT INTO result (user_id, test_id, test_score, total_questions)
+    VALUES ($1, $2, $3, $4)
+    RETURNING id, user_id, test_id, test_score, total_questions, created_at;
   `;
-  const values = [userId, testId, testScore];
+  const values = [userId, testId, testScore, totalQuestions];
   const { rows } = await pool.query(query, values);
   return rows[0];
 };
 
+
 const getResultsByEmail = async (email) => {
   const query = `
-    SELECT r.id, r.test_id, r.test_score, r.created_at
+    SELECT r.id, r.test_id, r.test_score, r.total_questions, r.created_at
     FROM result r
     JOIN users u ON r.user_id = u.id
     WHERE u.email = $1

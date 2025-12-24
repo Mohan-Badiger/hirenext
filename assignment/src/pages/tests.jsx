@@ -20,13 +20,16 @@ const HeroSection = styled.div`
   background: linear-gradient(135deg, #f7f9ff 0%, #d8ddfb 50%, #caddf2 100%);
   padding: 0px 10px 0px;
   height: 333.6px;
-  
-  
+
   position: relative;
   overflow: hidden;
   @media (max-width: 968px) {
-   
-background: linear-gradient(135deg, #f7f9ff 0%, #e1e5fcff 50%, #cee4f4ff 100%);
+    background: linear-gradient(
+      135deg,
+      #f7f9ff 0%,
+      #e1e5fcff 50%,
+      #cee4f4ff 100%
+    );
     height: auto;
     padding: 30px 0px 20px;
     border-bottom-left-radius: 30px;
@@ -96,7 +99,7 @@ const HeroContent = styled.div`
 
 const MobileTopRow = styled.div`
   display: none;
-  
+
   @media (max-width: 968px) {
     display: flex;
     justify-content: space-between;
@@ -116,16 +119,13 @@ const HeroLeft = styled.div`
   }
 `;
 
-
-
 const Badge = styled.div`
   display: inline-flex;
   align-items: center;
   gap: 8px;
   background-color: #1a237e;
-  background-image:
-    radial-gradient(white 10%, transparent 11%), /* Slightly smaller dots */
-    radial-gradient(white 10%, transparent 11%); /* Slightly smaller dots */
+  background-image: radial-gradient(white 10%, transparent 11%),
+    /* Slightly smaller dots */ radial-gradient(white 10%, transparent 11%); /* Slightly smaller dots */
   background-size: 16px 16px, 14px 14px; /* Increased size to reduce density */
   background-position: 0 0, 8px 8px; /* Increased offset for more spacing */
   color: white;
@@ -149,15 +149,13 @@ const Badge = styled.div`
   }
 `;
 
-
 const Badge2 = styled.div`
- display: inline-flex;
+  display: inline-flex;
   align-items: center;
   gap: 8px;
   background-color: #1a237e;
-  background-image:
-    radial-gradient(white 10%, transparent 11%), /* Slightly smaller dots */
-    radial-gradient(white 10%, transparent 11%); /* Slightly smaller dots */
+  background-image: radial-gradient(white 10%, transparent 11%),
+    /* Slightly smaller dots */ radial-gradient(white 10%, transparent 11%); /* Slightly smaller dots */
   background-size: 16px 16px, 14px 14px; /* Increased size to reduce density */
   background-position: 0 0, 8px 8px; /* Increased offset for more spacing */
   color: white;
@@ -174,7 +172,7 @@ const Badge2 = styled.div`
   &::before {
     content: "✨";
     font-size: 16px;
-     filter: grayscale(100%) brightness(500%);
+    filter: grayscale(100%) brightness(500%);
   }
 `;
 
@@ -213,7 +211,7 @@ const HeroRight = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  
+
   @media (max-width: 968px) {
     display: none;
   }
@@ -237,7 +235,7 @@ const LaptopImage = styled.img`
   width: 100%;
   height: auto;
   filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.15));
-  
+
   @media (max-width: 968px) {
     width: auto;
     height: 87px;
@@ -257,7 +255,7 @@ const MainContent = styled.div`
     grid-template-columns: 1fr;
     padding: 20px 20px;
   }
-  
+
   @media (max-width: 968px) {
     padding: 20px 20px;
   }
@@ -267,7 +265,7 @@ const LeftSection = styled.div`
   padding: 0;
   position: relative;
   top: -60px;
-  
+
   @media (max-width: 968px) {
     top: 0;
   }
@@ -277,7 +275,7 @@ const RightSection = styled.div`
   display: flex;
   flex-direction: column;
   gap: 24px;
-  
+
   @media (max-width: 1200px) {
     display: none;
   }
@@ -288,7 +286,7 @@ const SectionTitle = styled.h2`
   font-weight: 700;
   color: #2c3e50;
   margin-bottom: 30px;
-  
+
   @media (max-width: 968px) {
     font-size: 22px;
     margin-bottom: 20px;
@@ -297,7 +295,7 @@ const SectionTitle = styled.h2`
 
 const MobileCreditsCard = styled.div`
   display: none;
-  
+
   @media (max-width: 968px) {
     display: flex;
     background: linear-gradient(135deg, #e8eaf6 0%, #c5cae9 100%);
@@ -392,7 +390,7 @@ const CardsGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 24px;
-  
+
   @media (max-width: 968px) {
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
@@ -437,7 +435,7 @@ const LogoContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-bottom: 8px;
-  
+
   @media (max-width: 968px) {
     height: 80px;
     margin-bottom: 4px;
@@ -448,7 +446,7 @@ const CompanyLogo = styled.img`
   width: 100px;
   height: 100px;
   object-fit: contain;
-  
+
   @media (max-width: 968px) {
     width: 90px;
     height: 90px;
@@ -460,7 +458,7 @@ const RoleTitle = styled.h3`
   font-weight: 600;
   color: #212121;
   margin: 0;
-  
+
   @media (max-width: 968px) {
     font-size: 12px;
   }
@@ -470,7 +468,7 @@ const CompanyName = styled.p`
   font-size: 14px;
   color: #757575;
   margin: 0;
-  
+
   @media (max-width: 968px) {
     font-size: 10px;
   }
@@ -545,7 +543,7 @@ const AttemptsTable = styled.div`
   max-height: 400px; /* **Adjust this value as needed** */
   overflow-y: auto;
   scrollbar-width: thin;
-  scrollbar-color: #c0c0c0 transparent; 
+  scrollbar-color: #c0c0c0 transparent;
   /* --- ----------------------- --- */
 `;
 
@@ -723,9 +721,9 @@ const ReferButton = styled.button`
 // Mobile Modal Styles
 const ModalOverlay = styled.div`
   display: none;
-  
+
   @media (max-width: 1200px) {
-    display: ${props => props.isOpen ? 'block' : 'none'};
+    display: ${(props) => (props.isOpen ? "block" : "none")};
     position: fixed;
     top: 0;
     left: 0;
@@ -790,8 +788,6 @@ const CloseButton = styled.button`
   }
 `;
 
-
-
 function App() {
   // const roles = allRoles;
   // const [results, setResults] = useState([]);
@@ -800,7 +796,7 @@ function App() {
 
   const [attempts, setAttempts] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const user = localStorage.getItem('user');
+  const user = localStorage.getItem("user");
 
   const [selectedCategory, setSelectedCategory] = useState("");
   const [selectedCompany, setSelectedCompany] = useState("");
@@ -808,93 +804,136 @@ function App() {
 
   const filteredRoles = React.useMemo(() => {
     return allRoles.filter((role) => {
-      const matchesCategory = !selectedCategory || role.category === selectedCategory;
-      const matchesCompany = !selectedCompany || role.company === selectedCompany;
-      const matchesRoleType = !selectedRoleType || role.title.toLowerCase().includes(selectedRoleType.toLowerCase());
+      const matchesCategory =
+        !selectedCategory || role.category === selectedCategory;
+      const matchesCompany =
+        !selectedCompany || role.company === selectedCompany;
+      const matchesRoleType =
+        !selectedRoleType ||
+        role.title.toLowerCase().includes(selectedRoleType.toLowerCase());
 
       return matchesCategory && matchesCompany && matchesRoleType;
     });
   }, [selectedCategory, selectedCompany, selectedRoleType]);
 
   const uniqueCompanies = React.useMemo(() => {
-    return [...new Set(allRoles.map(r => r.company))].sort();
+    return [...new Set(allRoles.map((r) => r.company))].sort();
   }, []);
 
-  const handleDelete = async (id) => {
-    
-    const email = user ? JSON.parse(user).email : null;
+  const handleDelete = async (resultId) => {
+  const userData = localStorage.getItem("user");
+  const email = userData ? JSON.parse(userData).email : null;
 
-    try {
-      const res = await fetch(`${process.env.REACT_APP_API_URL}/api/data/deleteresult/${id}`, {
+  if (!email || !resultId) return;
+
+  try {
+    const res = await fetch(
+      `${process.env.REACT_APP_API_URL}/api/data/deleteresult/${resultId}`,
+      {
         method: "DELETE",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email }),
-      });
-      console.log("Delete response:", res);
-
-      if (!res.ok) {
-        throw new Error("Failed to delete attempt");
       }
+    );
 
-      setAttempts((prev) => prev.filter((a) => a.id !== id));
-
-    } catch (error) {
-      console.error(error);
+    if (!res.ok) {
+      console.error("Delete failed");
+      return;
     }
-  };
+
+    // ✅ REMOVE FROM UI IMMEDIATELY
+    setAttempts((prev) =>
+      prev.filter((attempt) => attempt.resultId !== resultId)
+    );
+
+  } catch (err) {
+    console.error("Delete error:", err);
+  }
+};
+
 
   useEffect(() => {
     const fetchResults = async () => {
-
       const email = user ? JSON.parse(user).email : null;
-      const token = localStorage.getItem('token');
+      const token = localStorage.getItem("token");
       if (!email) return;
 
       try {
-        const res = await fetch(`${process.env.REACT_APP_API_URL}/api/data/getresults/${email}`, {
-          headers: {
-            'Authorization': `Bearer ${token}`
-          }
-        });
+        const res = await fetch(
+          `${process.env.REACT_APP_API_URL}/api/data/getresults/${encodeURIComponent(email)}`,
+          { headers: { Authorization: `Bearer ${token}` } }
+        );
+
         if (!res.ok) {
-          console.error('Error fetching results:', res);
+          console.error("Error fetching results:", res);
           return;
         }
 
         const data = await res.json();
         const apiResults = data.results || [];
-        console.log("attempts results:", apiResults);
-        const mappedAttempts = apiResults.map((r) => {
-          const role = rolesData.find((role) => role.id === r.test_id);
 
-          return {
-            id: r.id,
-            TestId: r.test_id,
-            title: role ? role.title : "Unknown Role",
-            date: new Date(r.created_at).toLocaleString(),
-            score: `${r.test_score}/30`,
-            company: role?.company,
-          };
-        });
+        // 1️⃣ sort latest first
+        apiResults.sort(
+          (a, b) => new Date(b.created_at) - new Date(a.created_at)
+        );
 
-        setAttempts(mappedAttempts);
-        console.log("Mapped attempts:", mappedAttempts);
+        // 2️⃣ keep only latest attempt per test
+        const latestMap = new Map();
 
+        for (const r of apiResults) {
+          if (!latestMap.has(r.test_id)) {
+            const role = rolesData.find(
+              (role) => String(role.id) === String(r.test_id)
+            );
+
+            let totalQuestions = 0;
+            const difficulty = r.difficulty || "novice"; // fallback
+
+            // 3️⃣ load ONLY attempted difficulty questions
+            if (role?.title) {
+              try {
+                const fileName = role.title.replace(/ /g, "_");
+                const questions = require(`../Data/mockTestQA/${fileName}.json`);
+
+                totalQuestions = questions[difficulty]?.length || 0;
+              } catch (err) {
+                console.warn("Questions file missing for:", role?.title);
+              }
+            }
+
+            latestMap.set(r.test_id, {
+              resultId: r.id,              // ✅ IMPORTANT for delete
+              testId: r.test_id,
+              title: role?.title ?? "Unknown Role",
+              company: role?.company ?? "Unknown Company",
+              score: r.test_score,
+              totalQuestions,
+              difficulty,
+              date: new Date(r.created_at).toLocaleString("en-IN", {
+                day: "2-digit",
+                month: "2-digit",
+                year: "numeric",
+                hour: "2-digit",
+                minute: "2-digit",
+              }),
+            });
+          }
+        }
+
+        setAttempts(Array.from(latestMap.values()));
       } catch (err) {
-        console.error('Error fetching results:', err);
-      } finally {
-        // setLoading(false);
+        console.error("Error fetching results:", err);
       }
     };
 
     fetchResults();
   }, [rolesData, user]);
 
+
+
   localStorage.removeItem("mockTestState");
   Object.keys(localStorage).forEach((key) => {
-    if (key.startsWith('submitted_')) {
+    if (key.startsWith("submitted_")) {
       localStorage.removeItem(key);
     }
   });
@@ -945,7 +984,10 @@ function App() {
           <SectionTitle>Top Roles</SectionTitle>
 
           <FilterContainer>
-            <Select value={selectedCategory} onChange={(e) => setSelectedCategory(e.target.value)}>
+            <Select
+              value={selectedCategory}
+              onChange={(e) => setSelectedCategory(e.target.value)}
+            >
               <option value="">All Categories</option>
               <option value="Engineering">Engineering</option>
               <option value="Design">Design</option>
@@ -953,14 +995,22 @@ function App() {
               <option value="Management">Management</option>
             </Select>
 
-            <Select value={selectedCompany} onChange={(e) => setSelectedCompany(e.target.value)}>
+            <Select
+              value={selectedCompany}
+              onChange={(e) => setSelectedCompany(e.target.value)}
+            >
               <option value="">All Companies</option>
-              {uniqueCompanies.map(company => (
-                <option key={company} value={company}>{company}</option>
+              {uniqueCompanies.map((company) => (
+                <option key={company} value={company}>
+                  {company}
+                </option>
               ))}
             </Select>
 
-            <Select value={selectedRoleType} onChange={(e) => setSelectedRoleType(e.target.value)}>
+            <Select
+              value={selectedRoleType}
+              onChange={(e) => setSelectedRoleType(e.target.value)}
+            >
               <option value="">All Roles</option>
               <option value="Engineer">Engineer</option>
               <option value="Developer">Developer</option>
@@ -981,14 +1031,23 @@ function App() {
                     <RoleTitle>{role.title}</RoleTitle>
                     <CompanyName>{role.company}</CompanyName>
                   </div>
-                  <StartLink to={`/mocktest/${role.id}/${role.company}/${role.title}`}>
+                  <StartLink
+                    to={`/mocktest/${role.id}/${role.company}/${role.title}`}
+                  >
                     <span>Start Test</span>
                     <ArrowUpRight size={18} />
                   </StartLink>
                 </RoleCard>
               ))
             ) : (
-              <div style={{ gridColumn: "1/-1", textAlign: "center", padding: "40px", color: "#666" }}>
+              <div
+                style={{
+                  gridColumn: "1/-1",
+                  textAlign: "center",
+                  padding: "40px",
+                  color: "#666",
+                }}
+              >
                 No matching roles found.
               </div>
             )}
@@ -1007,30 +1066,76 @@ function App() {
             </CreditsCard>
 
             <SidebarSection>
-              <SidebarTitle>My Attempts</SidebarTitle>
+              <SidebarTitle>
+                My Attempts
+                {attempts.length > 0 && (
+                  <span
+                    style={{
+                      color: "#64748b",
+                      fontSize: "14px",
+                      marginLeft: "6px",
+                    }}
+                  >
+                    ({attempts.length})
+                  </span>
+                )}
+              </SidebarTitle>
+
               <AttemptsTable>
                 <TableHeader>
                   <TableHeaderCell>Category</TableHeaderCell>
                   <TableHeaderCell>Score</TableHeaderCell>
                   <TableHeaderCell>Action</TableHeaderCell>
                 </TableHeader>
-                {attempts.map((attempt) => (
-                  <AttemptRow key={attempt.id}>
-                    <AttemptInfo>
-                      <AttemptTitle>{attempt.company + " " + attempt.title}</AttemptTitle>
-                      <AttemptDate>Last Attempted: {attempt.date}</AttemptDate>
-                    </AttemptInfo>
-                    <Score>{attempt.score}</Score>
-                    <ActionButtons>
-                      <IconButtonCross onClick={() => handleDelete(attempt.id)}>
-                        <X color="black" />
-                      </IconButtonCross>
-                      <IconButton>
-                        <Play />
-                      </IconButton>
-                    </ActionButtons>
-                  </AttemptRow>
-                ))}
+
+                {attempts.length === 0 ? (
+                  <div
+                    style={{
+                      padding: "20px",
+                      textAlign: "center",
+                      color: "#777",
+                    }}
+                  >
+                    No attempts yet
+                  </div>
+                ) : (
+                  attempts.map((attempt) => (
+                    <AttemptRow key={attempt.testId}>
+                      <AttemptInfo>
+                        <AttemptTitle>
+                          {attempt.company} {attempt.title}
+                        </AttemptTitle>
+                        <AttemptDate>
+                          {attempt.difficulty.toUpperCase()} • Last Attempted: {attempt.date}
+                        </AttemptDate>
+
+                      </AttemptInfo>
+
+                      {/* ✅ EXACT format: 20/50 */}
+                      <Score>
+                        {attempt.score}/{attempt.totalQuestions}
+                      </Score>
+
+
+                      <ActionButtons>
+                        {/* ✅ Delete latest attempt */}
+                        <IconButtonCross onClick={() => handleDelete(attempt.resultId)}>
+                          <X color="black" />
+                        </IconButtonCross>
+
+
+                        {/* ✅ Resume test */}
+                        <IconButton
+                          onClick={() =>
+                            (window.location.href = `/mocktest/${attempt.testId}/${attempt.company}/${attempt.title}`)
+                          }
+                        >
+                          <Play />
+                        </IconButton>
+                      </ActionButtons>
+                    </AttemptRow>
+                  ))
+                )}
               </AttemptsTable>
             </SidebarSection>
 
@@ -1050,7 +1155,10 @@ function App() {
       </MainContent>
 
       {/* Mobile Modal for Attempts */}
-      <ModalOverlay $isOpen={isModalOpen} onClick={() => setIsModalOpen(false)} />
+      <ModalOverlay
+        $isOpen={isModalOpen}
+        onClick={() => setIsModalOpen(false)}
+      />
       {isModalOpen && (
         <ModalContent>
           <ModalHeader>
@@ -1068,7 +1176,9 @@ function App() {
             {attempts.map((attempt) => (
               <AttemptRow key={attempt.id}>
                 <AttemptInfo>
-                  <AttemptTitle>{attempt.company + " " + attempt.title}</AttemptTitle>
+                  <AttemptTitle>
+                    {attempt.company + " " + attempt.title}
+                  </AttemptTitle>
                   <AttemptDate>{attempt.date}</AttemptDate>
                 </AttemptInfo>
                 <Score>{attempt.score}</Score>
